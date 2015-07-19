@@ -1,0 +1,6497 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rainlendar last version\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-07-19 11:02+0800\n"
+"PO-Revision-Date: 2015-07-19 15:14+0800\n"
+"Last-Translator: cus08 <yhyx49@yahoo.com.cn>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: C:/Projects/Rainlendar2\n"
+"X-Generator: Poedit 1.8.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: Application\n"
+"X-Poedit-SearchPath-1: Plugins\n"
+"X-Poedit-SearchPath-2: Testbench/Debug/resources\n"
+
+#: Application/API.cpp:2961 Application/API.cpp:3006
+#: Application/DialogNewManager.cpp:1293 Application/DialogNewManager.cpp:1349
+msgid "Choose the backup path"
+msgstr "指定备份路径"
+
+#: Application/API.cpp:2961 Application/API.cpp:3005
+#: Application/DialogNewManager.cpp:1293 Application/DialogNewManager.cpp:1350
+msgid "Archive (*.zip)|*.zip"
+msgstr "存档 (*.zip)|*.zip"
+
+#: Application/BackupHelper.cpp:142
+msgid "Choose the backup file:"
+msgstr "指定备份路径:"
+
+#  "Part of the template dialog caption.
+#: Application/BackupHelper.cpp:142 Application/DialogComponent.cpp:2844
+#: Application/DialogComponent.cpp:2861 Application/res/bulkchange.cpp:63
+msgid "Select"
+msgstr "选择"
+
+#: Application/BackupHelper.cpp:172
+msgid "The settings do not exist!"
+msgstr "设置值不存在!"
+
+#: Application/BackupHelper.cpp:173
+msgid "The selected backup file doesn't contain the settings file."
+msgstr "选定的备份档案中不包含设置档."
+
+#: Application/BackupHelper.cpp:186
+msgid "No backups found!"
+msgstr "未发现备份档案!"
+
+#: Application/BackupHelper.cpp:187
+msgid "There are no backups available in the backup folder."
+msgstr "备份资料夹中没有可用的备份档案"
+
+#: Application/BackupHelper.cpp:344
+msgid "The file already exists:"
+msgstr "存档已存在："
+
+#: Application/BackupHelper.cpp:347
+msgid "Do you want to overwrite the file?"
+msgstr "是否覆盖这些文件？"
+
+#: Application/BackupHelper.cpp:360
+msgid "Unable to overwrite file:"
+msgstr "无法覆盖文件："
+
+#: Application/BackupHelper.cpp:362 Application/DialogNewManager.cpp:1330
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:250
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:275
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:431
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:441
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:492
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:514
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:577
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:585
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:708
+msgid "Write error!"
+msgstr "写入错误！"
+
+#: Application/BackupHelper.cpp:373
+#, c-format
+msgid ""
+"Unable to restore the file:\n"
+"%s\n"
+"\n"
+"You need to extract the file manually from the backup archive."
+msgstr ""
+"无法恢原文件：\n"
+"%s\n"
+"\n"
+"你必须从备份压缩包中手动解压出该文件。"
+
+#: Application/BackupHelper.cpp:374
+msgid "Restore error!"
+msgstr "还原错误！"
+
+#: Application/CalendarManager.cpp:2409 Application/CalendarManager.cpp:2413
+#: Application/DialogSkinSettings.cpp:298
+msgid "[None]"
+msgstr "[无]"
+
+#: Application/CalendarManager.cpp:2444 Application/DialogComponent.cpp:564
+#: Application/DialogComponent.cpp:1467
+msgid "<Hidden>"
+msgstr "<隐藏>"
+
+#: Application/ComponentListBox.cpp:492
+msgid "all"
+msgstr "所有"
+
+#: Application/ComponentListBox.cpp:496
+msgid "dismissed"
+msgstr "隐藏的"
+
+#: Application/ComponentListBox.cpp:500
+msgid "snoozed"
+msgstr "暂停的"
+
+#: Application/ComponentListBox.cpp:672
+msgid "Show only needs action"
+msgstr "只显示需要动作的"
+
+#: Application/ComponentListBox.cpp:673
+msgid "Show only in progress"
+msgstr "只显示正在运行的"
+
+#: Application/ComponentListBox.cpp:674
+msgid "Show only completed"
+msgstr "只显示已完成的"
+
+#: Application/ComponentListBox.cpp:675
+msgid "Show only cancelled"
+msgstr "只显示已取消的"
+
+#: Application/ComponentListBox.cpp:680
+msgid "Reset completed time"
+msgstr "重置完成时间"
+
+#: Application/ComponentListBox.cpp:696
+msgid "Show only no priority"
+msgstr "只显示无优先级的"
+
+#: Application/ComponentListBox.cpp:697
+msgid "Show only high priority"
+msgstr "只显示高优先级的"
+
+#: Application/ComponentListBox.cpp:698
+msgid "Show only normal priority"
+msgstr "只显示正常优先级的"
+
+#: Application/ComponentListBox.cpp:699
+msgid "Show only low priority"
+msgstr "只显示低优先级的"
+
+#: Application/ComponentListBox.cpp:716
+msgid "Show only alarms"
+msgstr "只显示设置报警的"
+
+#: Application/ComponentListBox.cpp:717
+msgid "Show only snoozed"
+msgstr "只显示暂停的"
+
+#: Application/ComponentListBox.cpp:718
+msgid "Show only dismissed"
+msgstr "只显示已撤回的"
+
+#: Application/ComponentListBox.cpp:724
+msgid "Reset dismiss time"
+msgstr "重置撤回时间"
+
+#: Application/ComponentListBox.cpp:728
+msgid "Reset snooze time"
+msgstr "重置暂停时间"
+
+#: Application/ComponentListBox.cpp:834
+msgid "Duration:"
+msgstr "持续："
+
+#: Application/ComponentListBox.cpp:840
+msgid "Dismissed:"
+msgstr "暂停："
+
+#: Application/ComponentListBox.cpp:846
+msgid "Snoozed until:"
+msgstr "暂停到："
+
+#: Application/ComponentListBox.cpp:914 Application/ComponentListBox.cpp:1487
+#: Application/ComponentListBox.cpp:1489 Application/ItemListTodo.cpp:853
+#: Application/ItemListTodo.cpp:1094 Application/ItemListTodo.cpp:1526
+#: Application/ItemListTodo.cpp:1530 Application/res/bulkchange.cpp:41
+#: Application/res/todo.cpp:23
+msgid "In Progress"
+msgstr "进行中"
+
+#: Application/ComponentListBox.cpp:917 Application/ComponentListBox.cpp:1478
+#: Application/ComponentListBox.cpp:1482 Application/ItemListTodo.cpp:856
+#: Application/ItemListTodo.cpp:1088 Application/ItemListTodo.cpp:1533
+#: Application/res/bulkchange.cpp:42 Application/res/todo.cpp:24
+msgid "Completed"
+msgstr "已完成"
+
+#: Application/ComponentListBox.cpp:920 Application/ComponentListBox.cpp:1472
+#: Application/ItemListTodo.cpp:863 Application/ItemListTodo.cpp:1097
+#: Application/ItemListTodo.cpp:1505
+msgid "Needs Action"
+msgstr "准备开始"
+
+#: Application/ComponentListBox.cpp:923 Application/ComponentListBox.cpp:1474
+#: Application/ItemListTodo.cpp:859 Application/ItemListTodo.cpp:1091
+#: Application/ItemListTodo.cpp:1534 Application/res/bulkchange.cpp:43
+#: Application/res/todo.cpp:25
+msgid "Cancelled"
+msgstr "已取消"
+
+#: Application/ComponentListBox.cpp:927 Application/ComponentListBox.cpp:1505
+#: Application/DialogSkinSettings.cpp:396 Application/ItemListTodo.cpp:1067
+#: Application/res/bulkchange.cpp:35 Application/res/todo.cpp:15
+#: Application/res/todo.cpp:16 Application/Resource.h:466
+msgid "None"
+msgstr "无"
+
+#: Application/ComponentListBox.cpp:930 Application/ComponentListBox.cpp:1521
+#: Application/ItemListTodo.cpp:1071 Application/res/bulkchange.cpp:38
+#: Application/res/todo.cpp:19
+msgid "High"
+msgstr "高"
+
+#: Application/ComponentListBox.cpp:933 Application/ComponentListBox.cpp:1513
+#: Application/Config.cpp:1223 Application/DialogSkinSettings.cpp:275
+#: Application/res/options.cpp:13
+msgid "Normal"
+msgstr "普通"
+
+#: Application/ComponentListBox.cpp:936 Application/ComponentListBox.cpp:1529
+#: Application/ItemListTodo.cpp:1079 Application/res/bulkchange.cpp:36
+#: Application/res/todo.cpp:17
+msgid "Low"
+msgstr "低"
+
+#: Application/ComponentListBox.cpp:940
+msgid "All"
+msgstr "所有"
+
+#: Application/ComponentListBox.cpp:943
+msgid "Dismissed"
+msgstr "撤回"
+
+#: Application/ComponentListBox.cpp:946
+msgid "Snoozed"
+msgstr "暂停"
+
+#: Application/ComponentListBox.cpp:1452 Application/WindowTooltip.cpp:527
+msgid "Daily"
+msgstr "每日"
+
+#: Application/ComponentListBox.cpp:1454 Application/WindowTooltip.cpp:530
+msgid "Weekly"
+msgstr "每周"
+
+#: Application/ComponentListBox.cpp:1456 Application/WindowTooltip.cpp:533
+msgid "Monthly"
+msgstr "每月"
+
+#: Application/ComponentListBox.cpp:1458 Application/WindowTooltip.cpp:536
+msgid "Yearly"
+msgstr "每年"
+
+#: Application/ComponentListBox.cpp:1507
+msgid "No priority"
+msgstr "无优先级"
+
+#: Application/ComponentListBox.cpp:1515
+msgid "Normal priority"
+msgstr "正常优先级"
+
+#: Application/ComponentListBox.cpp:1523
+msgid "High priority"
+msgstr "高优先级"
+
+#: Application/ComponentListBox.cpp:1531
+msgid "Low priority"
+msgstr "低优先级"
+
+#: Application/Config.cpp:1168 Application/Config.cpp:1236
+#: Application/Config.cpp:1245 Application/Config.cpp:1252
+#: Application/Config.cpp:1262 Application/Config.cpp:1424
+#: Application/Config.cpp:2082 Application/DialogOptions.cpp:400
+#: Application/DialogSkinSettings.cpp:273
+#: Application/DialogSkinSettings.cpp:374 Application/Rainlendar.cpp:2207
+#: Application/Rainlendar.cpp:2218 Application/Rainlendar.cpp:2353
+#: Plugins/OutlookPlugin/MapiHandler.cpp:764 Application/Resource.h:441
+msgid "Default"
+msgstr "默认"
+
+#: Application/Config.cpp:1177
+msgid "Copy"
+msgstr "复制背景"
+
+#: Application/Config.cpp:1182
+msgid "Region"
+msgstr "区域透明"
+
+#: Application/Config.cpp:1187
+msgid "Native"
+msgstr "原生透明 (需要系统支持)"
+
+#: Application/Config.cpp:1192
+msgid "Sunday"
+msgstr "星期日"
+
+#: Application/Config.cpp:1193
+msgid "Monday"
+msgstr "星期一"
+
+#: Application/Config.cpp:1194
+msgid "Tuesday"
+msgstr "星期二"
+
+#: Application/Config.cpp:1195
+msgid "Wednesday"
+msgstr "星期三"
+
+#: Application/Config.cpp:1196
+msgid "Thursday"
+msgstr "星期四"
+
+#: Application/Config.cpp:1197
+msgid "Friday"
+msgstr "星期五"
+
+#: Application/Config.cpp:1198
+msgid "Saturday"
+msgstr "星期六"
+
+#: Application/Config.cpp:1199
+msgid "Every second Saturday"
+msgstr "每个第二个星期六"
+
+#: Application/Config.cpp:1202 Application/DialogPrint.cpp:374
+#: Application/WindowTooltip.cpp:317
+msgid "Start"
+msgstr "开始"
+
+#: Application/Config.cpp:1203 Application/DialogPrint.cpp:402
+#: Application/WindowTooltip.cpp:337
+msgid "Due"
+msgstr "到期"
+
+#: Application/Config.cpp:1204 Application/DialogNewManager.cpp:696
+#: Application/WindowTooltip.cpp:355 Application/Resource.h:794
+msgid "Priority"
+msgstr "优先级"
+
+#: Application/Config.cpp:1205 Application/DialogNewManager.cpp:698
+#: Application/WindowTooltip.cpp:370 Application/Resource.h:433
+msgid "Status"
+msgstr "状态"
+
+#: Application/Config.cpp:1206 Application/Config.cpp:1210
+#: Application/DialogNewManager.cpp:687 Application/WindowTooltip.cpp:509
+msgid "Category"
+msgstr "分类"
+
+#: Application/Config.cpp:1207 Application/Config.cpp:1211
+#: Application/DialogNewManager.cpp:691 Application/WindowTooltip.cpp:542
+#: Application/res/event.cpp:18 Application/res/todo.cpp:43
+msgid "Recurrence"
+msgstr "重复周期"
+
+#: Application/Config.cpp:1222
+msgid "Off"
+msgstr "关闭"
+
+#: Application/Config.cpp:1224
+msgid "Beta"
+msgstr "测试版"
+
+#: Application/Config.cpp:1231 Application/DialogOptions.cpp:145
+#: Application/DialogSkinSettings.cpp:261 Application/res/options.cpp:1
+msgid "General"
+msgstr "常规"
+
+#: Application/Config.cpp:1237
+msgid "%H:%M (e.g. \"15:42\")"
+msgstr "%H:%M (例: \"15:42\")"
+
+#: Application/Config.cpp:1238
+msgid "%#H:%M (e.g. \"7:42\")"
+msgstr "%#H:%M (例: \"7:42\")"
+
+#: Application/Config.cpp:1239
+msgid "%I:%M %p (e.g. \"01:42 pm\")"
+msgstr "%I:%M %p (例: \"01:42 pm\")"
+
+#: Application/Config.cpp:1240
+msgid "%#I:%M %p (e.g. \"3:42 pm\")"
+msgstr "%#I:%M %p (例: \"3:42 pm\")"
+
+#: Application/Config.cpp:1249 Application/Config.cpp:1556
+#: Application/Resource.h:804
+msgid "Time format"
+msgstr "时间格式"
+
+#: Application/Config.cpp:1253
+msgid "%d.%#m.%Y (e.g. \"21.4.2012\")"
+msgstr "%d.%#m.%Y (例: \"21.4.2012\")"
+
+#: Application/Config.cpp:1254
+msgid "%d.%m.%Y (e.g. \"21.04.2012\")"
+msgstr "%d.%m.%Y (例: \"21.04.2012\")"
+
+#: Application/Config.cpp:1255
+msgid "%Y-%m-%d (e.g. \"2012-04-21\")"
+msgstr "%Y-%m-%d (例: \"2012-04-21\")"
+
+#: Application/Config.cpp:1256
+msgid "%#m/%d/%Y (e.g. \"4/21/2012\")"
+msgstr "%#m/%d/%Y (例: \"4/21/2012\")"
+
+#: Application/Config.cpp:1257
+msgid "%m/%d/%Y (e.g. \"04/21/2012\")"
+msgstr "%m/%d/%Y (例: \"04/21/2012\")"
+
+#: Application/Config.cpp:1266 Application/Config.cpp:1558
+#: Application/Resource.h:806
+msgid "Date format"
+msgstr "日期格式"
+
+#: Application/Config.cpp:1268 Application/Config.cpp:1560
+msgid "Weekend days"
+msgstr "周末"
+
+#: Application/Config.cpp:1269 Application/Config.cpp:1561
+msgid "Week number delta"
+msgstr "周数偏移量"
+
+#: Application/Config.cpp:1272 Application/Config.cpp:1274
+#: Application/Config.cpp:1564 Application/Config.cpp:1566
+msgid "Default categories"
+msgstr "所有预设分类"
+
+#: Application/Config.cpp:1277 Application/Config.cpp:1577
+msgid "Show categories from the skin"
+msgstr "显示皮肤中预设的分类"
+
+#: Application/Config.cpp:1279 Application/Config.cpp:1581
+msgid "Show tray icon"
+msgstr "显示托盘图标"
+
+#: Application/Config.cpp:1281 Application/Config.cpp:1583
+msgid "Use app indicator icon"
+msgstr "使用应用程序指示器图标"
+
+#: Application/Config.cpp:1283 Application/Config.cpp:1585
+msgid "Show tray status icons"
+msgstr "显示托盘状态图标"
+
+#: Application/Config.cpp:1286
+msgid "Day number"
+msgstr "日数"
+
+#: Application/Config.cpp:1287
+msgid "Week number"
+msgstr "周数"
+
+#: Application/Config.cpp:1289 Application/Config.cpp:1587
+msgid "Number in tray"
+msgstr "数字显示在托盘"
+
+#: Application/Config.cpp:1295 Application/Config.cpp:1595
+msgid "Always show full menus"
+msgstr "总是显示完整的菜单"
+
+#: Application/Config.cpp:1296 Application/Config.cpp:1596
+msgid "Allow multiple calendars"
+msgstr "允许多个日历"
+
+#: Application/Config.cpp:1297 Application/Config.cpp:1597
+msgid "Allow multiple categories"
+msgstr "允许多个分类"
+
+#: Application/Config.cpp:1299 Application/Config.cpp:1599
+msgid "Disable keyboard shortcuts"
+msgstr "禁用键盘快捷键"
+
+#: Application/Config.cpp:1301 Application/Config.cpp:1606
+msgid "List wheel scroll"
+msgstr "鼠标中键滚动列表项目数"
+
+#: Application/Config.cpp:1304 Application/Config.cpp:1624
+msgid "Skin language"
+msgstr "皮肤语言"
+
+#: Application/Config.cpp:1305 Application/Config.cpp:1634
+msgid "Number of stored backups"
+msgstr "保存的备份数"
+
+#: Application/Config.cpp:1306 Application/Config.cpp:1635
+msgid "Show delete confirmations"
+msgstr "删除时显示确认对话框"
+
+#: Application/Config.cpp:1307 Application/Config.cpp:1639
+msgid "Disable text formatting"
+msgstr "禁用文字格式化"
+
+#: Application/Config.cpp:1308 Application/Config.cpp:1650
+msgid "Show empty list text"
+msgstr "显示空列表的文本"
+
+#: Application/Config.cpp:1312 Application/Config.cpp:1645
+msgid "Check for updates"
+msgstr "检查更新"
+
+#: Application/Config.cpp:1314 Application/Config.cpp:1649
+msgid "Show url icons"
+msgstr "显示网址图标"
+
+#: Application/Config.cpp:1315 Application/Config.cpp:1651
+msgid "Simultaneous transfers"
+msgstr "同步传输"
+
+#: Application/Config.cpp:1316 Application/Config.cpp:1652
+msgid "Keep editor open until writing succeeds"
+msgstr "在写入成功前保持编辑状态"
+
+#: Application/Config.cpp:1317 Application/Config.cpp:1653
+msgid "Time span in the editor"
+msgstr "编辑器默认时间间隔 (分钟)"
+
+#: Application/Config.cpp:1320
+msgid "Only uncategorized"
+msgstr "仅未设置分类时使用"
+
+#  "Option for "Visual category overwrite" setting. If set the icon from the event is used even if the visual category is set.
+#: Application/Config.cpp:1321
+msgid "Icon from events"
+msgstr "使用事件原有图标"
+
+#: Application/Config.cpp:1322 Application/Config.cpp:1440
+msgid "Always"
+msgstr "始终使用"
+
+#: Application/Config.cpp:1325 Application/Config.cpp:1655
+msgid "Visual category overwrite"
+msgstr "启用视觉分类（图标）"
+
+#: Application/Config.cpp:1327 Application/Config.cpp:1656
+msgid "Store English category names"
+msgstr "保存时使用英文分类名称"
+
+#: Application/Config.cpp:1328 Application/Config.cpp:1657
+msgid "Custom category icon path"
+msgstr "自定义分类图标路径"
+
+#: Application/Config.cpp:1331 Application/Config.cpp:1662
+msgid "Use antialiased fonts"
+msgstr "使用反锯齿字型"
+
+#: Application/Config.cpp:1333 Application/Config.cpp:1664
+msgid "Number of previous locations"
+msgstr "地点保存数量"
+
+#: Application/Config.cpp:1336
+msgid "Count"
+msgstr "计数"
+
+#  "Choice for the "Type of year to add for categories"
+#: Application/Config.cpp:1337
+msgid "Ordinal"
+msgstr "序数"
+
+#: Application/Config.cpp:1340 Application/Config.cpp:1659
+msgid "Type of year to add for categories"
+msgstr "事件添加年度的显示格式"
+
+#: Application/Config.cpp:1341 Application/Config.cpp:1665
+msgid "Use custom password encrypting"
+msgstr "使用自订密码保护"
+
+#: Application/Config.cpp:1347 Application/ControlWindow.cpp:841
+#: Application/DialogOptions.cpp:771
+msgid "Windows"
+msgstr "窗口"
+
+#: Application/Config.cpp:1349 Application/Config.cpp:1640
+msgid "Use window names"
+msgstr "显示窗口名称"
+
+#: Application/Config.cpp:1351 Application/Config.cpp:1642
+msgid "Hide on Aero peek"
+msgstr "显示桌面时隐藏"
+
+#: Application/Config.cpp:1355 Application/Config.cpp:1607
+#: Application/Config.cpp:1609
+msgid "Transparency type"
+msgstr "透明类型"
+
+#: Application/Config.cpp:1357 Application/Config.cpp:1611
+msgid "Copy transparency sleep time"
+msgstr "复制透明背景的等待时间"
+
+#: Application/Config.cpp:1358 Application/Config.cpp:1612
+msgid "Fade delay (ms)"
+msgstr "淡入淡出延时（毫秒）"
+
+#: Application/Config.cpp:1362 Application/Config.cpp:1615
+msgid "Fade duration (ms)"
+msgstr "淡入淡出持续时间（毫秒）"
+
+#: Application/Config.cpp:1365 Application/Config.cpp:1621
+msgid "Allow window fading"
+msgstr "允许视窗淡出"
+
+#: Application/Config.cpp:1367 Application/Config.cpp:1593
+msgid "Keep on screen"
+msgstr "保持在屏幕上"
+
+#: Application/Config.cpp:1368 Application/Config.cpp:1594
+msgid "Bring all windows on top when clicked"
+msgstr "单击时使所有窗口置顶"
+
+#: Application/Config.cpp:1371 Application/Config.cpp:1603
+msgid "Show in all desktops"
+msgstr "显示于所有桌面（For Linux）"
+
+#: Application/Config.cpp:1373 Application/Config.cpp:1578
+msgid "Snap distance"
+msgstr "距离屏幕边缘（像素）"
+
+#: Application/Config.cpp:1374 Application/Config.cpp:1579
+msgid "Snap center"
+msgstr "吸附于屏幕中心"
+
+#: Application/Config.cpp:1375 Application/Config.cpp:1580
+msgid "Save window position"
+msgstr "保存窗口位置"
+
+#: Application/Config.cpp:1376 Application/Config.cpp:1617
+msgid "Font scale"
+msgstr "文字大小"
+
+#: Application/Config.cpp:1377 Application/Config.cpp:1618
+msgid "Font face"
+msgstr "字体"
+
+#: Application/Config.cpp:1383
+msgid "Network"
+msgstr "网络"
+
+#: Application/Config.cpp:1385 Application/Config.cpp:1647
+msgid "Reload delay after resume (ms)"
+msgstr "继续后重新载入的延迟时间（毫秒）"
+
+#: Application/Config.cpp:1386 Application/Config.cpp:1648
+msgid "Network access delay after startup (ms)"
+msgstr "启动后网络延迟时间（毫秒）"
+
+#: Application/Config.cpp:1389
+msgid "HTTP"
+msgstr "HTTP"
+
+#: Application/Config.cpp:1390
+msgid "SOCKS4"
+msgstr "SOCKS4"
+
+#: Application/Config.cpp:1391
+msgid "SOCKS5"
+msgstr "SOCKS5"
+
+#: Application/Config.cpp:1394 Application/Config.cpp:1671
+msgid "Proxy server"
+msgstr "代理服务器地址"
+
+#: Application/Config.cpp:1395 Application/Config.cpp:1672
+msgid "Proxy user"
+msgstr "账号"
+
+#: Application/Config.cpp:1399 Application/Config.cpp:1401
+#: Application/Config.cpp:1673
+msgid "Proxy password"
+msgstr "密码"
+
+#: Application/Config.cpp:1403 Application/Config.cpp:1676
+msgid "Proxy type"
+msgstr "类型"
+
+#: Application/Config.cpp:1404 Application/Config.cpp:1677
+msgid "Try direct connection if proxy fails"
+msgstr "代理服务器连接失败时尝试直接连接"
+
+#: Application/Config.cpp:1411
+msgid "Show all icons"
+msgstr "显示所有图标"
+
+#: Application/Config.cpp:1412
+msgid "Show one icon per type"
+msgstr "每种类型显示一个图标"
+
+#: Application/Config.cpp:1413
+msgid "Show only one icon"
+msgstr "仅显示一个图标"
+
+#: Application/Config.cpp:1414
+msgid "Show no icons"
+msgstr "不显示图标"
+
+#  "Option for "Visual category overwrite" setting. The visual category is used only if the event doesn't define any category.
+#: Application/Config.cpp:1417 Application/DialogNewManager.cpp:685
+#: Application/DialogNewManager.cpp:1077 Application/DropTarget.cpp:419
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:379 Application/Resource.h:487
+msgid "Calendar"
+msgstr "日历"
+
+#: Application/Config.cpp:1419 Application/Config.cpp:1636
+msgid "Combine icons in the calendar"
+msgstr "在日历中合并事件图标"
+
+#: Application/Config.cpp:1420 Application/Config.cpp:1605
+msgid "Calendar wheel scroll"
+msgstr "鼠标中键滚动日历月份数"
+
+#: Application/Config.cpp:1421 Application/Config.cpp:1638
+msgid "Show tasks in calendar"
+msgstr "在日历中显示任务"
+
+#: Application/Config.cpp:1425
+msgid "Always show menu"
+msgstr "显示菜单"
+
+#: Application/Config.cpp:1426
+msgid "Always create new event"
+msgstr "建立新事件"
+
+#: Application/Config.cpp:1427
+msgid "Do nothing"
+msgstr "无动作"
+
+#: Application/Config.cpp:1430 Application/Config.cpp:1637
+msgid "Double click action"
+msgstr "双击左键动作"
+
+#: Application/Config.cpp:1436 Application/DialogOptions.cpp:769
+#: Application/DialogOptions.cpp:1048 Application/DialogOptions.cpp:1177
+msgid "Tooltip"
+msgstr "提示"
+
+#: Application/Config.cpp:1437 Application/Config.cpp:1683
+msgid "Show tooltips"
+msgstr "显示提示"
+
+#  "Option for "Show tooltip in tray". Tray tip is shown only if there are events on today.
+#: Application/Config.cpp:1441
+msgid "Only on days with events"
+msgstr "仅在当日有事件时才显示"
+
+#: Application/Config.cpp:1442
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:315
+#: Plugins/GooglePlugin/GoogleHandler.cpp:265
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:278
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:223
+msgid "Never"
+msgstr "从不显示"
+
+#: Application/Config.cpp:1444 Application/Config.cpp:1684
+msgid "Show tooltip in tray"
+msgstr "在系统托盘处显示提示"
+
+#: Application/Config.cpp:1446 Application/Config.cpp:1685
+msgid "Max tooltip window width"
+msgstr "提示框最大宽度"
+
+#: Application/Config.cpp:1447 Application/Config.cpp:1686
+msgid "Show description in tooltip"
+msgstr "在提示框中显示备注"
+
+#: Application/Config.cpp:1448 Application/Config.cpp:1687
+msgid "Task fields in tooltip"
+msgstr "任务字段显示在工具提示中"
+
+#: Application/Config.cpp:1449 Application/Config.cpp:1688
+msgid "Event fields in tooltip"
+msgstr "事件字段显示在工具提示中"
+
+#: Application/Config.cpp:1450 Application/Config.cpp:1689
+msgid "Traytip show duration (ms)"
+msgstr "托盘提示显示持续时间（毫秒）"
+
+#: Application/Config.cpp:1453 Application/Config.cpp:1692
+msgid "Tooltip fade duration (ms)"
+msgstr "提示框淡入淡出延时（毫秒）"
+
+#: Application/Config.cpp:1455 Application/Config.cpp:1694
+msgid "Tooltip show delay (ms)"
+msgstr "提示框提示显示延时（毫秒）"
+
+#: Application/Config.cpp:1456 Application/Config.cpp:1695
+msgid "Tooltip format"
+msgstr "提示格式"
+
+#: Application/Config.cpp:1462
+msgid "Task List"
+msgstr "任务列表"
+
+#: Application/Config.cpp:1463 Application/Config.cpp:1701
+msgid "Show full task summary"
+msgstr "显示完整的任务内容"
+
+#: Application/Config.cpp:1464 Application/Config.cpp:1702
+msgid "Show task due time"
+msgstr "显示任务到期时间"
+
+#: Application/Config.cpp:1465 Application/Config.cpp:1703
+msgid "Show task location"
+msgstr "显示任务地点"
+
+#  "Advanced option. If enabled the calendar's name is shown in the task list.
+#: Application/Config.cpp:1466 Application/Config.cpp:1704
+msgid "Show task calendar"
+msgstr "显示任务日历"
+
+#: Application/Config.cpp:1467 Application/Config.cpp:1705
+msgid "Number of days the list shows (0 = show all)"
+msgstr "显示指定天数内的任务（0 = 全部）"
+
+#: Application/Config.cpp:1468 Application/Config.cpp:1706
+msgid "Task list header format"
+msgstr "任务列表标题格式"
+
+#: Application/Config.cpp:1469 Application/Config.cpp:1707
+msgid "Show task time when arranged by start or due date"
+msgstr "使用起始日排序时显示任务时间"
+
+#: Application/Config.cpp:1471 Application/Config.cpp:1493
+#: Application/DialogComponent.cpp:2859 Application/DialogComponent.cpp:2865
+#: Application/Rainlendar.cpp:826
+msgid "<None>"
+msgstr "<无>"
+
+#: Application/Config.cpp:1474 Application/Config.cpp:1710
+msgid "Default task template"
+msgstr "默认的任务模板"
+
+#: Application/Config.cpp:1480 Application/Resource.h:492
+msgid "Event List"
+msgstr "事件列表"
+
+#: Application/Config.cpp:1481 Application/Config.cpp:1724
+msgid "Show full event summary"
+msgstr "显示完整的事件内容"
+
+#: Application/Config.cpp:1482 Application/Config.cpp:1725
+msgid "Show event start time"
+msgstr "显示事件开始时间"
+
+#: Application/Config.cpp:1483 Application/Config.cpp:1726
+msgid "Show event end time"
+msgstr "显示事件结束时间"
+
+#: Application/Config.cpp:1484 Application/Config.cpp:1727
+msgid "Show event location"
+msgstr "显示事件地点"
+
+#  "Advanced option. If enabled the calendar's name is shown in the task list.
+#: Application/Config.cpp:1485 Application/Config.cpp:1728
+msgid "Show event calendar"
+msgstr "显示事件日历"
+
+#: Application/Config.cpp:1486 Application/Config.cpp:1729
+msgid "Hide dismissed events"
+msgstr "隐藏取消的事件"
+
+#: Application/Config.cpp:1487 Application/Config.cpp:1730
+msgid "Hide past events"
+msgstr "隐藏过去事件"
+
+#: Application/Config.cpp:1488 Application/Config.cpp:1731
+msgid "Number of future days the list shows"
+msgstr "显示未来指定天数内的事件"
+
+#: Application/Config.cpp:1489 Application/Config.cpp:1732
+msgid "Number of past days the list shows"
+msgstr "显示过去指定天数内的事件"
+
+#: Application/Config.cpp:1490 Application/Config.cpp:1733
+msgid "Event list header format"
+msgstr "事件列表标题格式"
+
+#: Application/Config.cpp:1491 Application/Config.cpp:1734
+msgid "Age from start of the week"
+msgstr "在显示事件日期时显示星期"
+
+#: Application/Config.cpp:1496 Application/Config.cpp:1738
+msgid "Default event template"
+msgstr "默认的新增事件模板"
+
+#: Application/Config.cpp:1499
+msgid "No grouping"
+msgstr "不分组"
+
+#: Application/Config.cpp:1500
+msgid "Start and end dates"
+msgstr "起始日期"
+
+#: Application/Config.cpp:1501
+msgid "Start date and duration"
+msgstr "开始日期和持续时间"
+
+#: Application/Config.cpp:1504 Application/Config.cpp:1735
+msgid "Group multiday events"
+msgstr "分组合并延续多日的事件"
+
+#: Application/Config.cpp:1510 Application/ItemScheduleEvent.cpp:210
+msgid "Schedule"
+msgstr "行程表"
+
+#: Application/Config.cpp:1511 Application/Config.cpp:1752
+msgid "Show schedule descriptions"
+msgstr "显示行程描述"
+
+#: Application/Config.cpp:1512 Application/Config.cpp:1753
+msgid "Show schedule start time"
+msgstr "显示行程开始时间"
+
+#: Application/Config.cpp:1513 Application/Config.cpp:1754
+msgid "Show schedule end time"
+msgstr "显示行程结束时间"
+
+#: Application/Config.cpp:1514 Application/Config.cpp:1755
+msgid "Show schedule location"
+msgstr "显示行程地点"
+
+#: Application/Config.cpp:1515 Application/Config.cpp:1756
+msgid "Show schedule calendar"
+msgstr "显示行程日历"
+
+#: Application/Config.cpp:1516 Application/Config.cpp:1757
+msgid "Create, move and resize events with mouse"
+msgstr "使用鼠标创建、移动或调整事项区域大小"
+
+#: Application/Config.cpp:1517 Application/Config.cpp:1758
+msgid "First shown hour"
+msgstr "几点起始显示 (24时制)"
+
+#: Application/Config.cpp:1518 Application/Config.cpp:1759
+msgid "Last shown hour"
+msgstr "几点结束显示 (24时制)"
+
+#: Application/Config.cpp:1524 Application/DialogComponent.cpp:1574
+#: Application/DialogOptions.cpp:767 Application/DialogOptions.cpp:1036
+#: Application/DialogOptions.cpp:1177 Application/ItemListAlarm.cpp:450
+msgid "Alarm"
+msgstr "闹铃"
+
+#: Application/Config.cpp:1525 Application/Config.cpp:1765
+msgid "Show alarm start time"
+msgstr "闹铃时显示开始时间"
+
+#: Application/Config.cpp:1526 Application/Config.cpp:1766
+msgid "Show alarm end time"
+msgstr "闹铃时显示结束时间"
+
+#: Application/Config.cpp:1527 Application/Config.cpp:1767
+msgid "Show alarm location"
+msgstr "闹铃时显示地点"
+
+#  "Advanced option. If enabled the calendar's name is shown in the task list.
+#: Application/Config.cpp:1528 Application/Config.cpp:1768
+msgid "Show alarm calendar"
+msgstr "闹铃时显示日历"
+
+#: Application/Config.cpp:1529 Application/Config.cpp:1769
+msgid "Show due to the event"
+msgstr "显示到期事件"
+
+#: Application/Config.cpp:1530 Application/Config.cpp:1770
+msgid "Support Mozilla alarms"
+msgstr "支持 Mozilla 闹铃"
+
+#: Application/Config.cpp:1531 Application/Config.cpp:1771
+msgid "Keep alarm always on top"
+msgstr "将闹铃窗口置于顶层"
+
+#: Application/Config.cpp:1532 Application/Config.cpp:1772
+msgid "Default snooze time (secs)"
+msgstr "默认小憩（推延）时间（秒）"
+
+#: Application/Config.cpp:1533 Application/Config.cpp:1773
+msgid "Max alarm window width"
+msgstr "闹铃窗口最大宽度"
+
+#: Application/Config.cpp:1534 Application/Config.cpp:1774
+msgid "Hide from alarm after days"
+msgstr "指定天数后不再闹铃"
+
+#: Application/Config.cpp:1535 Application/Config.cpp:1775
+msgid "Default alarm file"
+msgstr "默认闹铃声音"
+
+#: Application/Config.cpp:1536 Application/Config.cpp:1776
+msgid "Loop the alarm sound (secs)"
+msgstr "闹铃重复时间（秒）"
+
+#: Application/Config.cpp:1539 Application/Config.cpp:1541
+#: Application/Config.cpp:1779 Application/Config.cpp:1781
+msgid "Snooze times (mins)"
+msgstr "预设小憩（推延）时间（毫秒）"
+
+#: Application/ControlWindow.cpp:184
+msgid "Create Error!"
+msgstr "新建错误！"
+
+#: Application/ControlWindow.cpp:184
+msgid "Unable to select the target calendar for the item."
+msgstr "无法为项目选择一个目标日历。"
+
+#: Application/ControlWindow.cpp:189
+msgid "Unable to create a new item from the string:\n"
+msgstr "无法从如下字符串中新建项目：\n"
+
+#: Application/ControlWindow.cpp:191
+msgid "Parse Error!"
+msgstr "解析错误！"
+
+#: Application/ControlWindow.cpp:609
+msgid "New version found!"
+msgstr "发现新版本！"
+
+#: Application/ControlWindow.cpp:610
+#, c-format
+msgid ""
+"Version %s is available.\n"
+"Do you want to go to the website now?"
+msgstr ""
+"最新版为： %s 版。\n"
+"你想现在访问官网吗？"
+
+#: Application/ControlWindow.cpp:629
+msgid "No updates available."
+msgstr "无可用更新。"
+
+#: Application/ControlWindow.cpp:629
+msgid "You have the most recent version of Rainlendar."
+msgstr "您现在使用的 Rainlendar 已经是最新版本。"
+
+#: Application/ControlWindow.cpp:734 Application/ControlWindow.cpp:837
+#: Application/ItemCalendar.cpp:761 Application/ItemListEvent.cpp:642
+#: Application/ItemScheduleEvent.cpp:200
+msgid "New event"
+msgstr "新事件"
+
+#: Application/ControlWindow.cpp:735 Application/ControlWindow.cpp:838
+#: Application/ItemListTodo.cpp:1380 Application/ItemScheduleEvent.cpp:188
+msgid "New task"
+msgstr "新任务"
+
+#: Application/ControlWindow.cpp:737 Application/ControlWindow.cpp:854
+#: Application/Resource.h:408
+msgid "Refresh"
+msgstr "刷新"
+
+#: Application/ControlWindow.cpp:738 Application/ControlWindow.cpp:855
+msgid "Options..."
+msgstr "选项…"
+
+#: Application/ControlWindow.cpp:739 Application/ControlWindow.cpp:856
+msgid "Manager..."
+msgstr "管理…"
+
+#: Application/ControlWindow.cpp:742 Application/ControlWindow.cpp:903
+msgid "Exit"
+msgstr "退出"
+
+#: Application/ControlWindow.cpp:743 Application/res/event.cpp:2
+#: Application/res/manager.cpp:2 Application/res/newmanager.cpp:3
+#: Application/res/todo.cpp:2
+msgid "File"
+msgstr "文件"
+
+#: Application/ControlWindow.cpp:749 Application/res/newmanager.cpp:4
+msgid "View"
+msgstr "查看"
+
+#: Application/ControlWindow.cpp:755
+msgid "About..."
+msgstr "关于…"
+
+#: Application/ControlWindow.cpp:756
+msgid "Open help\tCtrl+?"
+msgstr "打开帮助\tCtrl+?"
+
+#: Application/ControlWindow.cpp:757 Application/ControlWindow.cpp:834
+#: Application/DialogOptions.cpp:164
+msgid "Help"
+msgstr "帮助"
+
+#: Application/ControlWindow.cpp:833 Application/DialogAbout.cpp:213
+msgid "About"
+msgstr "关于"
+
+#: Application/ControlWindow.cpp:842 Application/DialogComponent.cpp:1406
+#: Application/DialogOptions.cpp:147 Application/res/event.cpp:15
+#: Application/res/options.cpp:19 Application/res/todo.cpp:40
+msgid "Calendars"
+msgstr "日历"
+
+#: Application/ControlWindow.cpp:845
+msgid "Choose day"
+msgstr "选择日期"
+
+#: Application/ControlWindow.cpp:849
+msgid "Choose month"
+msgstr "选择月份"
+
+#: Application/ControlWindow.cpp:868
+msgid "Install the license..."
+msgstr "安装Pro正版授权License…"
+
+#: Application/ControlWindow.cpp:875
+msgid "Show debug log"
+msgstr "显示出错日志"
+
+#: Application/ControlWindow.cpp:935
+#, c-format
+msgid "Ctrl-%i"
+msgstr "Ctrl-%i"
+
+#: Application/ControlWindow.cpp:950
+msgid "Enable all calendars"
+msgstr "显示所有日历"
+
+#: Application/ControlWindow.cpp:951
+msgid "Disable all calendars"
+msgstr "隐藏所有日历"
+
+#: Application/ControlWindow.cpp:970
+msgid "Current Day"
+msgstr "本日"
+
+#: Application/ControlWindow.cpp:974
+msgid "Next Day"
+msgstr "下一日"
+
+#: Application/ControlWindow.cpp:975
+msgid "Previous Day"
+msgstr "上一日"
+
+#: Application/ControlWindow.cpp:978
+msgid "Next Week"
+msgstr "下一周"
+
+#: Application/ControlWindow.cpp:979
+msgid "Previous Week"
+msgstr "上一周"
+
+#: Application/ControlWindow.cpp:981 Application/ControlWindow.cpp:997
+#: Application/ControlWindow.cpp:1003 Application/Resource.h:405
+msgid "Next Month"
+msgstr "下一月"
+
+#: Application/ControlWindow.cpp:982 Application/ControlWindow.cpp:998
+#: Application/ControlWindow.cpp:1004 Application/Resource.h:406
+msgid "Previous Month"
+msgstr "上一月"
+
+#: Application/ControlWindow.cpp:996 Application/ControlWindow.cpp:1002
+#: Application/Resource.h:407
+msgid "Current Month"
+msgstr "本月"
+
+#: Application/ControlWindow.cpp:999 Application/ControlWindow.cpp:1005
+msgid "Next Year"
+msgstr "下一年"
+
+#: Application/ControlWindow.cpp:1000 Application/ControlWindow.cpp:1006
+msgid "Previous Year"
+msgstr "上一年"
+
+#  "Shortcut key for the Current Month
+#: Application/ControlWindow.cpp:1002 Application/DialogAbout.cpp:165
+#: Application/HotkeyControl.cpp:188
+msgid "Home"
+msgstr "Home"
+
+#  "Shortcut key for the Next Month
+#: Application/ControlWindow.cpp:1003 Application/HotkeyControl.cpp:194
+msgid "Right"
+msgstr "向右键"
+
+#  "Shortcut key for the Previous Month
+#: Application/ControlWindow.cpp:1004 Application/HotkeyControl.cpp:190
+msgid "Left"
+msgstr "向左键"
+
+#  "Shortcut key for the Next Year
+#: Application/ControlWindow.cpp:1005 Application/HotkeyControl.cpp:192
+msgid "Up"
+msgstr "向上键"
+
+#  "Shortcut key for the Previous Year
+#: Application/ControlWindow.cpp:1006 Application/HotkeyControl.cpp:196
+msgid "Down"
+msgstr "向下键"
+
+#: Application/ControlWindow.cpp:1010 Application/Util.cpp:589
+msgid "January"
+msgstr "一月"
+
+#: Application/ControlWindow.cpp:1010
+msgid "Ctrl-F1"
+msgstr "Ctrl-F1"
+
+#: Application/ControlWindow.cpp:1011 Application/Util.cpp:591
+msgid "February"
+msgstr "二月"
+
+#: Application/ControlWindow.cpp:1011
+msgid "Ctrl-F2"
+msgstr "Ctrl-F2"
+
+#: Application/ControlWindow.cpp:1012 Application/Util.cpp:593
+msgid "March"
+msgstr "三月"
+
+#: Application/ControlWindow.cpp:1012
+msgid "Ctrl-F3"
+msgstr "Ctrl-F3"
+
+#: Application/ControlWindow.cpp:1013 Application/Util.cpp:595
+msgid "April"
+msgstr "四月"
+
+#: Application/ControlWindow.cpp:1013
+msgid "Ctrl-F4"
+msgstr "Ctrl-F4"
+
+#: Application/ControlWindow.cpp:1014 Application/Util.cpp:597
+#: Application/Util.cpp:627
+msgid "May"
+msgstr "五月"
+
+#: Application/ControlWindow.cpp:1014
+msgid "Ctrl-F5"
+msgstr "Ctrl-F5"
+
+#: Application/ControlWindow.cpp:1015 Application/Util.cpp:599
+msgid "June"
+msgstr "六月"
+
+#: Application/ControlWindow.cpp:1015
+msgid "Ctrl-F6"
+msgstr "Ctrl-F6"
+
+#: Application/ControlWindow.cpp:1016 Application/Util.cpp:601
+msgid "July"
+msgstr "七月"
+
+#: Application/ControlWindow.cpp:1016
+msgid "Ctrl-F7"
+msgstr "Ctrl-F7"
+
+#: Application/ControlWindow.cpp:1017 Application/Util.cpp:603
+msgid "August"
+msgstr "八月"
+
+#: Application/ControlWindow.cpp:1017
+msgid "Ctrl-F8"
+msgstr "Ctrl-F8"
+
+#: Application/ControlWindow.cpp:1018 Application/Util.cpp:605
+msgid "September"
+msgstr "九月"
+
+#: Application/ControlWindow.cpp:1018
+msgid "Ctrl-F9"
+msgstr "Ctrl-F9"
+
+#: Application/ControlWindow.cpp:1019 Application/Util.cpp:607
+msgid "October"
+msgstr "十月"
+
+#: Application/ControlWindow.cpp:1019
+msgid "Ctrl-F10"
+msgstr "Ctrl-F10"
+
+#: Application/ControlWindow.cpp:1020 Application/Util.cpp:609
+msgid "November"
+msgstr "十一月"
+
+#: Application/ControlWindow.cpp:1020
+msgid "Ctrl-F11"
+msgstr "Ctrl-F11"
+
+#: Application/ControlWindow.cpp:1021 Application/Util.cpp:611
+msgid "December"
+msgstr "十二月"
+
+#: Application/ControlWindow.cpp:1021
+msgid "Ctrl-F12"
+msgstr "Ctrl-F12"
+
+#: Application/ControlWindow.cpp:1036 Application/ControlWindow.cpp:1039
+#: Application/DialogOptions.cpp:768 Application/DialogOptions.cpp:1042
+#: Application/DialogOptions.cpp:1183 Application/ItemList.cpp:614
+msgid "Today"
+msgstr "今天"
+
+#: Application/ControlWindow.cpp:1058
+#, c-format
+msgid "Alt-%i"
+msgstr "Alt-%i"
+
+#: Application/ControlWindow.cpp:1075 Application/DialogSkinSettings.cpp:51
+#: Application/res/options.cpp:23
+msgid "Settings"
+msgstr "设置"
+
+#: Application/ControlWindow.cpp:1081
+msgid "Show all windows"
+msgstr "显示所有窗口"
+
+#: Application/ControlWindow.cpp:1082
+msgid "Hide all windows"
+msgstr "隐藏所有窗口"
+
+#: Application/ControlWindow.cpp:1626
+msgid "License files (*.r2lic)|*.r2lic"
+msgstr "正版授权License文件 (*.r2lic)|*.r2lic"
+
+#: Application/ControlWindow.cpp:1627
+msgid "Choose the license file"
+msgstr "选择License文件"
+
+#: Application/ControlWindow.cpp:1953 Application/ControlWindow.cpp:2038
+#: Application/ControlWindow.cpp:2080 Application/ItemCalendar.cpp:741
+#: Application/WindowTooltip.cpp:265
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1058
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1317
+#: Plugins/GooglePlugin/GoogleThread.cpp:849
+#: Plugins/GooglePlugin/GoogleThread.cpp:1155
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:848
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1175
+msgid "*Empty*"
+msgstr "*空白*"
+
+#  "Option for recurring event delete dialog.
+#: Application/ControlWindow.cpp:1956
+msgid "This instance"
+msgstr "当前程序"
+
+#  "Option for recurring event delete dialog.
+#: Application/ControlWindow.cpp:1957
+msgid "Whole event"
+msgstr "全部事件"
+
+#  "Option for recurring event delete dialog. Deleting "all following" will delete all the events after the selected date.
+#: Application/ControlWindow.cpp:1958
+msgid "All following"
+msgstr "之后所有事件"
+
+#: Application/ControlWindow.cpp:1959 Application/DialogOptions.cpp:196
+msgid "Cancel"
+msgstr "取消"
+
+#: Application/ControlWindow.cpp:1961 Application/ControlWindow.cpp:2040
+msgid "Do you want to delete this item?"
+msgstr "你确定要删除此记录吗？"
+
+#: Application/ControlWindow.cpp:1962
+#, c-format
+msgid ""
+"This is a recurring item:\n"
+"\n"
+"%s\n"
+"\n"
+"You can either delete just this instance, all the following events or the whole recurring event."
+msgstr ""
+"这是一条周期性（重复）的记录：\n"
+"\n"
+"%s\n"
+"\n"
+"你可以删除当前记录或者整个重复事件。"
+
+#: Application/ControlWindow.cpp:2064
+msgid "The item is read only and cannot be deleted."
+msgstr "该项目只读的无法删除。"
+
+#: Application/ControlWindow.cpp:2065
+msgid "Unable to delete the item."
+msgstr "不能删除该项目。"
+
+#: Application/ControlWindow.cpp:2071
+msgid "Do you want to delete these items?"
+msgstr "你确定要删除这些记录吗？"
+
+#: Application/CustomPropertyEditors.cpp:19
+msgid "Choose a directory"
+msgstr "选择目录…"
+
+#  "Shown in the about dialog for a special netbook build.
+#: Application/DialogAbout.cpp:91
+msgid "Netbook edition"
+msgstr "上网本版"
+
+#: Application/DialogAbout.cpp:95 Application/DialogOptions.cpp:902
+msgid "Version"
+msgstr "版本："
+
+#: Application/DialogAbout.cpp:113
+msgid "Build on"
+msgstr "发布日期："
+
+#: Application/DialogAbout.cpp:118
+msgid "Developed by"
+msgstr "开发者"
+
+#: Application/DialogAbout.cpp:138
+#, c-format
+msgid "Translated (%s) by"
+msgstr "翻译 (%s) 自"
+
+#: Application/DialogAbout.cpp:150
+msgid "Licensed to"
+msgstr "授权给"
+
+#: Application/DialogAbout.cpp:158
+msgid "Plugins"
+msgstr "插件"
+
+#: Application/DialogAbout.cpp:163
+msgid "Links"
+msgstr "链接"
+
+#: Application/DialogAbout.cpp:168
+msgid "FAQ"
+msgstr "FAQ帮助"
+
+#: Application/DialogAbout.cpp:171
+msgid "Forum"
+msgstr "论坛"
+
+#: Application/DialogAbout.cpp:177
+msgid "Menu icons by"
+msgstr "菜单图标制作"
+
+#: Application/DialogAbout.cpp:181
+msgid "Application icon by"
+msgstr "应用程序图标 自"
+
+#: Application/DialogAbout.cpp:191
+msgid "Copyrights"
+msgstr "版权所有"
+
+#: Application/DialogAbout.cpp:232
+msgid "Please wait..."
+msgstr "请稍等…"
+
+#: Application/DialogAbout.cpp:256 Application/res/about.cpp:1
+msgid "Check for update"
+msgstr "检查更新"
+
+#: Application/DialogAlarm.cpp:36
+msgid "Choose Alarm"
+msgstr "选择闹铃"
+
+#: Application/DialogAlarm.cpp:93
+msgid "All files (*.*)|*.*"
+msgstr "所有文件 (*.*)|*.*"
+
+#: Application/DialogAuthenticate.cpp:25
+msgid "Authenticate"
+msgstr "身份验证"
+
+#: Application/DialogBulkChange.cpp:36
+msgid "Change Fields"
+msgstr "区段变更"
+
+#: Application/DialogBulkChange.cpp:41
+#, c-format
+msgid "%i events selected"
+msgstr "已选择 %i 个事件"
+
+#: Application/DialogBulkChange.cpp:45
+#, c-format
+msgid "%i tasks selected"
+msgstr "选择 %i 工作"
+
+#: Application/DialogBulkChange.cpp:112 Application/res/bulkchange.cpp:23
+#: Application/res/event.cpp:11
+msgid "End time:"
+msgstr "结束时间："
+
+#: Application/DialogBulkChange.cpp:112 Application/res/todo.cpp:11
+msgid "Due time:"
+msgstr "到期时间："
+
+#: Application/DialogBulkChange.cpp:297 Application/DialogComponent.cpp:249
+msgid "Add new alarm"
+msgstr "添加新的闹铃"
+
+#: Application/DialogBulkChange.cpp:1013 Application/DialogNewManager.cpp:1123
+msgid "Are you sure you want to do this?"
+msgstr "确定要这样做吗？"
+
+#: Application/DialogBulkChange.cpp:1014
+#, c-format
+msgid "The selected fields will be changed to %i items."
+msgstr "已选择的区段将变更%i 项目"
+
+#: Application/DialogBulkChange.cpp:1016
+msgid "It's not possible to undo the operation so click \"Yes\" only if you are completely sure you know what you are doing."
+msgstr "所做的变更将无法复原，请确认无误后再按下 \"是(Y)\" 执行变更。"
+
+#: Application/DialogBulkChange.cpp:1021
+msgid "Note that changing the type between events and tasks will result to some loss of data."
+msgstr "注意，事件和工作项目类型互换时可能会造成部分资料遗失。"
+
+#: Application/DialogCategories.cpp:49 Application/DialogCategories.cpp:78
+#: Application/DialogComponent.cpp:1469 Application/DialogOptions.cpp:457
+#: Application/DialogOptions.cpp:1345 Application/res/event.cpp:17
+#: Application/res/todo.cpp:42
+msgid "Categories"
+msgstr "分类"
+
+#: Application/DialogCategories.cpp:87 Application/res/options.cpp:20
+msgid "Add..."
+msgstr "新增…"
+
+#  "Name of a button
+#: Application/DialogCategories.cpp:90
+msgid "Clear"
+msgstr "清除"
+
+#: Application/DialogCategories.cpp:94 Application/res/bulkchange.cpp:22
+#: Application/res/bulkchange.cpp:31 Application/res/options.cpp:21
+#: Application/res/options.cpp:29
+msgid "Remove"
+msgstr "删除"
+
+#  "Title in the category editor dialog.
+#: Application/DialogCategories.cpp:103
+msgid "Values"
+msgstr "属性设置"
+
+#: Application/DialogCategories.cpp:457
+msgid "Please give a name for the category"
+msgstr "请输入新的分类名"
+
+#: Application/DialogCategories.cpp:457 Application/DialogComponent.cpp:2809
+#: Application/DialogOptions.cpp:2369 Application/Resource.h:727
+msgid "Enter text"
+msgstr "输入文字"
+
+#: Application/DialogCategories.cpp:460 Application/DialogCategories.cpp:465
+#: Application/DialogCategories.cpp:473
+msgid "Unable to create the category!"
+msgstr "无法创建该分类"
+
+#: Application/DialogCategories.cpp:460
+msgid "You must give a name for the category."
+msgstr "必须输入分类名称"
+
+#: Application/DialogCategories.cpp:465 Application/DialogComponent.cpp:2816
+#: Application/DialogOptions.cpp:2379 Application/WizardPageCalendar.cpp:812
+msgid "It's not allowed to use the '/'-character in the name."
+msgstr "名称中不允许含有'/'字符。"
+
+#: Application/DialogCategories.cpp:473
+#, c-format
+msgid "A category called \"%s\" already exists."
+msgstr "\"%s\"分类已存在。"
+
+#: Application/DialogComponent.cpp:314
+msgid "Save\tCtrl+S"
+msgstr "保存\tCtrl+S"
+
+#: Application/DialogComponent.cpp:315
+msgid "Save As New\tShift+Ctrl+S"
+msgstr "另存为新记录\tShift+Ctrl+S"
+
+#: Application/DialogComponent.cpp:316
+msgid "Delete\tCtrl+Delete"
+msgstr "删除\tCtrl+Delete"
+
+#: Application/DialogComponent.cpp:318
+msgid "Close && Accept\tCtrl-Enter"
+msgstr "关闭 && 接受\tCtrl-Enter"
+
+#: Application/DialogComponent.cpp:319
+msgid "Close\tAlt-F4"
+msgstr "关闭\tAlt-F4"
+
+#: Application/DialogComponent.cpp:881 Application/DialogTodo.cpp:527
+msgid "The selected calendar does not support recurrence."
+msgstr "选择的行事历不支援循环功能。"
+
+#: Application/DialogComponent.cpp:890
+msgid "The alarm won't be shown since the calendar has ignore alarms setting enabled."
+msgstr "行事历无法启用闹铃，闹铃将不会显示。"
+
+#: Application/DialogComponent.cpp:908
+msgid "The alarm won't be shown since skin doesn't have an alarm window."
+msgstr "面板无闹铃视窗，闹铃将不会显示。"
+
+#: Application/DialogComponent.cpp:917
+msgid "The task is read-only and the modifications cannot be saved."
+msgstr "该任务是只读的，不保存所做的修改。"
+
+#: Application/DialogComponent.cpp:921
+msgid "The event is read-only and the modifications cannot be saved."
+msgstr "该事件是只读的，不保存所做的修改。"
+
+#: Application/DialogComponent.cpp:928
+msgid "The task is from a read-only calendar."
+msgstr "该任务来自一个只读的日历。"
+
+#: Application/DialogComponent.cpp:932
+msgid "The event is from a read-only calendar."
+msgstr "该事件来自一个只读的日历。"
+
+#: Application/DialogComponent.cpp:937
+msgid "No target calendar has been selected."
+msgstr "没有目标日历被选中。"
+
+#: Application/DialogComponent.cpp:1145
+msgid "There is no calendar selected for the item. Please choose the calendar where you want to store the item."
+msgstr "未指定日历。请选择一个日历用于存放该记录。"
+
+#: Application/DialogComponent.cpp:1149
+msgid "There are no valid calendars where the item can be saved. You need to go to the options and create a new calendar for the item. Note that some calendars do not support both events and tasks."
+msgstr "没有可存储该记录的有效日历。需要在选项中创建一个新日历。请注意有些日历未同时支持事件及任务。"
+
+#: Application/DialogComponent.cpp:1152
+msgid "Unable to save the item."
+msgstr "无法保存该记录。"
+
+#: Application/DialogComponent.cpp:1181
+msgid "Updating"
+msgstr "更新中"
+
+#: Application/DialogComponent.cpp:1244
+msgid "Do you want to save the changes?"
+msgstr "是否保存更改？"
+
+#: Application/DialogComponent.cpp:1245
+msgid "You have made some changes to the fields."
+msgstr "您刚才修改过部分内容。"
+
+#: Application/DialogComponent.cpp:1250
+msgid "&Save"
+msgstr "是(&S)"
+
+#: Application/DialogComponent.cpp:1251
+msgid "&Discard"
+msgstr "否(&D)"
+
+#: Application/DialogComponent.cpp:1252 Application/DialogMessage.cpp:354
+#: Application/DialogMessage.cpp:386 Application/DropTarget.cpp:89
+#: Application/res/alarm.cpp:10 Application/res/bulkchange.cpp:75
+#: Application/res/event.cpp:41 Application/res/todo.cpp:66
+#: Application/Resource.h:394
+msgid "&Cancel"
+msgstr "取消(&C)"
+
+#: Application/DialogComponent.cpp:1267
+msgid "Are you sure you want to delete this item?"
+msgstr "你确定要删除该记录吗？"
+
+#: Application/DialogComponent.cpp:1406
+msgid "Select the calendars:"
+msgstr "选择日历："
+
+#: Application/DialogComponent.cpp:1469 Application/DialogOptions.cpp:457
+msgid "Select the categories:"
+msgstr "选择分类(允许多个分类)："
+
+#: Application/DialogComponent.cpp:1558
+msgid "before the event starts."
+msgstr "在事件开始前。"
+
+#: Application/DialogComponent.cpp:1561
+msgid "before the task is due."
+msgstr "在任务到期前。"
+
+#: Application/DialogComponent.cpp:1585 Application/DialogComponent.cpp:1754
+msgid "Set alarm sound"
+msgstr "设置闹铃声音"
+
+#: Application/DialogComponent.cpp:1589 Application/DialogComponent.cpp:1758
+msgid "Current alarm: "
+msgstr "当前的闹铃:"
+
+#: Application/DialogComponent.cpp:1591
+msgid "Remove alarm"
+msgstr "移除闹铃"
+
+#: Application/DialogComponent.cpp:1593 Application/res/bulkchange.cpp:17
+#: Application/res/bulkchange.cpp:26
+msgid "Minutes"
+msgstr "分钟"
+
+#: Application/DialogComponent.cpp:1594 Application/res/bulkchange.cpp:18
+#: Application/res/bulkchange.cpp:27
+msgid "Hours"
+msgstr "小时"
+
+#: Application/DialogComponent.cpp:1595 Application/res/bulkchange.cpp:19
+#: Application/res/bulkchange.cpp:28 Application/res/bulkchange.cpp:66
+#: Application/res/event.cpp:20 Application/res/todo.cpp:45
+msgid "Days"
+msgstr "天"
+
+#: Application/DialogComponent.cpp:1598
+msgid "Alert"
+msgstr "警告"
+
+#: Application/DialogComponent.cpp:1599
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:306
+#: Plugins/GooglePlugin/GoogleHandler.cpp:247
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:269
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:228
+msgid "Email"
+msgstr "电子邮件"
+
+#: Application/DialogComponent.cpp:1600
+msgid "SMS"
+msgstr "SMS"
+
+#: Application/DialogComponent.cpp:1901
+msgid "Unable to find any calendar handlers for the event. The event was not saved."
+msgstr "无法找到任何日历事件处理程序。该事件将保存失败。"
+
+#: Application/DialogComponent.cpp:2234
+#, c-format
+msgid "On the %s day of the month"
+msgstr "在每月的第 %s 天"
+
+#: Application/DialogComponent.cpp:2242
+msgid "first"
+msgstr "第一个"
+
+#: Application/DialogComponent.cpp:2246
+msgid "second"
+msgstr "第二个"
+
+#: Application/DialogComponent.cpp:2250
+msgid "third"
+msgstr "第三个"
+
+#: Application/DialogComponent.cpp:2254
+msgid "fourth"
+msgstr "第四个"
+
+#: Application/DialogComponent.cpp:2258
+msgid "fifth"
+msgstr "第五个"
+
+#: Application/DialogComponent.cpp:2262
+#, c-format
+msgid "On the %s %s of the month"
+msgstr "在每月的 %s %s"
+
+#: Application/DialogComponent.cpp:2270
+#, c-format
+msgid "On the last %s of the month"
+msgstr "在每月的最后 %s"
+
+#: Application/DialogComponent.cpp:2279
+msgid "On the first weekday of the month"
+msgstr "在每月的首个工作日"
+
+#: Application/DialogComponent.cpp:2288
+msgid "On the last weekday of the month"
+msgstr "在每月最后一个工作日"
+
+#: Application/DialogComponent.cpp:2295
+msgid "On the last day of the month"
+msgstr "在每月的最后一天"
+
+#: Application/DialogComponent.cpp:2809
+msgid "Please give a name for the template"
+msgstr "请输入模板名。"
+
+#: Application/DialogComponent.cpp:2812 Application/DialogComponent.cpp:2816
+msgid "Unable to create the template!"
+msgstr "无法创建模板！"
+
+#: Application/DialogComponent.cpp:2812
+msgid "You must give a name for the template."
+msgstr "请输入模板名 。"
+
+#: Application/DialogComponent.cpp:2825
+#, c-format
+msgid "A template called \"%s\" already exists."
+msgstr "\"%s\" 模板已存在。"
+
+#: Application/DialogComponent.cpp:2826
+msgid "Do you want to overwrite the template?"
+msgstr "是否覆盖原模板？"
+
+#: Application/DialogComponent.cpp:2844
+msgid "Choose the template to delete:"
+msgstr "请选择需要删除的模板："
+
+#: Application/DialogComponent.cpp:2860
+msgid "Choose the template which is used for new tasks:"
+msgstr "选择新增新任务时使用的默认模板："
+
+#: Application/DialogComponent.cpp:2860
+msgid "Choose the template which is used for new events:"
+msgstr "选择新增事件时使用的默认模板："
+
+#: Application/DialogComponent.cpp:2900
+msgid "Save as template..."
+msgstr "另存为模板…"
+
+#: Application/DialogComponent.cpp:2901
+msgid "Delete template..."
+msgstr "删除模板…"
+
+#: Application/DialogComponent.cpp:2902
+msgid "Set the default template..."
+msgstr "设置默认模板…"
+
+#: Application/DialogComponent.cpp:2910 Application/res/event.cpp:3
+#: Application/res/todo.cpp:3
+msgid "Template"
+msgstr "模板"
+
+#: Application/DialogDayRange.cpp:30
+msgid "Select the day range"
+msgstr "选择日期范围"
+
+#: Application/DialogDayRange.cpp:37
+msgid "This exporter is unable to save recurring events so they need to be converted to single instances. Please define the day range which will be saved to the file."
+msgstr "此导出工具无法保存周期性重复事件，需要预先将它们转换为单一事件。请指定要保存至文件中的日期范围。"
+
+#: Application/DialogDayRange.cpp:44 Application/res/print.cpp:5
+msgid "From:"
+msgstr "从："
+
+#: Application/DialogDayRange.cpp:53 Application/res/print.cpp:6
+msgid "To:"
+msgstr "到："
+
+#: Application/DialogEvent.cpp:94 Application/res/bulkchange.cpp:3
+#: Application/res/event.cpp:1 Application/res/event.cpp:4
+#: Application/res/manager.cpp:3
+msgid "Event"
+msgstr "事件"
+
+#: Application/DialogEvent.cpp:346 Application/Resource.h:415
+msgid "Birthday"
+msgstr "生日"
+
+#: Application/DialogEvent.cpp:346 Application/Resource.h:414
+msgid "Anniversary"
+msgstr "周年纪念日"
+
+#: Application/DialogEvent.cpp:348
+msgid ""
+"You have created a birthday or anniversary but didn't define any recurrence.\n"
+"Do you want to make the event repeat every year?"
+msgstr ""
+"您已创建了一个生日或周年纪念日，但没有定义任何重复周期。\n"
+"是否设置该事件为每年重复吗？"
+
+#: Application/DialogMessage.cpp:162
+msgid "Error"
+msgstr "错误"
+
+#: Application/DialogMessage.cpp:166
+msgid "Warning"
+msgstr "警告"
+
+#: Application/DialogMessage.cpp:170
+msgid "Question"
+msgstr "问题"
+
+#: Application/DialogMessage.cpp:174
+msgid "Information"
+msgstr "信息"
+
+#: Application/DialogMessage.cpp:232
+msgid "Do not show this again"
+msgstr "不再显示此信息"
+
+#: Application/DialogMessage.cpp:320 Application/DialogMessage.cpp:328
+#: Application/DialogMessage.cpp:345 Application/DialogMessage.cpp:353
+#: Application/DialogMessage.cpp:382 Application/res/alarm.cpp:9
+#: Application/res/bulkchange.cpp:74 Application/res/event.cpp:40
+#: Application/res/todo.cpp:65 Application/Resource.h:395
+msgid "&OK"
+msgstr "确定(&O)"
+
+#: Application/DialogMessage.cpp:336 Application/DialogMessage.cpp:374
+#: Application/DialogOptions.cpp:1507
+msgid "&Yes"
+msgstr "是(&Y)"
+
+#: Application/DialogMessage.cpp:337 Application/DialogMessage.cpp:378
+#: Application/DialogOptions.cpp:1508
+msgid "&No"
+msgstr "否(&N)"
+
+#: Application/DialogNewManager.cpp:87 Application/res/manager.cpp:1
+#: Application/res/newmanager.cpp:1
+msgid "Manager"
+msgstr "管理窗口"
+
+#: Application/DialogNewManager.cpp:131 Application/ItemCalendar.cpp:768
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:265
+msgid "Events"
+msgstr "事件"
+
+#: Application/DialogNewManager.cpp:133
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:266
+msgid "Tasks"
+msgstr "任务"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:211
+msgid "Show original"
+msgstr "显示原始的"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:214
+msgid "Show current"
+msgstr "显示当前的"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:217
+msgid "Show upcoming"
+msgstr "显示即将到来的"
+
+#: Application/DialogNewManager.cpp:228 Application/DialogNewManager.cpp:1558
+msgid "New"
+msgstr "新建"
+
+#: Application/DialogNewManager.cpp:231 Application/DialogNewManager.cpp:1559
+msgid "Edit"
+msgstr "编辑"
+
+#: Application/DialogNewManager.cpp:234 Application/DialogNewManager.cpp:1560
+#: Application/DialogOptions.cpp:1131 Application/HotkeyControl.cpp:180
+#: Application/ItemCalendar.cpp:766 Application/ItemListAlarm.cpp:439
+#: Application/ItemListAlarm.cpp:447 Application/res/event.cpp:38
+#: Application/res/event.cpp:39 Application/res/todo.cpp:63
+#: Application/res/todo.cpp:64
+msgid "Delete"
+msgstr "删除"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:237 Application/DialogNewManager.cpp:1562
+msgid "Copy to"
+msgstr "复制到"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:240 Application/DialogNewManager.cpp:1563
+msgid "Move to"
+msgstr "移动到"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:243 Application/DialogNewManager.cpp:1564
+msgid "Change fields"
+msgstr "更改字段"
+
+#: Application/DialogNewManager.cpp:296
+msgid "Import"
+msgstr "导入"
+
+#: Application/DialogNewManager.cpp:297
+msgid "Export"
+msgstr "导出"
+
+#: Application/DialogNewManager.cpp:300 Application/res/print.cpp:9
+msgid "Print..."
+msgstr "打印…"
+
+#: Application/DialogNewManager.cpp:302
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:231
+msgid "Backup"
+msgstr "备份"
+
+#: Application/DialogNewManager.cpp:303
+msgid "Restore"
+msgstr "恢复"
+
+#: Application/DialogNewManager.cpp:305 Application/res/about.cpp:2
+#: Application/res/manager.cpp:7 Application/res/newmanager.cpp:2
+#: Application/res/print.cpp:11
+msgid "Close"
+msgstr "关闭"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:626
+msgid "Sort by due time"
+msgstr "按预期时间排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:630
+msgid "Sort by end time"
+msgstr "按结束时间排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:634
+msgid "Sort by summary"
+msgstr "按摘要排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:637
+msgid "Sort by location"
+msgstr "按位置排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:640
+msgid "Sort by calendar"
+msgstr "按日历排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:643
+msgid "Sort by category"
+msgstr "按类别排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:646
+msgid "Sort by url"
+msgstr "按 url 排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:649
+msgid "Sort by repeat"
+msgstr "按重复排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:652
+msgid "Sort by priority"
+msgstr "按优先级排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:655
+msgid "Sort by status"
+msgstr "按状态排序"
+
+#  "Used in button text. Limited space.
+#: Application/DialogNewManager.cpp:659
+msgid "Sort by start time"
+msgstr "按开始时间排序"
+
+#: Application/DialogNewManager.cpp:677
+msgid "Start time"
+msgstr "开始时间"
+
+#: Application/DialogNewManager.cpp:679
+msgid "End time"
+msgstr "结束时间"
+
+#: Application/DialogNewManager.cpp:681 Application/Resource.h:759
+msgid "Summary"
+msgstr "内容"
+
+#: Application/DialogNewManager.cpp:683 Application/DialogPrint.cpp:364
+msgid "Location"
+msgstr "地点"
+
+#: Application/DialogNewManager.cpp:689 Application/DialogPrint.cpp:413
+msgid "Url"
+msgstr "网址"
+
+#: Application/DialogNewManager.cpp:702 Application/DialogSkinSettings.cpp:356
+#: Application/DialogSkinSettings.cpp:557 Application/ItemListEvent.cpp:647
+#: Application/ItemListTodo.cpp:1439 Application/ItemListTodo.cpp:1457
+msgid "Reverse sorting"
+msgstr "反向排序"
+
+#: Application/DialogNewManager.cpp:798
+#, c-format
+msgid "Total: %i (Selected: %i)"
+msgstr "总数: %i (已选: %i)"
+
+#: Application/DialogNewManager.cpp:956
+msgid "Opening a lot of items for editing can take a long time. Are you sure you want to do this?"
+msgstr "打开多个项目进行编辑，可能需要很长时间。你确定你想要这样做?"
+
+#: Application/DialogNewManager.cpp:984
+msgid "Do you want to delete the selected item?"
+msgstr "你确定要删除已选定的事项吗？"
+
+#: Application/DialogNewManager.cpp:988
+#, c-format
+msgid "Do you want to delete the selected %i items?"
+msgstr "你确定要删除已选定的 %i 个事项吗？"
+
+#: Application/DialogNewManager.cpp:1009
+msgid "The selected item is read only and cannot be deleted."
+msgstr "选择的项目是唯读的不能被删除"
+
+#: Application/DialogNewManager.cpp:1013
+#, c-format
+msgid "There were %i read only items which were not deleted."
+msgstr "有 %i 个唯独项目没有被删除"
+
+#: Application/DialogNewManager.cpp:1016
+msgid "Unable to delete some items."
+msgstr "无法删除某些事项。"
+
+#: Application/DialogNewManager.cpp:1070
+msgid "Select the calendar where the items should be copied to:"
+msgstr "将事项复制到指定日历："
+
+#: Application/DialogNewManager.cpp:1074
+msgid "Select the calendar where the items should be moved to:"
+msgstr "将事项移动到指定日历："
+
+#: Application/DialogNewManager.cpp:1093 Application/DialogNewManager.cpp:1185
+msgid "Operation failed!"
+msgstr "操作失败！"
+
+#: Application/DialogNewManager.cpp:1093
+msgid "There are no calendars available that are able to store the items."
+msgstr "没有可用的日历用于存储这些记录。"
+
+#: Application/DialogNewManager.cpp:1124
+msgid ""
+"Moving items to an online calendar is not safe. If the destination calendar doesn't accept the items because of network problems or for some other reason you will lose all the moved events.\n"
+"\n"
+"So, click \"Yes\" only if you are completely sure you know what you are doing."
+msgstr ""
+"将项目移动到在线日历是不安全的。由于网络问题或其他原因，如果目标日历不接受项目，你会失去所有移动的事件。\n"
+"\n"
+"因此，单击 \"是\" 只有在你完全确定你知道你在做什么时。"
+
+#: Application/DialogNewManager.cpp:1165
+#, c-format
+msgid "Moved %i items to these calendars:\n"
+msgstr "移动 %i 到日历：\n"
+
+#: Application/DialogNewManager.cpp:1169
+#, c-format
+msgid "Copied %i items to these calendars:\n"
+msgstr "复制 %i 到日历：\n"
+
+#: Application/DialogNewManager.cpp:1174
+msgid ""
+"\n"
+"Important! Copying items to an online calendar takes some time so they won't be available until after a while."
+msgstr ""
+"\n"
+"注意！将记录复制到在线日历中时需要一段时间，\n"
+"期间，这些项目将无法编辑，直至复制完成。"
+
+#: Application/DialogNewManager.cpp:1177
+msgid "Operation finished!"
+msgstr "操作完成！"
+
+#: Application/DialogNewManager.cpp:1185
+msgid "You need to select at least one calendar for the events."
+msgstr "你必须为这些事件至少选择一个日历。"
+
+#: Application/DialogNewManager.cpp:1302
+msgid "Backup was successful."
+msgstr "备份成功。"
+
+#: Application/DialogNewManager.cpp:1303
+msgid "The backup contains these files:"
+msgstr "备份包含如下文件："
+
+#: Application/DialogNewManager.cpp:1322
+msgid "Warning! The backup file does not contain any iCalendar files. If you have any locally stored events or tasks you need to back up them manually."
+msgstr "警告！备份文件中没有包含任何iCalendar文件。如果你有需要存储至本地的事件或任务，请自行手动备份。"
+
+#: Application/DialogNewManager.cpp:1330
+msgid "Unable to create the backup file."
+msgstr "无法创建备份文件。"
+
+#: Application/DialogNewManager.cpp:1363
+msgid "The archive contains unknown files:\n"
+msgstr "存档包含未知文件：\n"
+
+#: Application/DialogNewManager.cpp:1370
+msgid "Restore was successful."
+msgstr "还原成功。"
+
+#: Application/DialogNewManager.cpp:1374
+msgid "There were problems during the restore."
+msgstr "在还原过程中发生错误。"
+
+#: Application/DialogNewManager.cpp:1470 Application/DialogNewManager.cpp:1510
+msgid "Choose a file"
+msgstr "选择一个文件"
+
+#: Application/DialogNewManager.cpp:1478
+#, c-format
+msgid "Exported %i events successfully."
+msgstr "成功导出 %i 个事件记录。"
+
+#: Application/DialogNewManager.cpp:1482
+#, c-format
+msgid "Exported %i todo items successfully."
+msgstr "成功导出 %i 个任务记录。"
+
+#: Application/DialogNewManager.cpp:1489
+msgid "Export failed!"
+msgstr "导出失败！"
+
+#: Application/DialogNewManager.cpp:1520
+msgid "Import failed!"
+msgstr "导入失败！"
+
+#: Application/DialogOptions.cpp:101
+msgid "Options"
+msgstr "选项"
+
+#: Application/DialogOptions.cpp:149
+msgid "Skins"
+msgstr "皮肤"
+
+#: Application/DialogOptions.cpp:152 Application/res/options.cpp:24
+msgid "Hotkeys"
+msgstr "快捷键"
+
+#: Application/DialogOptions.cpp:155
+msgid "Advanced"
+msgstr "高级"
+
+#: Application/DialogOptions.cpp:169
+msgid "Reset all settings"
+msgstr "重置所有设置"
+
+#: Application/DialogOptions.cpp:193
+msgid "OK"
+msgstr "确定"
+
+#: Application/DialogOptions.cpp:330
+msgid "Get more languages..."
+msgstr "获取更多语言…"
+
+#: Application/DialogOptions.cpp:654
+msgid "Get more skins..."
+msgstr "获取更多皮肤…"
+
+#: Application/DialogOptions.cpp:770 Application/DialogOptions.cpp:1054
+#: Application/DialogOptions.cpp:1173 Application/DialogSkinSettings.cpp:370
+msgid "TrayIcon"
+msgstr "系统托盘图标"
+
+#: Application/DialogOptions.cpp:912
+msgid "Author"
+msgstr "作者"
+
+#: Application/DialogOptions.cpp:927
+msgid "Homepage"
+msgstr "首页"
+
+#: Application/DialogOptions.cpp:935
+msgid "Addons"
+msgstr "附加插件"
+
+#: Application/DialogOptions.cpp:950
+msgid "Version history"
+msgstr "版本历史记录"
+
+#: Application/DialogOptions.cpp:970
+msgid "This is an old Rainlendar skin. Some of the features might not be supported."
+msgstr "这是一个旧版Rainlendar的皮肤。部分功能可能无法正常使用。"
+
+#: Application/DialogOptions.cpp:999 Application/res/options.cpp:34
+msgid "Advanced >>>"
+msgstr "更多选项 >>>"
+
+#: Application/DialogOptions.cpp:1003
+msgid "<<< Simple"
+msgstr "<<< 简化设置"
+
+#: Application/DialogOptions.cpp:1130
+msgid "Open containing folder"
+msgstr "打开指定文件夹"
+
+#: Application/DialogOptions.cpp:1363
+msgid "Custom categories are not supported."
+msgstr "不支持自定义分类"
+
+#: Application/DialogOptions.cpp:1363
+#, c-format
+msgid "The skin \"%s\" doesn't support custom category appearances so it's not possible to edit them."
+msgstr "\"%s\"皮肤不支持自定义分类外观，故此处无法编辑。"
+
+#: Application/DialogOptions.cpp:1503
+msgid "Activate all windows?"
+msgstr "激活所有窗口？"
+
+#: Application/DialogOptions.cpp:1504
+msgid "Moving all windows to the active skin can decrease the performance. Are you sure you want to do this?"
+msgstr "将所有窗口都移动到活动的皮肤会降低性能。你确定你想要这样做吗？"
+
+#: Application/DialogOptions.cpp:1871
+msgid "Activate the edit field and press the hotkey combination. Note that the hotkeys are global and will affect other applications too so don't make them too simple."
+msgstr "激活编辑字段，然后按热键组合。请注意，热键的使用是全局的并且也会影响其他应用程序，因此别让他们太简单。"
+
+#: Application/DialogOptions.cpp:1880
+msgid "Hotkey"
+msgstr "快捷键"
+
+#: Application/DialogOptions.cpp:1881
+msgid "Function"
+msgstr "功能"
+
+#: Application/DialogOptions.cpp:1965 Application/res/manager.cpp:6
+msgid "Search:"
+msgstr "搜索："
+
+#: Application/DialogOptions.cpp:2048 Application/Rainlendar.cpp:580
+msgid "Do you want to reset all settings?"
+msgstr "你确定要重新设置所有选项吗？"
+
+#: Application/DialogOptions.cpp:2049
+msgid "This will reset all settings to default values. The default settings are applied immediately. Do you want to continue?"
+msgstr "即将初始化所有设置。设置后将立即生效。你确定要继续吗？"
+
+#: Application/DialogOptions.cpp:2133
+msgid "Common"
+msgstr "一般"
+
+#: Application/DialogOptions.cpp:2134 Application/DialogOptions.cpp:2507
+msgid "Enabled"
+msgstr "启用"
+
+#: Application/DialogOptions.cpp:2135 Application/DialogOptions.cpp:2511
+msgid "Read only"
+msgstr "只读"
+
+#: Application/DialogOptions.cpp:2136 Application/DialogOptions.cpp:2515
+msgid "Ignore alarms"
+msgstr "忽略闹铃"
+
+#: Application/DialogOptions.cpp:2137 Application/DialogOptions.cpp:2519
+msgid "Default alarm (minutes)"
+msgstr "默认闹铃 (分钟)"
+
+#: Application/DialogOptions.cpp:2149 Application/DialogOptions.cpp:2523
+msgid "Visual category"
+msgstr "可见分类"
+
+#: Application/DialogOptions.cpp:2151 Application/DialogOptions.cpp:2535
+msgid "Time offset (mins)"
+msgstr "时间偏移（分钟）"
+
+#: Application/DialogOptions.cpp:2155 Application/DialogOptions.cpp:2539
+msgid "Time zone"
+msgstr "时区"
+
+#: Application/DialogOptions.cpp:2365
+#, c-format
+msgid "Copy of %s"
+msgstr "%s 副本"
+
+#: Application/DialogOptions.cpp:2369 Application/WizardPageCalendar.cpp:701
+msgid "Please enter a name for the calendar."
+msgstr "请输入用于本地显示的日历名。"
+
+#: Application/DialogOptions.cpp:2379
+msgid "Unable to create the calendar!"
+msgstr "无法创建该日历！"
+
+#: Application/DialogOptions.cpp:2397
+#, c-format
+msgid "A calendar called \"%s\" already exists."
+msgstr " \"%s\" 日历已存在。"
+
+#: Application/DialogOptions.cpp:2398
+msgid "Choose another name."
+msgstr "请更换一个新名称。"
+
+#: Application/DialogOptions.cpp:2968
+msgid "Do you want to delete the skin?"
+msgstr "您确定要删除此皮肤吗？"
+
+#: Application/DialogOptions.cpp:2969
+#, c-format
+msgid ""
+"If you select yes the skin \"%s\"\n"
+"will be permanently deleted."
+msgstr ""
+"如果你选择“是”\n"
+"\"%s\" 皮肤将被永久删除。"
+
+#: Application/DialogOptions.cpp:2975
+msgid "Delete failed!"
+msgstr "删除失败!"
+
+#: Application/DialogOptions.cpp:2976
+msgid "Unable to delete the skin."
+msgstr "无法删除该皮肤。"
+
+#: Application/DialogPrint.cpp:35
+msgid "Print"
+msgstr "打印"
+
+#: Application/DialogPrint.cpp:71
+msgid "Print items"
+msgstr "打印记录"
+
+#: Application/DialogPrint.cpp:388 Application/HotkeyControl.cpp:186
+msgid "End"
+msgstr "结束"
+
+#: Application/DialogSkinSettings.cpp:83
+msgid "Variables"
+msgstr "变量"
+
+#: Application/DialogSkinSettings.cpp:92
+msgid "Window settings"
+msgstr "窗口设置"
+
+#: Application/DialogSkinSettings.cpp:98
+msgid "Settings can be shown only for a single window."
+msgstr "只能在单一窗口中看到某些选项设置。"
+
+#: Application/DialogSkinSettings.cpp:102
+msgid "No settings available."
+msgstr "无可用的选项设置。"
+
+#: Application/DialogSkinSettings.cpp:245
+msgid "Global variables"
+msgstr "全局变量"
+
+#: Application/DialogSkinSettings.cpp:265
+#: Application/DialogSkinSettings.cpp:529
+msgid "Visible"
+msgstr "显示"
+
+#: Application/DialogSkinSettings.cpp:267
+#: Application/DialogSkinSettings.cpp:530
+msgid "Grow upwards"
+msgstr "向上增长"
+
+#: Application/DialogSkinSettings.cpp:274 Application/res/options.cpp:12
+msgid "On Top"
+msgstr "置于顶层"
+
+#: Application/DialogSkinSettings.cpp:278 Application/res/options.cpp:14
+msgid "On Bottom"
+msgstr "置于底层"
+
+#: Application/DialogSkinSettings.cpp:282 Application/res/options.cpp:15
+msgid "On Desktop"
+msgstr "嵌入桌面"
+
+#: Application/DialogSkinSettings.cpp:285
+#: Application/DialogSkinSettings.cpp:535
+msgid "Window position"
+msgstr "窗口位置"
+
+#: Application/DialogSkinSettings.cpp:289
+#: Application/DialogSkinSettings.cpp:540
+msgid "Scale"
+msgstr "比例"
+
+#: Application/DialogSkinSettings.cpp:293
+msgid "Filters"
+msgstr "筛选"
+
+#: Application/DialogSkinSettings.cpp:299
+#: Application/DialogSkinSettings.cpp:565
+msgid "Included calendars"
+msgstr "仅显示这些日历："
+
+#: Application/DialogSkinSettings.cpp:300
+#: Application/DialogSkinSettings.cpp:572
+msgid "Excluded calendars"
+msgstr "需要排除的日历："
+
+#: Application/DialogSkinSettings.cpp:323
+#: Application/DialogSkinSettings.cpp:579
+msgid "Included categories"
+msgstr "仅显示这些分类："
+
+#: Application/DialogSkinSettings.cpp:326
+#: Application/DialogSkinSettings.cpp:594
+msgid "Excluded categories"
+msgstr "需要排除的分类"
+
+#: Application/DialogSkinSettings.cpp:332
+msgid "Task list"
+msgstr "任务列表"
+
+#: Application/DialogSkinSettings.cpp:335 Application/ItemListTodo.cpp:1428
+#: Application/ItemListTodo.cpp:1446
+msgid "Alphabetically"
+msgstr "按字母顺序"
+
+#: Application/DialogSkinSettings.cpp:336 Application/ItemListTodo.cpp:1429
+#: Application/ItemListTodo.cpp:1447
+msgid "By Category"
+msgstr "按分类"
+
+#: Application/DialogSkinSettings.cpp:337 Application/ItemListTodo.cpp:1430
+#: Application/ItemListTodo.cpp:1448
+msgid "By Due Date"
+msgstr "按到期日"
+
+#: Application/DialogSkinSettings.cpp:338 Application/ItemListTodo.cpp:1431
+#: Application/ItemListTodo.cpp:1449
+msgid "By Start Date"
+msgstr "按开始日"
+
+#: Application/DialogSkinSettings.cpp:339 Application/ItemListTodo.cpp:1432
+#: Application/ItemListTodo.cpp:1450
+msgid "By Status"
+msgstr "按状态"
+
+#: Application/DialogSkinSettings.cpp:340 Application/ItemListTodo.cpp:1433
+#: Application/ItemListTodo.cpp:1451
+msgid "By Priority"
+msgstr "按优先级"
+
+#: Application/DialogSkinSettings.cpp:341 Application/ItemListTodo.cpp:1434
+#: Application/ItemListTodo.cpp:1452
+msgid "By Location"
+msgstr "按地点"
+
+#: Application/DialogSkinSettings.cpp:342 Application/ItemListTodo.cpp:1435
+#: Application/ItemListTodo.cpp:1453
+msgid "By Calendar"
+msgstr "按日历"
+
+#: Application/DialogSkinSettings.cpp:343 Application/ItemListTodo.cpp:1436
+#: Application/ItemListTodo.cpp:1454
+msgid "Custom"
+msgstr "自定义"
+
+#: Application/DialogSkinSettings.cpp:345
+#: Application/DialogSkinSettings.cpp:546 Application/ItemListTodo.cpp:1490
+msgid "Primary sort order"
+msgstr "主要排序依据"
+
+#: Application/DialogSkinSettings.cpp:346
+#: Application/DialogSkinSettings.cpp:547 Application/ItemListTodo.cpp:1491
+msgid "Secondary sort order"
+msgstr "次要排序依据"
+
+#: Application/DialogSkinSettings.cpp:347
+#: Application/DialogSkinSettings.cpp:548
+msgid "Reverse primary sorting"
+msgstr "主要排序方式反向"
+
+#: Application/DialogSkinSettings.cpp:348
+#: Application/DialogSkinSettings.cpp:549
+msgid "Reverse secondary sorting"
+msgstr "次要排序方式反向"
+
+#: Application/DialogSkinSettings.cpp:349
+#: Application/DialogSkinSettings.cpp:550 Application/ItemListTodo.cpp:1402
+msgid "Hide completed tasks"
+msgstr "隐藏已完成任务"
+
+#: Application/DialogSkinSettings.cpp:350
+#: Application/DialogSkinSettings.cpp:551 Application/ItemListTodo.cpp:1407
+msgid "Hide canceled tasks"
+msgstr "隐藏已取消任务"
+
+#: Application/DialogSkinSettings.cpp:351
+#: Application/DialogSkinSettings.cpp:552 Application/ItemListTodo.cpp:1412
+msgid "Hide upcoming tasks"
+msgstr "隐藏将来的任务"
+
+#: Application/DialogSkinSettings.cpp:355 Application/ItemListEvent.cpp:660
+msgid "Event list"
+msgstr "事件列表"
+
+#: Application/DialogSkinSettings.cpp:361
+msgid "Window variables"
+msgstr "窗口参数"
+
+#: Application/DialogSkinSettings.cpp:384
+#: Application/DialogSkinSettings.cpp:612
+msgid "Appearance"
+msgstr "外观"
+
+#: Application/DialogSkinSettings.cpp:390
+msgid "Operations"
+msgstr "操作"
+
+#: Application/DialogSkinSettings.cpp:439
+#: Application/DialogSkinSettings.cpp:617
+msgid "Left click"
+msgstr "单击鼠标左键"
+
+#: Application/DialogSkinSettings.cpp:442
+#: Application/DialogSkinSettings.cpp:627
+msgid "Right click"
+msgstr "单击鼠标右键"
+
+#: Application/DialogSkinSettings.cpp:445
+#: Application/DialogSkinSettings.cpp:637
+msgid "Double left click"
+msgstr "双击鼠标左键"
+
+#: Application/DialogSkinSettings.cpp:448
+#: Application/DialogSkinSettings.cpp:647
+msgid "Double right click"
+msgstr "双击鼠标右键"
+
+#: Application/DialogTimeZoneSelector.cpp:61 Application/ItemTime.cpp:117
+#: Application/SkinXML.cpp:518
+msgid "Local"
+msgstr "地点"
+
+#: Application/DialogTodo.cpp:84 Application/DialogTodo.cpp:410
+#: Application/res/bulkchange.cpp:4
+msgid "Task"
+msgstr "任务"
+
+#: Application/DialogTodo.cpp:535
+msgid "The due date needs to be set before recurrence can be defined."
+msgstr "使用循环事件功能前必须设定到期时间。"
+
+#: Application/DialogTodo.cpp:556
+msgid "Unable to add new alarm!"
+msgstr "无法添加新的闹铃！"
+
+#: Application/DialogTodo.cpp:557
+msgid "The due date needs to be specified for the task before it can have alarms."
+msgstr "使用闹铃功能前必须设定到期时间。"
+
+#: Application/DropTarget.cpp:83
+msgid "Upgrade to Pro version before installing the license."
+msgstr "安装授权License前请先升级为Pro版。"
+
+#: Application/DropTarget.cpp:84
+msgid "You are still using the Lite version which doesn't include the Pro features. You need to go to the Rainlendar's download page and get the Pro version."
+msgstr "你正在使用的是去掉某些功能后的Lite版。你可以到Rainlendar官网上下载到含完整功能的Pro版。"
+
+#: Application/DropTarget.cpp:87
+msgid "&Get Pro"
+msgstr "升级为Pro版(&G)"
+
+#: Application/DropTarget.cpp:88
+msgid "&Ignore"
+msgstr "忽略(&I)"
+
+#: Application/DropTarget.cpp:107
+msgid ""
+"If you downloaded a .r2skin or .r2lang file and your\n"
+"web browser changed the extension to .zip you can rename\n"
+"the file back to the way it was and import it again."
+msgstr ""
+"如果下载的 .r2skin 或 .r2lang 文件被浏览器\n"
+"将扩展名改成 .zip时，你可以先手动更名，\n"
+"然后重新导入。"
+
+#: Application/DropTarget.cpp:108
+msgid "Zip archives cannot be imported to Rainlendar."
+msgstr "Rainlendar 无法导入 zip 格式文件。"
+
+#: Application/DropTarget.cpp:136
+#, c-format
+msgid "Unknown file \"%s\"."
+msgstr "未知的文件 \"%s\"。"
+
+#: Application/DropTarget.cpp:137
+msgid "The file cannot be imported into Rainlendar."
+msgstr "无法导入该文件至Rainlendar。"
+
+#: Application/DropTarget.cpp:144
+msgid "Installation failed!"
+msgstr "安装失败!"
+
+#: Application/DropTarget.cpp:145
+msgid "Unable to copy the file. The source is the same as the destination."
+msgstr "无法复制文件。源文件和目标文件相同。"
+
+#: Application/DropTarget.cpp:166
+#, c-format
+msgid "Unable to install the file \"%s\"."
+msgstr "无法安装文件 \"%s\"。"
+
+#: Application/DropTarget.cpp:167 Application/Util.cpp:2419
+msgid "The folder does not have write permissions."
+msgstr "该文件夹没有写入权限。"
+
+#: Application/DropTarget.cpp:233
+#, c-format
+msgid "The skin %s doesn't exist."
+msgstr " %s 皮肤不存在。"
+
+#: Application/DropTarget.cpp:234
+msgid "Unable to merge the addon."
+msgstr "无法合并附加插件。"
+
+#: Application/DropTarget.cpp:266
+#, c-format
+msgid ""
+"The file \"%s\" already exists.\n"
+"Do you want to replace it?"
+msgstr ""
+" \"%s\" 文件已存在。\n"
+"你确定要替换掉它吗？"
+
+#: Application/DropTarget.cpp:294
+msgid "The above file already exists. Do you want to overwrite it?"
+msgstr "文件已存在。你确定要覆盖吗？"
+
+#: Application/DropTarget.cpp:336
+msgid "Unable to install the skin!"
+msgstr "无法安装该皮肤。"
+
+#: Application/DropTarget.cpp:337
+msgid "The skin doesn't contain the \"skin.xml\" file. Are you sure this is an xml format Rainlendar skin?"
+msgstr "没有在该皮肤中找到 \"skin.xml\" 文件。你确定这个是Rainlendar专用皮肤？"
+
+#: Application/DropTarget.cpp:359
+msgid "The installation was successful!"
+msgstr "安装成功!"
+
+#: Application/DropTarget.cpp:360
+#, c-format
+msgid "The file \"%s\" was installed successfully.."
+msgstr " \"%s\" 文件安装成功！"
+
+#: Application/DropTarget.cpp:362
+msgid "Please refresh Rainlendar to see the changes."
+msgstr "请刷新 Rainlendar 以查看更改。"
+
+#: Application/DropTarget.cpp:365
+msgid "&Refresh"
+msgstr "刷新(&R)"
+
+#: Application/DropTarget.cpp:374
+msgid "The installation failed!"
+msgstr "安装失败！"
+
+#: Application/DropTarget.cpp:375
+#, c-format
+msgid "The installation of the file \"%s\" failed!"
+msgstr " \"%s\" 文件安装失败！"
+
+#: Application/DropTarget.cpp:419
+msgid "Select the calendar for the imported items:"
+msgstr "选择日历以导入记录："
+
+#: Application/DropTarget.cpp:431
+msgid "There are no calendars available that are able to store the item."
+msgstr "没有日历可用于存储这些记录。"
+
+#: Application/DropTarget.cpp:456
+#, c-format
+msgid "Imported %i items successfully."
+msgstr "成功导入 %i 条记录。"
+
+#: Application/DropTarget.cpp:462
+msgid "You need to select at least one calendar for the imported events"
+msgstr "你至少要选择一个日历用于存储导入的这些事件。"
+
+#: Application/DropTarget.cpp:554
+msgid "Version mismatch!"
+msgstr "版本不匹配！"
+
+#: Application/DropTarget.cpp:555
+#, c-format
+msgid "This skin addon is for version %s of the skin. The installed version is %s."
+msgstr "这个皮肤插件适用于皮肤版本 %s。已安装的版本是 %s。"
+
+#: Application/DropTarget.cpp:557
+msgid "Do you want to continue? (The skin might get broken)"
+msgstr "你想要继续吗?(皮肤可能会崩溃)"
+
+#: Application/DropTarget.cpp:560
+msgid "&Continue"
+msgstr "继续(&C)"
+
+#: Application/DropTarget.cpp:561
+msgid "Ca&ncel"
+msgstr "取消(&n)"
+
+#: Application/DropTarget.cpp:580
+#, c-format
+msgid "Failed to install \"%s\"."
+msgstr "无法安装文件 \"%s\"。"
+
+#: Application/DropTarget.cpp:581
+msgid ""
+"The skin addon has been already applied to the skin.\n"
+"You may apply the same addon only once to the skin."
+msgstr ""
+"该附加插件已经加入当前皮肤。\n"
+"同一个插件只能被应用一次。"
+
+#: Application/DropTarget.cpp:795
+msgid "Unable to create a temporary folder where to merge the addon."
+msgstr "无法创建一个临时文件夹用于合并这些附加插件。"
+
+#: Application/HotkeyControl.cpp:104
+msgid "Win"
+msgstr "Win"
+
+#: Application/HotkeyControl.cpp:110
+msgid "Control"
+msgstr "Ctrl"
+
+#: Application/HotkeyControl.cpp:116
+msgid "Alt"
+msgstr "Alt"
+
+#: Application/HotkeyControl.cpp:122
+msgid "Shift"
+msgstr "Shift"
+
+#: Application/HotkeyControl.cpp:170
+msgid "Back"
+msgstr "退格"
+
+#: Application/HotkeyControl.cpp:172
+msgid "Tab"
+msgstr "Tab"
+
+#: Application/HotkeyControl.cpp:174
+msgid "Return"
+msgstr "回车"
+
+#: Application/HotkeyControl.cpp:176
+msgid "Esc"
+msgstr "Esc"
+
+#: Application/HotkeyControl.cpp:178
+msgid "Space"
+msgstr "空格"
+
+#: Application/HotkeyControl.cpp:182
+msgid "Page Up"
+msgstr "向上翻页"
+
+#: Application/HotkeyControl.cpp:184
+msgid "Page Down"
+msgstr "向下翻页"
+
+#: Application/HotkeyControl.cpp:198
+msgid "Insert"
+msgstr "Insert"
+
+#: Application/HotkeyControl.cpp:232
+msgid "NumLock"
+msgstr "NumLock"
+
+#: Application/HotkeyControl.cpp:234
+msgid "ScrollLock"
+msgstr "ScrollLock"
+
+#: Application/ItemCalendar.cpp:743
+#, c-format
+msgid "Edit \"%s\""
+msgstr "编辑 \"%s\""
+
+#: Application/ItemCalendar.cpp:754
+msgid "Delete all"
+msgstr "全部删除"
+
+#: Application/ItemList.cpp:618
+msgid "Tomorrow"
+msgstr "明天"
+
+#: Application/ItemList.cpp:622
+msgid "Yesterday"
+msgstr "昨天"
+
+#  "The %1 will be replaced with the day (e.g. Last Monday). This text is shown in the event list.
+#: Application/ItemList.cpp:662 Application/ItemList.cpp:702
+msgid "Last %1"
+msgstr "上 %1"
+
+#: Application/ItemList.cpp:671 Application/ItemList.cpp:729
+msgid "%1 next week"
+msgstr "下周 %1"
+
+#: Application/ItemList.cpp:679 Application/ItemList.cpp:710
+msgid "%1 last week"
+msgstr "上周 %1"
+
+#: Application/ItemList.cpp:685 Application/ItemList.cpp:716
+msgid "%1 %2 weeks ago"
+msgstr "%2 周前 %1"
+
+#: Application/ItemList.cpp:691 Application/ItemList.cpp:734
+msgid "%1 in %2 weeks"
+msgstr "%2 周后 %1"
+
+#: Application/ItemListAlarm.cpp:232
+#, c-format
+msgid " (Due in %s)"
+msgstr "（到期于%s）"
+
+#: Application/ItemListAlarm.cpp:238
+#, c-format
+msgid " (Overdue %s)"
+msgstr "（已过期%s）"
+
+#: Application/ItemListAlarm.cpp:252 Application/ItemListAlarm.cpp:287
+#: Application/Util.cpp:1686
+msgid "day"
+msgstr "天"
+
+#  "Plural version of "day". Shown in the alarm window's due date counter.
+#: Application/ItemListAlarm.cpp:252 Application/ItemListAlarm.cpp:287
+#: Application/Util.cpp:1686
+msgid "days"
+msgstr "天"
+
+#: Application/ItemListAlarm.cpp:256 Application/Util.cpp:1694
+msgid "hour"
+msgstr "小时"
+
+#: Application/ItemListAlarm.cpp:256 Application/Util.cpp:1694
+msgid "hours"
+msgstr "小时"
+
+#: Application/ItemListAlarm.cpp:260 Application/Util.cpp:1702
+msgid "minute"
+msgstr "分钟"
+
+#: Application/ItemListAlarm.cpp:260 Application/Util.cpp:1702
+msgid "minutes"
+msgstr "分钟"
+
+#  "Shown in the alarm when the event/task is due now.
+#: Application/ItemListAlarm.cpp:269
+msgid " (Due now)"
+msgstr "已到期"
+
+#: Application/ItemListAlarm.cpp:410 Application/Resource.h:528
+msgid "Dismiss"
+msgstr "取消"
+
+#: Application/ItemListAlarm.cpp:411
+msgid "Dismiss all"
+msgstr "全部取消"
+
+#: Application/ItemListAlarm.cpp:422
+msgid "before target"
+msgstr "在事件开始前"
+
+#: Application/ItemListAlarm.cpp:427 Application/Resource.h:527
+msgid "Snooze"
+msgstr "小憩"
+
+#: Application/ItemListAlarm.cpp:432
+msgid "Snooze all"
+msgstr "全部推延"
+
+#: Application/ItemListAlarm.cpp:437 Application/ItemListAlarm.cpp:445
+msgid "Edit..."
+msgstr "编辑…"
+
+#: Application/ItemListEvent.cpp:533
+#, c-format
+msgid " (%i days)"
+msgstr " (%i 天)"
+
+#: Application/ItemListEvent.cpp:643 Application/ItemScheduleEvent.cpp:201
+msgid "Edit event"
+msgstr "编辑事件"
+
+#: Application/ItemListEvent.cpp:644 Application/ItemScheduleEvent.cpp:202
+msgid "Delete event"
+msgstr "删除事件"
+
+#: Application/ItemListTodo.cpp:181
+#, c-format
+msgid "[Due %x]"
+msgstr "[%x 到期]"
+
+#: Application/ItemListTodo.cpp:814
+msgid "No location"
+msgstr "未设置地点"
+
+#: Application/ItemListTodo.cpp:822
+msgid "No category"
+msgstr "未设置分类"
+
+#: Application/ItemListTodo.cpp:839
+msgid "No due date"
+msgstr "未设置到期日"
+
+#: Application/ItemListTodo.cpp:843
+msgid "No start date"
+msgstr "未设置开始日"
+
+#: Application/ItemListTodo.cpp:872
+msgid "High Priority"
+msgstr "高优先级"
+
+#: Application/ItemListTodo.cpp:875
+msgid "Medium Priority"
+msgstr "中优先级"
+
+#: Application/ItemListTodo.cpp:878
+msgid "Low Priority"
+msgstr "低优先级"
+
+#: Application/ItemListTodo.cpp:882
+msgid "No Priority"
+msgstr "无优先级"
+
+#: Application/ItemListTodo.cpp:1075 Application/res/bulkchange.cpp:37
+#: Application/res/todo.cpp:18
+msgid "Medium"
+msgstr "中"
+
+#: Application/ItemListTodo.cpp:1365
+msgid "Expand"
+msgstr "展开"
+
+#: Application/ItemListTodo.cpp:1367
+msgid "Collapse"
+msgstr "折叠"
+
+#: Application/ItemListTodo.cpp:1386
+msgid "New subtask"
+msgstr "新子任务"
+
+#: Application/ItemListTodo.cpp:1390 Application/ItemScheduleEvent.cpp:189
+msgid "Edit task"
+msgstr "编辑任务"
+
+#: Application/ItemListTodo.cpp:1391 Application/ItemScheduleEvent.cpp:190
+msgid "Delete task"
+msgstr "删除任务"
+
+#: Application/ItemListTodo.cpp:1418
+msgid "Todo list"
+msgstr "任务列表"
+
+#: Application/ItemListTooltip.cpp:64
+msgid "No events today."
+msgstr "今天没有任何事件。"
+
+#: Application/ItemListTooltip.cpp:86
+msgid "Today's events:"
+msgstr "今日事件："
+
+#: Application/PluginManager.cpp:178
+msgid "Invalid plugins found!"
+msgstr "发现无效插件！"
+
+#: Application/PluginManager.cpp:179
+msgid ""
+"The following files in Rainlendar's plugins\n"
+"folder are invalid and should be removed:\n"
+msgstr ""
+"下列Rainlendar插件文件夹中\n"
+"的部分文件是无效的，必须将它们删除掉：\n"
+
+#: Application/PluginManager.cpp:188
+msgid ""
+"\n"
+"\n"
+"Make sure that all the plugins are from the same Rainlendar version."
+msgstr ""
+"\n"
+"\n"
+"请确保所有插件都是来源于同一个Rainlendar版本。"
+
+#: Application/Rainlendar.cpp:208
+msgid "allow multiple instances"
+msgstr "允许多个程序同时运行"
+
+#: Application/Rainlendar.cpp:209
+msgid "install a skin or a language"
+msgstr "安装新皮肤或语言"
+
+#: Application/Rainlendar.cpp:210
+msgid "import the given file"
+msgstr "导入指定文件"
+
+#: Application/Rainlendar.cpp:211
+msgid "path where the configuration file will be stored"
+msgstr "指定文件存储路径"
+
+#: Application/Rainlendar.cpp:212
+msgid "execute the given function in a script"
+msgstr "执行脚本中的指定函数"
+
+#: Application/Rainlendar.cpp:213
+msgid "path where the log file will be stored"
+msgstr "指定日志文件存储路径"
+
+#: Application/Rainlendar.cpp:214
+msgid "path where the backups will be stored"
+msgstr "指定备份文件存储路径"
+
+#: Application/Rainlendar.cpp:215
+msgid "add event or task to the calendar"
+msgstr "向日历中添加事件或任务"
+
+#: Application/Rainlendar.cpp:216
+msgid "enable verbose logging"
+msgstr "启用详细日志"
+
+#: Application/Rainlendar.cpp:217
+msgid "enable debug logging"
+msgstr "启用调试日志"
+
+#: Application/Rainlendar.cpp:218
+msgid "don't show the messagebox after importing and installing files"
+msgstr "在导入及安装文件后不显示对话框"
+
+#: Application/Rainlendar.cpp:563
+msgid "Do you want to start another instance?"
+msgstr "你确定要启动另一个Rainlendar吗？"
+
+#: Application/Rainlendar.cpp:564
+msgid "Rainlendar seems to be already running. You can start another instance by selecting 'Yes'."
+msgstr "Rainlendar 已经在运行中了。你可以点击‘是’来再开启一个。"
+
+#: Application/Rainlendar.cpp:567
+msgid ""
+"\n"
+"\n"
+"If this is not the case and this question pops up every time you start Rainlendar please remove this file:\n"
+msgstr ""
+"\n"
+"\n"
+"如果事实并非如此，而每次开启Rainlendar时还弹出此问题的话，请移除以下文件：\n"
+
+#: Application/Rainlendar.cpp:582
+msgid "Note that your events and tasks will be left untouched."
+msgstr "注意您的事件及代办项目将维持不变。"
+
+#: Application/Rainlendar.cpp:602
+#, c-format
+msgid ""
+"Unable to create configuration file:\n"
+"\n"
+"%s\n"
+"\n"
+"Make sure that the folder has write permissions."
+msgstr ""
+"无法创建配置文件：\n"
+"\n"
+"%s\n"
+"\n"
+"请确保该文件夹有写入权限。"
+
+#: Application/Rainlendar.cpp:634
+#, c-format
+msgid ""
+"The configuration file is not writable:\n"
+"\n"
+"%s\n"
+"\n"
+"Make sure that it has correct permissions."
+msgstr ""
+"无法写入配置文件：\n"
+"\n"
+"%s\n"
+"\n"
+"请确保你拥有该文件夹的相应权限。"
+
+#: Application/Rainlendar.cpp:636
+msgid "You won't be able to store any settings permanently."
+msgstr "你将无法存储任何设置。"
+
+#: Application/Rainlendar.cpp:725
+#, c-format
+msgid ""
+"Unable to load resources from path:\n"
+"%s"
+msgstr ""
+"无法从以下路径加载资源：\n"
+"%s"
+
+#: Application/Rainlendar.cpp:801
+msgid "This is a BETA version."
+msgstr "这是一个 BETA 版本。"
+
+#: Application/Rainlendar.cpp:802
+msgid ""
+"You are using a BETA version of Rainlendar. It means that the software has not been tested and not suitable for daily use.\n"
+"\n"
+"Please report all errors to the Rainlendar's BETA forum at www.rainlendar.net.\n"
+"\n"
+"(This message is shown only once)"
+msgstr ""
+"您正在使用测试版的Rainlendar。 这代表此软体还未测试完成并有可能造成使用上的不便。\n"
+"\n"
+"敬请到Rainlendar测试版论坛回报所有的软体错误 www.rainlendar.net。\n"
+"\n"
+"(此讯息只会显示一次)"
+
+#: Application/Rainlendar.cpp:838
+msgid "Google Tasks have been changed"
+msgstr "Google 任务已被更改"
+
+#: Application/Rainlendar.cpp:839
+msgid "The Google Tasks have been moved to a separate calendar type. To show the tasks again you need to create a new calendar and choose 'Google Tasks' as the calendar type."
+msgstr "Google 任务已经被移动到一个单独的日历类型。要再次显示任务你需要创建一个新的日历并选择 'Google 任务' 作为日历类型。"
+
+#  "Used in the Outlook calendar settings
+#: Application/Rainlendar.cpp:1038
+msgid "Everything is hidden."
+msgstr "已全部隐藏。"
+
+#: Application/Rainlendar.cpp:1039
+msgid ""
+"It looks like all the windows and the trayicon have been hidden. Was this your purpose?\n"
+"\n"
+"Click 'Yes' if you want to keep everything hidden and never see this dialog again. Click 'No' to make all windows visible again."
+msgstr ""
+"貌似所有窗口和托盘图标都已经被隐藏了。你确认要这样操作吗？\n"
+"\n"
+"如果你确认想隐藏所有的窗口并且永远不想再看到这个对话框，请单击‘是’。\n"
+"如果你希望显示所有窗口，请单击‘否’。"
+
+#: Application/Rainlendar.cpp:1249 Application/Rainlendar.cpp:1337
+msgid "Startup error!"
+msgstr "启动错误！"
+
+#: Application/Rainlendar.cpp:1250
+msgid "Rainlendar was not able to refresh the settings correctly. Do you want to reset all settings and try again or use one of the backed up versions?"
+msgstr "Rainlendar 无法正确更新设置。你想重置所有设置并重试一次或使用另一份备份档案？"
+
+#: Application/Rainlendar.cpp:1253
+msgid "&Reset"
+msgstr "重置(&R)"
+
+#: Application/Rainlendar.cpp:1254
+msgid "&Use backup"
+msgstr "使用备份(&R)"
+
+#: Application/Rainlendar.cpp:1255
+msgid "&Keep"
+msgstr "保留(&K)"
+
+#: Application/Rainlendar.cpp:1323
+#, c-format
+msgid ""
+"There are no skins in path:\n"
+"%s"
+msgstr ""
+"在下面的目录中没有找到皮肤文件：\n"
+"%s"
+
+#: Application/Rainlendar.cpp:1338
+msgid "Rainlendar was not able to load the selected skin. Do you want to use the default skin instead?"
+msgstr "Rainlendar 无法加载指定的皮肤。你想使用默认的皮肤来代替吗？"
+
+#: Application/Rainlendar.cpp:1351
+msgid "Unable to load the skin!"
+msgstr "无法载入皮肤!"
+
+#: Application/Rainlendar.cpp:1352
+msgid "The selected skin could not be loaded. You can find more details from the Rainlendar's log."
+msgstr "无法载入面板。您可以在Rainlendar's log找到更多详细资讯。"
+
+#: Application/Rainlendar.cpp:1355
+msgid "&Ok"
+msgstr "确定(&O)"
+
+#: Application/Rainlendar.cpp:1356
+msgid "&Show log"
+msgstr "显示侦错日志(&S)"
+
+#: Application/Rainlendar.cpp:1395 Application/Resource.h:392
+msgid "Yes"
+msgstr "是"
+
+#: Application/Rainlendar.cpp:1395 Application/Resource.h:393
+msgid "No"
+msgstr "否"
+
+#: Application/Rainlendar.cpp:1733
+msgid ""
+"There seems to be something wrong with the license file.\n"
+"Please make sure that the download url is correct and try again."
+msgstr ""
+"授权license文件错误。\n"
+"请确认下载地址正确无误后重试。"
+
+#: Application/Rainlendar.cpp:2342
+msgid ""
+"Found these old Rainlendar files:\n"
+"\n"
+msgstr ""
+"发现这些旧的 Rainlendar 文件：\n"
+"\n"
+
+#: Application/Rainlendar.cpp:2349
+msgid "Do you want to import them?"
+msgstr "你确定要导入它们吗？"
+
+#: Application/Rainlendar.cpp:2371
+#, c-format
+msgid "Import failed with file: \"%s\""
+msgstr "导入 \"%s\" 文件失败"
+
+#: Application/Rainlendar.cpp:2498
+msgid "Purchase Rainlendar2 Pro?"
+msgstr "购买Rainlendar2 Pro版？"
+
+#: Application/Rainlendar.cpp:2499
+msgid ""
+"I hope you've enjoyed using Rainlendar for the past month. Would you like to upgrade to the Pro version with additional functionality? If you use the \"Buy Now\" link below you can purchase the license at a discounted price. You can also press the \"No thanks\" button and never see this message again.\n"
+"\n"
+"Thank you for the support."
+msgstr ""
+"我希望你过去的一个月使用  Rainlendar 开心。你想要升级到带有附加功能的 Pro 版本吗？如果你使用下面的 \"现在购买\"链接你可以以折扣价购买许可证。你也可以按 \"否，谢谢\"按钮，然后永远不会再看到此消息。\n"
+"\n"
+"谢谢你的支持。"
+
+#: Application/Rainlendar.cpp:2502
+msgid "&Buy Now"
+msgstr "立即购买(&B)"
+
+#: Application/Rainlendar.cpp:2503
+msgid "&Remind later"
+msgstr "以后提醒(&R)"
+
+#: Application/Rainlendar.cpp:2504
+msgid "&No Thanks"
+msgstr "否，谢谢(&N)"
+
+#: Application/SkinIni.cpp:228
+msgid "The color of the text in calendar and in the lists."
+msgstr "日历和列表中的文字颜色。"
+
+#: Application/SkinIni.cpp:235
+msgid "The color of the text in the tooltip."
+msgstr "提示中的文字颜色。"
+
+#: Application/SkinIni.cpp:342
+msgid "Defines the month that the calendar shows. Set to +1 for the next month, -1 for the previous month or a value from 0 to 11 for a specific month in the current year."
+msgstr "设置日历显示的月份。+1 为下个月，-1 为上个月，或者以 0 到 11 的值对应当年相应的月份。"
+
+#: Application/SkinIni.cpp:556 Application/Resource.h:742
+msgid "Defines the width of the event list."
+msgstr "设置事件列表的宽度。"
+
+#: Application/SkinIni.cpp:557 Application/Resource.h:743
+msgid "Defines the width of the to do list."
+msgstr "设定任务列表的宽度。"
+
+#: Application/SkinManager.cpp:100
+msgid ""
+"Unable to find active skins.\n"
+"Click OK to load the first available skin."
+msgstr ""
+"无法找到当前皮肤。\n"
+"点击 确定 将自动加载第一个可用的皮肤。"
+
+#: Application/SkinManager.cpp:105
+msgid ""
+"The skin doesn't have any active windows.\n"
+"The default windows are used instead."
+msgstr ""
+"此皮肤没有激活打开任何窗口。\n"
+"即将启用默认的窗口。"
+
+#: Application/SkinManager.cpp:110
+msgid ""
+"The skin doesn't exist.\n"
+"Click OK to load the first available skin."
+msgstr ""
+"该皮肤不存在。\n"
+"点击 确定 将自动加载第一个可用的皮肤。"
+
+#: Application/SkinXML.cpp:1296
+msgid "No items"
+msgstr "没有项目"
+
+#: Application/SkinXML.cpp:1380
+msgid "No events"
+msgstr "没有事件"
+
+#: Application/SkinXML.cpp:1454
+msgid "No tasks"
+msgstr "没有任务"
+
+#: Application/TrayIcon.cpp:676
+msgid "Synchronizing"
+msgstr "同步中"
+
+#: Application/TrayIcon.cpp:680
+msgid "Offline"
+msgstr "脱机"
+
+#: Application/Util.cpp:619
+msgid "Jan"
+msgstr "一月"
+
+#: Application/Util.cpp:621
+msgid "Feb"
+msgstr "二月"
+
+#: Application/Util.cpp:623
+msgid "Mar"
+msgstr "三月"
+
+#: Application/Util.cpp:625
+msgid "Apr"
+msgstr "四月"
+
+#: Application/Util.cpp:629
+msgid "Jun"
+msgstr "六月"
+
+#: Application/Util.cpp:631
+msgid "Jul"
+msgstr "七月"
+
+#: Application/Util.cpp:633
+msgid "Aug"
+msgstr "八月"
+
+#: Application/Util.cpp:635
+msgid "Sep"
+msgstr "九月"
+
+#: Application/Util.cpp:637
+msgid "Oct"
+msgstr "十月"
+
+#: Application/Util.cpp:639
+msgid "Nov"
+msgstr "十一月"
+
+#: Application/Util.cpp:641
+msgid "Dec"
+msgstr "十二月"
+
+#  "This is the common ordinal format. Set it like the ordinal numbers (5th, 27th, 599th) are usually written in your language. The %i will be raplaced with the number. The exceptions are defined in the next entry.
+#: Application/Util.cpp:1945
+#, c-format
+msgid "%ith"
+msgstr "%i"
+
+#  "These are the the exceptions to the ordinal numbers. The numeric value in the exceptions is checked with the ordinal number and if the last numbers match the exception format is used instead of the normal format. For example "11th" will match with 11, 111, 211, 311, etc. The "1st" will match with 1, 21, 31, ..., 101, 121, 131, etc. Note that "1st" will not be used with 11, 111, 211, etc. because the "11th" was checked and matched first.
+#: Application/Util.cpp:1946
+msgid "11th;12th;13th;1st;2nd;3rd"
+msgstr "11;12;13;1;2;3"
+
+#: Application/Util.cpp:2235
+msgid "edit"
+msgstr "编辑"
+
+#: Application/Util.cpp:2408
+msgid "Do you want to create the file?"
+msgstr "你确定要创建该文件吗？"
+
+#: Application/Util.cpp:2409
+#, c-format
+msgid ""
+"The file does not exist:\n"
+"%s"
+msgstr ""
+"下列文件不存在：\n"
+"%s"
+
+#: Application/Util.cpp:2418
+#, c-format
+msgid "Unable to create the file \"%s\"."
+msgstr "无法创建文件 \"%s\"。"
+
+#: Application/Util.cpp:2660
+msgid "This is a read only event."
+msgstr "这是一个只读事件。"
+
+#: Application/Util.cpp:2660
+msgid "It's not possible to edit this event with Rainlendar."
+msgstr "在Rainlendar无法编辑此事件。"
+
+#: Application/Util.cpp:2664
+msgid "This is a read only task."
+msgstr "这是一个只读的任务。"
+
+#: Application/Util.cpp:2664
+msgid "It's not possible to edit this task with Rainlendar."
+msgstr "在Rainlendar无法编辑此任务。"
+
+#: Application/WindowTooltip.cpp:287
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:219
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:210
+msgid "URL"
+msgstr "网址"
+
+#: Application/WizardCalendar.cpp:25 Application/WizardCalendar.cpp:30
+msgid "Create a new calendar"
+msgstr "创建一个新日历"
+
+#: Application/WizardPageCalendar.cpp:47
+msgid "Please select the type of the calendar."
+msgstr "请指定日历类型"
+
+#: Application/WizardPageCalendar.cpp:51
+msgid "The calendar type defines the format of the events and where they are stored."
+msgstr "日历类型限定了事件格式，以及存储的位置。"
+
+#: Application/WizardPageCalendar.cpp:66
+msgid "local"
+msgstr "本地"
+
+#: Application/WizardPageCalendar.cpp:76
+msgid "deprecated"
+msgstr "不推荐使用"
+
+#: Application/WizardPageCalendar.cpp:83
+msgid "Type"
+msgstr "类型"
+
+#: Application/WizardPageCalendar.cpp:92
+msgid "Go Pro"
+msgstr "升级为Pro版"
+
+#: Application/WizardPageCalendar.cpp:96
+msgid "Rainlendar Pro allows you to access your Outlook, Google Calendar and other 3rd party calendars and task lists directly from the desktop."
+msgstr "Rainlendar Pro 允许你访问你的 Outlook、 谷歌日历和其他第三方日历和直接来自桌面任务列表。"
+
+#: Application/WizardPageCalendar.cpp:98
+msgid "Rainlendar Pro allows you to access your Google Calendar and other 3rd party calendars and task lists directly from the desktop."
+msgstr "Rainlendar Pro 允许你访问你的谷歌日历和其他第三方日历和直接来自桌面任务列表。"
+
+#: Application/WizardPageCalendar.cpp:105
+msgid "Buy license"
+msgstr "购买Pro版授权"
+
+#: Application/WizardPageCalendar.cpp:107
+msgid "See differences"
+msgstr "查看差异"
+
+#: Application/WizardPageCalendar.cpp:135
+msgid "No calendar selected!"
+msgstr "未选择任何日历！"
+
+#: Application/WizardPageCalendar.cpp:136
+msgid "You need to select a calendar type."
+msgstr "您必须选择一种日历类型。"
+
+#: Application/WizardPageCalendar.cpp:404
+msgid "Downloading..."
+msgstr "下载中..."
+
+#: Application/WizardPageCalendar.cpp:467
+msgid "No urls allowed!"
+msgstr "无可用网址！"
+
+#: Application/WizardPageCalendar.cpp:468
+msgid "Only local files can be defined as the file name."
+msgstr "只有本地文件才能指定文件名。"
+
+#: Application/WizardPageCalendar.cpp:474
+msgid "No UNC paths allowed!"
+msgstr "无可用 UNC 路径！"
+
+#: Application/WizardPageCalendar.cpp:475
+msgid "It's not possible to use UNC paths as the file name. You need to map the network drive to be able to access the files on a server."
+msgstr "无法使用 UNC 路径作为文件名。您需要映射网络驱动器才能从服务器上获取文件。"
+
+#: Application/WizardPageCalendar.cpp:481
+msgid "No filename defined!"
+msgstr "文件名为空！"
+
+#: Application/WizardPageCalendar.cpp:482
+msgid "You cannot leave the filename field empty. You need to define a file where the events and tasks will be stored."
+msgstr "你必须输入一个文件名。或指定一个ics日历用于存储事件或任务。"
+
+#: Application/WizardPageCalendar.cpp:488
+msgid "The file name is missing."
+msgstr "文件名丢失。"
+
+#: Application/WizardPageCalendar.cpp:489
+msgid "If you are creating a new calendar you can enter anything as the name. Otherwise select an existing iCalendar (*.ics) file."
+msgstr "创建新日历时，您可以输入任意文字为其命名。或者直接选用一个已存在的 iCalendar(*.ics) 文件。"
+
+#: Application/WizardPageCalendar.cpp:509
+msgid "The url is empty!"
+msgstr "网址为空！"
+
+#: Application/WizardPageCalendar.cpp:510
+msgid "You cannot leave the url field empty. You need to define a file where the events and tasks will be stored."
+msgstr "你必须输入网址。以指定一个日历用于保存事件或任务。"
+
+#: Application/WizardPageCalendar.cpp:516
+msgid "The protocol is missing!"
+msgstr "网络协议错误！"
+
+#: Application/WizardPageCalendar.cpp:517
+msgid "Please give also the protocol for the url (e.g. \"http://\")."
+msgstr "请在网址前加上协议名称（例如：\"http://\"）。"
+
+#: Application/WizardPageCalendar.cpp:523
+msgid "The file name is missing from the url!"
+msgstr "网址中的文件名无效！"
+
+#: Application/WizardPageCalendar.cpp:524
+msgid ""
+"If you are creating a new calendar you can enter anything as the name. Otherwise you should verify that the server really doesn't define any file for the url.\n"
+"\n"
+"Do you want to continue?"
+msgstr ""
+"您可以输入任意文字创建一个新日历。但要确保没有和服务器上的其他文件重名。\n"
+"\n"
+"请问您要继续吗？"
+
+#: Application/WizardPageCalendar.cpp:541
+msgid "Incorrect email!"
+msgstr "错误的邮件地址！"
+
+#: Application/WizardPageCalendar.cpp:542
+msgid "You need to enter a full email address."
+msgstr "请输入完整的电子邮件地址。"
+
+#: Application/WizardPageCalendar.cpp:574
+msgid "Please select the calendar."
+msgstr "请选择的日历。"
+
+#: Application/WizardPageCalendar.cpp:575
+msgid "You have not selected any calendar. Are you sure you want to continue?"
+msgstr "你没有选择任何日历。你确定要继续吗？"
+
+#: Application/WizardPageCalendar.cpp:707
+msgid "Name"
+msgstr "名称"
+
+#: Application/WizardPageCalendar.cpp:793
+msgid "The calendar already exists!"
+msgstr "该日历已存在！"
+
+#: Application/WizardPageCalendar.cpp:794
+msgid "Please choose some other name for the calendar."
+msgstr "请为日历重命名。"
+
+#: Application/WizardPageCalendar.cpp:802
+msgid "The calendar name is empty!"
+msgstr "日历名称为空！"
+
+#: Application/WizardPageCalendar.cpp:803
+msgid "You must give a name for the calendar."
+msgstr "你需要为该日历指定一个名称。"
+
+#: Application/WizardPageCalendar.cpp:811
+msgid "Illegal character!"
+msgstr "非法字符！"
+
+#: Application/res/alarm.cpp:1
+msgid "Alarm sound"
+msgstr "闹铃声音"
+
+#: Application/res/alarm.cpp:2
+msgid "Select alarm sound"
+msgstr "选择报警声音"
+
+#: Application/res/alarm.cpp:3
+msgid "Default sound"
+msgstr "默认声音"
+
+#: Application/res/alarm.cpp:4 Application/res/alarm.cpp:8
+msgid "Preview"
+msgstr "预览"
+
+#: Application/res/alarm.cpp:5
+msgid "No sound"
+msgstr "无声音"
+
+#: Application/res/alarm.cpp:6
+msgid "Custom sound / executable"
+msgstr "自定义声音 / 可执行的"
+
+#: Application/res/alarm.cpp:7
+msgid "Browse..."
+msgstr "浏览…"
+
+#: Application/res/bulkchange.cpp:1
+msgid "Bulk Change"
+msgstr "批次变更"
+
+#: Application/res/bulkchange.cpp:2
+msgid "Type:"
+msgstr "类型:"
+
+#: Application/res/bulkchange.cpp:5 Application/res/event.cpp:5
+#: Application/res/todo.cpp:5
+msgid "Summary:"
+msgstr "内容："
+
+#: Application/res/bulkchange.cpp:6 Application/res/event.cpp:6
+#: Application/res/todo.cpp:6
+msgid "Location:"
+msgstr "地点："
+
+#: Application/res/bulkchange.cpp:7 Application/res/event.cpp:8
+#: Application/res/todo.cpp:8
+msgid "Url:"
+msgstr "网址："
+
+#: Application/res/bulkchange.cpp:8
+msgid "Class:"
+msgstr "类别："
+
+#: Application/res/bulkchange.cpp:9 Application/res/event.cpp:7
+#: Application/res/todo.cpp:7
+msgid "Private"
+msgstr "私密"
+
+#: Application/res/bulkchange.cpp:10
+msgid "Public"
+msgstr "公开的"
+
+#: Application/res/bulkchange.cpp:11
+msgid "Time type:"
+msgstr "时间类型："
+
+#: Application/res/bulkchange.cpp:12
+msgid "With time"
+msgstr "随时间推移"
+
+#: Application/res/bulkchange.cpp:13 Application/Resource.h:637
+msgid "All day"
+msgstr "全天事件"
+
+#: Application/res/bulkchange.cpp:14 Application/res/event.cpp:9
+#: Application/res/todo.cpp:9
+msgid "Start time:"
+msgstr "开始时间："
+
+#: Application/res/bulkchange.cpp:15 Application/res/bulkchange.cpp:24
+msgid "Absolute"
+msgstr "绝对时间"
+
+#: Application/res/bulkchange.cpp:16 Application/res/bulkchange.cpp:25
+msgid "Relative"
+msgstr "相对(时间)"
+
+#: Application/res/bulkchange.cpp:20 Application/res/bulkchange.cpp:29
+#: Application/res/bulkchange.cpp:68 Application/res/event.cpp:22
+#: Application/res/todo.cpp:47
+msgid "Months"
+msgstr "月"
+
+#: Application/res/bulkchange.cpp:21 Application/res/bulkchange.cpp:30
+#: Application/res/bulkchange.cpp:69 Application/res/event.cpp:23
+#: Application/res/todo.cpp:48
+msgid "Years"
+msgstr "年"
+
+#: Application/res/bulkchange.cpp:32
+msgid "Visibility:"
+msgstr "显示:"
+
+#: Application/res/bulkchange.cpp:33 Application/res/todo.cpp:12
+msgid "Show in calendar"
+msgstr "在日历中显示"
+
+#: Application/res/bulkchange.cpp:34 Application/res/todo.cpp:14
+msgid "Priority:"
+msgstr "优先级："
+
+#: Application/res/bulkchange.cpp:39 Application/res/todo.cpp:20
+msgid "Status:"
+msgstr "状态："
+
+#: Application/res/bulkchange.cpp:40 Application/res/todo.cpp:21
+#: Application/res/todo.cpp:22
+msgid "Not Started"
+msgstr "未开始"
+
+#: Application/res/bulkchange.cpp:44 Application/res/todo.cpp:26
+msgid "Progress:"
+msgstr "进度："
+
+#: Application/res/bulkchange.cpp:45 Application/res/bulkchange.cpp:46
+#: Application/res/todo.cpp:27 Application/res/todo.cpp:28
+msgid "0 %"
+msgstr "0 %"
+
+#: Application/res/bulkchange.cpp:47 Application/res/todo.cpp:29
+msgid "10 %"
+msgstr "10 %"
+
+#: Application/res/bulkchange.cpp:48 Application/res/todo.cpp:30
+msgid "20 %"
+msgstr "20 %"
+
+#: Application/res/bulkchange.cpp:49 Application/res/todo.cpp:31
+msgid "30 %"
+msgstr "30 %"
+
+#: Application/res/bulkchange.cpp:50 Application/res/todo.cpp:32
+msgid "40 %"
+msgstr "40 %"
+
+#: Application/res/bulkchange.cpp:51 Application/res/todo.cpp:33
+msgid "50 %"
+msgstr "50 %"
+
+#: Application/res/bulkchange.cpp:52 Application/res/todo.cpp:34
+msgid "60 %"
+msgstr "60 %"
+
+#: Application/res/bulkchange.cpp:53 Application/res/todo.cpp:35
+msgid "70 %"
+msgstr "70 %"
+
+#: Application/res/bulkchange.cpp:54 Application/res/todo.cpp:36
+msgid "80 %"
+msgstr "80 %"
+
+#: Application/res/bulkchange.cpp:55 Application/res/todo.cpp:37
+msgid "90 %"
+msgstr "90 %"
+
+#: Application/res/bulkchange.cpp:56 Application/res/todo.cpp:38
+msgid "100 %"
+msgstr "100 %"
+
+#: Application/res/bulkchange.cpp:57
+msgid "Free/Busy:"
+msgstr "空闲/忙碌："
+
+#: Application/res/bulkchange.cpp:58
+msgid "Free"
+msgstr "空闲"
+
+#: Application/res/bulkchange.cpp:59
+msgid "Busy"
+msgstr "忙碌"
+
+#: Application/res/bulkchange.cpp:60
+msgid "Description:"
+msgstr "描述:"
+
+#: Application/res/bulkchange.cpp:61
+msgid "Alarm:"
+msgstr "闹铃:"
+
+#: Application/res/bulkchange.cpp:62 Application/res/event.cpp:16
+#: Application/res/todo.cpp:41
+msgid "Category:"
+msgstr "分类:"
+
+#: Application/res/bulkchange.cpp:64
+msgid "Recurrence:"
+msgstr "重复周期:"
+
+#: Application/res/bulkchange.cpp:65 Application/res/event.cpp:19
+#: Application/res/todo.cpp:44
+msgid "Repeat every"
+msgstr "重复模式"
+
+#: Application/res/bulkchange.cpp:67 Application/res/event.cpp:21
+#: Application/res/todo.cpp:46
+msgid "Weeks"
+msgstr "周"
+
+#: Application/res/bulkchange.cpp:70
+msgid "Repeat ending"
+msgstr "重复结束"
+
+#: Application/res/bulkchange.cpp:71 Application/res/event.cpp:32
+#: Application/res/todo.cpp:57
+msgid "Forever"
+msgstr "无结束日期"
+
+#: Application/res/bulkchange.cpp:72
+msgid "Number of times"
+msgstr "重复次数"
+
+#: Application/res/bulkchange.cpp:73 Application/res/event.cpp:35
+#: Application/res/todo.cpp:60
+msgid "Until"
+msgstr "结束日期"
+
+#: Application/res/event.cpp:10
+msgid "All day event"
+msgstr "全天事件"
+
+#: Application/res/event.cpp:12
+msgid "Mark time as busy"
+msgstr "标记为忙碌"
+
+#: Application/res/event.cpp:13 Application/res/todo.cpp:13
+msgid "Time zone:"
+msgstr "时区："
+
+#: Application/res/event.cpp:14 Application/res/todo.cpp:39
+msgid "Calendar:"
+msgstr "日历："
+
+#: Application/res/event.cpp:24 Application/res/todo.cpp:49
+msgid "Mon"
+msgstr "星期一"
+
+#: Application/res/event.cpp:25 Application/res/todo.cpp:50
+msgid "Tue"
+msgstr "星期二"
+
+#: Application/res/event.cpp:26 Application/res/todo.cpp:51
+msgid "Wed"
+msgstr "星期三"
+
+#: Application/res/event.cpp:27 Application/res/todo.cpp:52
+msgid "Thu"
+msgstr "星期四"
+
+#: Application/res/event.cpp:28 Application/res/todo.cpp:53
+msgid "Fri"
+msgstr "星期五"
+
+#: Application/res/event.cpp:29 Application/res/todo.cpp:54
+msgid "Sat"
+msgstr "星期六"
+
+#: Application/res/event.cpp:30 Application/res/todo.cpp:55
+msgid "Sun"
+msgstr "星期日"
+
+#: Application/res/event.cpp:31 Application/res/todo.cpp:56
+msgid "Repeat"
+msgstr "重复范围"
+
+#: Application/res/event.cpp:33 Application/res/todo.cpp:58
+msgid "End after"
+msgstr "结束后"
+
+#: Application/res/event.cpp:34 Application/res/todo.cpp:59
+msgid "occurrences"
+msgstr "事件"
+
+#: Application/res/event.cpp:36 Application/res/todo.cpp:61
+msgid "Exception dates"
+msgstr "例外日期"
+
+#: Application/res/event.cpp:37 Application/res/options.cpp:28
+#: Application/res/todo.cpp:62
+msgid "Add"
+msgstr "新增"
+
+#: Application/res/manager.cpp:4
+msgid "Show events"
+msgstr "显示事件"
+
+#: Application/res/manager.cpp:5
+msgid "Show tasks"
+msgstr "显示任务"
+
+#: Application/res/newmanager.cpp:5
+msgid "Show descriptions"
+msgstr "显示说明"
+
+#: Application/res/options.cpp:2
+msgid "Week's start day:"
+msgstr "一周的第一天："
+
+#: Application/res/options.cpp:3
+msgid "Show today's events on tray when Rainlendar is started"
+msgstr "启动 Rainlendar 时，在系统托盘处显示今日事件"
+
+#: Application/res/options.cpp:4
+msgid "Hide list windows if there are no items"
+msgstr "无内容时隐藏该列表窗口"
+
+#: Application/res/options.cpp:5
+msgid "Click through (hold Shift-key down to deactivate)"
+msgstr "鼠标穿透 (按住 Shift 键取消)"
+
+#: Application/res/options.cpp:6
+msgid "Lock windows in place"
+msgstr "锁定窗口位置"
+
+#: Application/res/options.cpp:7
+msgid "Enable on startup"
+msgstr "开机自动运行"
+
+#: Application/res/options.cpp:8
+msgid "Add years after summary for categories"
+msgstr "分类事件显示循环年度"
+
+#: Application/res/options.cpp:9 Application/res/options.cpp:32
+msgid "Categories..."
+msgstr "分类设置…"
+
+#: Application/res/options.cpp:10
+msgid "Language:"
+msgstr "语言："
+
+#: Application/res/options.cpp:11
+msgid "Position"
+msgstr "窗口位置"
+
+#: Application/res/options.cpp:16
+msgid "Opacity"
+msgstr "透明度"
+
+#: Application/res/options.cpp:17
+msgid "Normal:"
+msgstr "正常："
+
+#: Application/res/options.cpp:18
+msgid "Mouse over:"
+msgstr "鼠标移过："
+
+#: Application/res/options.cpp:22
+msgid "Duplicate..."
+msgstr "建立副本..."
+
+#: Application/res/options.cpp:25
+msgid "Action:"
+msgstr "动作："
+
+#: Application/res/options.cpp:26
+msgid "Hotkey:"
+msgstr "快捷键："
+
+#: Application/res/options.cpp:27
+msgid "Set"
+msgstr "修改"
+
+#: Application/res/options.cpp:30
+msgid "Available skins"
+msgstr "可用皮肤"
+
+#: Application/res/options.cpp:31
+msgid "Active skins"
+msgstr "当前皮肤"
+
+#: Application/res/options.cpp:33
+msgid "Settings..."
+msgstr "设置…"
+
+#: Application/res/print.cpp:1
+msgid "All items"
+msgstr "所有记录"
+
+#: Application/res/print.cpp:2
+msgid "Selected items"
+msgstr "已选记录"
+
+#: Application/res/print.cpp:3
+msgid "Day range"
+msgstr "日期范围"
+
+#: Application/res/print.cpp:4
+msgid "Select days"
+msgstr "选择日期"
+
+#: Application/res/print.cpp:7
+msgid "Add title"
+msgstr "添加标题"
+
+#: Application/res/print.cpp:8
+msgid "Preview..."
+msgstr "预览…"
+
+#: Application/res/print.cpp:10
+msgid "Page Setup..."
+msgstr "页面设置…"
+
+#: Application/res/todo.cpp:1 Application/res/todo.cpp:4
+msgid "Todo"
+msgstr "任务"
+
+#: Application/res/todo.cpp:10
+msgid "Date only"
+msgstr "仅日期"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:223
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:214
+msgid "Username"
+msgstr "用户名"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:227
+#: Plugins/GooglePlugin/GoogleHandler.cpp:251
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:218
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:232
+msgid "Password"
+msgstr "密码"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:236
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:298
+#: Plugins/GooglePlugin/GoogleHandler.cpp:243
+msgid "Calendar name"
+msgstr "日历名称"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:240
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:310
+#: Plugins/GooglePlugin/GoogleHandler.cpp:260
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:273
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:227
+#: Plugins/OutlookPlugin/MapiHandler.cpp:523
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:218
+msgid "Poll frequency (mins)"
+msgstr "更新频率（分钟）"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:244
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:325
+#: Plugins/GooglePlugin/GoogleHandler.cpp:275
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:288
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:235
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:233
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:249
+msgid "Suppress errors"
+msgstr "关闭错误提示"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:248
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:329
+#: Plugins/GooglePlugin/GoogleHandler.cpp:279
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:292
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:239
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:237
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:253
+msgid "Keep offline copy"
+msgstr "保留离线副本"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:252
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:247
+msgid "Authentication"
+msgstr "验证"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:255
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:250
+msgid "Basic"
+msgstr "基本"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:256
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:251
+msgid "Digest"
+msgstr "摘要"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:257
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:252
+msgid "GSS-Negotiate"
+msgstr "GSS-Negotiate"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:258
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:253
+msgid "NTLM"
+msgstr "NTLM"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:261
+msgid "Support"
+msgstr "支持"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:264
+msgid "Automatic"
+msgstr "自动"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:267
+msgid "Both"
+msgstr "两者"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.cpp:309
+msgid ""
+"Choose a URL, username and password for the calendar and click the select calendar button.\n"
+"\n"
+"The username and password fields can be left empty if they are not needed."
+msgstr ""
+"为日历选择一个 URL、 用户名和密码，单击选择日历按钮。\n"
+"\n"
+"用户名和密码字段可以留空，如果不需要这些。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:246
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:760
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:789
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:813
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:1057
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:1239
+#, c-format
+msgid "CalDAV Error (%s)!"
+msgstr "CalDAV 错误 (%s)！"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:248
+#: Plugins/NetworkPlugin/NetworkThread.cpp:885
+#, c-format
+msgid ""
+"Error uploading the data to the url:\n"
+"%s\n"
+"\n"
+"Server returned result: (%i) %i %s."
+msgstr ""
+"上传错误资料至：\n"
+"%s\n"
+"\n"
+"伺服器传回讯息: (%i) %i %s."
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:366
+#: Plugins/GooglePlugin/GoogleThread.cpp:193
+#: Plugins/GooglePlugin/GoogleThread.cpp:325
+#: Plugins/GooglePlugin/GoogleThread.cpp:570
+#: Plugins/GooglePlugin/GoogleThread.cpp:602
+#: Plugins/GooglePlugin/GoogleThread.cpp:628
+#: Plugins/GooglePlugin/GoogleThread.cpp:853
+#: Plugins/GooglePlugin/GoogleThread.cpp:1047
+#: Plugins/GooglePlugin/GoogleThread.cpp:1106
+#: Plugins/GooglePlugin/GoogleThread.cpp:1159
+#: Plugins/GooglePlugin/GoogleThread.cpp:1433
+#, c-format
+msgid "Google Error (%s)!"
+msgstr "Google 错误 (%s)！"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:368
+msgid "Unable to delete the event."
+msgstr "无法删除该事件。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:369
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1066
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1325
+#: Plugins/GooglePlugin/GoogleThread.cpp:857
+#: Plugins/GooglePlugin/GoogleThread.cpp:1163
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:856
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1183
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1216
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:796
+#, c-format
+msgid "Server returned result: (%i) %i %s."
+msgstr "服务器返回的结果：(%i) %i %s。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:490
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:500
+msgid "Unable to read the calendars from the server."
+msgstr "无法从服务器读取日历。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:495
+msgid "Unable to authenticate to the server."
+msgstr "无法向服务器进行身份验证。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:762
+#: Plugins/GooglePlugin/GoogleThread.cpp:636
+#, c-format
+msgid ""
+"Unable to find the chosen calendar (%s).\n"
+"\n"
+"Available calendars are:\n"
+msgstr ""
+"找不到指定的日历 (%s)\n"
+"\n"
+"可用的日历有：\n"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:791
+msgid "Failed to read the calendar from the server."
+msgstr "无法从服务器读取日历。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:818
+msgid "Authentication failed. Verify that you have entered correct username and password."
+msgstr "身份验证失败。请验证你已输入正确的用户名和密码。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:822
+msgid "Unable to connect to the server. Make sure your network connection is working."
+msgstr "无法连接到服务器。请确认你的网络连接正常。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:826
+#, c-format
+msgid "The url \"%s\" does not contain any calendars."
+msgstr "网址 \"%s\"不包含任何日历。"
+
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:1059
+#: Plugins/CalDAVPlugin/CalDAVThread.cpp:1241
+#, c-format
+msgid ""
+"Error downloading the data from the url:\n"
+"%s"
+msgstr ""
+"从 url 下载数据时出错：\n"
+"%s"
+
+#: Plugins/Common/ThreadHelper.cpp:603
+msgid "Make sure that your network is working and that your firewall is not blocking the connection."
+msgstr "请确保您的网络畅通，并且没有被防火墙阻挡。"
+
+#: Plugins/Common/ThreadHelper.cpp:618
+msgid "Unable to resolve the proxy. Verify that your proxy settings are correct."
+msgstr "找不到代理服务器，请确保你的代理服务器设置正确。"
+
+#: Plugins/Common/ThreadHelper.cpp:619
+msgid "Unable to resolve the host."
+msgstr "无法找到主机。"
+
+#: Plugins/Common/ThreadHelper.cpp:620
+msgid "Unable to connect to the server."
+msgstr "无法连接到服务器。"
+
+#: Plugins/Common/ThreadHelper.cpp:648
+msgid "Secure connection (SSL) to the server failed."
+msgstr "安全连接 (SSL) 服务器失败。"
+
+#  "Test string. Can be ignored.
+#: Plugins/Common/json/samples/test1.cpp:693
+#: Plugins/Common/json/samples/test1.cpp:698
+msgid "FALSE"
+msgstr "FALSE"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:302
+msgid "UID"
+msgstr "UID"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:333
+#: Plugins/GooglePlugin/GoogleHandler.cpp:283
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:385
+#: Plugins/OutlookPlugin/MapiHandler.cpp:528
+msgid "Import limit"
+msgstr "导入限制"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:336
+#: Plugins/GooglePlugin/GoogleHandler.cpp:286
+#: Plugins/OutlookPlugin/MapiHandler.cpp:530
+msgid "Everything"
+msgstr "全部"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:337
+#: Plugins/GooglePlugin/GoogleHandler.cpp:287
+msgid "Future only"
+msgstr "仅未来"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:338
+#: Plugins/GooglePlugin/GoogleHandler.cpp:288
+msgid "Past month"
+msgstr "过去 1 个月"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:339
+#: Plugins/GooglePlugin/GoogleHandler.cpp:289
+msgid "Past 6 months"
+msgstr "过去 6 个月"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:340
+#: Plugins/GooglePlugin/GoogleHandler.cpp:290
+msgid "Past year"
+msgstr "过去 1 年"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:341
+#: Plugins/GooglePlugin/GoogleHandler.cpp:291
+msgid "Past 2 years"
+msgstr "过去 2 年"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:345
+msgid "Color mapping"
+msgstr "颜色映射"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:463
+#: Plugins/GooglePlugin/GoogleHandler.cpp:331 Application/Resource.h:476
+msgid "Google Calendar"
+msgstr "Google 日历"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.cpp:468
+msgid "Enter your Google account email address and click the \"Select calendar\" button and choose the calendar you want to access."
+msgstr "输入你的 Google 帐户电子邮件地址，然后单击 \"选择日历\"按钮，然后选择你想要访问的日历。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:128
+#: Plugins/GooglePlugin/GoogleThread.cpp:119
+msgid "Unable to read the calendars."
+msgstr "无法读取该日历."
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:133
+#: Plugins/GooglePlugin/GoogleThread.cpp:124
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:127
+msgid "Authentication failed."
+msgstr "验证失败"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:138
+#: Plugins/GooglePlugin/GoogleThread.cpp:129
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:132
+msgid ""
+"Unable to authenticate to Google.\n"
+"Please verify that your email\n"
+"and password are correct."
+msgstr ""
+"无法验证 Google.\n"
+"请确认您的电子邮件\n"
+"以及密码是否正确."
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:188
+#: Plugins/GooglePlugin/GoogleThread.cpp:182
+msgid "The event cannot be uploaded because the target calendar hasn't been defined."
+msgstr "事件无法被上传，因为目标行事历没有被定义。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:209
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:371
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:619
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:653
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:700
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1062
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1218
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1262
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1321
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1601
+#, c-format
+msgid "Google Calendar Error (%s)!"
+msgstr "Google 日历错误(%s)！"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:376
+#: Plugins/GooglePlugin/GoogleThread.cpp:330
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:370
+msgid "Unable to authenticate to Google. The 2-step verification is enabled for your account so you need to create an application specific password for Rainlendar. You can do this in the Google account settings under the \"2-step verification\"."
+msgstr "Google无法验证。你的帐号已启用两步骤验证机制，你必须为Rainlendar设定一组应用程式专用密码。你可以在Google帐户设定中的\"两步骤验证机制\"中进行设定。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:380
+msgid "Unable to authenticate to Google. Rainlendar's access to the Google Calendar might have been revoked. Please refresh the calendar and authenticate Rainlendar again to your Google account."
+msgstr "无法对 Google 进行身份验证。Rainlendar 访问 Google 日历 可能被撤销。请刷新日历并重新进行 Rainlendar 到你的 Google 账户身份验证。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:392
+#: Plugins/GooglePlugin/GoogleThread.cpp:334
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:384
+#, c-format
+msgid ""
+"Unable to authenticate to Google.\n"
+"Server returned result: (%i) %i %s."
+msgstr ""
+"无法验证 Google.\n"
+"伺服器传回讯息: (%i) %i %s."
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:621
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1603
+#: Plugins/GooglePlugin/GoogleThread.cpp:572
+#: Plugins/GooglePlugin/GoogleThread.cpp:1435
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1421
+#, c-format
+msgid ""
+"Unable to download the calendars.\n"
+"Server returned result: (%i) %i %s."
+msgstr ""
+"无法下载指定日历。\n"
+"服务器返回结果： (%i) %i %s。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:655
+#: Plugins/GooglePlugin/GoogleThread.cpp:604
+msgid "Unable to parse the calendar url."
+msgstr "无法解析日历 URL。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:704
+#: Plugins/GooglePlugin/GoogleThread.cpp:632
+msgid ""
+"It seems that you have entered a URL as the calendar name.\n"
+"You need to use one of the names below instead:\n"
+msgstr ""
+"您可能输入了一个网址做为该日历的名称\n"
+"你需要使用下列其中一个名称来代替：\n"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:708
+#, c-format
+msgid ""
+"Unable to find the chosen calendar (%s).\n"
+"\n"
+"Available lists are:\n"
+msgstr ""
+"无法找到选择的日历 (%s)。\n"
+"\n"
+"可用列表如下：\n"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1064
+#: Plugins/GooglePlugin/GoogleThread.cpp:855
+msgid "Unable to delete the event: "
+msgstr "无法删除事件:"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1220
+#: Plugins/GooglePlugin/GoogleThread.cpp:1049
+msgid "The event cannot be uploaded to the Google Calendar due to a conflict. The updated event will be reloaded from the Google Calendar."
+msgstr "由于发生冲突，所以这个事件无法上传到Google Calendar。更新后的事件将从Google Calendar重新读取。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1264
+#: Plugins/GooglePlugin/GoogleThread.cpp:1108
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1122
+msgid "Unable to parse the events."
+msgstr "无法解析时事件。"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarThread.cpp:1323
+#: Plugins/GooglePlugin/GoogleThread.cpp:1161
+msgid "Unable to upload the event: "
+msgstr "无法上传事件："
+
+#: Plugins/GooglePlugin/GoogleHandler.cpp:336
+msgid "Enter the email and password for your Google account, click the \"Select calendar\" button and choose the calendar and task list you want to access."
+msgstr "输入您Google帐户的电子邮件及密码，按下\"选择行事历\"按钮选择您要汇入的行事历或工作表。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:265
+msgid "Task list name"
+msgstr "任务列表名称"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:331
+#: Application/Resource.h:479
+msgid "Google Tasks"
+msgstr "Google 任务"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.cpp:336
+msgid "Enter your Google account email address and click the \"Select task list\" button and choose the task list you want to access."
+msgstr "输入你的 Google 帐户电子邮件地址，然后单击 \"选择任务列表\"按钮，然后选择你想要访问的任务列表。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:122
+msgid "Unable to read the task lists."
+msgstr "无法读取任务列表。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:182
+msgid "The task cannot be uploaded because the target task list hasn't been defined."
+msgstr "工作无法被上传，因为目标行事历没有被定义。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:203
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:365
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:611
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:645
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:671
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:852
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1076
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1120
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1179
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1419
+#, c-format
+msgid "Google Tasks Error (%s)!"
+msgstr "Google 任务错误 (%s)！"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:374
+msgid "Unable to authenticate to Google. Rainlendar's access to the Google Task list might have been revoked. Please refresh the calendar and authenticate Rainlendar again to your Google account."
+msgstr "无法对 Google 进行身份验证。可能已撤销了 Rainlendar 对 Google 任务列表的访问。请刷新日历并重新进行 Rainlendar 到你的 Google 账户身份验证。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:613
+#, c-format
+msgid ""
+"Unable to download the task lists.\n"
+"Server returned result: (%i) %i %s."
+msgstr ""
+"无法下载任务列表。\n"
+"服务器返回结果： (%i) %i %s。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:647
+msgid "Unable to parse the task list url."
+msgstr "无法解析任务列表 URL。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:675
+msgid ""
+"It seems that you have entered a URL as the task list name.\n"
+"You need to use one of the names below instead:\n"
+msgstr ""
+"您可能输入了一个网址做为该任务列表的名称\n"
+"你需要使用下列其中一个名称来代替：\n"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:679
+#, c-format
+msgid ""
+"Unable to find the chosen task list (%s).\n"
+"\n"
+"Available lists are:\n"
+msgstr ""
+"找不到指定的任务列表 (%s)\n"
+"\n"
+"可用的列表有：\n"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:854
+msgid "Unable to delete the task: "
+msgstr "无法删除任务:"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1078
+msgid "The task cannot be uploaded to the Google Tasks due to a conflict. The updated task will be reloaded from the Google Tasks."
+msgstr "由于冲突，任务无法上传到 Google Tasks 中。已更新的任务将从 Google Tasks 中重新被读取加载。"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksThread.cpp:1181
+msgid "Unable to upload the task: "
+msgstr "无法上传任务："
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:250
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:492
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:708
+#, c-format
+msgid "Unable to open file \"%s\" for writing."
+msgstr "无法开启 \"%s\" 档案进行写入。"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:275
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:514
+#, c-format
+msgid "Unable to make a temporary copy of the file \"%s\"."
+msgstr "无法建立暂存档案 \"%s\"。"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:431
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:441
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:577
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:585
+#, c-format
+msgid "Unable to replace the file \"%s\"."
+msgstr "无法取代文件 \"%s\"。"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:843
+msgid "Filename"
+msgstr "文件名"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:848
+msgid "Monitor changes"
+msgstr "监视变更"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.cpp:919
+msgid ""
+"Choose a file for the calendar.\n"
+"\n"
+"You can select an existing ics-file or type a new path name in which case a new file will be created."
+msgstr ""
+"指定ics日历文件。\n"
+"\n"
+"你可以点击“浏览”选用原有的 ics 日历文件\n"
+"或者直接在文本框中输入名字创建一个新日历。"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:390
+#: Plugins/OutlookPlugin/MapiHandler.cpp:532
+msgid "6 months"
+msgstr "6个月"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:391
+msgid "1 year"
+msgstr "1 年"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:392
+#: Plugins/OutlookPlugin/MapiHandler.cpp:534
+msgid "2 years"
+msgstr "2年"
+
+#: Plugins/iCalMacPlugin/iCalMacHandler.cpp:461
+msgid "Select the iCal calendar from the list."
+msgstr "从列表中选择 iCal 日历。"
+
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:243
+msgid "Safe upload"
+msgstr "安全上传"
+
+#: Plugins/NetworkPlugin/NetworkHandler.cpp:295
+msgid ""
+"Choose a URL, username and password for the calendar.\n"
+"\n"
+"The URL can use http, https or ftp protocols. The username and password fields can be left empty if they are not needed."
+msgstr ""
+"请输入日历网址，用户名和密码。\n"
+"\n"
+"网址可以使用http，https或ftp协议。\n"
+"如果不需要用户名和密码，可将其留空。"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:195
+#: Plugins/NetworkPlugin/NetworkThread.cpp:217
+#: Plugins/NetworkPlugin/NetworkThread.cpp:394
+#: Plugins/NetworkPlugin/NetworkThread.cpp:444
+#: Plugins/NetworkPlugin/NetworkThread.cpp:484
+#: Plugins/NetworkPlugin/NetworkThread.cpp:883
+#, c-format
+msgid "Network Error (%s)!"
+msgstr "网络错误 (%s)！"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:197
+msgid "Unable to add the item to the online calendar."
+msgstr "无法新增记录至在线日历"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:219
+msgid "Unable to remove the item from the online calendar."
+msgstr "无法从在线日历中删除该记录。"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:396
+#, c-format
+msgid ""
+"Unable to parse the file: %s\n"
+"The file might be corrupted."
+msgstr ""
+"无法解析文件： %s\n"
+"文件可能已损坏。"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:446
+msgid "The server returned an empty result. Make sure that the calendar url points to a file and not to a folder."
+msgstr "服务器返回了一个空值。请确保该日历链接指向的是一个文件而不是一个文件夹。"
+
+#: Plugins/NetworkPlugin/NetworkThread.cpp:486
+#, c-format
+msgid ""
+"Error downloading the data from the url:\n"
+"%s\n"
+"\n"
+"Server returned result: (%i) %i %s."
+msgstr ""
+"下载资料错误从：\n"
+"%s\n"
+"\n"
+"伺服器传回讯息: (%i) %i %s."
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:126
+msgid ""
+"Outlook Error!\n"
+"Unable to initialize the MAPI library.\n"
+"\n"
+"If you have upgraded Rainlendar or Outlook you need to recreate the Outlook calendar in Rainlendar's options.\n"
+"\n"
+"Make also sure you are using the same versions (32bit vs. 64bit) of both applications."
+msgstr ""
+"Outlook 错误!\n"
+"无法初始化 MAPI 库。\n"
+"\n"
+"如果您升级过Rainlendar 或 Outlook，您必须在Rainlendar中重新设置创建Outlook日历。\n"
+"\n"
+"同时请确认2个软件版本相同（32位或64位）。"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:396
+#: Plugins/OutlookPlugin/MapiHandler.cpp:629
+#: Plugins/OutlookPlugin/MapiHandler.cpp:643
+msgid "Application"
+msgstr "应用程序"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:410
+#: Plugins/OutlookPlugin/MapiHandler.cpp:650
+msgid "Profile"
+msgstr "配置文件"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:433
+#: Plugins/OutlookPlugin/MapiHandler.cpp:656
+msgid "MessageStore"
+msgstr "消息存储"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:456
+msgid "Folders"
+msgstr "文件夹"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:463
+msgid "Default Folder"
+msgstr "默认文件夹"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:508
+msgid "Use labels instead of categories"
+msgstr "使用标签代替分类"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:513
+msgid "Show edit links"
+msgstr "显示编辑链接"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:518
+msgid "Keep MAPI connection alive"
+msgstr "保持 MAPI 连接"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/OutlookPlugin/MapiHandler.cpp:531
+msgid "Month"
+msgstr "1个月"
+
+#  "Used in the Outlook calendar settings
+#: Plugins/OutlookPlugin/MapiHandler.cpp:533
+msgid "Year"
+msgstr "1年"
+
+#  "Setting for the Outlook calendar.
+#: Plugins/OutlookPlugin/MapiHandler.cpp:538
+msgid "Read birthdays from contacts"
+msgstr "从联系人中读入生日数据"
+
+#: Plugins/OutlookPlugin/MapiHandler.cpp:713
+msgid "Choose the Outlook message store which you want to see in Rainlendar."
+msgstr "请选择你准备在 Rainlendar中显示和管理的 Outlook 日历账户。"
+
+#: Plugins/OutlookPlugin/MapiItem.cpp:622
+#: Plugins/OutlookPlugin/MapiItem.cpp:636
+#, c-format
+msgid " [[outlook:%s][edit]]"
+msgstr " [[outlook:%s][编辑]]"
+
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:224
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:524
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:567
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:601
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:622
+msgid "Outlook error!"
+msgstr "Outlook 错误！"
+
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:226
+#, c-format
+msgid "Failed to read the Outlook items from \"%s\". See log for more details."
+msgstr "无法读取来自 \"%s\" 的 Outlook 项目。更多资讯请检视侦错日志。"
+
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:526
+#, c-format
+msgid "Updating the item failed. Error code 0x%p"
+msgstr "更新记录失败。错误代号 0x%p"
+
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:569
+msgid "Failed to write the Outlook item. There are no folders available where it could be stored."
+msgstr "无法写入Outlook项目。没有可用的资料夹存放资料。"
+
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:603
+#: Plugins/OutlookPlugin/MapiMessageStore.cpp:624
+#, c-format
+msgid "Unable to delete the item. Error code 0x%p"
+msgstr "无法删除该记录。错误代号 0x%p"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:74
+msgid "Unable to find the Remember The Milk task list!"
+msgstr "无法找到 Rememer The Milk 的任务列表！"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:76
+#, c-format
+msgid "The list \"%s\" could not be found. Available lists are:"
+msgstr "无法找到 \"%s\" 列表。有效的列表如下："
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:81
+msgid "Please write the name exactly like it is in the above list."
+msgstr "请按照上面列表所示，输入完整的名称。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:314
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:560
+msgid "Unable to parse the ID from the task."
+msgstr "无法从任务中解析 ID。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:617
+msgid "Unable to create the task."
+msgstr "无法创建该任务。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:623
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:670
+msgid "Unable to parse the timeline."
+msgstr "无法解析时间轴。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:881
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:891
+msgid "The service is temporarily unavailable."
+msgstr "服务器暂时无法访问。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1038
+msgid "Please log in to Remember The Milk."
+msgstr "请登录 Remember The Milk。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1040
+msgid ""
+"You need to authorize Rainlendar to access your Remember The Milk account. Please log in to the Remember The Milk web site and give Rainlendar access to your account.\n"
+"\n"
+"Your default web browser will open automatically when you click the OK button."
+msgstr ""
+"您必须通过验证，以便让 Rainlendar 可以存取您的 Remember The Milk 内容。请登录 Remember The Milk 网站并授权 Rainlendar 存取。\n"
+"\n"
+"点击“确定”按钮后，将自动通过您的默认网页浏览器打开该站点。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1046
+msgid "Continue after authorization."
+msgstr "验证后继续。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1048
+msgid "Click the OK button to continue after you have authorized Rainlendar."
+msgstr "请在授权给 Rainlendar 后，再单击“确定”按钮继续。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1082
+msgid "Unable to parse the output."
+msgstr "无法解析输出。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1163
+#, c-format
+msgid "Unknown response for call \"%s\"."
+msgstr "调用 \"%s\" 时得到未知响应。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1179
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:761
+#, c-format
+msgid ""
+"Call \"%s\" failed:\n"
+"%s"
+msgstr ""
+"调用 \"%s\" 失败：\n"
+"%s"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1195
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:649
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:774
+#, c-format
+msgid "Call to method \"%s\" failed."
+msgstr "调用 \"%s\" 方法失败。"
+
+#: Plugins/RememberTheMilkPlugin/RTMAPI.cpp:1205
+#: Plugins/RememberTheMilkPlugin/RTMThread.cpp:78
+#, c-format
+msgid "Remember The Milk Error (%s)!"
+msgstr "Remember The Milk 错误 (%s)！"
+
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:214
+msgid "List"
+msgstr "任务列表"
+
+#: Plugins/RememberTheMilkPlugin/RTMHandler.cpp:296
+msgid "Choose the name of the task list from the Remember The Milk. You can also leave the field empty if you want to get all your lists."
+msgstr "从 Remember The Milk 中选择任务列表名。如果想获取所有列表则可以将该栏留空。"
+
+#: Plugins/RememberTheMilkPlugin/RTMThread.cpp:80
+msgid "Authentication token is missing. You need to give Rainlendar access to your Remember The Milk account."
+msgstr "验证失败。您必须重新授权给 Rainlendar 。"
+
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:194
+#, c-format
+msgid ""
+"Unable to find folder \"%s\".\n"
+"\n"
+"The available folders are:"
+msgstr ""
+"找不到文件夹 \"%s\"。\n"
+"\n"
+"可用的文件夹有："
+
+#: Plugins/ToodledoPlugin/ToodledoAPI.cpp:785
+#, c-format
+msgid "Toodledo Error (%s)!"
+msgstr "Toodledo 错误 (%s)!"
+
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:241
+msgid "Folder"
+msgstr "文件夹"
+
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:245
+msgid "Poll for changes"
+msgstr "监视变更"
+
+#: Plugins/ToodledoPlugin/ToodledoHandler.cpp:294
+msgid "Please enter your email address and password for Toodledo."
+msgstr "请输入您Toodledo的电子邮件地址及密码"
+
+#: Application/Resource.h:396
+msgid "Ok"
+msgstr "确定"
+
+#: Application/Resource.h:397
+msgid "Update"
+msgstr "更新"
+
+#: Application/Resource.h:399
+msgid "Make a selection:"
+msgstr "选择："
+
+#: Application/Resource.h:401
+msgid "Hide Windows"
+msgstr "隐藏窗口"
+
+#: Application/Resource.h:402
+msgid "Show Windows"
+msgstr "显示窗口"
+
+#: Application/Resource.h:403
+msgid "Toggle Windows"
+msgstr "切换窗口"
+
+#: Application/Resource.h:404
+msgid "Toggle Today Window"
+msgstr "切换今天窗口"
+
+#: Application/Resource.h:409
+msgid "Create New Task"
+msgstr "创建一个新任务"
+
+#: Application/Resource.h:410
+msgid "Create New Event"
+msgstr "创建一个新事件"
+
+#: Application/Resource.h:411
+msgid "Create new event or task"
+msgstr "创建新事件或新任务"
+
+#: Application/Resource.h:412
+msgid "Quit Application"
+msgstr "退出程序"
+
+#: Application/Resource.h:416
+msgid "Business"
+msgstr "公务"
+
+#: Application/Resource.h:417
+msgid "Calls"
+msgstr "电话"
+
+#: Application/Resource.h:418
+msgid "Clients"
+msgstr "客户"
+
+#: Application/Resource.h:419
+msgid "Competition"
+msgstr "比赛"
+
+#: Application/Resource.h:420
+msgid "Customer"
+msgstr "顾客"
+
+#: Application/Resource.h:421
+msgid "Exam"
+msgstr "考试"
+
+#: Application/Resource.h:422
+msgid "Favorites"
+msgstr "爱好"
+
+#: Application/Resource.h:423
+msgid "Follow Up"
+msgstr "跟进"
+
+#: Application/Resource.h:424
+msgid "Gifts"
+msgstr "礼物"
+
+#: Application/Resource.h:425
+msgid "Holidays"
+msgstr "假日"
+
+#: Application/Resource.h:426
+msgid "Ideas"
+msgstr "想法"
+
+#: Application/Resource.h:427
+msgid "Important"
+msgstr "重要"
+
+#: Application/Resource.h:428
+msgid "Issues"
+msgstr "问题"
+
+#: Application/Resource.h:429
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: Application/Resource.h:430
+msgid "Personal"
+msgstr "个人"
+
+#: Application/Resource.h:431
+msgid "Projects"
+msgstr "项目"
+
+#: Application/Resource.h:432
+msgid "Public Holiday"
+msgstr "法定假日"
+
+#: Application/Resource.h:434
+msgid "Suppliers"
+msgstr "供应商"
+
+#: Application/Resource.h:435
+msgid "Travel"
+msgstr "差旅"
+
+#: Application/Resource.h:436
+msgid "Trip"
+msgstr "旅行"
+
+#: Application/Resource.h:437 Application/Resource.h:688
+msgid "TV"
+msgstr "电视"
+
+#: Application/Resource.h:438
+msgid "Vacation"
+msgstr "假期"
+
+#: Application/Resource.h:439
+msgid "Work"
+msgstr "工作"
+
+#: Application/Resource.h:440
+msgid "Medical"
+msgstr "医疗"
+
+#: Application/Resource.h:442
+msgid "Urgent"
+msgstr "紧急"
+
+#: Application/Resource.h:443
+msgid "Health"
+msgstr "健康"
+
+#: Application/Resource.h:444
+msgid "Sport"
+msgstr "运动"
+
+#: Application/Resource.h:445
+msgid "Game"
+msgstr "游戏"
+
+#: Application/Resource.h:446
+msgid "School"
+msgstr "学校"
+
+#: Application/Resource.h:447
+msgid "Party"
+msgstr "聚会"
+
+#: Application/Resource.h:448
+msgid "Movie"
+msgstr "电影"
+
+#: Application/Resource.h:449
+msgid "Car"
+msgstr "汽车"
+
+#: Application/Resource.h:450
+msgid "Pets"
+msgstr "宠物"
+
+#: Application/Resource.h:451
+msgid "Theatre"
+msgstr "剧院"
+
+#: Application/Resource.h:452
+msgid "Music"
+msgstr "音乐"
+
+#: Application/Resource.h:454
+msgid "[Black]"
+msgstr "[黑色]"
+
+#: Application/Resource.h:455
+msgid "[Blue]"
+msgstr "[蓝色]"
+
+#: Application/Resource.h:456
+msgid "[Brown]"
+msgstr "[褐色]"
+
+#: Application/Resource.h:457
+msgid "[Cyan]"
+msgstr "[青色]"
+
+#: Application/Resource.h:458
+msgid "[Green]"
+msgstr "[绿色]"
+
+#: Application/Resource.h:459
+msgid "[Grey]"
+msgstr "[灰色]"
+
+#: Application/Resource.h:460
+msgid "[Magenta]"
+msgstr "[洋红色]"
+
+#: Application/Resource.h:461
+msgid "[Pink]"
+msgstr "[粉色]"
+
+#: Application/Resource.h:462
+msgid "[Red]"
+msgstr "[红色]"
+
+#: Application/Resource.h:463
+msgid "[Yellow]"
+msgstr "[黄色]"
+
+#: Application/Resource.h:464
+msgid "[Orange]"
+msgstr "[橙色]"
+
+#: Application/Resource.h:467
+msgid "Must Attend"
+msgstr "必须参加"
+
+#: Application/Resource.h:468
+msgid "Travel Required"
+msgstr "需要出差"
+
+#: Application/Resource.h:469
+msgid "Needs Preparation"
+msgstr "需要准备"
+
+#: Application/Resource.h:470
+msgid "Phone Call"
+msgstr "打电话"
+
+#: Application/Resource.h:472
+msgid "iCalendar Format"
+msgstr "iCalendar 格式"
+
+#: Application/Resource.h:473
+msgid "Network Shared Calendar"
+msgstr "网络共享日历"
+
+#: Application/Resource.h:474
+msgid "Microsoft Outlook"
+msgstr "Microsoft Outlook"
+
+#: Application/Resource.h:475
+msgid "Rainlendar Ini Format"
+msgstr "Rainlendar Ini 格式"
+
+#: Application/Resource.h:477
+msgid "CalDAV Calendar"
+msgstr "CalDAV 日历"
+
+#: Application/Resource.h:478
+msgid "Google Calendar (v3)"
+msgstr "Google 日历 (v3)"
+
+#: Application/Resource.h:480
+msgid "Comma Separated Values"
+msgstr "逗号分隔格式"
+
+#: Application/Resource.h:482
+msgid "&Next >"
+msgstr "下一步(&N) >"
+
+#: Application/Resource.h:483
+msgid "< &Back"
+msgstr "< 上一步(&B)"
+
+#: Application/Resource.h:484
+msgid "&Finish"
+msgstr "完成(&F)"
+
+#: Application/Resource.h:486
+msgid "Vertical Calendar"
+msgstr "竖向日历"
+
+#: Application/Resource.h:488
+msgid "Year Calendar"
+msgstr "年日历"
+
+#: Application/Resource.h:489
+msgid "Sidebar"
+msgstr "侧边栏"
+
+#: Application/Resource.h:490
+msgid "DigiClock"
+msgstr "数字时钟"
+
+#: Application/Resource.h:491
+msgid "Dual Calendar"
+msgstr "双月日历（2个月）"
+
+#: Application/Resource.h:493
+msgid "Todo List"
+msgstr "任务列表"
+
+#: Application/Resource.h:494
+msgid "Grid Calendar"
+msgstr "格状日历（4个月）"
+
+#: Application/Resource.h:495
+msgid "Vertical Line Calendar"
+msgstr "竖向日历"
+
+#: Application/Resource.h:496
+msgid "Horizontal Line Calendar"
+msgstr "横向日历"
+
+#: Application/Resource.h:498 Application/Resource.h:507
+msgid "Visible month"
+msgstr "显示月份"
+
+#: Application/Resource.h:499
+msgid "Show buttons"
+msgstr "显示按钮"
+
+#: Application/Resource.h:500
+msgid "Show adjacent days"
+msgstr "显示临近的日期"
+
+#: Application/Resource.h:501
+msgid "Eventlist width"
+msgstr "事件列表宽度"
+
+#: Application/Resource.h:502
+msgid "Eventlist height"
+msgstr "事件列表高度"
+
+#: Application/Resource.h:503
+msgid "Todolist width"
+msgstr "任务列表宽度"
+
+#: Application/Resource.h:504
+msgid "Todolist height"
+msgstr "任务列表高度"
+
+#: Application/Resource.h:505
+msgid "Calendar list width"
+msgstr "日历宽度"
+
+#: Application/Resource.h:506
+msgid "Calendar list height"
+msgstr "日历高度"
+
+#: Application/Resource.h:508
+msgid "Width"
+msgstr "宽度"
+
+#: Application/Resource.h:509
+msgid "Show week numbers"
+msgstr "显示周数"
+
+#: Application/Resource.h:510
+msgid "Format"
+msgstr "格式"
+
+#: Application/Resource.h:511
+msgid "Timezone"
+msgstr "时区"
+
+#  "Name of the digiclock setting
+#: Application/Resource.h:512
+msgid "Label"
+msgstr "标签："
+
+#: Application/Resource.h:513
+msgid "Show 3rd month"
+msgstr "显示第三个月份"
+
+#: Application/Resource.h:514
+msgid "Show 4th month"
+msgstr "显示第四个月份"
+
+#: Application/Resource.h:515
+msgid "Show 5th month"
+msgstr "显示第五个月份"
+
+#: Application/Resource.h:516
+msgid "Show 6th month"
+msgstr "显示第六个月份"
+
+#: Application/Resource.h:517
+msgid "Show 7th month"
+msgstr "显示第七个月份"
+
+#: Application/Resource.h:518
+msgid "Show 8th month"
+msgstr "显示第八个月份"
+
+#: Application/Resource.h:519
+msgid "Color"
+msgstr "颜色"
+
+#: Application/Resource.h:520
+msgid "Analog Clock"
+msgstr "模拟时钟"
+
+#: Application/Resource.h:521
+msgid "Calendar List"
+msgstr "日历列表"
+
+#: Application/Resource.h:522
+msgid "X count"
+msgstr "水平月数"
+
+#: Application/Resource.h:523
+msgid "Y count"
+msgstr "垂直月数"
+
+#: Application/Resource.h:525
+msgid "Snooze All"
+msgstr "全部推延"
+
+#: Application/Resource.h:526
+msgid "Dismiss All"
+msgstr "全部取消"
+
+#: Application/Resource.h:530
+msgid "To do"
+msgstr "任务"
+
+#: Application/Resource.h:533
+msgid "Today color"
+msgstr "标记今日的颜色"
+
+#: Application/Resource.h:534
+msgid "Today shape"
+msgstr "标记今日的形状"
+
+#: Application/Resource.h:535
+msgid "Circle"
+msgstr "圆形"
+
+#: Application/Resource.h:536
+msgid "Rectangle"
+msgstr "长方形"
+
+#: Application/Resource.h:537
+msgid "Slim circle"
+msgstr "细圆形"
+
+#: Application/Resource.h:538
+msgid "Slim rectangle"
+msgstr "细矩形"
+
+#: Application/Resource.h:539 Application/Resource.h:626
+#: Application/Resource.h:769 Application/Resource.h:828
+msgid "Red"
+msgstr "红色"
+
+#: Application/Resource.h:540 Application/Resource.h:546
+#: Application/Resource.h:827
+msgid "Orange"
+msgstr "橙色"
+
+#: Application/Resource.h:541 Application/Resource.h:627
+#: Application/Resource.h:770 Application/Resource.h:826
+msgid "Yellow"
+msgstr "黄色"
+
+#: Application/Resource.h:542 Application/Resource.h:624
+#: Application/Resource.h:771 Application/Resource.h:824
+msgid "Green"
+msgstr "绿色"
+
+#: Application/Resource.h:543 Application/Resource.h:623
+#: Application/Resource.h:778
+msgid "Cyan"
+msgstr "青色"
+
+#: Application/Resource.h:544 Application/Resource.h:622
+#: Application/Resource.h:768 Application/Resource.h:822
+msgid "Blue"
+msgstr "蓝色"
+
+#: Application/Resource.h:545 Application/Resource.h:772
+msgid "Magenta"
+msgstr "洋红色"
+
+#: Application/Resource.h:547
+msgid "A sequel to the popular Shadow3-skin with some added features like visible days from the next and previous month and a skinned tooltip."
+msgstr "官方皮肤 Shadow4 新版中又添加了很多新功能，如新增了日/周/月行程表窗口，显示上月与下月天数，鼠标滑过时显示事件或任务的提示信息等。"
+
+#: Application/Resource.h:548 Application/Resource.h:557
+#: Application/Resource.h:631
+msgid "Defines the month that the calendar shows. Set to +1 for the next month, -1 for the previous month or a value from 1 to 12 for a specific month in the current year."
+msgstr "设置日历显示的月份。 +1 为下个月，-1 为上个月，或者一个 1 到 12 之间的值指定当年相应的月份。"
+
+#: Application/Resource.h:549
+msgid "Uncheck to hide the next and previous buttons from the calendar."
+msgstr "不勾选则隐藏日历窗口中的 \"下月\" 与 \"上月\" 按钮。"
+
+#: Application/Resource.h:550
+msgid "Uncheck to hide the days from the previous and next month."
+msgstr "不勾选则隐藏日历窗口中上月与下月的日期。"
+
+#: Application/Resource.h:551
+msgid "Defines the width of the event list. The default value is 165 pixels."
+msgstr "设置事件列表的宽度。"
+
+#: Application/Resource.h:552 Application/Resource.h:633
+msgid "Defines the maximum height of the event list. The default value is 300 pixels."
+msgstr "设置事件列表的最大高度。默认值为 300 像素。"
+
+#: Application/Resource.h:553
+msgid "Defines the width of the to do list. The default value is 165 pixels."
+msgstr "设置任务列表的宽度。"
+
+#: Application/Resource.h:554 Application/Resource.h:634
+msgid "Defines the maximum height of the to do list. The default value is 300 pixels."
+msgstr "设置任务列表的最大高度。默认值是 300 像素。"
+
+#: Application/Resource.h:555
+msgid "Defines the width of the calendar list. The default value is 165 pixels."
+msgstr "设置日历列表宽度。默认值为 165 像素。"
+
+#: Application/Resource.h:556
+msgid "Defines the width of the calendar list."
+msgstr "设置日历列表的宽度。"
+
+#: Application/Resource.h:558
+msgid "Defines the width of the window. The default value is 165 pixels."
+msgstr "设置窗口宽度。默认值为 165 像素。"
+
+#: Application/Resource.h:559
+msgid "Uncheck to hide the week numbers from the calendar."
+msgstr "不勾选则隐藏日历窗口中的周数。"
+
+#: Application/Resource.h:560
+msgid "This defines the format of the clock. To get rid of the seconds use %H:%M or %#I:%M %p"
+msgstr "设置时钟的格式。可以用 %H:%M 或 %#I:%M %p 隐藏秒数。"
+
+#: Application/Resource.h:561
+msgid "Defines the timezone. Set to a number: ... -3, -2, -1, 0, +1, +2, +3, ... . You can also use values like CET, EST, PST, A_CST, ..."
+msgstr "设置时区。可以设置为数字格式，如 ... -3, -2, -1, 0, +1, +2, +3, ... , 也可以使用如 CET, EST, PST, A_CST 等。"
+
+#: Application/Resource.h:562
+msgid "Adds a label for the clock."
+msgstr "添加时钟标签"
+
+#: Application/Resource.h:563
+msgid "Defines the color of the today marker."
+msgstr "设置标记今日的颜色。"
+
+#: Application/Resource.h:564
+msgid "Defines the shape of the today marker."
+msgstr "设置标记今日的形状。"
+
+#: Application/Resource.h:565
+msgid "Defines how many calendars are shown horizontally in the window."
+msgstr "设置横向显示的日历数。"
+
+#: Application/Resource.h:566
+msgid "Defines how many calendars are shown vertically in the window."
+msgstr "设置竖向显示的日历数。"
+
+#: Application/Resource.h:567 Application/Resource.h:597
+msgid "Uncheck to hide the names of the days of the week from the calendar."
+msgstr "不勾选则隐藏日历窗口中的星期名称。"
+
+#: Application/Resource.h:568
+msgid "Defines the width of the calendar window. The default value is 500 pixels."
+msgstr "设置日历窗口宽度。默认值为 500 像素。"
+
+#: Application/Resource.h:569
+msgid "Defines the height of the calendar window. The default value is 545 pixels."
+msgstr "设置日历窗口高度。默认值为 545 像素。"
+
+#: Application/Resource.h:571
+msgid "Week View"
+msgstr "周行程表"
+
+#: Application/Resource.h:572
+msgid "Week view width"
+msgstr "周行程表宽度"
+
+#: Application/Resource.h:573
+msgid "Defines the width of the week view window. The default value is 400 pixels."
+msgstr "设置周行程表宽度。默认值为 400 像素。"
+
+#: Application/Resource.h:574
+msgid "Week view height"
+msgstr "周行程表高度"
+
+#: Application/Resource.h:575
+msgid "Defines the height of the week view window. The default value is 300 pixels."
+msgstr "设置周行程表高度。默认值为 300 像素。"
+
+#: Application/Resource.h:576
+msgid "Today position"
+msgstr "今天的显示位置"
+
+#: Application/Resource.h:577
+msgid "Defines the position where today is located. If set to 0 (the default) the week view shows a full calendar week and the today's position changes. If set to 1 to 7 the today is kept on that position always and the weekdays are changed accordingly."
+msgstr "设置今天的显示位置。若设定为0（默认值），则显示整周日历，同时今天的位置会随时间改变。若设定为1至7，则固定今天的显示位置，而星期的显示位置会有所改变。"
+
+#: Application/Resource.h:578
+msgid "Autoscroll"
+msgstr "自动滚动"
+
+#: Application/Resource.h:579
+msgid "Uncheck to disable the autoscroll."
+msgstr "不勾选则禁用自动滚动。"
+
+#: Application/Resource.h:580
+msgid "Week view date format"
+msgstr "周行程表中的日期格式"
+
+#: Application/Resource.h:581
+#, c-format
+msgid "This defines the format of the date in the schedule. The default is %#d.%#m."
+msgstr "设定行程表日期格式。默认为%#d.%#m."
+
+#: Application/Resource.h:582
+msgid "Week view time format"
+msgstr "周行程表中的时间格式"
+
+#: Application/Resource.h:583
+msgid "This defines the format of the time in the schedule. The default is %H:%M. For AM/PM format use %#I %p"
+msgstr "设置行程表时间格式。默认为 %H:%M。要使用AM/PM格式可以使用： %#I %p"
+
+#: Application/Resource.h:584
+msgid "Time item height"
+msgstr "时间项的高度"
+
+#: Application/Resource.h:585
+msgid "Defines the height of one time item in the view. The default value is 30 pixels."
+msgstr "设置时间项的高度，默认为30像素。"
+
+#: Application/Resource.h:586
+msgid "Time item duration"
+msgstr "单个事件持续的时间跨度"
+
+#: Application/Resource.h:587
+msgid "60 Minutes"
+msgstr "60分钟"
+
+#: Application/Resource.h:588
+msgid "30 Minutes"
+msgstr "30分钟"
+
+#: Application/Resource.h:589
+msgid "15 Minutes"
+msgstr "15分钟"
+
+#: Application/Resource.h:590
+msgid "Defines the duration of one time item in the view. The default value is 60 minutes."
+msgstr "设置行程表中单个事件的时间跨度。默认值为 60 分钟。"
+
+#: Application/Resource.h:591
+msgid "All day max height"
+msgstr "设置全天事件的最大高度"
+
+#: Application/Resource.h:592
+msgid "The maximum height of the all day event area. A scrollbar is shown after the events don't fit anymore inside this area."
+msgstr "全天事件区域的最大高度，事件右侧的滚动条用于查看被遮住的记录。"
+
+#: Application/Resource.h:593
+msgid "Event min height"
+msgstr "事件最小高度"
+
+#: Application/Resource.h:594
+msgid "The minimum height of the event."
+msgstr "事件的最小高度。"
+
+#: Application/Resource.h:595
+msgid "Uncheck to hide the week numbers from the view."
+msgstr "不勾选则隐藏行程表中的周数。"
+
+#: Application/Resource.h:596
+msgid "Show weekdays"
+msgstr "显示星期"
+
+#: Application/Resource.h:599
+msgid "Day View"
+msgstr "日行程表"
+
+#: Application/Resource.h:600
+msgid "Day view width"
+msgstr "日行程表宽度"
+
+#: Application/Resource.h:601
+msgid "Defines the width of the day view window. The default value is 165 pixels."
+msgstr "设置日行程表的宽度。默认值为 165 像素。"
+
+#: Application/Resource.h:602
+msgid "Day view height"
+msgstr "日行程表高度"
+
+#: Application/Resource.h:603
+msgid "Defines the height of the day view window. The default value is 300 pixels."
+msgstr "设置日行程表高度。默认值为 300 像素。"
+
+#: Application/Resource.h:604
+msgid "Day view time format"
+msgstr "日行程表中的时间格式"
+
+#: Application/Resource.h:605
+msgid "Day view date format"
+msgstr "日行程表中的日期格式"
+
+#: Application/Resource.h:607
+msgid "Month View"
+msgstr "月行程表"
+
+#: Application/Resource.h:608
+msgid "Show background"
+msgstr "显示背景"
+
+#: Application/Resource.h:609
+msgid "Uncheck to make the background transparent."
+msgstr "不勾选则背景为透明。"
+
+#: Application/Resource.h:611
+msgid "Large Calendar"
+msgstr "大日历"
+
+#: Application/Resource.h:613
+msgid "Today window width"
+msgstr "今天窗口宽度"
+
+#: Application/Resource.h:614
+msgid "Defines the width of the today window."
+msgstr "定义今天窗口的宽度。"
+
+#: Application/Resource.h:615
+msgid "Today window max height"
+msgstr "今天窗口最大高度"
+
+#: Application/Resource.h:616
+msgid "Defines the maximum height of the today window."
+msgstr "定义今天窗口的最大高度。"
+
+#: Application/Resource.h:617
+msgid "Today show tasks"
+msgstr "今天显示的任务"
+
+#: Application/Resource.h:618
+msgid "Defines if the tasks should be shown in the today window."
+msgstr "定义是否应在今天的窗口中显示的任务。"
+
+#: Application/Resource.h:621
+msgid "The skin contains multiple different color variations. You can change them either from the skin's settings or by clicking the down arrow on the calendar."
+msgstr "该皮肤含有多种颜色样式。你可以在面板设置中更改，也可以单击日历窗口上的下箭头。"
+
+#: Application/Resource.h:625 Application/Resource.h:777
+msgid "Brown"
+msgstr "棕色"
+
+#: Application/Resource.h:628
+msgid "Dark"
+msgstr "暗色"
+
+#: Application/Resource.h:629
+msgid "Colorless"
+msgstr "无色"
+
+#: Application/Resource.h:630
+msgid "Defines the color of the windows."
+msgstr "设置窗口颜色。"
+
+#: Application/Resource.h:632
+msgid "Defines the format for the dates on the event list headers."
+msgstr "设置事件列表中的日期格式。"
+
+#: Application/Resource.h:635
+msgid "Removes the color from the windows."
+msgstr "从窗口中删除颜色。"
+
+#: Application/Resource.h:636
+msgid "Creates darker version of the windows."
+msgstr "创建窗口的暗色版本。"
+
+#: Application/Resource.h:640
+msgid "Conditions: "
+msgstr "天气状况："
+
+#: Application/Resource.h:641
+msgid "Temperature: "
+msgstr "温度："
+
+#: Application/Resource.h:642
+msgid "Humidity: "
+msgstr "湿度："
+
+#: Application/Resource.h:643
+msgid "Winds: "
+msgstr "风速："
+
+#: Application/Resource.h:644
+msgid "Time: "
+msgstr "时间："
+
+#: Application/Resource.h:645
+msgid "Refreshing..."
+msgstr "更新数据…"
+
+#: Application/Resource.h:646
+msgid "Downloading: "
+msgstr "下载中："
+
+#: Application/Resource.h:647 Application/Resource.h:652
+msgid "Download failed!"
+msgstr "下载失败！"
+
+#: Application/Resource.h:648
+msgid "Loading..."
+msgstr "加载中……"
+
+#: Application/Resource.h:649
+msgid "Unknown result!"
+msgstr "未知结果！"
+
+#: Application/Resource.h:650
+msgid "Upcoming programs:"
+msgstr "即将实施的计划："
+
+#: Application/Resource.h:651
+msgid "Parsing failed!"
+msgstr "解析失败！"
+
+#  "The positions and the widths should be about the same as in the English string. There isn't much extra space in the widget.
+#: Application/Resource.h:653
+msgid " DAYS     HOURS  MINS   SECS"
+msgstr " 日     时  分   秒"
+
+#: Application/Resource.h:654
+msgid "Loading feed..."
+msgstr "加载RSS feed中……"
+
+#  "Lowest temperature in the weather widget
+#: Application/Resource.h:655
+msgid "Lo: "
+msgstr "低温:"
+
+#  "Highest temperature in the weather widget
+#: Application/Resource.h:656
+msgid "Hi: "
+msgstr "高温:"
+
+#: Application/Resource.h:657
+msgid "Min:"
+msgstr "最小："
+
+#: Application/Resource.h:658
+msgid "Max:"
+msgstr "最大："
+
+#: Application/Resource.h:659
+msgid "Chance of precipitation: "
+msgstr "降雨概率:"
+
+#: Application/Resource.h:660
+msgid "New moon"
+msgstr "新月"
+
+#: Application/Resource.h:661
+msgid "Waxing crescent"
+msgstr "娥眉月"
+
+#: Application/Resource.h:662
+msgid "First quarter"
+msgstr "上弦月"
+
+#: Application/Resource.h:663
+msgid "Waxing gibbous"
+msgstr "盈凸月"
+
+#: Application/Resource.h:664
+msgid "Full moon"
+msgstr "满月"
+
+#: Application/Resource.h:665
+msgid "Waning gibbous"
+msgstr "亏凸月"
+
+#: Application/Resource.h:666
+msgid "Last quarter"
+msgstr "下弦月"
+
+#: Application/Resource.h:667
+msgid "Waning crescent"
+msgstr "残月"
+
+#: Application/Resource.h:668
+msgid "Southern hemisphere"
+msgstr "南半球"
+
+#: Application/Resource.h:669
+msgid "Set to 1 to change the phases as seen from southern hemisphere."
+msgstr "设置为 1 时显示南半球月相。"
+
+#: Application/Resource.h:671
+msgid "World Time"
+msgstr "世界时间"
+
+#: Application/Resource.h:672
+msgid "World time format"
+msgstr "世界时间格式"
+
+#: Application/Resource.h:673
+msgid "This defines the format of the time. The default is %H:%M. For AM/PM format use %#I:%M %p"
+msgstr "设置时间显示格式，默认为：%H:%M。要使用AM/PM格式可以设置为：%#I:%M %p"
+
+#: Application/Resource.h:674
+msgid "World time location 1"
+msgstr "地点 1"
+
+#: Application/Resource.h:675
+msgid "Defines the title for the time."
+msgstr "设置时间标题"
+
+#: Application/Resource.h:676
+msgid "World time timezone 1"
+msgstr "时区 1"
+
+#: Application/Resource.h:677
+msgid "World time location 2"
+msgstr "地点 2"
+
+#: Application/Resource.h:678
+msgid "World time timezone 2"
+msgstr "时区 2"
+
+#: Application/Resource.h:679
+msgid "World time location 3"
+msgstr "地点 3"
+
+#: Application/Resource.h:680
+msgid "World time timezone 3"
+msgstr "时区 3"
+
+#: Application/Resource.h:681
+msgid "World time location 4"
+msgstr "地点 4"
+
+#: Application/Resource.h:682
+msgid "World time timezone 4"
+msgstr "时区 4"
+
+#: Application/Resource.h:684
+msgid "Photos"
+msgstr "图片"
+
+#: Application/Resource.h:685
+msgid "Weather"
+msgstr "天气"
+
+#: Application/Resource.h:686
+msgid "Countdown"
+msgstr "倒计时"
+
+#: Application/Resource.h:687
+msgid "RSS"
+msgstr "RSS"
+
+#: Application/Resource.h:689
+msgid "Create New"
+msgstr "创建新任务"
+
+#: Application/Resource.h:690
+msgid "Moon Phase"
+msgstr "月相"
+
+#: Application/Resource.h:691
+msgid "QuickAdd"
+msgstr "快速添加"
+
+#: Application/Resource.h:692
+msgid "Translate"
+msgstr "翻译"
+
+#: Application/Resource.h:693
+msgid "Text File"
+msgstr "文字档案"
+
+#: Application/Resource.h:695
+msgid "RSS width"
+msgstr "RSS 宽度"
+
+#: Application/Resource.h:696 Application/Resource.h:720
+#: Application/Resource.h:736
+msgid "Defines the width of the list. The default value is 165 pixels."
+msgstr "设置列表宽度。默认值为 165 像素。"
+
+#: Application/Resource.h:697
+msgid "RSS height"
+msgstr "RSS 高度"
+
+#: Application/Resource.h:698 Application/Resource.h:722
+#: Application/Resource.h:738
+msgid "Defines the maximum height of the list. The default value is 300 pixels."
+msgstr "设置列表的最大高度。默认值为 300 像素。"
+
+#: Application/Resource.h:699
+msgid "RSS location"
+msgstr "RSS 地址"
+
+#: Application/Resource.h:700
+msgid "Location of the RSS feed."
+msgstr "RSS feed的地址。"
+
+#: Application/Resource.h:701
+msgid "Weather location"
+msgstr "天气feed地址"
+
+#: Application/Resource.h:702
+msgid "Location of the weather feed."
+msgstr "天气预报的feed地址。"
+
+#: Application/Resource.h:703
+msgid "Weather city"
+msgstr "城市名称(天气)"
+
+#: Application/Resource.h:704
+msgid "The city for the weather."
+msgstr "输入城市名称或贴上天气代码。"
+
+#: Application/Resource.h:705
+msgid "Weather language"
+msgstr "天气语言"
+
+#: Application/Resource.h:706
+msgid "The weather language. Use language abbreviation like en, fi, ru, zh-cn, ..."
+msgstr "天气语言( zh-tw 为繁体中文)。输入语言英文缩写例如 en, fi, ru, zh-cn..."
+
+#: Application/Resource.h:707
+msgid "Photos random"
+msgstr "随机图片"
+
+#: Application/Resource.h:708
+msgid "Uncheck to show the images in sequel. Check shows them in random order."
+msgstr "不勾选为顺序显示图片。勾选为随机显示。"
+
+#: Application/Resource.h:709
+msgid "Photos update"
+msgstr "更新图片"
+
+#: Application/Resource.h:710
+msgid "Defines how often the image is updated. The value is in minutes."
+msgstr "设置更新频率。以分钟为单位。"
+
+#: Application/Resource.h:711
+msgid "Photos folder"
+msgstr "图片文件夹"
+
+#: Application/Resource.h:712
+msgid "Defines the local folder which is scanned for photos. If this is left empty the photos are downloaded from Flickr."
+msgstr "设置图片的本地文件夹。如果为空则从Flickr下载照片。"
+
+#: Application/Resource.h:713
+msgid "Countdown event"
+msgstr "倒计时事件"
+
+#: Application/Resource.h:714
+msgid "The description of the event."
+msgstr "事件描述。"
+
+#: Application/Resource.h:715
+msgid "Countdown time"
+msgstr "倒计时时间"
+
+#: Application/Resource.h:716
+msgid "The time of the event. Use format HH:MM:SS."
+msgstr "事件的发生时间。格式为： HH:MM:SS。"
+
+#: Application/Resource.h:717
+msgid "Countdown date"
+msgstr "倒数日期"
+
+#: Application/Resource.h:718
+msgid "The date of the event. Use format YYYY-MM-DD."
+msgstr "事件的发生日期。格式为： YYYY-MM-DD。"
+
+#: Application/Resource.h:719
+msgid "TV width"
+msgstr "电视节目窗口的宽度"
+
+#: Application/Resource.h:721
+msgid "TV height"
+msgstr "电视节目窗口的高度"
+
+#: Application/Resource.h:723
+msgid "Calendar width"
+msgstr "日历窗口的宽度"
+
+#: Application/Resource.h:724
+msgid "Defines the width of the calendar window. The default value is 165 pixels."
+msgstr "设置日历窗口宽度。默认值为 165 像素。"
+
+#: Application/Resource.h:725
+msgid "Calendar height"
+msgstr "日历窗口的高度"
+
+#: Application/Resource.h:726
+msgid "Defines the height of the calendar window. The default value is 155 pixels."
+msgstr "设置日历窗口高度。默认值为 155 像素。"
+
+#: Application/Resource.h:728
+msgid "Copy to clipboard"
+msgstr "复制到剪贴板"
+
+#: Application/Resource.h:729
+msgid "File path"
+msgstr "文件路径"
+
+#: Application/Resource.h:730
+msgid "Defines the name and path to the file which is displayed in the window."
+msgstr "设置要显示的文件名及路径"
+
+#: Application/Resource.h:731
+msgid "No file given"
+msgstr "未指定文件"
+
+#  "File widget text when no file path is set.
+#: Application/Resource.h:732
+msgid "Go to the window's settings and point the path variable to a text file."
+msgstr "请在窗口设置中设置文本文件路径"
+
+#: Application/Resource.h:733
+msgid "File window full rows"
+msgstr "自动换行"
+
+#: Application/Resource.h:734
+msgid "Check to show full rows. Uncheck cuts the lines."
+msgstr "勾选为不自动换行，取消勾选为自动换行。"
+
+#: Application/Resource.h:735
+msgid "File window height"
+msgstr "文件窗口高度"
+
+#: Application/Resource.h:737
+msgid "File window width"
+msgstr "文件窗口宽度"
+
+#: Application/Resource.h:740
+msgid "The width of the calendar window."
+msgstr "日历窗口的宽度。"
+
+#: Application/Resource.h:741
+msgid "The height of the calendar window."
+msgstr "日历窗口的高度。"
+
+#: Application/Resource.h:744
+msgid "Defines the width of the quickadd window."
+msgstr "设置快速添加的宽度。"
+
+#: Application/Resource.h:745
+msgid "Defines the width of the day view window."
+msgstr "设置日行程表的宽度。"
+
+#: Application/Resource.h:746
+msgid "Defines the height of the day view window."
+msgstr "设置日行程表的高度。"
+
+#: Application/Resource.h:747
+msgid "Defines the width of the week view window."
+msgstr "设置周行程表的宽度。"
+
+#: Application/Resource.h:748
+msgid "Defines the height of the week view window."
+msgstr "设置周行程表的高度。"
+
+#: Application/Resource.h:749
+msgid "Defines the width of the calendar window."
+msgstr "设置日历窗口的宽度。"
+
+#: Application/Resource.h:750
+msgid "Defines the height of the calendar window."
+msgstr "设置日历窗口的高度。"
+
+#: Application/Resource.h:752
+msgid "ctrl"
+msgstr "ctrl"
+
+#: Application/Resource.h:753
+msgid "alt"
+msgstr "alt"
+
+#: Application/Resource.h:754
+msgid "shift"
+msgstr "shift"
+
+#: Application/Resource.h:756
+msgid "Mark as completed"
+msgstr "标记为已完成"
+
+#: Application/Resource.h:757
+msgid "Mark as needs action"
+msgstr "标记为未完成"
+
+#: Application/Resource.h:760
+msgid "Recurring"
+msgstr "重复周期"
+
+#: Application/Resource.h:761
+msgid "Description"
+msgstr "描述"
+
+#: Application/Resource.h:764 Application/Resource.h:792
+msgid "Text color"
+msgstr "文字颜色"
+
+#: Application/Resource.h:765
+msgid "Tooltip color"
+msgstr "提示文字的颜色"
+
+#: Application/Resource.h:766
+msgid "Black"
+msgstr "黑色"
+
+#: Application/Resource.h:767
+msgid "White"
+msgstr "白色"
+
+#: Application/Resource.h:773
+msgid "Light grey"
+msgstr "浅灰色"
+
+#: Application/Resource.h:774
+msgid "Light pink"
+msgstr "淡粉色"
+
+#: Application/Resource.h:775
+msgid "Grey"
+msgstr "灰色"
+
+#: Application/Resource.h:776
+msgid "Pink"
+msgstr "粉红色"
+
+#: Application/Resource.h:779
+msgid "Schedule background"
+msgstr "行程表的背景颜色"
+
+#: Application/Resource.h:780
+msgid "The background color for the day, week and month views."
+msgstr "日、周、月行程表的背景颜色。"
+
+#: Application/Resource.h:781
+msgid "Schedule text color"
+msgstr "行程表中文字的颜色"
+
+#: Application/Resource.h:782
+msgid "The text color for the day, week and month views."
+msgstr "日、周、月行程表中文字的颜色。"
+
+#: Application/Resource.h:783
+msgid "Calendar day color"
+msgstr "日历中日期的颜色"
+
+#: Application/Resource.h:784
+msgid "Large calendar day color"
+msgstr "大日历天颜色"
+
+#: Application/Resource.h:785
+msgid "The color for the days in the calendar."
+msgstr "日历中日期的颜色。"
+
+#: Application/Resource.h:786
+msgid "Calendar day text color"
+msgstr "日历中日期文字的颜色"
+
+#: Application/Resource.h:787
+msgid "The color for the day numbers in the calendar."
+msgstr "日历中日期显示的颜色。"
+
+#: Application/Resource.h:788
+msgid "Small icon"
+msgstr "小图标"
+
+#: Application/Resource.h:789
+msgid "The icon which is shown in the calendar."
+msgstr "在日历上显示的图标。"
+
+#: Application/Resource.h:790
+msgid "Large icon"
+msgstr "大图标"
+
+#: Application/Resource.h:791
+msgid "The icon which is shown in the event and to do lists."
+msgstr "在事件、任务列表中显示的图标。"
+
+#: Application/Resource.h:793
+msgid "The color of the text in the lists and tooltip."
+msgstr "列表或提示中文字的颜色。"
+
+#: Application/Resource.h:795
+msgid "The priority defines which category is shown when there are multiple on the same day."
+msgstr "设置优先级可用于同一天显示多个分类时的顺序"
+
+#: Application/Resource.h:796
+msgid "Schedule text shadow color"
+msgstr "行程表中文字阴影的颜色"
+
+#: Application/Resource.h:797
+msgid "The text shadow color for the day, week and month views."
+msgstr "日、周、月行程表中文字阴影的颜色。"
+
+#: Application/Resource.h:798
+msgid "Calendar day text shadow color"
+msgstr "日历中日期文字阴影的颜色"
+
+#: Application/Resource.h:799
+msgid "The color for the day numbers' shadow in the calendar."
+msgstr "日历中日期阴影的颜色。"
+
+#: Application/Resource.h:800
+msgid "Text shadow color"
+msgstr "文字阴影颜色"
+
+#: Application/Resource.h:801
+msgid "The color of the text shadow in the lists and tooltip."
+msgstr "列表或提示中文字阴影的颜色。"
+
+#: Application/Resource.h:802
+msgid "Show date"
+msgstr "显示日期"
+
+#: Application/Resource.h:803
+msgid "Check to show also the current date."
+msgstr "勾选为显示现在日期。"
+
+#: Application/Resource.h:805
+msgid "This defines the format of the time."
+msgstr "此区设置时间格式。"
+
+#: Application/Resource.h:807
+msgid "This defines the format of the date."
+msgstr "此区设置日期格式。"
+
+#: Application/Resource.h:808
+msgid "Search"
+msgstr "搜索"
+
+#: Application/Resource.h:809
+msgid "Search engine"
+msgstr "搜索引擎"
+
+#: Application/Resource.h:810
+msgid "Choose the search engine"
+msgstr "选择搜索引擎"
+
+#: Application/Resource.h:811
+msgid "Enter search text"
+msgstr "输入搜索文字"
+
+#: Application/Resource.h:812
+msgid "Show title"
+msgstr "显示标题"
+
+#: Application/Resource.h:813
+msgid "Check to show a title text."
+msgstr "选中显示标题文本。"
+
+#: Application/Resource.h:814
+msgid "Title text"
+msgstr "标题文本"
+
+#: Application/Resource.h:815
+msgid "This defines a title text that is shown above the time."
+msgstr "定义时间上方时显示的标题文本。"
+
+#: Application/Resource.h:816
+msgid "Weather woeid"
+msgstr "天气 woeid"
+
+#: Application/Resource.h:817
+msgid "The Yahoo WOEID for the weather location."
+msgstr "天气位置的雅虎 WOEID 。"
+
+#: Application/Resource.h:818
+msgid "Weather celsius"
+msgstr "天气摄氏度"
+
+#: Application/Resource.h:819
+msgid "If checked the temperature is shown in celsius."
+msgstr "如果选中温度以摄氏度显示。"
+
+#: Application/Resource.h:821
+msgid "Bold blue"
+msgstr "蓝色加深"
+
+#: Application/Resource.h:823
+msgid "Turquoise"
+msgstr "绿松石"
+
+#: Application/Resource.h:825
+msgid "Bold green"
+msgstr "绿色加深"
+
+#: Application/Resource.h:829
+msgid "Bold red"
+msgstr "红色加深"
+
+#: Application/Resource.h:830
+msgid "Purple"
+msgstr "紫色"
+
+#: Application/Resource.h:831
+msgid "Gray"
+msgstr "灰色"
+
+#: Application/Resource.h:833
+msgid "No events today"
+msgstr "今天没有事件"
+
+#: Application/Resource.h:834
+msgid "No tasks today"
+msgstr "今天没有任务"
+
+#: Application/Resource.h:836
+msgid "Background opacity"
+msgstr "背景不透明度"
+
+#: Application/Resource.h:837
+msgid "Defines the opacity of the window backgrounds. Use values between 0 and 100."
+msgstr "定义窗口背景的不透明度。使用介于 0 和 100 之间的值。"
+
+#: Plugins/CalDAVPlugin/CalDAVHandler.h:84
+#: Plugins/GooglePlugin/GoogleHandler.h:70
+msgid "Select Calendar"
+msgstr "选择日历"
+
+#: Plugins/CSVPlugin/CSVHandler.h:33 Plugins/CSVPlugin/CSVHandler.h:34
+msgid "Comma Separated Values (*.csv)|*.csv"
+msgstr "逗号分隔文件 (*.csv)|*.csv"
+
+#: Plugins/GoogleCalendarPlugin/GoogleCalendarHandler.h:81
+msgid "Select calendar"
+msgstr "选择日历"
+
+#: Plugins/GoogleTasksPlugin/GoogleTasksHandler.h:61
+msgid "Select task list"
+msgstr "选择任务列表"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.h:42
+msgid "iCalendar files (*.ics)|*.ics|vCalendar files (*.vcs)|*.vcs"
+msgstr "iCalendar 文件 (*.ics)|*.ics|vCalendar 文件 (*.vcs)|*.vcs"
+
+#: Plugins/iCalendarPlugin/iCalendarHandler.h:43
+msgid "iCalendar files (*.ics)|*.ics"
+msgstr "iCalendar 文件 (*.ics)|*.ics"
+
+#: Plugins/IniFormatPlugin/IniFormatHandler.h:18
+msgid "Rainlendar files (*.ini)|*.ini"
+msgstr "Rainlendar 文件 (*.ini)|*.ini"
+
+#~ msgid "Todo items in tooltip"
+#~ msgstr "Todo items in tooltip"
+
+#~ msgid "Settings icons by"
+#~ msgstr "Settings icons by"
+
+#~ msgid ""
+#~ "Moving items to an online calendar is not safe. If the destination\n"
+#~ "calendar doesn't accept the items because of network problems or\n"
+#~ "for some other reason you will lose all the moved events.\n"
+#~ "\n"
+#~ "So, click \"Yes\" only if you are completely sure you know what you are doing."
+#~ msgstr ""
+#~ "Moving items to an online calendar is not safe. If the destination\n"
+#~ "calendar doesn't accept the items because of network problems or\n"
+#~ "for some other reason you will lose all the moved events.\n"
+#~ "\n"
+#~ "So, click \"Yes\" only if you are completely sure you know what you are doing."
+
+#~ msgid "New Event..."
+#~ msgstr "New Event..."
+
+#~ msgid "New Task..."
+#~ msgstr "New Task..."
+
+#~ msgid "Single"
+#~ msgstr "Single"
+
+#~ msgid "Reset"
+#~ msgstr "Reset"
+
+#~ msgid "Please refresh (or restart) Rainlendar to see the changes."
+#~ msgstr "Please refresh (or restart) Rainlendar to see the changes."
+
+#~ msgid ""
+#~ "This skin addon is for version %s of the skin.\n"
+#~ "The installed version is %s."
+#~ msgstr ""
+#~ "This skin addon is for version %s of the skin.\n"
+#~ "The installed version is %s."
+
+#~ msgid ""
+#~ "You've been using the unlicensed version of Rainlendar2 Pro for over a month now. Have you considered supporting the developer and purchasing a license?\n"
+#~ "\n"
+#~ "As a special one time offer you can purchase it now just for 5 EUR if you click the \"Buy Now\" link below."
+#~ msgstr ""
+#~ "You've been using the unlicensed version of Rainlendar2 Pro for over a month now. Have you considered supporting the developer and purchasing a license?\n"
+#~ "\n"
+#~ "As a special one time offer you can purchase it now just for 5 EUR if you click the \"Buy Now\" link below."
+
+#~ msgid "Rainlendar Pro allows you to access your Outlook, Google Calendar and Remember the Milk events and tasks directly from the desktop calendar."
+#~ msgstr "Rainlendar Pro allows you to access your Outlook, Google Calendar and Remember the Milk events and tasks directly from the desktop calendar."
+
+#~ msgid "Rainlendar Pro allows you to access your Google Calendar and Remember the Milk events and tasks directly from the desktop calendar."
+#~ msgstr "Rainlendar Pro allows you to access your Google Calendar and Remember the Milk events and tasks directly from the desktop calendar."
+
+#~ msgid "Select the sound file for the alarm"
+#~ msgstr "Select the sound file for the alarm"
+
+#~ msgid "Copy to..."
+#~ msgstr "Copy to..."
+
+#~ msgid "Move to..."
+#~ msgstr "Move to..."
+
+#~ msgid "Change fields..."
+#~ msgstr "Change fields..."
+
+#~ msgid "Details"
+#~ msgstr "Details"
+
+#~ msgid "Moonphase"
+#~ msgstr "Moonphase"
+
+#~ msgid "Translate width"
+#~ msgstr "Translate width"
+
+#~ msgid "Defines the width of the translate list. The default value is 165 pixels."
+#~ msgstr "Defines the width of the translate list. The default value is 165 pixels."
+
+#~ msgid "Translate from language"
+#~ msgstr "Translate from language"
+
+#~ msgid "Source language"
+#~ msgstr "Source language"
+
+#~ msgid "Translate to languages"
+#~ msgstr "Translate to languages"
+
+#~ msgid "List of target languages separated with '|'-char."
+#~ msgstr "List of target languages separated with '|'-char."
+
+#~ msgid "Set to 0 to hide the week numbers from the calendar."
+#~ msgstr "Set to 0 to hide the week numbers from the calendar."
+
+#~ msgid "Nothing"
+#~ msgstr "Nothing"
+
+#~ msgid "Show month"
+#~ msgstr "Show month"
+
+#~ msgid "Background transparency"
+#~ msgstr "Background transparency"
+
+#~ msgid "Set to 0 to disable the autoscroll."
+#~ msgstr "Set to 0 to disable the autoscroll."
+
+#~ msgid "Set to 0 to hide the week numbers from the view."
+#~ msgstr "Set to 0 to hide the week numbers from the view."
+
+#~ msgid "Show Background"
+#~ msgstr "Show Background"
+
+#~ msgid "Show dock icon (requires restart)"
+#~ msgstr "Show dock icon (requires restart)"
+
+#~ msgid "TodoList"
+#~ msgstr "TodoList"
+
+#~ msgid "EventList"
+#~ msgstr "EventList"
+
+#~ msgid "Input text"
+#~ msgstr "Input text"
+
+#~ msgid "Google Calendar makes it possible to set the alarm only 28 days before the event. The alarm was automatically set to the maximum value."
+#~ msgstr "Google Calendar makes it possible to set the alarm only 28 days before the event. The alarm was automatically set to the maximum value."
+
+#~ msgid "New Todo..."
+#~ msgstr "New Todo..."
