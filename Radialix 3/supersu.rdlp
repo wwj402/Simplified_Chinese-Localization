@@ -1,0 +1,3260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{631B41FE-A95D-430B-B132-1DBC57D392B8}"/>
+  <IDESettings ProjectItemPath="0.strings.xml (strings.xml)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="strings.appdetail_logging" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{CBB2E806-EA99-4215-8409-A23928928D66}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2016-09-23T19-23-36">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2016-09-23T22-10-39">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="8" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>1</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\Downloads\Superuser_2.76直装版\res\values\arrays.xml" Parser="AndroidXMLResourceFile" DateTimeStamp="4676092771776669508" FileSize="1987">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <ChangedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="resources" Class="AndroidXMLResourceType">
+        <Resource Name="arrays" Class="AndroidXMLResource" Type="AndroidXMLResource">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="appdetail_access_items" Class="AndroidXMLValue">
+            <Src>Prompt</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-07-00" Translated="2016-09-23T22-07-00" State="Validated">
+              <cur>提示</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="appdetail_access_items" Class="AndroidXMLValue">
+            <Src>Grant</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="appdetail_access_items" Class="AndroidXMLValue">
+            <Src>Deny</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_access_items_pro" Class="AndroidXMLValue">
+            <Src>Prompt</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>提示</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="appdetail_access_items_pro" Class="AndroidXMLValue">
+            <Src>Grant</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="appdetail_access_items_pro" Class="AndroidXMLValue">
+            <Src>Grant+Time</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-08-06" Translated="2016-09-23T22-08-06" State="Validated">
+              <cur>限时授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3" Name="appdetail_access_items_pro" Class="AndroidXMLValue">
+            <Src>Deny</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="4" Name="appdetail_access_items_pro" Class="AndroidXMLValue">
+            <Src>Deny+Time</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>限时拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_logging_items" Class="AndroidXMLValue">
+            <Src>Global default</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>全局默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="appdetail_logging_items" Class="AndroidXMLValue">
+            <Src>Full content</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>全部内容</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="appdetail_logging_items" Class="AndroidXMLValue">
+            <Src>Access only</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>仅访问记录</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3" Name="appdetail_logging_items" Class="AndroidXMLValue">
+            <Src>None</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>无</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_notification_items" Class="AndroidXMLValue">
+            <Src>Global default</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>全局默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="appdetail_notification_items" Class="AndroidXMLValue">
+            <Src>Enabled</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>已启用</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="appdetail_notification_items" Class="AndroidXMLValue">
+            <Src>Disabled</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>已禁用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="expire_timer" Class="AndroidXMLValue">
+            <Src>Indefinitely</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>不限时</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>1 minute</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>1 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>5 minutes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>5 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>15 minutes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>15 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="4" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>30 minutes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>30 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="5" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>1 hour</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>1小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="6" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>3 hours</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>3 小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="7" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>6 hours</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>6 小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="8" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>12 hours</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>12 小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="9" Name="expire_timer" Class="AndroidXMLValue">
+            <Src>24 hours</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>24 小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_default_access_items" Class="AndroidXMLValue">
+            <Src>Prompt</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-08-55" Translated="2016-09-23T22-08-55" State="Validated">
+              <cur>提示</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="settings_default_access_items" Class="AndroidXMLValue">
+            <Src>Grant</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="settings_default_access_items" Class="AndroidXMLValue">
+            <Src>Deny</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>Never</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>永不</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>2 weeks</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>2 周</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>1 week</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>1 周</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3" Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>3 days</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>3 天</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="4" Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>2 days</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>2 天</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="5" Name="settings_log_age_items" Class="AndroidXMLValue">
+            <Src>1 day</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>1 天</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="settings_log_format_items" Class="AndroidXMLValue">
+            <Src>31/12 23:59</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Index="1" ReadOnly="1" Name="settings_log_format_items" Class="AndroidXMLValue">
+            <Src>12/31 23:59</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Index="2" Name="settings_log_format_items" Class="AndroidXMLValue">
+            <Src>31/12 11:59 PM</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>31/12 11:59 下午</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3" Name="settings_log_format_items" Class="AndroidXMLValue">
+            <Src>12/31 11:59 PM</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>12/31 11:59 下午</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_items" Class="AndroidXMLValue">
+            <Src>Full content</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>全部内容</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="settings_log_items" Class="AndroidXMLValue">
+            <Src>Access only</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-09-35" Translated="2016-09-23T22-09-35" State="Validated">
+              <cur>仅访问记录</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2" Name="settings_log_items" Class="AndroidXMLValue">
+            <Src>None</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-09" State="ForReview">
+              <cur>无</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="arrays.xml" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;-&lt;AndroidLang&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile FileName="D:\Downloads\Superuser_2.76直装版\res\values-zh-rCN\arrays.xml" Parser="AndroidXMLResourceFile"/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <ChangedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <File Name="D:\Downloads\Superuser_2.76直装版\res\values\strings.xml" Parser="AndroidXMLResourceFile" DateTimeStamp="4676092771776505663" FileSize="30338">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <ChangedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="resources" Class="AndroidXMLResourceType">
+        <Resource Name="strings" Class="AndroidXMLResource" Type="AndroidXMLResource">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="app_name" Class="AndroidXMLValue">
+            <Src>SuperSU</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="appdetail_access" Class="AndroidXMLValue">
+            <Src>Access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>访问权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_force_user" Class="AndroidXMLValue">
+            <Src>Force user</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>强制用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_logging" Class="AndroidXMLValue">
+            <Src>Logging</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_logging_problem" Class="AndroidXMLValue">
+            <Src>NOTICE: This app is known to have problems with full content logging !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>注意：此应用对详细日志支持不佳。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_none" Class="AndroidXMLValue">
+            <Src>( None )</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>（无）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_notification" Class="AndroidXMLValue">
+            <Src>Notifications</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>通知</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appdetail_pro_required" Class="AndroidXMLValue">
+            <Src>( Pro only )</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>（仅限专业版）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="boot_ota_superuser_restored" Class="AndroidXMLValue">
+            <Src>SuperSU has automatically restored superuser access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU已经自动恢复超级用户权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_gplus" Class="AndroidXMLValue">
+            <Src>Google Plus</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Google+</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_nothanks" Class="AndroidXMLValue">
+            <Src>No thanks</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>暂不关注</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_popup_desc" Class="AndroidXMLValue">
+            <Src>Stay up to date with my developments, follow me on Twitter or Google Plus</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>关注我的 Twitter 或 Google+ 帐户，了解我的开发最新动态。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_popup_title" Class="AndroidXMLValue">
+            <Src>Follow me</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>关注我</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_pref_desc" Class="AndroidXMLValue">
+            <Src>Stay up to date with my developments</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>关注我的开发动态</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_pref_title" Class="AndroidXMLValue">
+            <Src>Follow me on Twitter or G+</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>关注我的 Twitter 或 Google+</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="follow_twitter" Class="AndroidXMLValue">
+            <Src>Twitter</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="generic_cancel" Class="AndroidXMLValue">
+            <Src>Cancel</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_clear" Class="AndroidXMLValue">
+            <Src>Clear</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_close" Class="AndroidXMLValue">
+            <Src>Close</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>关闭</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_continue" Class="AndroidXMLValue">
+            <Src>Continue</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_default" Class="AndroidXMLValue">
+            <Src>Default</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_deny" Class="AndroidXMLValue">
+            <Src>Deny</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_forget" Class="AndroidXMLValue">
+            <Src>Forget</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>移除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_grant" Class="AndroidXMLValue">
+            <Src>Grant</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_load" Class="AndroidXMLValue">
+            <Src>Load</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>载入</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_never" Class="AndroidXMLValue">
+            <Src>Never</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>永久</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_none" Class="AndroidXMLValue">
+            <Src>None</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>无</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_ok" Class="AndroidXMLValue">
+            <Src>OK</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_save" Class="AndroidXMLValue">
+            <Src>Save</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>保存</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary" Class="AndroidXMLValue">
+            <Src>The SU binary needs to be updated. Continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SU 二进制文件需要更新，是否继续？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_cant" Class="AndroidXMLValue">
+            <Src>There is no SU binary installed, and SuperSU cannot install it. This is a problem!</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>未安装 su 二进制可执行文件，而 SuperSU 也无法安装它。您的设备可能没有获得 root 权限。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_failure" Class="AndroidXMLValue">
+            <Src>Installation failed !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装失败！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_progress" Class="AndroidXMLValue">
+            <Src>Installing, please wait ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在安装，请稍候…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_success" Class="AndroidXMLValue">
+            <Src>Installation success !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装成功！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="logdetail_no_log" Class="AndroidXMLValue">
+            <Src>Superuser command contents have not been logged for this entry. Full logging can be enabled for all apps by selecting Settings --&gt; Logging --&gt; Full content, or on a per-app bases by selecting the app in the apps listing.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>该条目无法记录到超级用户命令日志。您可以在本应用的“设置 --&gt; 记录日志 --&gt; 全部内容”选项启用完整日志记录。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="logdetail_no_log_problem" Class="AndroidXMLValue">
+            <Src>NOTICE: This app is known to have problems with full content logging - the global log setting is ignored. Full logging can only be enabled through the per-app configuration dialog.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>注意：本应用在启用“记录全部内容”设置时-全局日志记录设置会被忽略。“记录全部内容”设置只能通过单个应用的独立配置窗口启用。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pin_title" Class="AndroidXMLValue">
+            <Src>Enter PIN code</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>输入 PIN 码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pin_title_verify" Class="AndroidXMLValue">
+            <Src>Verify PIN code</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>验证 PIN 码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pin_verify_wrong" Class="AndroidXMLValue">
+            <Src>The two PIN codes you entered did not match</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>两次输入的 PIN 码不匹配</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pin_wrong" Class="AndroidXMLValue">
+            <Src>The PIN code entered was not correct</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>输入的 PIN 码不正确</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_10" Class="AndroidXMLValue">
+            <Src>10 seconds</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>10 秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_120" Class="AndroidXMLValue">
+            <Src>2 minutes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>2 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_20" Class="AndroidXMLValue">
+            <Src>20 seconds</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>20 秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_30" Class="AndroidXMLValue">
+            <Src>30 seconds</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>30 秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_300" Class="AndroidXMLValue">
+            <Src>5 minutes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>5 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_60" Class="AndroidXMLValue">
+            <Src>1 minute</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>1 分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_access" Class="AndroidXMLValue">
+            <Src>Access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>授权操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_cleanup" Class="AndroidXMLValue">
+            <Src>Cleanup</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_cm" Class="AndroidXMLValue">
+            <Src>CyanogenMod</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="settings_category_language" Class="AndroidXMLValue">
+            <Src>Language</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_logs" Class="AndroidXMLValue">
+            <Src>Logs</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_market" Class="AndroidXMLValue">
+            <Src>Google Play</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Google Play 商店</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_root" Class="AndroidXMLValue">
+            <Src>Superuser</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_security" Class="AndroidXMLValue">
+            <Src>Security</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安全设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_system" Class="AndroidXMLValue">
+            <Src>System</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>系统</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_failed" Class="AndroidXMLValue">
+            <Src>Sorry, cleanup failed</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>抱歉，清除失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_description" Class="AndroidXMLValue">
+            <Src>Cleanup for permanent unroot</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>永久清除 ROOT 权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_success" Class="AndroidXMLValue">
+            <Src>If cleanup succeeds, root will be lost, and this app will close automatically in a few seconds. Beware that some kernels automatically re-root at boot. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除成功后，您将会失去 ROOT 权限，并且应用将会在数秒后自动关闭。随后请重启您的设备。请注意，某些内核会在重启后自动获取 ROOT 权限。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_title" Class="AndroidXMLValue">
+            <Src>Full unroot</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>完全清除 ROOT 权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_reinstall_description" Class="AndroidXMLValue">
+            <Src>Cleanup for reinstallation from Google Play</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>执行清除并前往 Google Play 商店重新安装 SuperSU</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_reinstall_success" Class="AndroidXMLValue">
+            <Src>If cleanup succeeds, this app will close automatically in a few seconds. Afterwards, please reinstall SuperSU from Google Play. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>如果清理成功，本应用程序将自动关闭。之后请进入 Google Play 商店重新安装 SuperSU。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_reinstall_title" Class="AndroidXMLValue">
+            <Src>Reinstall</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>重新安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_switch_superuser_description" Class="AndroidXMLValue">
+            <Src>Cleanup to switch to another superuser app</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>为切换 Superuser 管理程序进行清理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_switch_superuser_success" Class="AndroidXMLValue">
+            <Src>"If cleanup succeeds, this app will close automatically in a few seconds. Afterwards, go into the other superuser app and make it update it's binary. Are you sure you want to continue ?"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>若清理成功，本应用程序也将自动关闭。之后请您进入其它 Superuser 管理程序让其自动更新 SU 二进制文件。您确定需要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_switch_superuser_title" Class="AndroidXMLValue">
+            <Src>Switch superuser app</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>切换超级用户管理程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_language_title" Class="AndroidXMLValue">
+            <Src>Language</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_dark" Class="AndroidXMLValue">
+            <Src>Dark</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>暗色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_light" Class="AndroidXMLValue">
+            <Src>Light</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>浅色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_default_access" Class="AndroidXMLValue">
+            <Src>Default access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>默认操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_default_access_select" Class="AndroidXMLValue">
+            <Src>Select default access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择默认操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_language_default" Class="AndroidXMLValue">
+            <Src>Default language</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>默认语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_language_popup" Class="AndroidXMLValue">
+            <Src>Select language</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_language_restart" Class="AndroidXMLValue">
+            <Src>SuperSU needs to be restarted for the language change to be activated (if the chosen language is supported)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 需要重启以使语言更改生效（若您所选中的语言是已被支持的）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_language_title" Class="AndroidXMLValue">
+            <Src>Language override</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>切换语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log" Class="AndroidXMLValue">
+            <Src>Logging</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>记录方式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_age" Class="AndroidXMLValue">
+            <Src>Clear logs after ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志保存期限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_age_select" Class="AndroidXMLValue">
+            <Src>Select log expiration</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择日志保存期限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_clear" Class="AndroidXMLValue">
+            <Src>Clear logs now</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>立即清空日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_clear_description" Class="AndroidXMLValue">
+            <Src>Removes all currently present logs</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除已保存的日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_clear_progress" Class="AndroidXMLValue">
+            <Src>Clearing logs ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在清除日志…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_format" Class="AndroidXMLValue">
+            <Src>Log date format</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志日期格式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_format_restart" Class="AndroidXMLValue">
+            <Src>Changes to this setting are applied at app restart</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>此设置的变更将在 SuperSU 重启后生效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_format_select" Class="AndroidXMLValue">
+            <Src>Select format</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择日期格式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_select" Class="AndroidXMLValue">
+            <Src>Select log level</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择记录级别</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_select_problem" Class="AndroidXMLValue">
+            <Src>Some apps are known to have problems with full content logging, these will ignore this setting. To enable full logging for these apps, use the per-app configuration dialog.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>目前已经得知一些应用在启用“记录全部内容”设置时会出现问题，这些应用将会忽略这项设置。若您要为这些应用启用“记录全部内容”设置，请使用这些应用的独立配置窗口来启用。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market" Class="AndroidXMLValue">
+            <Src>All my apps</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>我的所有应用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_description" Class="AndroidXMLValue">
+            <Src>View all my apps available on Google Play</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>浏览我在 Google Play 商店发布的所有应用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_pin" Class="AndroidXMLValue">
+            <Src>PIN code</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>PIN 码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_pin_disabled" Class="AndroidXMLValue">
+            <Src>[ No PIN code configured ]</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>[未设置 PIN 码]</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_pin_enabled" Class="AndroidXMLValue">
+            <Src>[ PIN code enabled ]</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>[PIN 码已启用]</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_pro_required" Class="AndroidXMLValue">
+            <Src>SuperSU Pro is required for this feature</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>本功能需要 SuperSU 专业版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_reauth" Class="AndroidXMLValue">
+            <Src>Re-authentication</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>重新验证</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_reauth_disabled" Class="AndroidXMLValue">
+            <Src>Remember permission across re-installs and upgrades</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>在应用程序被重新安装或升级后，仍然记住它们之前的授权状态</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_reauth_enabled" Class="AndroidXMLValue">
+            <Src>Ask for permission again if an app is re-installed or upgraded</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>程序重装或升级，需要重新申请权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_root" Class="AndroidXMLValue">
+            <Src>Enable superuser</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>启用超级用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_root_disabled" Class="AndroidXMLValue">
+            <Src>Superuser is disabled and hidden</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级用户已被禁用并隐藏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_root_enabled" Class="AndroidXMLValue">
+            <Src>Superuser is enabled</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级用户已启用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_show_notifications" Class="AndroidXMLValue">
+            <Src>Show notifications</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>显示通知</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_show_notifications_disabled" Class="AndroidXMLValue">
+            <Src>Do not show a toast notification when a program requests access (may be overridden per-app)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>当应用程序请求授权时不显示通知（应用程序若已被独立设置则将覆盖此设置）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_show_notifications_enabled" Class="AndroidXMLValue">
+            <Src>Show a toast notification when a program requests access (may be overridden per-app)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>当应用程序请求授权时显示通知（应用程序若已被独立设置则将覆盖此设置）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_survival" Class="AndroidXMLValue">
+            <Src>Survival mode</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>OTA生存模式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_survival_disabled" Class="AndroidXMLValue">
+            <Src>No special action will be taken to make sure superuser access is kept</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>未采取任何措施来保证超级用户权限的有效性</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_survival_enabled" Class="AndroidXMLValue">
+            <Src>SuperSU will actively attempt to keep superuser access, even across OTA updates. Disable before NANDROID !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级授权将试图保留超级用户访问权限（即使通过 OTA 更新后也将保留），请在执行Nandroid备份/恢复前禁用该选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app" Class="AndroidXMLValue">
+            <Src>Install SuperSU into /system</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装SuperSU至 /system</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_disabled" Class="AndroidXMLValue">
+            <Src>SuperSU is already a system app</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 已经是系统应用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_enabled" Class="AndroidXMLValue">
+            <Src>Converts SuperSU into a system app. You may need to repeat this process after an update</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>将超级授权转换为系统应用，当您更新本应用后可能需要重新执行这项操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_tap_xda" Class="AndroidXMLValue">
+            <Src>Tap to visit XDA thread</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>点击这里访问 XDA 主帖</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_upgrade" Class="AndroidXMLValue">
+            <Src>Upgrade to Pro</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>升级至 Pro 版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_upgrade_description" Class="AndroidXMLValue">
+            <Src>Support development and unlock extra features</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>帮助开发并解锁附加功能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="store_play" Class="AndroidXMLValue">
+            <Src>Google Play</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Google Play 商店</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_command_shell" Class="AndroidXMLValue">
+            <Src>(Interactive Shell)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>（交互界面）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_prompt_again" Class="AndroidXMLValue">
+            <Src>Ask me again next time</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>下次重新询问</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_request_command" Class="AndroidXMLValue">
+            <Src>Command:</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>命令：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_request_from" Class="AndroidXMLValue">
+            <Src>Superuser request:</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级用户申请：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_request_uid" Class="AndroidXMLValue">
+            <Src>Requested user:</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>请求用户：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_user_unknown" Class="AndroidXMLValue">
+            <Src>Unknown</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>未知</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tab_apps" Class="AndroidXMLValue">
+            <Src>Apps</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tab_apps_empty" Class="AndroidXMLValue">
+            <Src>No apps configured</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>未配置任何程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tab_logs" Class="AndroidXMLValue">
+            <Src>Logs</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tab_logs_empty" Class="AndroidXMLValue">
+            <Src>No logs available</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>日志为空</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tab_settings" Class="AndroidXMLValue">
+            <Src>Settings</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_denied" Class="AndroidXMLValue">
+            <Src>denied</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>拒绝授予</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_granted" Class="AndroidXMLValue">
+            <Src>granted</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>授予</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_interactive" Class="AndroidXMLValue">
+            <Src>for an interactive shell</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>通过交互界面</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_name" Class="AndroidXMLValue">
+            <Src>%s has been %s superuser permissions</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>%s 已被 %s 超级用户权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_package" Class="AndroidXMLValue">
+            <Src>%s (%s) has been %s superuser permissions</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>%s (%s) 已被 %s 超级用户权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_unknown" Class="AndroidXMLValue">
+            <Src>unknown</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>未知</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="uninstall_binary_failure" Class="AndroidXMLValue">
+            <Src>Uninstallation failed !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>卸载失败！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="uninstall_binary_progress" Class="AndroidXMLValue">
+            <Src>Uninstalling, please wait ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在卸载，请稍候…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="developer_permission_warning" Class="AndroidXMLValue">
+            <Src>Developer: android.permission. ACCESS_SUPERUSER not declared in manifest</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>开发者：manifest 文件中没有 android.permission.ACCESS_SUPERUSER 权限声明</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="disable_knox_fail" Class="AndroidXMLValue">
+            <Src>Failed to disable KNOX !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>禁用 KNOX 失败！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="disable_knox_popup" Class="AndroidXMLValue">
+            <Src>Samsung KNOX has been detected. This might limit root capabilities and cause annoying popups. Try to disable KNOX ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>检测到三星 KNOX。KNOX 可能会限制 ROOT 权限，并带来烦人的提示。是否尝试禁用 KNOX？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="disable_knox_progress" Class="AndroidXMLValue">
+            <Src>Disabling KNOX ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在禁用 KNOX…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="disable_knox_success" Class="AndroidXMLValue">
+            <Src>KNOX was successfully disabled !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>KNOX 已成功禁用！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate" Class="AndroidXMLValue">
+            <Src>Donate</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>捐赠</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_error" Class="AndroidXMLValue">
+            <Src>An error occurred, please try again later - perhaps after a reboot ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>发生了错误，请稍后再试 - 重启后再试试？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_hide" Class="AndroidXMLValue">
+            <Src>Hide for %d months</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>隐藏 %d 个月</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_monthly" Class="AndroidXMLValue">
+            <Src>Monthly - %s, including taxes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>每月一次 - %s，含税</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_once" Class="AndroidXMLValue">
+            <Src>Once - %s, including taxes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>一次 - %s，含税</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_server" Class="AndroidXMLValue">
+            <Src>Contacting server …</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在连接服务器 …</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_thanks" Class="AndroidXMLValue">
+            <Src>Thank you for your donation!</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>感谢您的捐赠！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="donate_thanks_subscription" Class="AndroidXMLValue">
+            <Src>Thank you for your donation! Please note that you need to stop the subscription through the Google Wallet website.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>感谢您的捐赠！请注意您需要通过 Google Wallet 网站停止订购。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_next_time" Class="AndroidXMLValue">
+            <Src>Next time</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>下一次</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_reboot" Class="AndroidXMLValue">
+            <Src>Reboot</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>重启</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_backup_script_prompt" Class="AndroidXMLValue">
+            <Src>Install an addon backup script that will let SuperSU survive custom ROM updates and nightlies ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>是否安装备份脚本插件，让 SuperSU 在更新 CyanogenMod 或 Nightly 版本后也无需重装？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_cant_43" Class="AndroidXMLValue">
+            <Src>
+              <Data>"There is no SU binary installed, and SuperSU cannot install it. This is a problem!\n</Data>
+              <Data>\n</Data>
+              <Data>If you just upgraded to Android 4.3, you need to manually re-root - consult the relevant forums for your device!"</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>
+                <Data>"设备未发现 SU 二进制文件，并且 SuperSU 也无法安装该文件。设备可能没有获得 ROOT 权限！\n</Data>
+                <Data>\n</Data>
+                <Data>\0x20若您的设备刚升级到 Android 4.3，您需要按照相应的教程操作以便重新获取 ROOT 权限！"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_cant_50" Class="AndroidXMLValue">
+            <Src>
+              <Data>"There is no SU binary installed, and SuperSU cannot install it. This is a problem!\n</Data>
+              <Data>\n</Data>
+              <Data>If you just upgraded to Android 5.0, you need to manually re-root - consult the relevant forums for your device!"</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>
+                <Data>"SU 二进制文件未安装，而 SuperSU 也不能安装该文件。\n</Data>
+                <Data>\n</Data>
+                <Data>如果是新升级到 Android 5.0，您需要手动重新 root。去设备的相关论坛看看吧！"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_failure_43" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Installation failed !\n</Data>
+              <Data>\n</Data>
+              <Data>Please reboot and try again."</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>
+                <Data>"安装失败！\n</Data>
+                <Data>\n</Data>
+                <Data>\0x20请重启设备后再重新安装。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_progress_43" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Installing, please wait ...\n</Data>
+              <Data>\n</Data>
+              <Data>If you see this message for more than five minutes, please reboot and try again."</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>
+                <Data>"正在安装…\n</Data>
+                <Data>\n</Data>
+                <Data>若这条信息显示超过 5 分钟，请重启设备后再尝试重新安装。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_recovery" Class="AndroidXMLValue">
+            <Src>If you have a custom recovery like TWRP or CWM, that can be used to (try to) install the SU binary. This is recommended for HTC devices. How would you like to install the SU binary ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>若您的设备安装了 TWRP 或 CWM 这类定制 Recovery，您可以（尝试）用它来安装 SU 二进制文件。建议在 HTC 设备上使用这种方式安装。您要使用哪一种方式安装 SU 二进制文件？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_recovery_normal" Class="AndroidXMLValue">
+            <Src>Normal</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>常规方式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_recovery_reboot" Class="AndroidXMLValue">
+            <Src>SuperSU will attempt to reboot your device into TWRP or CWM. This does not work on all devices. If this app just closes, please reboot into recovery manually.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 将会重启您的设备进入 TWRP 或 CWM，一些设备可能不支持这项功能。若 SuperSU 只是关闭而没有执行重启命令，请手动重启设备进入 Recovery。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_recovery_recovery" Class="AndroidXMLValue">
+            <Src>TWRP/CWM</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="install_binary_skip_notice" Class="AndroidXMLValue">
+            <Src>SuperSU may not function as expected without the updated binary. If you are having trouble updating the binary, please report the issue to the SuperSU forums on XDA-Developers.com</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>若缺失最新的二进制文件，SuperSU 将可能无法运行。如果在更新二进制文件时遇到问题，请到 xda-developers.com 论坛 SuperSU 专贴反馈问题。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="install_binary_success_43" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Installation success !\n</Data>
+              <Data>\n</Data>
+              <Data>It is recommended to reboot your device now."</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>
+                <Data>"安装成功！\n</Data>
+                <Data>\n</Data>
+                <Data>建议重启系统。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="nag_message" Class="AndroidXMLValue">
+            <Src>! Please consider getting SuperSU Pro !</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>请考虑升级为超级授权专业版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_subtitle" Class="AndroidXMLValue">
+            <Src>Setting the countdown to longer than 10 seconds may cause crashes in badly-written apps</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>倒计时超过 10 秒可能会导致不规范的应用崩溃</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_access_countdown_title" Class="AndroidXMLValue">
+            <Src>Auto-deny countdown</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>自动拒绝倒计时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_additional_donations" Class="AndroidXMLValue">
+            <Src>Additional donations</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>额外捐赠</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_additional_donations_description" Class="AndroidXMLValue">
+            <Src>Help support continued development. Completely optional, does not unlock any features. Added by user request.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>帮助和支持长期的持续开发工作。完全非强制性和自愿的，不会解锁任何功能。应用户要求新增。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_backup_description" Class="AndroidXMLValue">
+            <Src>Install an addon backup script that will let SuperSU survive custom ROM updates and nightlies</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装备份脚本插件，让 SuperSU 在更新 定制 ROM 或 Nightly 版本后也无需重装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_credits" Class="AndroidXMLValue">
+            <Src>Credits</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>致意</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_custom" Class="AndroidXMLValue">
+            <Src>Customization</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>个性化设定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_custom_rom" Class="AndroidXMLValue">
+            <Src>Custom ROM</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>定制 ROM</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_category_developer" Class="AndroidXMLValue">
+            <Src>Developer</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>开发者</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_success_2" Class="AndroidXMLValue">
+            <Src>If cleanup succeeds, root will be lost, and this app will close automatically in a few seconds. Please reboot your device afterwards. Beware that some kernels automatically re-root at boot. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除成功后，设备将会失去 ROOT 权限，并且本应用将会在数秒后自动关闭。随后请重启您的设备。注意，一些内核会在重启后自动获取 ROOT 权限。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_other_su_description" Class="AndroidXMLValue">
+            <Src>Removes other superuser apps that may be installed and can cause conflicts</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>移除其它可能导致冲突的超级权限管理程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_other_su_title" Class="AndroidXMLValue">
+            <Src>Remove other superuser apps</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>移除其它超级权限管理程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_reinstall_success_2" Class="AndroidXMLValue">
+            <Src>If cleanup succeeds, this app will close automatically in a few seconds. Please reboot your device afterwards. After boot, reinstall SuperSU from Google Play. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除成功后，本应用将会在数秒后自动关闭。随后请重启您的设备。重启后，请前往 Google Play 重新安装超级授权。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_switch_superuser_success_2" Class="AndroidXMLValue">
+            <Src>"If cleanup succeeds, this app will close automatically in a few seconds. Please reboot your device afterwards. After boot, go into the other superuser app and make it update it's binary. Are you sure you want to continue ?"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>清除成功后，本应用将会在数秒后自动关闭。随后请重启您的设备。重启后，请使用其它超级用户授权工具更新二进制文件。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup" Class="AndroidXMLValue">
+            <Src>Install SuperSU backup script</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装 SuperSU 备份脚本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup_already_installed" Class="AndroidXMLValue">
+            <Src>Script is already installed</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>脚本已安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup_description" Class="AndroidXMLValue">
+            <Src>Install an addon backup script that will let SuperSU surive CM updates and nightlies</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>安装备份脚本，让超级授权在设备更新 CyanogenMod或 每日版 后也无需重新安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup_fail" Class="AndroidXMLValue">
+            <Src>Sorry, installing backup script failed</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>抱歉，未能安装备份脚本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup_progress" Class="AndroidXMLValue">
+            <Src>Installing backup script ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在安装备份脚本…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_backup_system_required" Class="AndroidXMLValue">
+            <Src>SuperSU must be installed in /system for this feature (see above)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 必须安装在 /system 时才能使用此功能（详见上面的选项）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_respect" Class="AndroidXMLValue">
+            <Src>Respect CM root settings</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>使用 CyanogenMod 的 ROOT 权限设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_respect_disabled" Class="AndroidXMLValue">
+            <Src>"Ignore CM's root access setting (in Settings --&gt; Developer Options)"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>忽略 CyanogenMod 的 ROOT 权限设置（位于系统设置 --&gt; 开发者选项）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cm_respect_enabled" Class="AndroidXMLValue">
+            <Src>"Respect CM's root access setting (in Settings --&gt; Developer Options)"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>使用 CyanogenMod 的 ROOT 权限设置（位于系统设置 --&gt; 开发者选项）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_credits_description" Class="AndroidXMLValue">
+            <Src>Display a list of credits, contributors, acknowledgements, and notices</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>显示致谢、贡献者以及注意事项列表</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_credits_title" Class="AndroidXMLValue">
+            <Src>Credits</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>致谢</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_chip" Class="AndroidXMLValue">
+            <Src>Chip (Shoaib Ahmad)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>芯片（Shoaib Ahmad）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_emblem" Class="AndroidXMLValue">
+            <Src>Emblem (Tha Phlash)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>图章（Tha Phlash）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_invisible" Class="AndroidXMLValue">
+            <Src>Invisible (hidden from launcher)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>从启动器中隐藏图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_invisible_warning" Class="AndroidXMLValue">
+            <Src>If you make SuperSU invisible, you will not be able to open SuperSU configuration. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>若选择隐藏 SuperSU 的启动图标，您将无法打开 SuperSU 的配置界面。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_material" Class="AndroidXMLValue">
+            <Src>Material (Chainfire &amp; Pim Boin)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Material（Chainfire 和 Pim Boin）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_original" Class="AndroidXMLValue">
+            <Src>Original (Chainfire)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>原始 (Chainfire)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_superandy" Class="AndroidXMLValue">
+            <Src>Super Andy (Juan Castillo)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级安迪（Juan Castillo）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_supersu" Class="AndroidXMLValue">
+            <Src>SuperSU (Robert McKenna)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>超级授权（Robert McKenna）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_icon_title" Class="AndroidXMLValue">
+            <Src>Launcher icon</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>启动图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_language_subtitle" Class="AndroidXMLValue">
+            <Src>Note: not all languages are supported</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>注意：并不支持所有语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_devicedefault" Class="AndroidXMLValue">
+            <Src>Device default</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>设备默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_light_darkbar" Class="AndroidXMLValue">
+            <Src>Light, dark actionbar</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>浅色，深色操作栏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_restart" Class="AndroidXMLValue">
+            <Src>SuperSU needs to be restarted for the theme change to be activated (if the chosen theme is supported)</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>需重启 SuperSU 以应用主题更改（若您的设备支持所选主题）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_subtitle" Class="AndroidXMLValue">
+            <Src>Note: not all themes are supported on all devices</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>注意：主题并非支持所有设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_title" Class="AndroidXMLValue">
+            <Src>Theme</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_developer_permission_warning" Class="AndroidXMLValue">
+            <Src>Enable permission warning</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>启用权限警示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_developer_permission_warning_disabled" Class="AndroidXMLValue">
+            <Src>Do not display any warnings about missing android.permission.ACCESS_SUPERUSER permissions</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>对于缺失 android.permission.ACCESS_SUPERUSER 权限声明的应用不显示警示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_developer_permission_warning_enabled" Class="AndroidXMLValue">
+            <Src>Display warning if android.permission.ACCESS_SUPERUSER permission not declared in manifest</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>对于 manifest 文件中没有 android.permission.ACCESS_SUPERUSER 权限声明的应用显示警示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enable_multiuser" Class="AndroidXMLValue">
+            <Src>Enable multi-user</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>启用多用户授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enable_multiuser_disabled" Class="AndroidXMLValue">
+            <Src>Only the primary user has root access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>仅主用户才能使用 ROOT 权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enable_multiuser_enabled" Class="AndroidXMLValue">
+            <Src>All users have root access</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>所有用户都可以使用 ROOT 权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enforce_permission" Class="AndroidXMLValue">
+            <Src>Enforce permission</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>强制许可授权</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enforce_permission_disabled" Class="AndroidXMLValue">
+            <Src>You will be asked to grant permission to apps regardless of the ACCESS_SUPERUSER permission</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>显示所有申请 ACCESS_SUPERUSER 权限的应用申请弹窗</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_enforce_permission_enabled" Class="AndroidXMLValue">
+            <Src>Prompts from apps that do not have the ACCESS_SUPERUSER permission will automatically be denied</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>自动拒绝未授予 ACCESS_SUPERUSER 权限的应用申请弹窗</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_autorefresh_disabled" Class="AndroidXMLValue">
+            <Src>Apps and logs tabs are not automatically refreshed</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>禁用自动刷新应用及日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_autorefresh_enabled" Class="AndroidXMLValue">
+            <Src>Automatically refresh apps and logs tabs as new entries are added. Detection depends on access and notification settings</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>根据授权和通知设置检测设备，自动刷新应用和日志标签来显示新添加的条目</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_log_autorefresh_title" Class="AndroidXMLValue">
+            <Src>Auto-refresh apps and logs tab</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>自动刷新应用和日志页面</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_description_2" Class="AndroidXMLValue">
+            <Src>View all my apps available in the store</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>查看商店里我所有的应用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_freeload_disabled" Class="AndroidXMLValue">
+            <Src>Pro features do not work unless you purchase SuperSU Pro</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>您没有购买 SuperSU 专业版，专业版功能不能使用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_freeload_enabled" Class="AndroidXMLValue">
+            <Src>All Pro features are enabled, even if you did not purchase SuperSU Pro</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>即使您未购买 SuperSU 专业版，也可以开启专业版的所有功能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_freeload_restart" Class="AndroidXMLValue">
+            <Src>SuperSU needs to be restarted for the changes to take effect</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 需要重启才能使您所作的更改生效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_freeload_title" Class="AndroidXMLValue">
+            <Src>Enable Pro</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>启用专业版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_nag_disabled" Class="AndroidXMLValue">
+            <Src>No message will be appended to notifications</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>不弹出通知信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_nag_enabled" Class="AndroidXMLValue">
+            <Src>A nag message will be appended to notifications</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>弹出一条通知信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_market_nag_title" Class="AndroidXMLValue">
+            <Src>Nag about upgrading</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>弹出升级通知</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_multiuser_disabled_message" Class="AndroidXMLValue">
+            <Src>Multi-user support is currently disabled. Only the primary user can use SuperSU. The primary user can enable multi-user support in SuperSU settings.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>多用户授权功能目前已被禁用，只有主用户才能使用超级授权。主用户可以进入超级授权的设置选项来启用多用户授权功能。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_multiuser_enabled_message" Class="AndroidXMLValue">
+            <Src>For multi-user support to work, you need to make sure that all users have SuperSU installed. It is advised to install SuperSU into /system, if you have not already done so.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>为了让多用户授权功能可以正常使用，您需要为所有用户安装超级授权。否则建议将超级授权安装到 /system。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_pin_notice" Class="AndroidXMLValue">
+            <Src>If you uninstall SuperSU while a PIN code is enabled, all root access requests will be denied</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>如果卸载 SuperSU 时已启用了 PIN 码保护，所有 ROOT 权限授权申请都会被拒绝</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_primary_user_required" Class="AndroidXMLValue">
+            <Src>Only the primary user can configure this feature</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>仅主用户才能配置这项功能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_during_boot" Class="AndroidXMLValue">
+            <Src>Enable su during boot</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>开机时允许所有授权申请</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_during_boot_disabled" Class="AndroidXMLValue">
+            <Src>All su requests during boot are denied</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>开机时拒绝所有授权申请</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_during_boot_enabled" Class="AndroidXMLValue">
+            <Src>All su requests during boot are granted</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>开机时允许所有授权申请</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_mount_namespace_separation" Class="AndroidXMLValue">
+            <Src>Mount namespace separation</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>分类挂载命名空间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_mount_namespace_separation_disabled" Class="AndroidXMLValue">
+            <Src>"All root processes share init's mount namespace (compatible). Reboot after changing this option"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>"所有 ROOT 进程共用 init's 挂载命名空间（相对兼容）。更改后需重启设备"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_security_enable_mount_namespace_separation_enabled" Class="AndroidXMLValue">
+            <Src>Normal root processes have their own mount namespace (safe). Reboot after changing this option</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>普通 ROOT 进程使用独立挂载命名空间（相对安全）。更改后需重启设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_survival_enabled_2" Class="AndroidXMLValue">
+            <Src>SuperSU will actively attempt to keep superuser access, even across OTA updates</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SuperSU 会尝试在设备经由 OTA 更新之后继续驻存超级用户访问权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_cleanup" Class="AndroidXMLValue">
+            <Src>We need to do some clean-up and reboot before we can convert to a system app, to prevent data loss. After the device reboots (if the app just closes, reboot manually), please retry this option.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>在将超级授权转换为系统应用之前，需要执行一些清理操作并重启设备来防止数据丢失。（若超级授权仅是关闭而没有执行重启命令，请您手动重启设备）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_cleanup_progress" Class="AndroidXMLValue">
+            <Src>Cleaning up and rebooting ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在执行清除并重启设备…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_fail" Class="AndroidXMLValue">
+            <Src>Sorry, installing to /system failed</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>抱歉，安装至 /system 分区失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_progress" Class="AndroidXMLValue">
+            <Src>Installing to /system ...</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>正在安装到 /system/app/Superuser…</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_app_success" Class="AndroidXMLValue">
+            <Src>Please reboot your device as soon as SuperSU closes. If it does not appear at all after boot, reinstall from Play</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>请在关闭 SuperSU 后重启您的设备，若重启后仍未显示本应用，请从 Google Play 重新安装。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_user_disabled" Class="AndroidXMLValue">
+            <Src>Even processes running as system user need confirmation to gain root</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>即使进程以系统用户运行，也需要经过用户确认后才能获取 ROOT 权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_user_enabled" Class="AndroidXMLValue">
+            <Src>Allow processes running as system user to gain root access without confirmation</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>允许以系统用户身份运行的进程无需确认即可获得root权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_system_user_title" Class="AndroidXMLValue">
+            <Src>Trust system user</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>信任系统用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_tapjack" Class="AndroidXMLValue">
+            <Src>Tapjacking protection</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>触控响应劫持防护</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_tapjack_disabled" Class="AndroidXMLValue">
+            <Src>The superuser prompt dialog will always respond to input</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>出现多个提示窗口时，下层超级授权提示弹窗响应上层弹窗或窗口的触控操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_tapjack_enabled" Class="AndroidXMLValue">
+            <Src>The superuser prompt dialog will not respond to input while obscured by any other window or overlay</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>出现多个提示窗口时，下层超级授权提示弹窗不响应上层弹窗或窗口的触控操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_unavailable_xbin" Class="AndroidXMLValue">
+            <Src>This feature not supported in XBIN mode</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>XBIN 模式不支持此功能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_upgrade_description_sauce" Class="AndroidXMLValue">
+            <Src>Support development, allow me to keep coding</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>捐助开发工作，给我前行动力</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="stat_binary_update" Class="AndroidXMLValue">
+            <Src>The SU binary needs to be updated!</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>SU 二进制文件需要更新！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="store_amazon" Class="AndroidXMLValue">
+            <Src>Amazon Appstore</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>亚马逊应用商店</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="store_select" Class="AndroidXMLValue">
+            <Src>Select store</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>选择应用商店</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_description" Class="AndroidXMLValue">
+            <Src>full permissions to all device features and storage</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>所有设备功能和存储器的完整访问权限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_description_more" Class="AndroidXMLValue">
+            <Src>Grants full access to all device features and storage, including the secure and sensitive hardware elements of your device. This permission is potentially dangerous.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>授予应用以完全权限访问设备和存储器所有功能（包含设备上容易出现安全隐患的硬件模块）。该授权存在潜在风险。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_prompt_again_2" Class="AndroidXMLValue">
+            <Src>Ask again:</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>再次询问：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_request_timer_notice" Class="AndroidXMLValue">
+            <Src>( Tap-and-hold for timer options )</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>（按住不放展开计时选项）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="superuser_request_warning" Class="AndroidXMLValue">
+            <Src>Grants full access to all device features and storage, potentially dangerous</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>授予应用完全权限访问设备和存储器所有功能存在潜在风险</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="toast_silently_denied_requests" Class="AndroidXMLValue">
+            <Src>Silently denied superuser requests:</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>静默拒绝的超级用户请求：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="uninstall_other_su_popup" Class="AndroidXMLValue">
+            <Src>Other superuser apps aside from SuperSU have been detected. This may cause conflicts! Attempt to uninstall them?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>检测到其它超级权限管理程序。可能会导致冲突！要卸载它们吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_no" Class="AndroidXMLValue">
+            <Src>No</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>否</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="generic_yes" Class="AndroidXMLValue">
+            <Src>Yes</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>是</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_subin_boot" Class="AndroidXMLValue">
+            <Src>Attempt to restore stock boot image? This is required for OTAs to succeed. If you manually decrypted your device, note that this might prevent your device from booting.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>是否尝试恢复系统内核（BOOT）镜像？OTA 升级前必须执行此操作。请注意，若您之前设定了设备加密，此操作有可能导致设备无法启动。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_cleanup_full_unroot_subin_recovery" Class="AndroidXMLValue">
+            <Src>Attempt to restore stock recovery image? This is required for OTAs to succeed.</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>是否尝试恢复系统 RECOVERY 镜像？ OTA 升级前必须执行此操作。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_dark" Class="AndroidXMLValue">
+            <Src>Holo: Dark</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Holo风格 - 深色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_devicedefault" Class="AndroidXMLValue">
+            <Src>Device default: Dark</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>设备默认风格 - 深色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_devicedefault_light" Class="AndroidXMLValue">
+            <Src>Device default: Light</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>设备默认风格 - 浅色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_devicedefault_light_darkbar" Class="AndroidXMLValue">
+            <Src>Device default: Light, dark actionbar</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>设备默认风格: 浅色主题+深色操作栏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_light" Class="AndroidXMLValue">
+            <Src>Holo: Light</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Holo风格 - 浅色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_light_darkbar" Class="AndroidXMLValue">
+            <Src>Holo: Light, dark actionbar</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Holo风格 - 浅色主题+深色操作栏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_material_dark" Class="AndroidXMLValue">
+            <Src>Material: Dark</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Meterial风格 - 深色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_material_light" Class="AndroidXMLValue">
+            <Src>Material: Light</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Meterial风格 - 浅色主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_custom_theme_5_material_light_darkbar" Class="AndroidXMLValue">
+            <Src>Material: Light, dark actionbar</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>Meterial风格 - 浅色主题+深色操作栏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="settings_unavailable_subin" Class="AndroidXMLValue">
+            <Src>Not (currently) available in system-less root mode</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-25-22" State="ForReview">
+              <cur>（目前）在非系统 root 模式下不可用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_bar_home_description" Class="AndroidXMLValue">
+            <Src>Navigate home</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-30-22" Translated="2016-09-23T19-30-22" State="Validated">
+              <cur>导航到首页</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_bar_up_description" Class="AndroidXMLValue">
+            <Src>Navigate up</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-30-34" Translated="2016-09-23T19-30-34" State="Validated">
+              <cur>导航到上级</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_menu_overflow_description" Class="AndroidXMLValue">
+            <Src>More options</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T19-29-42" Translated="2016-09-23T19-29-42" State="Validated">
+              <cur>更多的选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="appname_supersu" Class="AndroidXMLValue">
+            <Src>SuperSU</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="credits_text" Class="AndroidXMLValue">
+            <Src>"&lt;br&gt;&lt;br&gt; &lt;b&gt;Main developer and copyright &amp;copy;&lt;/b&gt;&lt;br&gt; Jorrit 'Chainfire' Jongma&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Security-related patches and advice&lt;/b&gt;&lt;br&gt; 'Justin Case'&lt;br&gt; Joshua 'jduck' Drake&lt;br&gt; Kevin Cernekee&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Special thanks&lt;/b&gt;&lt;br&gt; Everybody who helped translate&lt;br&gt; All the alpha and beta testers&lt;br&gt; XDA-Developers.com&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Portions copyright &amp;copy;&lt;/b&gt;&lt;br&gt; Adam 'ChainsDD' Shanks&lt;br&gt; Christopher 'Zinx Verituse' Lais&lt;br&gt; Android Open Source Project&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Apache Public License v2.0&lt;/b&gt;&lt;br&gt; This software contains code released under the Apache License, version 2.0, by its original authors&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Privacy policy&lt;/b&gt;&lt;br&gt; No personal or private information about you or your device is collected or transmitted by this app. Google Play Services (if present) may send private information to facilitate in-app billing, see Google's privacy policy for further details.&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Disclaimer&lt;/b&gt;&lt;br&gt; THIS SOFTWARE IS PROVIDED 'AS IS' AND ANY EXPRESSED OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.&lt;br&gt; &lt;br&gt;&lt;br&gt;"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-15-00" Translated="2016-09-23T21-15-00" State="Validated">
+              <cur>"&lt;br&gt;&lt;br&gt; &lt;b&gt;主要的开发者和版权所有 ©&lt;/b&gt;&lt;br&gt; Jorrit 'Chainfire' Jongma&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;安全相关的修补程序和建议&lt;/b&gt;&lt;br&gt; 'Justin Case'&lt;br&gt; Joshua 'jduck' Drake&lt;br&gt; Kevin Cernekee&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;特别感谢&lt;/b&gt;&lt;br&gt; 每个帮助翻译的人&lt;br&gt; 所有的alpha和beta测试人员&lt;br&gt; XDA-Developers.com&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;部分版权所有&lt;/b&gt;&lt;br&gt; Adam 'ChainsDD' Shanks&lt;br&gt; Christopher 'Zinx Verituse' Lais&lt;br&gt; Android 开源项目&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;Apache 公共许可证 v2.0&lt;/b&gt;&lt;br&gt; 该软件包含的代码发布，遵循 Apache 许可版本 2.0，属于其原作者&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;隐私策略&lt;/b&gt;&lt;br&gt; 有关您或您设备的个人或私人信息不会被这个应用程序收集或传输。Google Play 服务 （如果存在） 可能会发送私人信息，以方便应用程序中收费，查看谷歌的隐私政策了解进一步细节。&lt;br&gt; &lt;br&gt; &lt;br&gt; &lt;b&gt;免责声明&lt;/b&gt;&lt;br&gt; 本软件按原样提供，任何明示或暗示的保证，包括但不限于，对特定用途的适销性和适用性的暗示保证，都不被承认。在任何情况下董事会或出资人不可能承担任何直接、 间接、 附带、 特殊、 典型，或重大的损害赔偿（包括但不限于，替代商品或服务的采购；使用、数据或利润；或业务中断的损失）不管如何造成和任何责任依据，无论是在合同，严格赔偿责任或侵权行为 (包括疏忽或其他方式)以任何方式由于使用本软件所产生的，即使已被告知此类损害的可能性&lt;br&gt; &lt;br&gt;&lt;br&gt;"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_how_to_root" Class="AndroidXMLValue">
+            <Src>How to root</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-15-23" Translated="2016-09-23T21-15-23" State="Validated">
+              <cur>如何 root</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_loading" Class="AndroidXMLValue">
+            <Src>Loading..</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-15-44" Translated="2016-09-23T21-15-44" State="Validated">
+              <cur>加载..</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_no_root" Class="AndroidXMLValue">
+            <Src>No root detected</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-17-05" Translated="2016-09-23T21-17-05" State="Validated">
+              <cur>没有检测到 root</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_no_root_describe" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Tip:!!! SuperSU requires a rooted device !!!\n</Data>
+              <Data>Check out the root tutorial."</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-19-09" Translated="2016-09-23T21-19-09" State="Validated">
+              <cur>
+                <Data>"提示：!!!SuperSU 需要一个已 root 设备!!!\n</Data>
+                <Data>查阅 root 教程。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_tip_text_1" Class="AndroidXMLValue">
+            <Src>"100 M+ user's choice"</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T21-19-39" Translated="2016-09-23T21-19-39" State="Validated">
+              <cur>"100 M+ 用户的选择"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_tip_text_2" Class="AndroidXMLValue">
+            <Src>SuperSU</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="detection_tip_text_3" Class="AndroidXMLValue">
+            <Src>Simple Precise Secure</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-02-37" Translated="2016-09-23T22-02-37" State="Validated">
+              <cur>简单 精确 安全</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_update_common" Class="AndroidXMLValue">
+            <Src>How to update</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-03-06" Translated="2016-09-23T22-03-06" State="Validated">
+              <cur>如何更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_update_su" Class="AndroidXMLValue">
+            <Src>Updated SU binary</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-03-27" Translated="2016-09-23T22-03-27" State="Validated">
+              <cur>更新的 SU 二进制文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="detection_update_su_describe" Class="AndroidXMLValue">
+            <Src>Check out the update tutorial</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-03-46" Translated="2016-09-23T22-03-46" State="Validated">
+              <cur>查阅更新教程</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="gt" Class="AndroidXMLValue">
+            <Src>&gt;</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="logo" Class="AndroidXMLValue">
+            <Src>logo</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-04-12" Translated="2016-09-23T22-04-12" State="Validated">
+              <cur>徽标</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="lt" Class="AndroidXMLValue">
+            <Src>&lt;</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="main_guide_expert" Class="AndroidXMLValue">
+            <Src>Expert</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-04-26" Translated="2016-09-23T22-04-26" State="Validated">
+              <cur>专家</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_guide_new_user" Class="AndroidXMLValue">
+            <Src>New user</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-04-41" Translated="2016-09-23T22-04-41" State="Validated">
+              <cur>新用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_guide_tip_text" Class="AndroidXMLValue">
+            <Src>
+              <Data>"SuperSU\n</Data>
+              <Data>is a superuser access management tool"</Data>
+            </Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-05-17" Translated="2016-09-23T22-05-17" State="Validated">
+              <cur>
+                <Data>"SuperSU\n</Data>
+                <Data>是一个超级用户访问管理工具"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_0" Class="AndroidXMLValue">
+            <Src>0</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_1" Class="AndroidXMLValue">
+            <Src>1</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_2" Class="AndroidXMLValue">
+            <Src>2</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_3" Class="AndroidXMLValue">
+            <Src>3</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_4" Class="AndroidXMLValue">
+            <Src>4</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_5" Class="AndroidXMLValue">
+            <Src>5</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_6" Class="AndroidXMLValue">
+            <Src>6</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_7" Class="AndroidXMLValue">
+            <Src>7</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_8" Class="AndroidXMLValue">
+            <Src>8</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="number_9" Class="AndroidXMLValue">
+            <Src>9</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl Name="settings_log_clear_prompt" Class="AndroidXMLValue">
+            <Src>All logs will be permanently deleted and cannot be restored. Are you sure you want to continue ?</Src>
+            <Trg Created="2016-09-23T19-24-35" Changed="2016-09-23T22-06-37" Translated="2016-09-23T22-06-37" State="Validated">
+              <cur>所有日志将被永久删除，并且无法恢复。您确定要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="supersu" Class="AndroidXMLValue">
+            <Src>SuperSU</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="supersu_support_embed" Class="AndroidXMLValue">
+            <Src>true</Src>
+            <Trg Created="2016-09-23T19-24-35"/>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="strings.xml" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;-&lt;AndroidLang&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile FileName="D:\Downloads\Superuser_2.76直装版\res\values-zh-rCN\strings.xml" Parser="AndroidXMLResourceFile"/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <ChangedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-23T19-24-01"/>
+          <TranslatedTo Enabled="0" Value="2016-09-23T19-24-01"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2016-09-23T19-23-36">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2016-09-23T19-23-36">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

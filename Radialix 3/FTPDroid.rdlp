@@ -1,0 +1,1953 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{D0EAAF17-5CAB-457F-BE4E-5FCF34526A09}"/>
+  <IDESettings ProjectItemPath="0.strings.xml (strings.xml)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="strings.main_activity_service_status_started_hint" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{C143DA3A-8696-4EF9-B9C1-7EE092687ECC}">4</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2016-09-25T19-37-14">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2016-09-25T21-04-57">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="3" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>1</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\Downloads\ftpdroid-cracked-signed-all\res\values\strings.xml" Parser="AndroidXMLResourceFile" DateTimeStamp="4676093047208320222" FileSize="11678">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-25T19-37-43"/>
+          <ChangedTo Enabled="0" Value="2016-09-25T19-37-43"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-25T19-37-43"/>
+          <TranslatedTo Enabled="0" Value="2016-09-25T19-37-43"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="resources" Class="AndroidXMLResourceType">
+        <Resource Name="strings" Class="AndroidXMLResource" Type="AndroidXMLResource">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="abs__action_bar_home_description" Class="AndroidXMLValue">
+            <Src>Navigate home</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-55-50" Translated="2016-09-25T20-55-50" State="Validated">
+              <cur>返回主页</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_bar_up_description" Class="AndroidXMLValue">
+            <Src>Navigate up</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-55-58" Translated="2016-09-25T20-55-58" State="Validated">
+              <cur>返回上级</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_menu_overflow_description" Class="AndroidXMLValue">
+            <Src>More options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>更多的选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__action_mode_done" Class="AndroidXMLValue">
+            <Src>Done</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>完成</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__activity_chooser_view_see_all" Class="AndroidXMLValue">
+            <Src>See all...</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>查看所有...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__activity_chooser_view_dialog_title_default" Class="AndroidXMLValue">
+            <Src>Select activity</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>选择活动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__share_action_provider_share_with" Class="AndroidXMLValue">
+            <Src>Share with...</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-46-45" Translated="2016-09-25T19-46-45" State="Validated">
+              <cur>分享...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__activitychooserview_choose_application" Class="AndroidXMLValue">
+            <Src>Choose an application</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>选择应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__shareactionprovider_share_with" Class="AndroidXMLValue">
+            <Src>Share with</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-45-29" Translated="2016-09-25T19-45-29" State="Validated">
+              <cur>分享</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="abs__shareactionprovider_share_with_application" Class="AndroidXMLValue">
+            <Src>Share with %s</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-45-24" Translated="2016-09-25T19-45-24" State="Validated">
+              <cur>通过 %s 分享</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="button_ok" Class="AndroidXMLValue">
+            <Src>Ok</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="button_cancel" Class="AndroidXMLValue">
+            <Src>Cancel</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_donate_title" Class="AndroidXMLValue">
+            <Src>Support the developer</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>支持开发人员</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_donate_summary" Class="AndroidXMLValue">
+            <Src>If you like this application consider supporting the developer</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-56-12" Translated="2016-09-25T20-56-12" State="Validated">
+              <cur>如果您喜欢此应用程序可以考虑支持开发人员</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="hostslib_message_revert_compled" Class="AndroidXMLValue">
+            <Src>Revert completed, please restart the application now</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>还原已完成，现在请重新启动该应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="hostslib_message_revert_failed" Class="AndroidXMLValue">
+            <Src>"Revert failed: '%1$s'"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>"还原失败：'%1$s'"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="hostslib_alert_dialog_option_revert" Class="AndroidXMLValue">
+            <Src>Revert it</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>将其还原</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="hostslib_alert_dialog_option_quit" Class="AndroidXMLValue">
+            <Src>Quit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>退出</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="hostslib_alert_dialog_message" Class="AndroidXMLValue">
+            <Src>WARNING: banners are blocked</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>警告：横幅被阻止</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="file_picker_button_save" Class="AndroidXMLValue">
+            <Src>Save</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>保存</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="file_picker_cant_read_folder" Class="AndroidXMLValue">
+            <Src>cannot read folder</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>不能读取文件夹</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="file_picker_empty" Class="AndroidXMLValue">
+            <Src>Empty</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>空</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="file_picker_file_label" Class="AndroidXMLValue">
+            <Src>File:</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-48-10" Translated="2016-09-25T19-48-10" State="Validated">
+              <cur>文件：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="file_picker_location" Class="AndroidXMLValue">
+            <Src>Location</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>位置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="dialog_button_ok" Class="AndroidXMLValue">
+            <Src>Ok</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="dialog_button_cancel" Class="AndroidXMLValue">
+            <Src>Cancel</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_account" Class="AndroidXMLValue">
+            <Src>Name</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>用户名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_password" Class="AndroidXMLValue">
+            <Src>Password</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_confirm_password" Class="AndroidXMLValue">
+            <Src>Confirm</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-48-27" Translated="2016-09-25T19-48-27" State="Validated">
+              <cur>确认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_home_directory" Class="AndroidXMLValue">
+            <Src>Home</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>主目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_home_directory_chroot" Class="AndroidXMLValue">
+            <Src>Chroot</Src>
+            <Trg Created="2016-09-25T19-39-09"/>
+          </Vl>
+          <Vl Name="edit_user_dialog_advanced_options" Class="AndroidXMLValue">
+            <Src>Show advanced options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>显示高级选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_account_empty" Class="AndroidXMLValue">
+            <Src>Name must not be empty</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>用户名不能为空</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_account_invalid" Class="AndroidXMLValue">
+            <Src>Name is not valid</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>用户名无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_password_empty" Class="AndroidXMLValue">
+            <Src>Invalid password</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>密码无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_password_not_match" Class="AndroidXMLValue">
+            <Src>"Passwords don't match"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-48-42" Translated="2016-09-25T19-48-42" State="Validated">
+              <cur>"密码不匹配"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_password_crypt_error" Class="AndroidXMLValue">
+            <Src>Password encryption error</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>密码加密出错</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="edit_user_dialog_error_update" Class="AndroidXMLValue">
+            <Src>Error saving data</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>保存数据出错</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="errors_no_wifi_connection" Class="AndroidXMLValue">
+            <Src>No WiFi connection (edit options to disable this check)</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-56-36" Translated="2016-09-25T20-56-36" State="Validated">
+              <cur>没有 WiFi 连接（通过编辑选项来禁用此项检查）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_invalid_account" Class="AndroidXMLValue">
+            <Src>Invalid username</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>用户名无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_invalid_password" Class="AndroidXMLValue">
+            <Src>Invalid password</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>密码无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_invalid_home_directory" Class="AndroidXMLValue">
+            <Src>Invalid home directory</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>主目录无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_menu_item_edit" Class="AndroidXMLValue">
+            <Src>Edit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>编辑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_menu_item_delete" Class="AndroidXMLValue">
+            <Src>Delete</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>删除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_delete_confirm_title" Class="AndroidXMLValue">
+            <Src>Confirm delete</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>确认删除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_user_delete_confirm_message" Class="AndroidXMLValue">
+            <Src>"Delete user '%1$s'?"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>"删除用户 '%1$s'？"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_users_clear_confirm_title" Class="AndroidXMLValue">
+            <Src>Confirm clear</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>确认清除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_users_clear_confirm_message" Class="AndroidXMLValue">
+            <Src>Remove all users?</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>删除所有用户？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftp_users_activity_header_label" Class="AndroidXMLValue">
+            <Src>Manage users</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>管理用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_activity_popup_no_users" Class="AndroidXMLValue">
+            <Src>Hit menu to add a new user</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>点击菜单添加新用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_activity_dialog_new_user_title" Class="AndroidXMLValue">
+            <Src>Add user</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>添加用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_activity_dialog_edit_user_title" Class="AndroidXMLValue">
+            <Src>"Edit user '%1$s'"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>"编辑用户 '%1$s'"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_account_already_exists" Class="AndroidXMLValue">
+            <Src>"User '%1$s' already exists"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>"用户 '%1$s' 已存在"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_activity_menu_item_add_user" Class="AndroidXMLValue">
+            <Src>Add user</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>添加用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_activity_menu_item_clear_users" Class="AndroidXMLValue">
+            <Src>Remove all</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>移除所有</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ftpusers_account_user_item_home_directory" Class="AndroidXMLValue">
+            <Src>Home: %1$s</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>主目录：%1$s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_header_label" Class="AndroidXMLValue">
+            <Src>Help</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>帮助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str1" Class="AndroidXMLValue">
+            <Src>"Open the application and, once the status is 'ready', take note of the address displayed as in the picture below."</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-57-01" Translated="2016-09-25T20-57-01" State="Validated">
+              <cur>"打开应用程序，一旦状态为'就绪'时，注意地址会出现在下图所示位置。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str2" Class="AndroidXMLValue">
+            <Src>Connect to your device using one of the following methods:</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-46-05" State="ForReview">
+              <cur>用下述任一方法连接到您的设备：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str3" Class="AndroidXMLValue">
+            <Src>1) enter the address in your file manager (Internet Explorer on Windows, Nautilus on Linux, etc...)</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-57-40" Translated="2016-09-25T19-57-40" State="Validated">
+              <cur>1) 在文件管理器中输入地址（Windows 系统用 Internet Explorer，Linux 系统用 Nautilus，等等)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str4" Class="AndroidXMLValue">
+            <Src>2) enter the address in your Internet browser (Chrome, Firefox, Internet Explorer, etc...)</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>2) 在浏览器中输入地址（Chrome，Firefox，Internet Explorer，等等)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str5" Class="AndroidXMLValue">
+            <Src>3) use an FTP client like Filezilla http://goo.gl/hFuA (please note that this is the preferred method)</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-57-54" Translated="2016-09-25T19-57-54" State="Validated">
+              <cur>3) 用 FTP 客户端比如 Filezilla http://goo.gl/hFuA （注意，这是首选方法）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str6" Class="AndroidXMLValue">
+            <Src>"If don't want to enable public access to your device, follow these steps:"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-59-18" Translated="2016-09-25T19-59-18" State="Validated">
+              <cur>"如果要禁止您设备的公共访问权限，遵照以下步骤："</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str7" Class="AndroidXMLValue">
+            <Src>1) Disable the anonymous access in the options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>1) 在选项中禁用匿名访问</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str8" Class="AndroidXMLValue">
+            <Src>"2) Select 'Manage users' in the main page"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-00-44" Translated="2016-09-25T20-00-44" State="Validated">
+              <cur>"2) 在主页选择 '管理用户'"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str9" Class="AndroidXMLValue">
+            <Src>"3) Open the menu in the users page and click on 'Add user'"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-00-51" Translated="2016-09-25T20-00-51" State="Validated">
+              <cur>"3) 在用户页面打开菜单并点击 '添加用户'"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str10" Class="AndroidXMLValue">
+            <Src>4) Define the new user options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-01-01" Translated="2016-09-25T20-01-01" State="Validated">
+              <cur>4) 设定新用户选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str11" Class="AndroidXMLValue">
+            <Src>5) Now follow one of the previous methods to access to your device and where required enter the username and password just defined</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-46-05" State="ForReview">
+              <cur>5) 现在按上述任一方法连接您的设备，在需要的地方填写刚才设定的用户名和密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="help_activity_str12" Class="AndroidXMLValue">
+            <Src>Powered by Pure-FTPd http://goo.gl/TGRrC</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>提供者 Pure-FTPd http://goo.gl/TGRrC</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_log" Class="AndroidXMLValue">
+            <Src>Log</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_label_root_enabled" Class="AndroidXMLValue">
+            <Src>root: on</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>root: 启用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_label_root_disabled" Class="AndroidXMLValue">
+            <Src>root: off</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>root: 关闭</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_wifi_connection" Class="AndroidXMLValue">
+            <Src>WiFi Connection:</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>WiFi 连接：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_address" Class="AndroidXMLValue">
+            <Src>Address:</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>地址：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_status" Class="AndroidXMLValue">
+            <Src>Status:</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>状态：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_start" Class="AndroidXMLValue">
+            <Src>Start</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>启动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_stop" Class="AndroidXMLValue">
+            <Src>Stop</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>停止</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_clear_log" Class="AndroidXMLValue">
+            <Src>Clear log</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>清除日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_edit_options" Class="AndroidXMLValue">
+            <Src>Options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_help" Class="AndroidXMLValue">
+            <Src>Help</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>帮助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_exit" Class="AndroidXMLValue">
+            <Src>Exit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>退出</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_menu_item_manage_users" Class="AndroidXMLValue">
+            <Src>Manage users</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>管理用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_service_status_stopped" Class="AndroidXMLValue">
+            <Src>stopped</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>已停止</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_service_status_stopped_hint" Class="AndroidXMLValue">
+            <Src>The service is not running, open the menu to start it.</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>该服务未运行，打开菜单来启动它。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_service_status_started" Class="AndroidXMLValue">
+            <Src>ready</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>就绪</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="main_activity_service_status_started_hint" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Connect to the above address with an FTP client.\n</Data>
+              <Data>\n</Data>
+              <Data>Press HOME to run in background"</Data>
+            </Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T21-04-56" Translated="2016-09-25T21-04-56" State="Validated">
+              <cur>
+                <Data>"用 FTP 客户端连接上面的地址。\n</Data>
+                <Data>\n</Data>
+                <Data>按 HOME 键可在后台运行"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="messages_welcome_message" Class="AndroidXMLValue">
+            <Src>
+              <Data>"Welcome to %1$s.\n</Data>
+              <Data>To get started connect from your PC to the address displayed using an FTP client.\n</Data>
+              <Data>Please view the help (from menu) for detailed informations."</Data>
+            </Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-03-40" Translated="2016-09-25T20-03-40" State="Validated">
+              <cur>
+                <Data>"欢迎使用 %1$s。\n</Data>
+                <Data>使用 FTP 客户端从 PC 连接到所示地址。更多详细信息参见帮助（从菜单进入）"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="options_activity_header_label" Class="AndroidXMLValue">
+            <Src>Options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="options_activity_menu_item_reset_options" Class="AndroidXMLValue">
+            <Src>Reset options</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>重置选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_auto_start_boot_title" Class="AndroidXMLValue">
+            <Src>Boot autostart</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>开机自动启动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_auto_start_boot_summary" Class="AndroidXMLValue">
+            <Src>Starts automatically the application at boot</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>开机自动启动应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_auto_start_wifi_title" Class="AndroidXMLValue">
+            <Src>WiFi autostart</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>WiFi 自动启动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_auto_start_wifi_summary" Class="AndroidXMLValue">
+            <Src>Starts automatically the application when a WiFi connection is established</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-04-33" Translated="2016-09-25T20-04-33" State="Validated">
+              <cur>建立 WiFi 连接时自动启动应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_category_advanced" Class="AndroidXMLValue">
+            <Src>Advanced</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>高级</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_category_ftp" Class="AndroidXMLValue">
+            <Src>FTP</Src>
+            <Trg Created="2016-09-25T19-39-09"/>
+          </Vl>
+          <Vl Name="preference_category_links" Class="AndroidXMLValue">
+            <Src>Links</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>链接</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_category_system" Class="AndroidXMLValue">
+            <Src>System</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>系统</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_can_create_dirs_title" Class="AndroidXMLValue">
+            <Src>Allow anonymous to create directories</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许匿名创建目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_can_create_dirs_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable anonymous users to create directories</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许或禁止匿名用户创建目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_can_upload_title" Class="AndroidXMLValue">
+            <Src>Allow anonymous upload</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许匿名上传</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_can_upload_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable anonymous users to upload files</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许或禁止匿名用户上传文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_enabled_title" Class="AndroidXMLValue">
+            <Src>Enable anonymous</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许匿名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_enabled_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable the anonymous access</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许或禁止匿名访问</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_anonymous_home_directory_title" Class="AndroidXMLValue">
+            <Src>Anonymous home</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>匿名用户主目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bind_address_title" Class="AndroidXMLValue">
+            <Src>Bind address</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>绑定地址</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bind_address_summary" Class="AndroidXMLValue">
+            <Src>Use a fixed bind address</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>使用一个固定的绑定地址</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_chroot_everyone_title" Class="AndroidXMLValue">
+            <Src>Chroot everyone</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-57-38" Translated="2016-09-25T20-57-38" State="Validated">
+              <cur>Chroot 所有用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_chroot_everyone_summary" Class="AndroidXMLValue">
+            <Src>Restrict every user to his folder</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>把所有用户限制在自己的目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_log_enabled_title" Class="AndroidXMLValue">
+            <Src>Enable log</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>允许记录日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_log_enabled_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable ftp events log</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-06-55" Translated="2016-09-25T20-06-55" State="Validated">
+              <cur>允许或禁止 ftp 事件日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_passive_port_range_title" Class="AndroidXMLValue">
+            <Src>Passive port range</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>被动模式端口范围</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_passive_port_range_summary" Class="AndroidXMLValue">
+            <Src>Format minport:maxport</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>格式 最小端口:最大端口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_port_title" Class="AndroidXMLValue">
+            <Src>Port</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>端口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_wifi_required_title" Class="AndroidXMLValue">
+            <Src>Require WiFi</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>需要 WiFi</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_wifi_required_summary" Class="AndroidXMLValue">
+            <Src>Require an active WiFi connection</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-10-43" Translated="2016-09-25T20-10-43" State="Validated">
+              <cur>需要一个活动的 WiFi 连接</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_screen_wake_lock_title" Class="AndroidXMLValue">
+            <Src>Lock screen</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>锁定屏幕</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_screen_wake_lock_summary" Class="AndroidXMLValue">
+            <Src>Keep the screen active while the application is running</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-58-01" Translated="2016-09-25T20-58-01" State="Validated">
+              <cur>应用程序运行时保持屏幕常亮</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="view_more_apps_title" Class="AndroidXMLValue">
+            <Src>View more apps</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>查看更多 APPs</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="view_more_apps_summary" Class="AndroidXMLValue">
+            <Src>"View other developer's apps"</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>查看其他开发者的 APPs</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_port_alert" Class="AndroidXMLValue">
+            <Src>WARNING: a port below 1024 requires a rooted device</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-02" Translated="2016-09-25T20-11-02" State="Validated">
+              <cur>警告：端口号低于1024时要求设备已被 root</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="notification_content_text" Class="AndroidXMLValue">
+            <Src>Listening on %1$s:%2$s</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>监听 %1$s:%2$s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="wait_dialog_title" Class="AndroidXMLValue">
+            <Src>Please wait...</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>请等待...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_wifi_wake_lock_title" Class="AndroidXMLValue">
+            <Src>Lock WiFi</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-13" Translated="2016-09-25T20-11-13" State="Validated">
+              <cur>锁定 WiFi</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_wifi_wake_lock_summary" Class="AndroidXMLValue">
+            <Src>Keep the WiFi active while the service is running</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-25" Translated="2016-09-25T20-11-25" State="Validated">
+              <cur>服务运行时保持 WiFi 活动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_enabled_title" Class="AndroidXMLValue">
+            <Src>Limit bandwidth</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>限制带宽</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_enabled_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable download/upload limit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-35" Translated="2016-09-25T20-11-35" State="Validated">
+              <cur>启用或禁用下载/上传 限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_download" Class="AndroidXMLValue">
+            <Src>Download limit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>下载限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_upload" Class="AndroidXMLValue">
+            <Src>Upload limit</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>上传限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_enabled" Class="AndroidXMLValue">
+            <Src>Enabled (%1$s KB/s)</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-53" Translated="2016-09-25T20-11-53" State="Validated">
+              <cur>已启用 (%1$s KB/s)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_ftp_bandwidth_limit_disabled" Class="AndroidXMLValue">
+            <Src>Disabled</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-11-58" Translated="2016-09-25T20-11-58" State="Validated">
+              <cur>已禁用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_application_icon_enabled_title" Class="AndroidXMLValue">
+            <Src>Application icon</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>应用程序图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_application_icon_enabled_summary" Class="AndroidXMLValue">
+            <Src>Enable or disable the application icon</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T19-40-01" State="ForReview">
+              <cur>启用或禁用应用程序图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="preference_application_icon_enabled_alert" Class="AndroidXMLValue">
+            <Src>WARNING: if you disable this option, the FTP service could be automatically stopped by Android</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-12-24" Translated="2016-09-25T20-12-24" State="Validated">
+              <cur>警告：如果您禁用这个选项，FTP 服务可能会被 Android 系统自动停止</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="app_name" Class="AndroidXMLValue">
+            <Src>FTPDroid</Src>
+            <Trg Created="2016-09-25T19-39-09"/>
+          </Vl>
+          <Vl Name="ads_alert_upgrade" Class="AndroidXMLValue">
+            <Src>Adfree version</Src>
+            <Trg Created="2016-09-25T19-39-09" Changed="2016-09-25T20-12-47" Translated="2016-09-25T20-12-47" State="Validated">
+              <cur>无广告版本</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="strings.xml" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="0" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;-&lt;ISO-639-1&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-09-25T19-37-43"/>
+          <ChangedTo Enabled="0" Value="2016-09-25T19-37-43"/>
+          <TranslatedFrom Enabled="0" Value="2016-09-25T19-37-43"/>
+          <TranslatedTo Enabled="0" Value="2016-09-25T19-37-43"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2016-09-25T19-37-14">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2016-09-25T19-37-14">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

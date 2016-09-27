@@ -2,7 +2,7 @@
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{C4113F28-D28E-4111-A7BF-8D4C13CF63E7}"/>
   <IDESettings ProjectItemPath="0.zpaq.lng (zpaq_chs.lng)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="(default).1025" SortDirection="0" SortedColumnIndex="-1"/>
+    <StringTableSettings FocusedValueID="(default).1114" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,7 +15,7 @@
     </Languages>
     <Info>
       <CreatedBy Date="2015-09-26T02-42-34">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
-      <ModifiedBy Date="2015-11-16T15-26-41">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <ModifiedBy Date="2016-03-23T14-57-30">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <File Name="D:\PortableApps\TotalCommanderPortable\App\Plugins\wcx\zpaq\zpaq.lng" Parser="TxtFile" DateTimeStamp="4676048383855142332" FileSize="7312">
+    <File Name="D:\PortableApps\TotalCommanderPortable\App\Plugins\wcx\zpaq\zpaq.lng" Parser="TxtFile" DateTimeStamp="4676066722786471032" FileSize="10562">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -1104,7 +1104,7 @@
               <cur>存储 NTFS 备用数据流</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="205">
+          <Vl Name="205">
             <Src CodePage="65001">Don't mark files found only in the last update as deleted</Src>
             <Trg Created="2015-11-16T15-03-11" Changed="2015-11-16T15-12-50" Translated="2015-11-16T15-12-50" State="Validated">
               <cur>不要标记最后更新中找到的文件为删除</cur>
@@ -1122,7 +1122,7 @@
               <cur>显示所有的存档版本</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="212">
+          <Vl Name="212">
             <Src CodePage="65001">Show archive version names as detailed timestamp</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-11-16T15-14-40" Translated="2015-11-16T15-14-40" State="Validated">
               <cur>存档的版本名称以详细的时间戳显示</cur>
@@ -1153,6 +1153,18 @@
               <cur>隐藏空档案版本</cur>
             </Trg>
           </Vl>
+          <Vl New="1" Name="217">
+            <Src CodePage="65001">Show the default archive view in extra dir</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-53-51" Translated="2016-03-23T14-53-51" State="Validated">
+              <cur>在附加目录显示默认存档视图</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="218">
+            <Src CodePage="65001">Include deleted files</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-54-16" Translated="2016-03-23T14-54-16" State="Validated">
+              <cur>包括删除的文件</cur>
+            </Trg>
+          </Vl>
           <Vl Name="220">
             <Src CodePage="65001">Threads</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-09-26T02-51-35" State="ForReview">
@@ -1177,10 +1189,16 @@
               <cur>在内存中保留最后一次使用的存档密码</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="233">
+          <Vl Name="233">
             <Src CodePage="65001">Support archive rollback when packing</Src>
             <Trg Created="2015-11-16T15-03-11" Changed="2015-11-16T15-21-18" Translated="2015-11-16T15-21-18" State="Validated">
               <cur>打包时支持存档回滚</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="234">
+            <Src CodePage="65001">Warn about pending parallel / background operations</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-56-26" Translated="2016-03-23T14-56-26" State="Validated">
+              <cur>对挂起 并行/后台操作 进行警告</cur>
             </Trg>
           </Vl>
           <Vl Name="250">
@@ -1345,13 +1363,13 @@
               <cur>重复的文件名</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="1024">
+          <Vl Name="1024">
             <Src CodePage="65001">Discard all archive updates after version</Src>
             <Trg Created="2015-11-16T15-03-11" Changed="2015-11-16T15-26-38" Translated="2015-11-16T15-26-38" State="Validated">
               <cur>放弃此版本后的所有存档的更新</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="1025">
+          <Vl Name="1025">
             <Src CodePage="65001">Archive rollback</Src>
             <Trg Created="2015-11-16T15-03-11" Changed="2015-11-16T15-06-58" Translated="2015-11-16T15-06-58" State="Validated">
               <cur>存档回滚</cur>
@@ -1404,6 +1422,22 @@
             <Trg Created="2015-09-26T02-50-44" Changed="2015-09-26T02-53-28" Translated="2015-09-26T02-53-28" State="Validated">
               <cur>是否继续？</cur>
             </Trg>
+          </Vl>
+          <Vl New="1" Name="1112">
+            <Src CodePage="65001">Background ZPAQ operation(s) still active.</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-57-29" Translated="2016-03-23T14-57-29" State="Validated">
+              <cur>后台 ZPAQ 操作仍处于活动状态。</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="1113">
+            <Src CodePage="65001">threads</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-56-55" Translated="2016-03-23T14-56-55" State="Validated">
+              <cur>线程</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="1114">
+            <Src CodePage="65001">MB</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
           <Vl Name="1200">
             <Src CodePage="65001">Write error!</Src>
@@ -1564,7 +1598,7 @@
             <Src CodePage="65001">Speichere Alternative Datenströme (NTFS)</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="205">
+          <Vl Name="205">
             <Src CodePage="65001">Dateien die nur im letzten Update exist. nicht als gelöscht markieren</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -1576,7 +1610,7 @@
             <Src CodePage="65001">Zeige alle Archiv-Versionen</Src>
             <Trg Created="2015-09-26T02-50-44"/>
           </Vl>
-          <Vl New="1" Name="212">
+          <Vl Name="212">
             <Src CodePage="65001">Zeige Archiv-Versions-Namen als detaillierten Zeitstempel</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -1596,6 +1630,14 @@
             <Src CodePage="65001">Maskiere leere Archiv-Versionen</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
+          <Vl New="1" Name="217">
+            <Src CodePage="65001">Standard-Archiv-Ansicht in extra Verzeichnis zeigen</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="218">
+            <Src CodePage="65001">Zeige auch gelöschte Dateien</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
           <Vl Name="220">
             <Src CodePage="65001">Threads</Src>
             <Trg Created="2015-09-26T02-50-44"/>
@@ -1612,9 +1654,13 @@
             <Src CodePage="65001">Zuletzt benutztes Archiv-Passwort im Speicher merken</Src>
             <Trg Created="2015-09-26T02-50-44"/>
           </Vl>
-          <Vl New="1" Name="233">
+          <Vl Name="233">
             <Src CodePage="65001">Unterstütze Archiv-Rollback beim Packen</Src>
             <Trg Created="2015-11-16T15-03-11"/>
+          </Vl>
+          <Vl New="1" Name="234">
+            <Src CodePage="65001">Warne bei ausstehenden parallel / im Hintergrund laufenden Aktionen</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
           <Vl Name="250">
             <Src CodePage="65001">"Verschlüsseln" in "Dateien packen"</Src>
@@ -1724,11 +1770,11 @@
             <Src CodePage="65001">Doppelte Dateinamen</Src>
             <Trg Created="2015-09-26T02-50-44"/>
           </Vl>
-          <Vl New="1" Name="1024">
+          <Vl Name="1024">
             <Src CodePage="65001">Verwerfen aller Archiv-Aktualisierungen nach Version</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="1025">
+          <Vl Name="1025">
             <Src CodePage="65001">Archiv-Rollback</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -1763,6 +1809,18 @@
           <Vl Name="1111">
             <Src CodePage="65001">Trotzdem fortfahren?</Src>
             <Trg Created="2015-09-26T02-50-44"/>
+          </Vl>
+          <Vl New="1" Name="1112">
+            <Src CodePage="65001">Hintergrund-ZPAQ-Aktion(en) noch aktiv.</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1113">
+            <Src CodePage="65001">Threads</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1114">
+            <Src CodePage="65001">MB</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
           <Vl Name="1200">
             <Src CodePage="65001">Schreibfehler!</Src>
@@ -1889,15 +1947,15 @@
             <Src CodePage="65001">压缩的方法/级别</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="202">
+          <Vl Name="202">
             <Src CodePage="65001">完全相同的文件强制内容比较</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="203">
+          <Vl Name="203">
             <Src CodePage="65001">在可能的情况下，在路径中存储 驱动器盘符 / UNC 名称</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="204">
+          <Vl Name="204">
             <Src CodePage="65001">存储 NTFS 备用数据流</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -1909,11 +1967,11 @@
             <Src CodePage="65001">显示所有的存档版本</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl Name="212">
-            <Src CodePage="65001">存档版本名称显示为时间戳</Src>
-            <Trg Created="2015-10-12T09-18-33"/>
+          <Vl New="1" Name="212">
+            <Src CodePage="65001">存档的版本名称以详细的时间戳显示</Src>
+            <Trg Created="2015-10-12T09-18-33" Changed="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="213">
+          <Vl Name="213">
             <Src CodePage="65001">隐藏存储的驱动器盘符 / UNC 名称</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -1921,11 +1979,11 @@
             <Src CodePage="65001">如果已存储，提取和设置目录的时间戳</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="215">
+          <Vl Name="215">
             <Src CodePage="65001">如果可能，提取 NTFS 备用数据流</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="216">
+          <Vl Name="216">
             <Src CodePage="65001">隐藏空档案版本</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -1945,11 +2003,15 @@
             <Src CodePage="65001">在内存中保留最后一次使用的存档密码</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="250">
+          <Vl New="1" Name="233">
+            <Src CodePage="65001">打包时支持存档回滚</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl Name="250">
             <Src CodePage="65001">要设置密码的 “包文件”</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="251">
+          <Vl Name="251">
             <Src CodePage="65001">勾选 "加密"</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -1977,7 +2039,7 @@
             <Src CodePage="65001">语言</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="330">
+          <Vl Name="330">
             <Src CodePage="65001">(存储/只是重复数据消除)</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -1989,15 +2051,15 @@
             <Src CodePage="65001">(很慢)</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="340">
+          <Vl Name="340">
             <Src CodePage="65001">多部分(Multi-part)检测</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="341">
+          <Vl Name="341">
             <Src CodePage="65001">最小位数</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="342">
+          <Vl Name="342">
             <Src CodePage="65001">不检测</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -2045,7 +2107,7 @@
             <Src CodePage="65001">创建常规存档？</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="1022">
+          <Vl Name="1022">
             <Src CodePage="65001">"包路径名称"未选中，但发现至少一个重复的文件名：</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -2053,15 +2115,23 @@
             <Src CodePage="65001">重复的文件名</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="1030">
+          <Vl New="1" Name="1024">
+            <Src CodePage="65001">放弃此版本后的所有存档的更新</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1025">
+            <Src CodePage="65001">存档回滚</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl Name="1030">
             <Src CodePage="65001">检测到多部分(Multi-part)存档，但没有找到的索引文件。</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="1031">
+          <Vl Name="1031">
             <Src CodePage="65001">继续打包操作吗？</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="1032">
+          <Vl Name="1032">
             <Src CodePage="65001">(关闭多部分检测存档看作为单个文件)</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
@@ -2113,7 +2183,7 @@
             <Src CodePage="65001">共享冲突</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="1304">
+          <Vl Name="1304">
             <Src CodePage="65001">无效的路径名称</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
           </Vl>
@@ -2128,6 +2198,369 @@
           <Vl Name="1307">
             <Src CodePage="65001">Windows 错误</Src>
             <Trg Created="2015-10-12T09-18-33"/>
+          </Vl>
+        </Resource>
+        <Resource Name="Danish" New="1">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl New="1" ReadOnly="1" Name="FontSize">
+            <Src CodePage="65001">8</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="10">
+            <Src CodePage="65001">OK</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-50-30" State="ForReview">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="20">
+            <Src CodePage="65001">Annuller</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="50">
+            <Src CodePage="65001">ZPAQ Adgangskode</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="60">
+            <Src CodePage="65001">ZPAQ Indstillinger</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="110">
+            <Src CodePage="65001">Angiv adgangskode for</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="111">
+            <Src CodePage="65001">NY</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="112">
+            <Src CodePage="65001">EKSISTERENDE</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="113">
+            <Src CodePage="65001">arkiv:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="115">
+            <Src CodePage="65001">Adgangskode:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="116">
+            <Src CodePage="65001">Gentag:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="120">
+            <Src CodePage="65001">Kodning af adgangskode</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="121">
+            <Src CodePage="65001">standard UTF-8</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="122">
+            <Src CodePage="65001">ANSI</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="123">
+            <Src CodePage="65001">OEM</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="130">
+            <Src CodePage="65001">Angiv en adgangskode (eller annuller)!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="131">
+            <Src CodePage="65001">Adgangskoder stemmer ikke overens!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="200">
+            <Src CodePage="65001">Pakning</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="201">
+            <Src CodePage="65001">Kompressions-metode / styrke:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="202">
+            <Src CodePage="65001">Gennemtving sammenligning af indhold for identiske filer</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="203">
+            <Src CodePage="65001">Gem drevbogstav / UNC-navn i sti, hvis muligt.</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="204">
+            <Src CodePage="65001">Gem NTFS Alternate Data Streams</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="205">
+            <Src CodePage="65001">Marker ikke filer, som kun findes i den sidste opdatering, som slettede</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="210">
+            <Src CodePage="65001">Listing / dekomprimering</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="211">
+            <Src CodePage="65001">Vis alle arkiv-versioner</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="212">
+            <Src CodePage="65001">Vis navne på arkiv-versioner som detaljeret tidsmarkering:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="213">
+            <Src CodePage="65001">Masker gemte drevbogstaver / UNC-navne</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="214">
+            <Src CodePage="65001">Udpak og sæt tidsmarkering for mapper, hvis gemt</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="215">
+            <Src CodePage="65001">Udpak NTFS Alternate Data Streams, hvis muligt</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="216">
+            <Src CodePage="65001">Masker tomme arkiv-versioner</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="217">
+            <Src CodePage="65001">Vis standard-arkivet i ekstra mappe:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="218">
+            <Src CodePage="65001">Inkluder slettede filer</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="220">
+            <Src CodePage="65001">Tråde</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="230">
+            <Src CodePage="65001">Blandet</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="231">
+            <Src CodePage="65001">Advar om memory-behov</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="232">
+            <Src CodePage="65001">Bevar sidst brugte arkiv-adgangskode i memory</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="233">
+            <Src CodePage="65001">Understøt tilbagerulning af arkiver under pakning</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="234">
+            <Src CodePage="65001">Advar om løbende parallelle / baggrunds-operationer</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="250">
+            <Src CodePage="65001">Afkryds "Krypter" i "Pak filer"</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="251">
+            <Src CodePage="65001">for at sætte adgangskoden</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="300">
+            <Src CodePage="65001">MB for nuværende kompressionsniveau</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="301">
+            <Src CodePage="65001">op til</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="302">
+            <Src CodePage="65001">MB for dekomprimering af ethvert arkiv</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="310">
+            <Src CodePage="65001">System CPU'ere:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="311">
+            <Src CodePage="65001">(32-bit: begrænset til 2)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="320">
+            <Src CodePage="65001">Sprog</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="330">
+            <Src CodePage="65001">(gem / dedupliker kun)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="331">
+            <Src CodePage="65001">(langsom)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="332">
+            <Src CodePage="65001">(meget langsom)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="340">
+            <Src CodePage="65001">Multi-part detektion</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="341">
+            <Src CodePage="65001">Minimum antal cifre:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="342">
+            <Src CodePage="65001">ingen detektion</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1000">
+            <Src CodePage="65001">(indsamler filposter...)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1001">
+            <Src CodePage="65001">(dekoder...)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1002">
+            <Src CodePage="65001">(afbryder...)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1003">
+            <Src CodePage="65001">afbryder ...</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1010">
+            <Src CodePage="65001">Afbrudt</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1011">
+            <Src CodePage="65001">Udpakning afbrudt!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1012">
+            <Src CodePage="65001">Arkiv-test aafbrudt!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1013">
+            <Src CodePage="65001">Arkiv-fejl</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1014">
+            <Src CodePage="65001">Udpakningsfejl</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1020">
+            <Src CodePage="65001">Selvudpakkende arkiver er ikke understøttet!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1021">
+            <Src CodePage="65001">Opret normalt arkiv?</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1022">
+            <Src CodePage="65001">"Gem også sti" er ikke afkrydset, men fandt mindst et duplikeret filnavn:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1023">
+            <Src CodePage="65001">Duplikerede filnavne</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1024">
+            <Src CodePage="65001">Kassér alle arkiv-opdateringer efter version</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1025">
+            <Src CodePage="65001">Tilbagerulning af arkiv</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1030">
+            <Src CodePage="65001">Multi-part arkiv opdaget, men ikke fundet nogen indeksfil.</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1031">
+            <Src CodePage="65001">Fortsæt pakke-operation?</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1032">
+            <Src CodePage="65001">(slå multi-part detektion fra for at behandle arkivet som en enkelststående fil)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1050">
+            <Src CodePage="65001">(ingen adgangskode?)</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1051">
+            <Src CodePage="65001">Forkert adgangskode</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1060">
+            <Src CodePage="65001">Pakke-fejl</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1110">
+            <Src CodePage="65001">Memory-krav kan blive høje.</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1111">
+            <Src CodePage="65001">Fortsæt alligevel?</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1112">
+            <Src CodePage="65001">Stadig aktiv(e) ZPAQ-operation(er) i baggrunden.</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1113">
+            <Src CodePage="65001">tråde</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1114">
+            <Src CodePage="65001">MB</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1200">
+            <Src CodePage="65001">Skrive-fejl!</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1201">
+            <Src CodePage="65001">Fejl under udpakning:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1202">
+            <Src CodePage="65001">Fejl under pakning:</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1300">
+            <Src CodePage="65001">fil ikke fundet</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1301">
+            <Src CodePage="65001">sti ikke fundet</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1302">
+            <Src CodePage="65001">adgang nægtet</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1303">
+            <Src CodePage="65001">delingsfejl</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1304">
+            <Src CodePage="65001">ukorrekt stinavn</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1305">
+            <Src CodePage="65001">ukorrekt navn</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1306">
+            <Src CodePage="65001">netværksnavn ikke længere tilgængeligt</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="1307">
+            <Src CodePage="65001">Windows-fejl</Src>
+            <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
         </Resource>
       </ResourceType>
