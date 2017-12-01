@@ -1,0 +1,4923 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{9EAAC37B-4FB3-4784-91AC-B9D356FDDD0C}"/>
+  <IDESettings ProjectItemPath="0.lang-2052.dll (lang-2052.chs)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#628.#10033" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{BAD7998A-6BD4-43DD-9221-D572635F565D}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2016-08-18T11-27-53">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2016-08-18T12-00-02">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="4" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>1</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\PortableApps\CCleanerPortable\App\CCleaner\Lang\lang-2052.dll" Module="{3EF4312A-6428-4CB4-9743-D1C630454D8D}" Parser="Win32Executable" DateTimeStamp="4676086068706287580" FileSize="27648">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-08-18T11-28-14"/>
+          <ChangedTo Enabled="0" Value="2016-08-18T11-28-14"/>
+          <TranslatedFrom Enabled="0" Value="2016-08-18T11-28-14"/>
+          <TranslatedTo Enabled="0" Value="2016-08-18T11-28-14"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="RT_STRING" Index="6" Class="RT_STRING">
+        <Resource Name="" Index="1">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="8">
+            <Src>CCleaner 主页</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="9">
+            <Src>卸载 CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="7">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="100" ReadOnly="1">
+            <Src>2052</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="102">
+            <Src>点击这里访问 CCleaner 网站 www.piriform.com/ccleaner\0x20\0x20</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="103">
+            <Src>检查更新(&amp;U)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="104">
+            <Src>在线帮助(&amp;H)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="105">
+            <Src>点击这里检查 CCleaner 在线更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="106">
+            <Src>点击这里查看 CCleaner 在线帮助</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="107">
+            <Src>
+              <Data>有 CCleaner 的新版本 (%1) 下载可用.\n</Data>
+              <Data>\n</Data>
+              <Data>您希望访问软件主页下载新版本吗?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="108">
+            <Src>点击这里访问 Piriform 网站 Piriform.com</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="109">
+            <Src>无可用更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="110">
+            <Src>连接更新服务器出错</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="111">
+            <Src>新版本! 点击下载...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="8">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="112">
+            <Src>点击这里下载 CCleaner 更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="113">
+            <Src>
+              <Data>有新版本的 CCleaner (%1) 可供下载.\n</Data>
+              <Data>\n</Data>
+              <Data>点击这里下载</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="120">
+            <Src>运行 CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="121">
+            <Src>打开 CCleaner...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="9">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="130">
+            <Src>清理后关机</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="131">
+            <Src>就绪</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="132">
+            <Src>清理中...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="133">
+            <Src>分析中...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="134">
+            <Src>CCleaner 监控已启用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="140">
+            <Src>分析(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="141">
+            <Src>清理(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="142">
+            <Src>扫描(&amp;S) %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="143">
+            <Src>恢复默认状态(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="10">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="144">
+            <Src>全选(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="145">
+            <Src>取消全选(&amp;U)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="151">
+            <Src>选项(&amp;O)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="152">
+            <Src>退出(&amp;X)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="153">
+            <Src>运行清洁器(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="154">
+            <Src>扫描问题(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="155">
+            <Src>修复所选问题(&amp;F)...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="156">
+            <Src>取消扫描(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="157">
+            <Src>工具(&amp;T)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="158">
+            <Src>分析(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="159">
+            <Src>取消(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="11">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="161">
+            <Src>进度</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="171">
+            <Src>没有选择问题.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="172">
+            <Src>您想要备份对注册表的更改吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="12">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="181">
+            <Src>全选(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="182">
+            <Src>选择全部类型(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="183">
+            <Src>取消全选(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="184">
+            <Src>取消选择全部类型(&amp;L)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="185">
+            <Src>在注册表编辑器中打开(&amp;O)...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="186">
+            <Src>添加到排除列表(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="191">
+            <Src>关于 %1 的警告</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="13">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="201">
+            <Src>Windows</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="202">
+            <Src>应用程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="203">
+            <Src>问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="204">
+            <Src>注册表(&amp;G)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="14">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="210">
+            <Src>清洁器(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="211">
+            <Src>问题(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="220">
+            <Src>清洁器设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="221">
+            <Src>问题扫描设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="19">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="301">
+            <Src>清除完成 - (%1 秒)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="302">
+            <Src>没有发现问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="303">
+            <Src>已删除 Cookie:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="20">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="304">
+            <Src>已删除:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="305">
+            <Src>清除 IE 历史操作不能在 Win95 或 NT4 系统上运行.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="306">
+            <Src>已标记为删除:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="307">
+            <Src>已清空回收站 (%1 个文件) %2</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="308">
+            <Src>已删除文件:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="309">
+            <Src>保存为文本文件(&amp;F)...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="310">
+            <Src>分析完成 - (%1 秒)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="311">
+            <Src>可释放 %1 的空间. (估计值)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="312">
+            <Src>已释放 %1 的空间.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="313">
+            <Src>要删除文件的详细信息 (注意: 此时还未删除文件)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="314">
+            <Src>已删除文件的详细信息</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="315">
+            <Src>分析被取消 - (%1 秒)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="316">
+            <Src>此次分析未完成</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="317">
+            <Src>IE 临时文件 (%1 个文件) %2</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="318">
+            <Src>已跳过 %1 缓存清理.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="319">
+            <Src>Firefox 临时缓存 (%1 个文件) %2</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="21">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="320">
+            <Src>已跳过 %1 历史清理.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="321">
+            <Src>清理已取消 - (%1 秒)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="322">
+            <Src>此次清理未完成</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="323">
+            <Src>%1% (%2 已完成, 共 %3)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="324">
+            <Src>正在取消...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="325">
+            <Src>驱动器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="326">
+            <Src>估计剩余时间: %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="327" ReadOnly="1">
+            <Src>%1 %2 %3 %4 %5 %6</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="328" ReadOnly="1">
+            <Src>%1 %2 %3 %4</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="329">
+            <Src>小时</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="330">
+            <Src>小时</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="331">
+            <Src>分钟</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="332">
+            <Src>分钟</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="333">
+            <Src>秒</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="334">
+            <Src>秒</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="335">
+            <Src>%1 %2, %3 %4, %5 %6 和 %7 %8</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="22">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="336">
+            <Src>天</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="337">
+            <Src>天</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="339">
+            <Src>Thunderbird 临时缓存 (%1 个文件) %2</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="340">
+            <Src>跳过的</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="341">
+            <Src>%1 %2 清理被跳过.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="351">
+            <Src>问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="23">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="352">
+            <Src>数据</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="353">
+            <Src>注册表键值</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="26">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="401">
+            <Src>已修复问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="402">
+            <Src>修复问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="403">
+            <Src>修复所有选定的问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="404">
+            <Src>关闭</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="405">
+            <Src>您确定要修复所有选定的问题吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="32">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="500">
+            <Src>不再显示此信息(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="501">
+            <Src>
+              <Data>这个过程将会永久删除您系统上的这些文件.\n</Data>
+              <Data>\n</Data>
+              <Data>您确定要继续吗?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="502">
+            <Src>
+              <Data>必须先关闭 %1 才能清理 %2.\n</Data>
+              <Data>\n</Data>
+              <Data>你是否需要 CCleaner 关闭 %1?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="505">
+            <Src>
+              <Data>%1 需要关闭才能执行该操作.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否需要 CCleaner 关闭 %1?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="506">
+            <Src>
+              <Data>%1 and %2 needs to be closed to clean the %3.\n</Data>
+              <Data>\n</Data>
+              <Data>Do you want CCleaner to close %1 and %2?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-30-52" Translated="2016-08-18T11-30-52" State="Validated">
+              <cur>
+                <Data>%1 和 %2 需要被关闭以便清理 %3。\n</Data>
+                <Data>\n</Data>
+                <Data>您想 CCleaner 关闭 %1 和 %2 吗？</Data>
+              </cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="38">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="601">
+            <Src>%1 字节</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="602">
+            <Src>%1 KB</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="603">
+            <Src>%1 MB</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="604">
+            <Src>%1 GB</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="44">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="700">
+            <Src>查找</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="701">
+            <Src>描述</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="702">
+            <Src>大小</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="703">
+            <Src>数目</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="45">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="704">
+            <Src>查看分析结果概要(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="705">
+            <Src>查看详细的分析结果(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="706">
+            <Src>打开文件所在的目录(&amp;O)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="707">
+            <Src>排列顺序(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="708">
+            <Src>树状列表(&amp;T)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="709">
+            <Src>文件大小(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="710">
+            <Src>文件数目(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="711">
+            <Src>%1 个文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="712">
+            <Src>是</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="713">
+            <Src>否</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="714">
+            <Src>关闭应用...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="715">
+            <Src>
+              <Data>此应用已经用了很长的时间来关闭.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否需要继续等待?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="716">
+            <Src>
+              <Data>此应用已经用了很长的时间来关闭.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否要强制关闭它?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="717">
+            <Src>显示消耗的时间(&amp;T)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="718">
+            <Src>%1 秒</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="719">
+            <Src>消耗的时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="51">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="800">
+            <Src>智能 Cookie 扫描</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="801">
+            <Src>智能扫描需保留的 cookies?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="802">
+            <Src>这会让 CCLeaner 保留您网站的登入信息, 比如 Gmail, Outlook.com 和 Yahoo Mail.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="803">
+            <Src>是 (推荐)(&amp;Y)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="804">
+            <Src>否(&amp;N)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="805">
+            <Src>检测 Cookies...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="57">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="900">
+            <Src>Piriform CCleaner 注册</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="901">
+            <Src>请在下面输入你的许可详细信息. 如果你是在线购买的, 你将会收到收据邮件.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="902">
+            <Src>名字:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="903">
+            <Src>许可密钥:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="904">
+            <Src>注册(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="905">
+            <Src>购买(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="906">
+            <Src>
+              <Data>您输入的注册信息无效.\n</Data>
+              <Data>请重新输入.</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="907">
+            <Src>无法保存密钥文件.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="908">
+            <Src>未注册</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="909">
+            <Src>您的试用期已经过期.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="910">
+            <Src>开始试用(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="911">
+            <Src>结束试用(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="58">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="912">
+            <Src>您的试用期已经结束.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="913">
+            <Src>需要因特网连接才能激活 CCleaner 试用版本.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="914">
+            <Src>欢迎来到 %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="915">
+            <Src>你离一台安全快速的计算机只差一步!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="916">
+            <Src>为了继续使计算机变的更快更安全更干净, 请现在就购买.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="917">
+            <Src>现在购买(&amp;B)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="918">
+            <Src>已经注册? 现在激活</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="919">
+            <Src>你的 %1 试用期已经结束</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="920">
+            <Src>激活试用...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="921">
+            <Src>Buy now to continue benefiting from:</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-31-50" Translated="2016-08-18T11-31-50" State="Validated">
+              <cur>现在购买继续受益于:\0x20</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="922">
+            <Src>实时监控</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="923">
+            <Src>完全系统清理</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="924">
+            <Src>自动更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="925">
+            <Src>完全支持</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="926">
+            <Src>您的 CCleaner 专业版试用将在 %1 %2 过期. 现在购买继续让您的计算机更干净, 安全和快速.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="927">
+            <Src>CCleaner 试用版</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="59">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="928">
+            <Src>CCleaner 专业版14天免费使用!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="929">
+            <Src>开始您的免费 CCleaner 专业版使用来使您的计算机更干净, 安全和快速.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="930">
+            <Src>开始您的免费14天试用!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="931">
+            <Src>不是现在, 可能未来</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="932">
+            <Src>试用版(过期)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="933">
+            <Src>试用版(仅一天)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="934">
+            <Src>试用版(剩余 %1 天)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="935">
+            <Src>试用版(仅一天)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="936">
+            <Src>试用版(剩余 %1 天)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="937">
+            <Src>Piriform CCleaner 激活</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="938">
+            <Src>感谢您购买 CCleaner %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="939">
+            <Src>您的升级已完毕.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="940">
+            <Src>升级产品...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="941">
+            <Src>激活 %1 功能...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="942">
+            <Src>优化设置...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="943">
+            <Src>您更新至 CCleaner %1 已经完成</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="60">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="944">
+            <Src>更新过程发生错误.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="945">
+            <Src>请按照您确认邮件中的指导来完成您的升级.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="946">
+            <Src>CCleaner %1 - 更新失败</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="950">
+            <Src>CCleaner 更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="951">
+            <Src>你在使用的版本 %1.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="952">
+            <Src>你是否要检查新版本?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="953">
+            <Src>检查 CCleaner 新版本...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="954">
+            <Src>恭喜, 这是最新的版本!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="955">
+            <Src>有新版本的 CCleaner 可下载!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="956">
+            <Src>
+              <Data>最新版本: %1\n</Data>
+              <Data>安装版本: %2</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="957">
+            <Src>您要安装更新吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="958">
+            <Src>新版本, %1 正在下载...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="959">
+            <Src>新版本, %1 安装已经就绪.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="61">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="960">
+            <Src>无法更新 CCleaner.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="961">
+            <Src>是</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="962">
+            <Src>否</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="963">
+            <Src>好</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="964">
+            <Src>取消</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="965">
+            <Src>购买(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="966">
+            <Src>您的 CCleaner 版本已经更新至 %1.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="62">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="980">
+            <Src>无许可密钥</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="981">
+            <Src>无机器密钥</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="982">
+            <Src>无效许可密钥</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="983">
+            <Src>过期许可密钥</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="984">
+            <Src>无组件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="985">
+            <Src>无效组件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="986">
+            <Src>未激活许可密钥</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="987">
+            <Src>CCleaner 无法更新. 你的许可已经过期.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="988">
+            <Src>CCleaner 无法更新. 你的许可无效.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="989">
+            <Src>请点击下面的购买按钮来重新生成你的许可, 或者通过我们的网站联系帮助.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="990">
+            <Src>注册(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="991">
+            <Src>最新的版本包含重要更新. 建议您进行升级.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="63">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="992">
+            <Src>点击这里更新</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="993">
+            <Src>升级至 CCleaner Business Edition</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="994">
+            <Src>升级至 CCleaner Business Edition 来启用清理, 系统监控, 命令行脚本编辑, 后台升级等更多商业应用特性.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="995">
+            <Src>您是否愿意现在升级?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="996">
+            <Src>现在升级</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="997">
+            <Src>也许以后</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1001">
+            <Src>选项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="66">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1051">
+            <Src>确定</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1052">
+            <Src>取消</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="67">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1060">
+            <Src>因权限错误而无法保存设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="69">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1100">
+            <Src>You are seconds away from healthier, optimized PC’s across your business.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-33-50"/>
+          </Vl>
+          <Vl Index="1101">
+            <Src>Your CCleaner Business Edition Trial has ended.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-33-39" Translated="2016-08-18T11-33-39" State="Validated">
+              <cur>您的 CCleaner 商业版试用已经结束。</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1102">
+            <Src>Buy now to continue:</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-34-10" Translated="2016-08-18T11-34-10" State="Validated">
+              <cur>请现在购买以继续:\0x20</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1103">
+            <Src>Optimizing endpoints</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-37-21" Translated="2016-08-18T11-37-21" State="Validated">
+              <cur>优化终端</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="70">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1104">
+            <Src>Improving productivity</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-36-08" State="ForReview">
+              <cur>提高生产力</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1105">
+            <Src>Preventing data theft</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-36-12" State="ForReview">
+              <cur>防止数据被窃取</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1106">
+            <Src>Reducing IT support costs</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-36-39" State="ForReview">
+              <cur>减少 IT 支持成本</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1107">
+            <Src>
+              <Data>Your CCleaner Business Edition trial expires in %1 %2.\n</Data>
+              <Data>Buy now to keep cleaning, optimizing and protecting your business network once your trial ends.</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-42-46" Translated="2016-08-18T11-42-46" State="Validated">
+              <cur>
+                <Data>您的 CCleaner 商业版试用过期在 %1 %2。\n</Data>
+                <Data>请立即购买以保持清洁、优化和保护您的商业网络，一旦您的试用结束。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="76">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1201">
+            <Src>关于</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1202">
+            <Src>设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1203">
+            <Src>Cookies</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1204">
+            <Src>版本历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1205">
+            <Src>自定义</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1206">
+            <Src>高级</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1207">
+            <Src>排除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1208">
+            <Src>用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1209">
+            <Src>监控</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="82">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1301">
+            <Src>网站:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1302">
+            <Src>Legal:</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-36-29" Translated="2016-08-18T11-36-29" State="Validated">
+              <cur>法律:</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1306">
+            <Src>简体中文由 Piriform 翻译.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1307">
+            <Src>注册(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1308">
+            <Src>注册给: %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1309">
+            <Src>注册版本</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1310">
+            <Src>升级至专业版(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1311">
+            <Src>在社交网站上关注我们:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="83">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1312">
+            <Src>开始免费试用(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1313">
+            <Src>Privacy Policy</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-47-40" State="ForReview">
+              <cur>隐私策略</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1314">
+            <Src>License Agreement</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-47-43" State="ForReview">
+              <cur>许可协议</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1315">
+            <Src>License</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-47-45" State="ForReview">
+              <cur>许可证</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="88">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1401">
+            <Src>清理之后关闭程序(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1402">
+            <Src>系统启动时自动运行 CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1403">
+            <Src>向回收站右键菜单添加 "运行 CCleaner" 选项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1404">
+            <Src>向回收站右键菜单添加 "打开 CCleaner..." 选项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1405">
+            <Src>只删除在临时文件夹中存放超过 24 小时的文件(&amp;N)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1406">
+            <Src>隐藏警告信息(&amp;H)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1407">
+            <Src>语言(&amp;L)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="89">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1408">
+            <Src>显示备份注册表问题的提示(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1409">
+            <Src>自动检查 CCleaner 的版本更新(&amp;M)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1410">
+            <Src>显示 IE 临时文件的详细日志</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1411">
+            <Src>安全删除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1412">
+            <Src>文件正常删除 (较快)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1413">
+            <Src>文件安全删除 (较慢)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1414">
+            <Src>简单覆写 (1 遍)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1415">
+            <Src>高级覆写 (3 遍)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1416">
+            <Src>复杂覆写 (7 遍)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1417">
+            <Src>显示 Firefox 临时文件的详细日志</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1418">
+            <Src>保存全部设置到 INI 文件(&amp;)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1420">
+            <Src>已启用文件安全删除 - %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1421">
+            <Src>超复杂覆写 (35 遍)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1422">
+            <Src>最小化到系统托盘(&amp;M)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1423">
+            <Src>所要擦除空闲空间的驱动器(&amp;V)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="90">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1424">
+            <Src>管理 CCleaner 功能的基本设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1425">
+            <Src>管理 CCleaner 功能的附加设置 (仅高级用户)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1426">
+            <Src>擦除 MFT 自由空间(&amp;F)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1427">
+            <Src>启用窗口跳转列表任务(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1428">
+            <Src>显示详细的分析结果(&amp;W)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1429">
+            <Src>恢复默认设置(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1430">
+            <Src>
+              <Data>您是否确定要恢复 CCleaner 的默认设置?\n</Data>
+              <Data>\n</Data>
+              <Data>当前应用的所有已更改的设置都将被删除.</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1431">
+            <Src>启动模式</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1434">
+            <Src>开启后台静默更新(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="91">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1450">
+            <Src>擦除可选数据流(&amp;W)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1451">
+            <Src>擦除簇头(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1452">
+            <Src>只删除在回收站内超过 24 小时的文件(&amp;L)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1453">
+            <Src>跳过用户账户控制警告(&amp;k)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1454">
+            <Src>Windows 事件日志</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1455">
+            <Src>清理后关闭(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="92">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1456">
+            <Src>计划运行 CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1457">
+            <Src>启用主动监控(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1458">
+            <Src>
+              <Data>警告 - 不推荐这个操作.\n</Data>
+              <Data>主动监控会确保 CCleaner 最新并且确保您的计算机干净.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否确认要这样做?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1459">
+            <Src>禁用主动监控</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="94">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1501">
+            <Src>计算机中的 Cookies</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1502">
+            <Src>要保留的 Cookies</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1503">
+            <Src>选择您希望保留的 Cookies (包含来自所有 Internet 浏览器和 Flash 插件的 Cookies )</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="95">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1504">
+            <Src>查找</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1505">
+            <Src>添加(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1506">
+            <Src>编辑(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1507">
+            <Src>删除(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1508">
+            <Src>保留(&amp;K)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1509">
+            <Src>请输入要保留的 cookie 的域名</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1510">
+            <Src>智能扫描(&amp;N)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1511">
+            <Src>导入(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1512">
+            <Src>导出(&amp;X)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1513">
+            <Src>现在删除(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1514">
+            <Src>Cookies 正在删除中. 您确认要取消该操作吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1515">
+            <Src>
+              <Data>这将删除选择您系统中被选中的 Cookies.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否要继续?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="101">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1601">
+            <Src>自定义要删除的文件和要清空的文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1602">
+            <Src>添加文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1603">
+            <Src>删除所选(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1604">
+            <Src>
+              <Data>警告!\n</Data>
+              <Data>该文件夹将会被彻底清空.\n</Data>
+              <Data>您确定要这样做吗?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1605">
+            <Src>您不能选择驱动器的根目录.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1606">
+            <Src>您不能选择系统文件夹.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1607">
+            <Src>要删除选定的条目吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1608">
+            <Src>选择文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1609">
+            <Src>添加文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1610">
+            <Src>要将拖曳的文件或文件夹添加到删除列表吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1611">
+            <Src>添加注册表</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1612">
+            <Src>排除的文件和文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1613">
+            <Src>要将拖拽的文件或文件夹添加到排除列表吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1614">
+            <Src>编辑(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1615">
+            <Src>手动编辑</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="102">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1616">
+            <Src>选择您希望用 CCleaner 来删除的附加文件和目录 (仅高级用户)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1617">
+            <Src>选择您希望 CCleaner 排除的文件, 目录和注册表条目 (仅高级用户)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1618">
+            <Src>添加(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1619">
+            <Src>手动编辑(&amp;M)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1630">
+            <Src>驱动器或目录</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1631">
+            <Src>文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="103">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1632">
+            <Src>浏览</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1633">
+            <Src>所有文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1634">
+            <Src>文件类型</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1635">
+            <Src>递归子目录</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1636">
+            <Src>确定</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1637">
+            <Src>取消</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1638">
+            <Src>文件类型:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1639">
+            <Src>选项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1640">
+            <Src>例如:*.tmp;*.log</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1641">
+            <Src>为了系统的安全, 您不能选择此特殊目录.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1642">
+            <Src>注册表键值</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1643">
+            <Src>仅包含文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1644">
+            <Src>包含文件和子目录</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1645">
+            <Src>包含文件, 子目录和目录自身</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1646">
+            <Src>数值名称:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1647">
+            <Src>(可选)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="104">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1648">
+            <Src>删除文件和文件夹, 仅早于:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1649">
+            <Src>小时</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="107">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1701">
+            <Src>当前用户(&amp;U)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1702">
+            <Src>所有用户(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1703">
+            <Src>所选用户(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1704">
+            <Src>所选用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1705">
+            <Src>非所选用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1706">
+            <Src>选择用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1707">
+            <Src>用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1708">
+            <Src>选择您希望 CCleaner 管理的用户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="113">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1801">
+            <Src>监控你的应用来执行自动清理</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1802">
+            <Src>启用浏览器监控(&amp;B)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1803">
+            <Src>启用系统监控(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1804">
+            <Src>检查计算机每</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1805">
+            <Src>小时</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1806">
+            <Src>如果清理节省超过(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1807">
+            <Src>GB</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="114">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1808">
+            <Src>然后(&amp;H)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1809">
+            <Src>选择操作</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1810">
+            <Src>不监控浏览器(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1811">
+            <Src>关闭时提示清理(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1812">
+            <Src>关闭时自动清理(有提示)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1813">
+            <Src>关闭时自动清理(无提示)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1814">
+            <Src>%1 监控:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1815">
+            <Src>提示我清理</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1816">
+            <Src>自动清理(有提示)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1817">
+            <Src>自动清理(无提示)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1818">
+            <Src>
+              <Data>CCleaner 能自动清理 %1\n</Data>
+              <Data>\n</Data>
+              <Data>点击这里选择操作</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1819">
+            <Src>浏览器已关闭</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1820">
+            <Src>
+              <Data>%1 已关闭\n</Data>
+              <Data>\n</Data>
+              <Data>点击这里清理</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1821">
+            <Src>CCleaner 已清理 %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1822">
+            <Src>CCleaner 已清理 %1 并节省 %2</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1823">
+            <Src>CCleaner 节省了 %1 磁盘空间!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="115">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1824">
+            <Src>浏览器已清理</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1825">
+            <Src>
+              <Data>清理能节省 %1 磁盘空间\n</Data>
+              <Data>\n</Data>
+              <Data>点击这里清理</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1826">
+            <Src>CCleaner 报警</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1827">
+            <Src>CCleaner 监控选项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1828">
+            <Src>%1 正在监控您的计算机并会在需要清理时提示您.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1829">
+            <Src>点击这里修改设置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1830">
+            <Src>
+              <Data>清理可以节省 %1 磁盘空间\n</Data>
+              <Data>\n</Data>
+              <Data>点击这里打开 CCleaner</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1831">
+            <Src>显示上一个通知</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1832">
+            <Src>好的, 谢谢</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1833">
+            <Src>Prompt me to &amp;open CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-48-12" State="ForReview">
+              <cur>提示我打开 CCleaner(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1834">
+            <Src>
+              <Data>%1 has closed\n</Data>
+              <Data>\n</Data>
+              <Data>%2</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-48-19" State="ForReview">
+              <cur>
+                <Data>%1 已关闭\n</Data>
+                <Data>\n</Data>
+                <Data>%2</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1835">
+            <Src>Click here to open CCleaner</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-48-38" Translated="2016-08-18T11-48-38" State="Validated">
+              <cur>点击打开 CCleaner</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="119">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1902">
+            <Src>无效数据</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1903">
+            <Src>没有选定月份.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-48-46" Translated="2016-08-18T11-48-46" State="Validated">
+              <cur>没有选定月份。</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="120">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1904">
+            <Src>计划警告</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1905">
+            <Src>
+              <Data>计划任务开始时间已过时.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否要继续?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-48-58" Translated="2016-08-18T11-48-58" State="Validated">
+              <cur>
+                <Data>计划任务开始时间已过时。\n</Data>
+                <Data>\n</Data>
+                <Data>您是否要继续？</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1906">
+            <Src>无指定的有效数据</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1907">
+            <Src>运行每隔:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1908">
+            <Src>天</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1909">
+            <Src>星期三</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1910">
+            <Src>星期四</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1911">
+            <Src>星期日</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1912">
+            <Src>星期一</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1913">
+            <Src>星期二</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1914">
+            <Src>星期五</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1915">
+            <Src>星期六</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1916">
+            <Src>一月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1917">
+            <Src>二月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1918">
+            <Src>三月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1919">
+            <Src>四月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="121">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1920">
+            <Src>五月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1921">
+            <Src>六月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1922">
+            <Src>七月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1923">
+            <Src>八月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1924">
+            <Src>九月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1925">
+            <Src>十月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1926">
+            <Src>十一月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1927">
+            <Src>十二月</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1928">
+            <Src>第一</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1929">
+            <Src>第二</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1930">
+            <Src>第三</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1931">
+            <Src>第四</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1932">
+            <Src>最后</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1933">
+            <Src>这</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1934">
+            <Src>属于:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1935">
+            <Src>在每月指定时间运行任务:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="122">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="1936">
+            <Src>天:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1937">
+            <Src>天:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1938">
+            <Src>每</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1939">
+            <Src>星期:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1940">
+            <Src>计划任务</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1941">
+            <Src>单次(&amp;O)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1942">
+            <Src>每日(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1943">
+            <Src>每周(&amp;W)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1944">
+            <Src>每月(&amp;M)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1945">
+            <Src>开始:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1946">
+            <Src>时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1947">
+            <Src>
+              <Data>这会移除计划清理任务.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否要这样做?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1948">
+            <Src>您选择了一个无效的月日组合, 请确保选择的日存在.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1950">
+            <Src>在登入时(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="1951">
+            <Src>计划</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="126">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2001">
+            <Src>工具</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2011">
+            <Src>卸载</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2013">
+            <Src>启动</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2014">
+            <Src>系统还原</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2015">
+            <Src>驱动器擦除器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="127">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2016">
+            <Src>重复文件查找器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2017">
+            <Src>Browser Plugins</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-49-10" State="ForReview">
+              <cur>浏览器插件</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="129">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2051">
+            <Src>关闭</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2052">
+            <Src>运行卸载程序(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2053">
+            <Src>重命名条目(&amp;N)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2054">
+            <Src>删除条目(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2055">
+            <Src>查找</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2056">
+            <Src>更改(&amp;G)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2057">
+            <Src>修复(&amp;P)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="130">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2071">
+            <Src>要删除的程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2072">
+            <Src>安装日期</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2073">
+            <Src>发布者</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2074">
+            <Src>大小</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2075">
+            <Src>版本</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="132">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2101">
+            <Src>这将从注册表中删除卸载条目.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2102">
+            <Src>它不会卸载该应用程序.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2103">
+            <Src>您确定要这样做吗?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2104">
+            <Src>重命名条目</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2105">
+            <Src>无法删除 MSI 安装文件.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2106">
+            <Src>这将会删除这个还原点.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2107">
+            <Src>从下面的列表中选择一个您希望从您的计算机中删除的程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2108">
+            <Src>This app and its related info will be removed from this PC.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-49-20" State="ForReview">
+              <cur>这个应用程序和其相关的信息将从这台电脑中删除。</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="138">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2201">
+            <Src>键值</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2202">
+            <Src>程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2203">
+            <Src>文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2204">
+            <Src>These programs are set to run when your computer starts</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-49-29" State="ForReview">
+              <cur>这些程序设为您的计算机启动时运行</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="2205">
+            <Src>删除条目(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2206">
+            <Src>
+              <Data>这将会永久删除该程序的启动项.\n</Data>
+              <Data>\n</Data>
+              <Data>您确定要这样做吗?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2207">
+            <Src>允许(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="139">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2208">
+            <Src>禁止(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2209">
+            <Src>允许/禁止开始项失败:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2210">
+            <Src>允许</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2211">
+            <Src>是</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2212">
+            <Src>否</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2213">
+            <Src>计划任务</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2214">
+            <Src>右键菜单</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2215">
+            <Src>配置文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2216">
+            <Src>无法删除启动项:</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2217">
+            <Src>
+              <Data>警告: 您的扩展正在同步, 因此这些操作可能不是永久的.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否需要继续?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2218">
+            <Src>产品</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2219">
+            <Src>位置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2220">
+            <Src>高级模式(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2221">
+            <Src>插件状态</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2222">
+            <Src>请您选择何时启用这个插件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2223">
+            <Src>总是启用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="140">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2224">
+            <Src>询问启用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2225">
+            <Src>部分选定项目无法变更, 因为它们被浏览器保护.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="141">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2250">
+            <Src>These items are set to run when your browser starts</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-49-41" State="ForReview">
+              <cur>这些项目是设置您的浏览器启动时运行</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="144">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2301">
+            <Src>描述</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2302">
+            <Src>日期</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2303">
+            <Src>时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="145">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2304">
+            <Src>状态</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2305">
+            <Src>删除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2306">
+            <Src>日期与时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2307">
+            <Src>管理所有的系统还原点 (为了系统的安全, 最近的一个还原点将不能被删除)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="151">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2401">
+            <Src>安全擦除驱动器剩余空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2402">
+            <Src>擦除(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2403">
+            <Src>安全(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2404">
+            <Src>驱动器(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2405">
+            <Src>擦除(&amp;W)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2406">
+            <Src>取消(&amp;C)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2407">
+            <Src>仅剩余空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2408">
+            <Src>整个驱动器 (所有数据都会被擦除)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2409">
+            <Src>警告! 所选磁盘驱动器上的所有数据都会被擦除!</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2410">
+            <Src>继续, 请在此输入单词 %1 :</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2411">
+            <Src>你确认取消该操作?</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2412">
+            <Src>格式化 %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2413">
+            <Src>擦除 %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2414">
+            <Src>驱动器成功擦除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2415">
+            <Src>
+              <Data>不建议对磁盘 %1 进行安全擦除.\n</Data>
+              <Data>磁盘 %1 是固态硬盘，安全擦除会影响其寿命.\n</Data>
+              <Data>\n</Data>
+              <Data>您是否要继续?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="152">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2416">
+            <Src>SSD 硬盘</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="157">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2501">
+            <Src>查找重复文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2502">
+            <Src>文件查找已完成</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2503">
+            <Src>选中的文件已成功被删除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2504">
+            <Src>匹配</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2505">
+            <Src>名称(&amp;M)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2506">
+            <Src>大小(&amp;I)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2507">
+            <Src>修改日期(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2508">
+            <Src>忽略</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2509">
+            <Src>空文件(&amp;B)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2510">
+            <Src>系统文件(&amp;Y)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2511">
+            <Src>只读文件(&amp;L)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="158">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2512">
+            <Src>隐藏文件(&amp;H)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2513">
+            <Src>文件大小小于(&amp;Z)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2514">
+            <Src>MB</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2515">
+            <Src>添加(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2516">
+            <Src>编辑(&amp;E)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2517">
+            <Src>删除(&amp;V)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2518">
+            <Src>重置(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2519">
+            <Src>搜索(&amp;S)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2520">
+            <Src>取消(&amp;A)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2521">
+            <Src>后退(&amp;B)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2522">
+            <Src>恢复结果(&amp;R)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2523">
+            <Src>删除所选(&amp;D)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2524">
+            <Src>磁盘或文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2525">
+            <Src>名称</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2526">
+            <Src>路径</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2527">
+            <Src>大小</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="159">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="2528">
+            <Src>创建日期</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2529">
+            <Src>
+              <Data>这将会从你的系统中永久删除选定的文件.\n</Data>
+              <Data>\n</Data>
+              <Data>你是否确定这样操作?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2530">
+            <Src>
+              <Data>操作已经结束.\n</Data>
+              <Data>\n</Data>
+              <Data>有些选定文件未删除.</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2531">
+            <Src>排除</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2532">
+            <Src>重定向到</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2533">
+            <Src>选择重复在</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2534">
+            <Src>文件数: %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2535">
+            <Src>内容(&amp;N)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2536">
+            <Src>文件大小超过(&amp;F)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="2537">
+            <Src>
+              <Data>您是否确定恢复重复文件查找器的默认设置?\n</Data>
+              <Data>\n</Data>
+              <Data>这会删除您所有的修改.</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="188">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3001">
+            <Src>Internet Explorer</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3002">
+            <Src>Windows 资源管理器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3003">
+            <Src>系统</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3004">
+            <Src>高级</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3005">
+            <Src>Microsoft Edge</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="189">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3021">
+            <Src>应用程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3022">
+            <Src>Internet</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3023">
+            <Src>多媒体</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="190">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3024">
+            <Src>实用程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3025">
+            <Src>Windows</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3026">
+            <Src>Firefox</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3027">
+            <Src>Opera</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3028">
+            <Src>Safari</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3029">
+            <Src>Google Chrome</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3030">
+            <Src>Thunderbird</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3031">
+            <Src>Windows 商店</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="194">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3101">
+            <Src>Internet 临时文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3102">
+            <Src>Cookies</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3103">
+            <Src>历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="195">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3104">
+            <Src>最近输入的网址链接</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3105">
+            <Src>删除 Index.dat 文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3106">
+            <Src>自动完成表单历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3108">
+            <Src>最近的下载位置</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3109">
+            <Src>保存的密码</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3110">
+            <Src>缓存的 Feeds</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3111">
+            <Src>扩展统计</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="196">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3121">
+            <Src>最近打开的文档</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3122">
+            <Src>运行 (开始菜单中)</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3123">
+            <Src>搜索助手自动完成</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3124">
+            <Src>资源管理器的其它历史项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3125">
+            <Src>菜单次序缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3126">
+            <Src>托盘通知缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3127">
+            <Src>窗口大小/位置缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3128">
+            <Src>用户援助历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3129">
+            <Src>自定义文件和文件夹</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3130">
+            <Src>Hotfix 卸载程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3131">
+            <Src>缩略图缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3132">
+            <Src>擦除空闲空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3133">
+            <Src>任务栏跳转列表</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3134">
+            <Src>擦除 MFT 自由空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="197">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3141">
+            <Src>清空回收站</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3142">
+            <Src>临时文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3143">
+            <Src>内存转储</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3144">
+            <Src>CHKDSK 文件碎片</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3145">
+            <Src>Windows 日志文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3146">
+            <Src>IIS 日志文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3147">
+            <Src>过期的预读数据</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3148">
+            <Src>剪贴板</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3149">
+            <Src>Windows 错误报告</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3150">
+            <Src>DNS 缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3151">
+            <Src>FTP 账户</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="198">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3152">
+            <Src>字体缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3153">
+            <Src>环境变量</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3154">
+            <Src>网络密码</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3155">
+            <Src>Windows 事件日志</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3156">
+            <Src>旧版本 Windows 安装</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3161">
+            <Src>Internet 缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3162">
+            <Src>Internet 历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3163">
+            <Src>下载历史</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3164">
+            <Src>保存的表单信息</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3165">
+            <Src>压缩数据库</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3166">
+            <Src>网站的图标</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3167">
+            <Src>会话</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="199">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3168">
+            <Src>站点设定</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3170">
+            <Src>Cache Database</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-50-19" Translated="2016-08-18T11-50-19" State="Validated">
+              <cur>缓存数据库</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="201">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3201">
+            <Src>该操作将在下次系统重启后生效.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3202">
+            <Src>如果您选中该项, 将会丢失所有保存过的口令.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3203">
+            <Src>您的开始菜单将被重置, 虽然会丢失所有的自定义次序, 但不会删除任何项目.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3204">
+            <Src>系统托盘缓存将被重置, 您需要重新启动 explorer.exe 进程.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3205">
+            <Src>这将会重置所有已保存的 Windows 资源管理器位置和查看设置.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3206">
+            <Src>这将会清除开始菜单中的最近使用程序列表.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3207">
+            <Src>擦除空闲空间将会大幅度增加清理时间, 如果没有特殊情况我们建议您禁用这个功能.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3208">
+            <Src>这会清理您计算机上的 Windows 事件日志. 这些日志经常被用于诊断问题.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3209">
+            <Src>All of the System and User files from your previous Windows installation will be deleted. Please ensure these are not required before selecting this option.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-52-52" Translated="2016-08-18T11-52-52" State="Validated">
+              <cur>所有您以前 Windows 安装的系统和用户文件将被删除。选择此选项之前，请确保这些都不需要。</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="219">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3501">
+            <Src>注册表清理器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3502">
+            <Src>文件完整性</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="226">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3601">
+            <Src>缺失的共享 DLL</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3602">
+            <Src>未使用的文件扩展名</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3603">
+            <Src>ActiveX 和类问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3604">
+            <Src>应用程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3605">
+            <Src>字体</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3606">
+            <Src>应用程序路径</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3607">
+            <Src>帮助文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3608">
+            <Src>安装程序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3609">
+            <Src>废弃的软件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3610">
+            <Src>系统启动时运行项</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3611">
+            <Src>开始菜单次序</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3612">
+            <Src>开始菜单快捷方式</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3613">
+            <Src>桌面快捷方式</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3614">
+            <Src>MUI 缓存</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3615">
+            <Src>类型库</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="227">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3616">
+            <Src>声音事件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3617">
+            <Src>Windows 服务</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="232">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3701">
+            <Src>缺失的共享 DLL</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3702">
+            <Src>未使用的文件扩展名</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3703">
+            <Src>ActiveX/COM 问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3704">
+            <Src>应用程序 "打开方式" 问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3705">
+            <Src>字体问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3706">
+            <Src>应用程序路径问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3707">
+            <Src>帮助文件问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3708">
+            <Src>安装程序引用问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3709">
+            <Src>卸载程序引用问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3710">
+            <Src>无效的默认图标</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3711">
+            <Src>废弃的软件注册表键</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="233">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3712">
+            <Src>过期的开始菜单键值</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3713">
+            <Src>缺失的启动软件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3714">
+            <Src>无效或空的文件类</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3715">
+            <Src>未知问题</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3716">
+            <Src>缺失快捷方式引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3717">
+            <Src>缺失的 MUI 引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3718">
+            <Src>缺失类型库引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3719">
+            <Src>未使用注册表键值</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3720">
+            <Src>无效文件引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3721">
+            <Src>无效防火墙规则</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3722">
+            <Src>无效类型引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3723">
+            <Src>无效文件引用</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="238">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3801">
+            <Src>文件 %1 已作为共享 DLL 引用但是并不存在. 这些通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3802">
+            <Src>文件扩展名 %1 指向一个无效的程序标识符. 这些通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3803">
+            <Src>COM 组件 %1 指向一个无效的 CLSID. 这些通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3804">
+            <Src>无法定位 %1 指向的应用软件. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3805">
+            <Src>无法找到字体文件 %1. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3806">
+            <Src>无法定位 %1 指向的应用软件. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3807">
+            <Src>无法定位 %1 指向的帮助文件. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="239">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3808">
+            <Src>无法定位 %1 指向的安装程序或目录. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3809">
+            <Src>无法定位 %1 指向的卸载程序或目录. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3810">
+            <Src>无法定位 %1 指向的卸载程序. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3811">
+            <Src>无法定位 %1 指向的图标.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3812">
+            <Src>软件注册表键 %1 不含任何信息因此可以被删除. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3813">
+            <Src>无法定位 %1 指向的开始菜单文件夹. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3814">
+            <Src>无法定位 %1 指向的启动文件. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3815">
+            <Src>注册表键 %1 不包含任何信息因此可以被删除. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3816">
+            <Src>快捷方式指向的文件不存在. 文件: %1</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3817">
+            <Src>无法定位 %1 指向的文件. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3818">
+            <Src>无法定位 %1 指向的类型库. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3819">
+            <Src>无法定位 %1 的文件关联. 这些引用通常是在卸载软件后遗留下的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3820">
+            <Src>无法定位 %2 指向的应用软件 %1. 这些引用通常是在卸载软件后遗留下来的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3821">
+            <Src>无法定位 %1 指向的 CLSID. 这些引用通常是在卸载软件后遗留下的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3822">
+            <Src>无法定位 %1 指向的文件. 这些引用通常是在卸载软件后遗留下的.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="244">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3901">
+            <Src>解决方法: 删除该注册表值.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3902">
+            <Src>解决方法: 删除该注册表键.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3903">
+            <Src>解决方法: 删除该默认图标的注册表键.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="245">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3904">
+            <Src>解决方法: 删除该快捷方式.</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3905">
+            <Src>名称</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3906">
+            <Src>路径</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3907">
+            <Src>大小</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3908">
+            <Src>类型</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3909">
+            <Src>存取时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3910">
+            <Src>修改时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3911">
+            <Src>创建时间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3912">
+            <Src>属性</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3913">
+            <Src>图片</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3914">
+            <Src>音乐</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3915">
+            <Src>文档</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3916">
+            <Src>视频</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3917">
+            <Src>压缩</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3918">
+            <Src>Email</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-50-50" State="ForReview">
+              <cur>电子邮件</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3919">
+            <Src>全部</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="246">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3920">
+            <Src>驱动器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3921">
+            <Src>所有种类</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3922">
+            <Src>种类</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3923">
+            <Src>种类</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3924">
+            <Src>打开所在目录</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3925">
+            <Src>删除所选文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3926">
+            <Src>选择全部</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3927">
+            <Src>选择所有类型</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3928">
+            <Src>取消全选</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3929">
+            <Src>取消选择所有类型</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3930">
+            <Src>保存到文本文件...</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3931">
+            <Src>
+              <Data>这个过程会删除您系统上所选的文件.\n</Data>
+              <Data>\n</Data>
+              <Data>您确认是否要继续?</Data>
+            </Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3932">
+            <Src>磁盘分析器</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3933">
+            <Src>其他文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3934">
+            <Src>剩余空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3935">
+            <Src>搜索</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="247">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="3936">
+            <Src>总空间</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3937">
+            <Src>不完整结果</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3938">
+            <Src>其他文件</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3939">
+            <Src>无结果</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3940">
+            <Src>选择高亮</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3941">
+            <Src>取消选择高亮</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3942">
+            <Src>扫描您的计算机查找正在使用磁盘空间的文件类型</Src>
+            <Trg Created="2016-08-18T11-29-01"/>
+          </Vl>
+          <Vl Index="3943">
+            <Src>Files found: %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-50-58" State="ForReview">
+              <cur>找到的文件: %1</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="3945">
+            <Src>Size: %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-51-03" State="ForReview">
+              <cur>大小: %1</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="626">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="10001">
+            <Src>By installing this product you agree to our license agreement and privacy policy.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-53-33" State="ForReview">
+              <cur>通过安装本产品，您同意我们的许可协议和隐私策略。</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10002">
+            <Src>View license agreement</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-53-45" State="ForReview">
+              <cur>查看许可协议</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10003">
+            <Src>View privacy policy</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-53-49" State="ForReview">
+              <cur>查看隐私策略</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10004">
+            <Src>Install</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-53-53" State="ForReview">
+              <cur>安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10005">
+            <Src>Customize</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-53-56" State="ForReview">
+              <cur>自定义</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10006">
+            <Src>Where do you want to install %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-54-45" Translated="2016-08-18T11-54-45" State="Validated">
+              <cur>您想要安装 %1 到哪里</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10007">
+            <Src>Browse</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-54-47" State="ForReview">
+              <cur>浏览</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10008">
+            <Src>Add Desktop Shortcut</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-54-51" State="ForReview">
+              <cur>添加桌面快捷方式</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10009">
+            <Src>Add Start Menu Shortcuts</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-54-57" State="ForReview">
+              <cur>添加开始菜单快捷方式</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10010">
+            <Src>Add 'Run CCleaner' option to Recycle Bin context menu</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-55-32" Translated="2016-08-18T11-55-32" State="Validated">
+              <cur>将 ‘运行 CCleaner' 选项添加到回收站上下文菜单</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10011">
+            <Src>Add 'Open CCleaner...' option to Recycle Bin context menu</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-55-56" Translated="2016-08-18T11-55-56" State="Validated">
+              <cur>将 ‘打开 CCleaner...’ 选项添加到回收站上下文菜单</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10012">
+            <Src>Automatically check for updates to %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-03" State="ForReview">
+              <cur>自动检查更新为 %1</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10013">
+            <Src>Enable Intelligent Cookie Scan</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-14" State="ForReview">
+              <cur>启用智能 Cookie 扫描</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10014">
+            <Src>Back</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-19" State="ForReview">
+              <cur>返回</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10015">
+            <Src>Show Details</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-23" State="ForReview">
+              <cur>显示详细信息</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="627">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="10016">
+            <Src>Hide Details</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-28" State="ForReview">
+              <cur>隐藏详细信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10017">
+            <Src>Run %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-31" State="ForReview">
+              <cur>运行 %1</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10018">
+            <Src>View release notes</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-56-34" State="ForReview">
+              <cur>查看发行说明</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10019">
+            <Src>%1 Setup</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-57-38" Translated="2016-08-18T11-57-38" State="Validated">
+              <cur>%1 安装程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10020">
+            <Src>%1 Setup Completed</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-57-44" Translated="2016-08-18T11-57-44" State="Validated">
+              <cur>%1 安装程序已完成</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10021">
+            <Src>%1 has been successfully installed on your computer.</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-57-09" State="ForReview">
+              <cur>%1 已成功安装在您的计算机上。</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10022">
+            <Src>Are you sure you want to quit %1 Setup?</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-57-16" State="ForReview">
+              <cur>确实要退出 %1 安装程序吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10023">
+            <Src>Install for anyone using this computer</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-57-56" State="ForReview">
+              <cur>为使用此计算机的任何人安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10024">
+            <Src>Install just for me</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-12" State="ForReview">
+              <cur>只是为我安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10025">
+            <Src>Install Options</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-20" State="ForReview">
+              <cur>安装选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10026">
+            <Src>Choose Install Location</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-23" State="ForReview">
+              <cur>选择安装位置</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10027">
+            <Src>Choose Users</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-27" State="ForReview">
+              <cur>选择用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10030">
+            <Src>Finish</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-31" State="ForReview">
+              <cur>完成</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10031">
+            <Src>Reboot Required</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-34" State="ForReview">
+              <cur>需要重新启动</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="" Index="628">
+          <SourceLanguages>
+            <LangID>1033</LangID>
+          </SourceLanguages>
+          <Vl Index="10032">
+            <Src>Your computer must be restarted to complete the installation of %1</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-40" State="ForReview">
+              <cur>必须重新启动计算机以完成安装 %1</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10033">
+            <Src>Reboot now</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-46" State="ForReview">
+              <cur>现在重新启动</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="10034">
+            <Src>I want to manually reboot later</Src>
+            <Trg Created="2016-08-18T11-29-01" Changed="2016-08-18T11-58-52" State="ForReview">
+              <cur>我想要稍后手动重新启动</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="lang-2052.dll" TargetType="LocalizedFile" Compiler="PE32" UseUserDll="0" UserDllFileName="" KeepLangID="0">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="1033" ForceAll="1" SourceCodePage="Default">
+          <LangID Enabled="1">1033</LangID>
+        </LanguagesToExtract>
+        <HardcodedStrings Enabled="0" MinLength="3" OnlyReferencedByVA="0">
+          <Item Name="PascalString" Enabled="1"/>
+          <Item Name="PascalWideString" Enabled="1"/>
+          <Item Name="PascalShortString" Enabled="1"/>
+          <Item Name="Asciiz" Enabled="1"/>
+          <Item Name="Unicode" Enabled="1"/>
+          <Skip IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">!"#$%&amp;'()+,-./0123456789:;&lt;=&gt;?@[\]^_`{|}~‚„…†‡€‰‹‘’“”•–—› ¦§™©®«¬­°±ґ·№»</Skip>
+          <NotAllowed AllowOnlyOriginalCodepage="1" NationalChars="1" IncludeChars="1">\0x01\0x02\0x03\0x04\0x05\0x06\0x0E\0x0F\0x10\0x11\0x12\0x13\0x14\0x15\0x16\0x17\0x18\0x19\0x1A\0x1B\0x1C\0x1D\0x1E</NotAllowed>
+          <RDMAPFile/>
+        </HardcodedStrings>
+        <PEHeader Machine="332" SubSystem="2" MajorSubsystemVersion="4" MinorSubsystemVersion="0" MajorOperatingSystemVersion="4" MinorOperatingSystemVersion="0"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-08-18T11-28-14"/>
+          <ChangedTo Enabled="0" Value="2016-08-18T11-28-14"/>
+          <TranslatedFrom Enabled="0" Value="2016-08-18T11-28-14"/>
+          <TranslatedTo Enabled="0" Value="2016-08-18T11-28-14"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2016-08-18T11-27-53">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2016-08-18T11-27-53">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

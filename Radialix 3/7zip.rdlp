@@ -1,0 +1,1449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{576F07EA-5EB3-4641-9F69-20F16BAD249C}"/>
+  <IDESettings ProjectItemPath="0.english.lng (chinese_simp.lng)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="lang.codepage" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{AE76C842-18A3-4AB3-B8BC-28CF9BABD678}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2015-09-26T10-19-23">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2015-09-26T11-33-42">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="2" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>0</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\PortableApps\TotalCommanderPortable\App\Plugins\wcx\7zip\lang\english.lng" Parser="TxtFile" DateTimeStamp="4676042836512085701" FileSize="1316">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2015-09-26T10-19-30"/>
+          <ChangedTo Enabled="0" Value="2015-09-26T10-19-30"/>
+          <TranslatedFrom Enabled="0" Value="2015-09-26T10-19-30"/>
+          <TranslatedTo Enabled="0" Value="2015-09-26T10-19-30"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="STRINGS" Class="">
+        <Resource Name="lang" Comment=" Author: wwj402 &lt;wwj402@sina.com&gt;&#13; Version 0.7.6.5">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="codepage">
+            <Src CodePage="1252">1252</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T11-33-42" Translated="2015-09-26T11-33-42" State="Validated">
+              <cur>936</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="0">
+            <Src CodePage="1252">7Zip plugins</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-16" State="ForReview">
+              <cur>7Zip 插件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="900">
+            <Src CodePage="1252">Store</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-16" State="ForReview">
+              <cur>存储</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="901">
+            <Src CodePage="1252">Fastest</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-17" State="ForReview">
+              <cur>最快</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="903">
+            <Src CodePage="1252">Fast</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-17" State="ForReview">
+              <cur>快速</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="905">
+            <Src CodePage="1252">Normal</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-17" State="ForReview">
+              <cur>正常</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="907">
+            <Src CodePage="1252">Maximum</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-26-36" Translated="2015-09-26T10-26-36" State="Validated">
+              <cur>最大</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="909">
+            <Src CodePage="1252">Ultra</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-27-52" Translated="2015-09-26T10-27-52" State="Validated">
+              <cur>极限</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="101">
+            <Src CodePage="1252">solid</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-21-19" Translated="2015-09-26T10-21-19" State="Validated">
+              <cur>固实</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="100">
+            <Src CodePage="1252">Non-solid</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-21-24" Translated="2015-09-26T10-21-24" State="Validated">
+              <cur>非固实</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="102">
+            <Src CodePage="1252">None found</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-21-48" Translated="2015-09-26T10-21-48" State="Validated">
+              <cur>未找到</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="103">
+            <Src CodePage="1252">The file is using by another application.</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-22-15" Translated="2015-09-26T10-22-15" State="Validated">
+              <cur>该文件正在被另一个应用程序使用。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="104">
+            <Src CodePage="1252">
+              <Data>The packed file may contain digital signature!\n</Data>
+              <Data>Update it will destroy signature information.\n</Data>
+              <Data>Do you still want to update this packed file?</Data>
+            </Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-29-37" Translated="2015-09-26T10-29-37" State="Validated">
+              <cur>
+                <Data>打包的文件可能包含数字签名！\n</Data>
+                <Data>更新它将会破坏签名信息。\n</Data>
+                <Data>你仍要更新此打包的文件吗？</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1000">
+            <Src CodePage="1252">7Zip Configuration</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-20" State="ForReview">
+              <cur>7Zip 配置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2000">
+            <Src CodePage="1252">7Zip Password</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-20" State="ForReview">
+              <cur>7Zip 密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1001">
+            <Src CodePage="1252">OK</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-29-47" Translated="2015-09-26T10-29-47" State="Validated">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1002">
+            <Src CodePage="1252">Cancel</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-21" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1108">
+            <Src CodePage="1252">Keep using this password more than once</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-30-19" Translated="2015-09-26T10-30-19" State="Validated">
+              <cur>保持多次使用此密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1109">
+            <Src CodePage="1252">Encrypt file header and file names</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-21" State="ForReview">
+              <cur>加密文件头和文件的名称</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1110">
+            <Src CodePage="1252">Show password in plain text</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T11-11-50" Translated="2015-09-26T11-11-50" State="Validated">
+              <cur>以纯文本格式显示密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1111">
+            <Src CodePage="1252">Create solid archives (one stream for all files)</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-31-07" Translated="2015-09-26T10-31-07" State="Validated">
+              <cur>创建固实存档(所有文件一个流)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1112">
+            <Src CodePage="1252">Compression</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-22" State="ForReview">
+              <cur>压缩</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1113">
+            <Src CodePage="1252">Compression level:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-31-18" Translated="2015-09-26T10-31-18" State="Validated">
+              <cur>压缩级别：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1114">
+            <Src CodePage="1252">Compression method:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-31-24" Translated="2015-09-26T10-31-24" State="Validated">
+              <cur>压缩方法：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="115">
+            <Src CodePage="1252">kNumPasses:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-35-55" Translated="2015-09-26T10-35-55" State="Validated">
+              <cur>kNumPasses：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1115">
+            <Src CodePage="1252">Dictionary size:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-31-34" Translated="2015-09-26T10-31-34" State="Validated">
+              <cur>字典的大小：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1116">
+            <Src CodePage="1252">Word size:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-38-25" Translated="2015-09-26T10-38-25" State="Validated">
+              <cur>单词大小：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1117">
+            <Src CodePage="1252">Password</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-23" State="ForReview">
+              <cur>密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1118">
+            <Src CodePage="1252">Use password:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-31-53" Translated="2015-09-26T10-31-53" State="Validated">
+              <cur>使用密码：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1123">
+            <Src CodePage="1252">Number of CPU threads</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-24" State="ForReview">
+              <cur>CPU 线程数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1124">
+            <Src CodePage="1252">Memory usage for Compressing:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-32-01" Translated="2015-09-26T10-32-01" State="Validated">
+              <cur>压缩的内存使用情况：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1125">
+            <Src CodePage="1252">Memory usage for Decompressing:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-32-21" Translated="2015-09-26T10-32-21" State="Validated">
+              <cur>解压缩的内存使用情况：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1126">
+            <Src CodePage="1252">Solid Block size:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-32-47" Translated="2015-09-26T10-32-47" State="Validated">
+              <cur>固实压缩块大小：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1127">
+            <Src CodePage="1252">File attributes to store when packing</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-33-17" Translated="2015-09-26T10-33-17" State="Validated">
+              <cur>打包时存储文件属性</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1128">
+            <Src CodePage="1252">File times</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-25" State="ForReview">
+              <cur>文件时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1129">
+            <Src CodePage="1252">Create</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-25" State="ForReview">
+              <cur>创建</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1130">
+            <Src CodePage="1252">Access</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-26" State="ForReview">
+              <cur>访问</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1131">
+            <Src CodePage="1252">Modify</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-26" State="ForReview">
+              <cur>修改</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1132">
+            <Src CodePage="1252">File attributes</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-26" State="ForReview">
+              <cur>文件属性</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1133">
+            <Src CodePage="1252">Read only</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-27" State="ForReview">
+              <cur>只读</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1134">
+            <Src CodePage="1252">Hidden</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-27" State="ForReview">
+              <cur>隐藏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1135">
+            <Src CodePage="1252">System</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-27" State="ForReview">
+              <cur>系统</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="1136">
+            <Src CodePage="1252">Archive</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-33-35" Translated="2015-09-26T10-33-35" State="Validated">
+              <cur>存档</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2001">
+            <Src CodePage="1252">OK</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-33-41" Translated="2015-09-26T10-33-41" State="Validated">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2002">
+            <Src CodePage="1252">Cancel</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-28" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2101">
+            <Src CodePage="1252">7Zip archive is password protected</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-34-00" Translated="2015-09-26T10-34-00" State="Validated">
+              <cur>7Zip 存档是密码保护的</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2102">
+            <Src CodePage="1252">Please enter password for archive</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-34-24" Translated="2015-09-26T10-34-24" State="Validated">
+              <cur>请输入存档的密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2118">
+            <Src CodePage="1252">Password:</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-34-29" Translated="2015-09-26T10-34-29" State="Validated">
+              <cur>密码：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2026">
+            <Src CodePage="1252">set 7z datetime to newest file</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-35-39" Translated="2015-09-26T10-35-39" State="Validated">
+              <cur>以最新文件设置 7z 日期时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2027">
+            <Src CodePage="1252">reorder directory list</Src>
+            <Trg Created="2015-09-26T10-19-58" Changed="2015-09-26T10-20-29" State="ForReview">
+              <cur>重新排序目录列表</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="english.lng" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="0" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\chinese_simp.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
+          <LangID>9</LangID>
+        </LanguagesToExtract>
+        <TargetEncoding>
+          <Item Index="0" LangID="-1" Enabled="1"/>
+        </TargetEncoding>
+        <Template Type="Default" ClassID="INI"/>
+        <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" IgnoreEncodingErrors="1"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2015-09-26T10-19-30"/>
+          <ChangedTo Enabled="0" Value="2015-09-26T10-19-30"/>
+          <TranslatedFrom Enabled="0" Value="2015-09-26T10-19-30"/>
+          <TranslatedTo Enabled="0" Value="2015-09-26T10-19-30"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2015-09-26T10-19-23">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2015-09-26T10-19-23">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

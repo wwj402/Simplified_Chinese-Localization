@@ -1,0 +1,3669 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{2832F3BE-5B45-4914-93CF-0A022CAE3935}"/>
+  <IDESettings ProjectItemPath="0.template.ini (template_chs.ini)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="frmHardwareEncoderSettings.lblNVIDIANVENCH264Preset.Caption" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{1EBA7EDF-A4E3-4051-BCBB-E0BBF8B6F581}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2016-08-11T07-21-09">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2016-08-11T07-28-17">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>1</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\PortableApps\oCamPortable\App\oCam\language\template.ini" Parser="IniFile" DateTimeStamp="4676083056286218225" FileSize="34032">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-08-11T07-21-36"/>
+          <ChangedTo Enabled="0" Value="2016-08-11T07-21-36"/>
+          <TranslatedFrom Enabled="0" Value="2016-08-11T07-21-36"/>
+          <TranslatedTo Enabled="0" Value="2016-08-11T07-21-36"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="ITEMS" Class="">
+        <Resource Name="Translator">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Name">
+            <Src>My Name &lt;Email_ID@example.com&gt;#13#10Example.com</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大眼仔~旭（Anan）&lt;wcxu21@126.com&gt;#13#10http://www.dayanzai.me</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="Updated">
+            <Src>2016.2.22</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="LanguageString">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Record">
+            <Src>Record</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Resume">
+            <Src>Resume</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Pause">
+            <Src>Pause</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>暂停</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Encoding">
+            <Src>Encoding</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Capture">
+            <Src>Capture</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>屏幕捕获</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Area">
+            <Src>Area</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>区域</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Resize">
+            <Src>Resize</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制区域</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Open">
+            <Src>Open</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>打开</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Options">
+            <Src>Options</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Report">
+            <Src>Report</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>错误联系我们</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Info">
+            <Src>Info</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>关于</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Hotkey">
+            <Src>Hotkey</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>快捷键</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Hotkeys">
+            <Src>Hotkeys</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>快捷键</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Save">
+            <Src>Save</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>保存</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Codecs">
+            <Src>Codecs</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Timelimit">
+            <Src>Timelimit</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>时间限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Stop">
+            <Src>Stop</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>停止</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Confirm">
+            <Src>Confirm</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Version">
+            <Src>Version</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>版本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Language">
+            <Src>Language</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Stereo">
+            <Src>Stereo</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>立体声</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Mono">
+            <Src>Mono</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>单声道</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Sound">
+            <Src>Sound</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>声音</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Warning">
+            <Src>Warning</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>警告</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Error">
+            <Src>Error</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Information">
+            <Src>Information</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="1" Name="Confirm">
+            <Src>Confirm</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Effect">
+            <Src>Effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;Yes">
+            <Src>&amp;Yes</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>是(&amp;Y)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;No">
+            <Src>&amp;No</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>否(&amp;N)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;OK">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;Cancel">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;Abort">
+            <Src>&amp;Abort</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>中止(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;Retry">
+            <Src>&amp;Retry</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>重试(&amp;R)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="&amp;Ignore">
+            <Src>&amp;Ignore</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>忽略(&amp;I)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="KeyframeRate">
+            <Src>Keyframe rate</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>关键帧间隔</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ModifiedWindowsHostFile">
+            <Src>Windows hosts file tampering detected.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>hosts 文件已被篡改。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="StopRecording">
+            <Src>Stop the screen recording.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>停止屏幕录制。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="StartRecording.">
+            <Src>Start the screen recording.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-23-06" State="ForReview">
+              <cur>启动屏幕录制。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CaptureScreen">
+            <Src>Capture a screen.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>屏幕捕获。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CopyToClipboard">
+            <Src>Copy to clipboard</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>将它复制到剪贴板</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="PressKeyStopRecording">
+            <Src>Press %s to stop the recording.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>若要停止录制按下 %s 键。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RecordingFailed">
+            <Src>Recording failed.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制失败。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CauseAudioSynthesis">
+            <Src>Cause (audio synthesis):</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>原因(音频合成):</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="NotExistDefaultOutputPath">
+            <Src>Output path does not exist. Set the default output path has changed.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>存储路径不存在。设置已更改为默认的保存路径。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="UpdateNewVersion">
+            <Src>Update oCam to the new version.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>开始更新到新版本。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SelectAreaToRecord">
+            <Src>Select area to record.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>选择录制区域。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ResizeRecordingArea">
+            <Src>Resize the recording area.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>若要更改录制区域大小。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ChangeSettings">
+            <Src>General program configuration options.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>在程序中更改设置。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DisplaySoftwareInformation">
+            <Src>Display the software information and license information.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>程序信息和许可证信息。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="OpenOutputPath">
+            <Src>Open the output path folder.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>要打开录制或屏幕捕获的文件存储文件夹。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BrowseForFolder">
+            <Src>Browse For Folder</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>请选择文件夹</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FailedRecordRegisterHotkey">
+            <Src>Record Hotkey can not be registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制将无法注册热键。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FailedPauseRegisterHotkey">
+            <Src>Pause Hotkey can not be registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>暂停热键不能注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FailedCaptureRegisterHotkey">
+            <Src>Screencapture Hotkey can not be registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>屏幕捕捉快捷键不能注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FailedRecordAreaRegisterHotkey">
+            <Src>"Select area to record" Hotkey can not be registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制区域选择快捷方式不能注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="PleaseChangeHotkey">
+            <Src>Please change the hotkey settings.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>请更改热键设置。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LanguageChanged">
+            <Src>Language has been changed. When you restart the program apply.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>语言已经更，请您重新启动程序以使更改生效。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DownloadCodecs">
+            <Src>Download the codecs from the Internet.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>从互联网上下载编解码器。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WhenUsedGoodCodecs">
+            <Src>When used in conjunction with ocam I've gathered a good codec.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>ocam 一起使用时具有良好的的编码采样率。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GotoCodecPage">
+            <Src>Do you want to go to the codecs page?</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>转到编解码器的网页吗?</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DontShowAgain">
+            <Src>Don't show me again.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>不再显示该信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RecordingStarting">
+            <Src>Starting...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>开始...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RecordingStopping">
+            <Src>Stopping...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>停止...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FailedInitWASSoundLibDLL">
+            <Src>Failed to initialize sound library. Check the Windows Audio service is running.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>声音库初始化失败。确定运行 Windows Audio 服务。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="JPEGQuality">
+            <Src>JPEG Quality</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>JPEG 质量</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CompressQuality">
+            <Src>Compress quality</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>压缩质量</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Enabled">
+            <Src>Enabled</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>启用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Disabled">
+            <Src>Disabled</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>禁用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Used">
+            <Src>Used</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>己使用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="NotUsed">
+            <Src>Not used</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>未使用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LowDiskSpace">
+            <Src>There is not enough space on the disk.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>磁盘上没有足够的空间。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Watermark">
+            <Src>Watermark</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>水印</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RecordSystemAudio">
+            <Src>Record system audio</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制系统音频</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DoNotRecordMicrophone">
+            <Src>Do not record microphone</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>不录制麦克风</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DoNotRecordSystemAudio">
+            <Src>Do not system audio</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>不录制系统音频</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="VeryHigh">
+            <Src>Very High</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>非常高</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="High">
+            <Src>High</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Medium">
+            <Src>Medium</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>中等</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Low">
+            <Src>Low</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>低</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="VeryLow">
+            <Src>Very Low</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>非常低</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Auto">
+            <Src>Auto</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-23-21" State="ForReview">
+              <cur>自动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CantNotLoadImage">
+            <Src>Can't load watermark image from file.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>无法从文件载入水印。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="NotFoundTheTargetRecordWindow">
+            <Src>Not found the record target window.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>没有找到录制目标窗口。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RecordingGame">
+            <Src>Game</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制游戏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="VeryFast">
+            <Src>Very fast</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>非常快</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Fast">
+            <Src>Fast</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>快</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Normal">
+            <Src>Normal</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>正常</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Slow">
+            <Src>Slow</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>慢</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="VerySlow">
+            <Src>Very slow</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>非常慢</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="UltraHigh">
+            <Src>Ultra high</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>超级高</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FileName">
+            <Src>FileName</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>文件名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ConnectionFailed">
+            <Src>The connection to the server has failed.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>连接服务器失败。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Congratulations">
+            <Src>Congratulations</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>恭喜</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SuccessfullyRegistered">
+            <Src>Congratulations! You Have Successfully Registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>恭喜！你已经成功注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="InvalidSerialNumber">
+            <Src>Invalid serial number. The serial number appears to be invalid.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>无效用户名或注册码。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="InvalidEMailAddress">
+            <Src>Invalid e-mail address. The e-mail address appears to be invalid.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>无效的邮件地址。请输入正确电子邮件地址。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RegisterExpired">
+            <Src>The serial number you used to activate this product has expired.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>序列号已过期。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="InvalidResponseFromServer">
+            <Src>Received an invalid response from the server.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>从服务器接收到一个无效的响应。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RegisterAleady">
+            <Src>Serial number already registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>序列号已注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Donate">
+            <Src>Donate</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>捐赠</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MonitorNotSupportResolution">
+            <Src>Monitor does not support the resolution.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>显示器不支持该分辨率。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HalfSize">
+            <Src>Half size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>一半大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FitWidth">
+            <Src>Fit width</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>适合宽度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FitHeight">
+            <Src>Fit height</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>适合高度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Custom">
+            <Src>Custom</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>自定义</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Performance">
+            <Src>Performance</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>性能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Input">
+            <Src>Input</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>输入</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LeftChannel">
+            <Src>LeftChannel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>左声道</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RightChannel">
+            <Src>RightChannel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>右声道</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="StereoChannel">
+            <Src>StereoChannel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>立体声</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="3StagPipelineDescription">
+            <Src>3-stage pipeline (good performace)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>3-级流水线 (优秀性能)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="2StagPipelineDescription">
+            <Src>2-stage pipeline (normal)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>2-级流水线 (正常)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="NoPipelineDescription">
+            <Src>no pipeline (slow)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>无流水线 (慢)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HighPerformance">
+            <Src>High Performance</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高性能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HighQuality">
+            <Src>High Quality</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高质量</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BlurayDisk">
+            <Src>Bluray Disk</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>蓝光光盘</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LowLatency">
+            <Src>Low Latency</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>低延迟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HighPerformanceLowLatency">
+            <Src>High Performance and Low Latency</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高性能和低延迟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HighQualityLowLatency">
+            <Src>High Quality Low Latency</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高质量低延迟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="NvidiaDefault">
+            <Src>Nvidia Default</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>Nvidia 默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MaximumQuantizer">
+            <Src>Maximum Quantizer</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>最大化量化</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MinimumQuantizer">
+            <Src>Minimum Quantizer</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>最小化量化</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ConstQuantizerParameter">
+            <Src>Const Quantizer Parameter</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>恒定量化参数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Main">
+            <Src>Main</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>主要</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Baseline">
+            <Src>Baseline</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>基准线</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SinglePassConstantQP">
+            <Src>1-PASS Constant QP</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>1-PASS 恒定 QP</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SinglePassCBR">
+            <Src>1-PASS CBR</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="SinglePassVBR">
+            <Src>1-PASS VBR</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="(0)FirstGPU">
+            <Src>(0) First GPU</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>(0) 第一个 GPU</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="(1)SecondGPU">
+            <Src>(1) Second GPU</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>(1) 第二个 GPU</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WidthHeightMultiple16">
+            <Src>Width, Height are multiple of 16</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>宽度，高度最多 16</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WidthMultiple8HeightMultiple4">
+            <Src>Width Multiple of 8, Height is multiple of 4</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>宽度最多 8，高度是 4 的倍数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WidthHeightMultiple2">
+            <Src>Width, height are multiple of 2</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>宽度，高度是 2 的倍数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Pixel">
+            <Src>Pixel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>像素</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Round">
+            <Src>Round</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>圆形</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RoundUp">
+            <Src>RoundUp</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>集合</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RoundDown">
+            <Src>RoundDown</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>放松</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ConsumingCPUCycles">
+            <Src>Consuming CPU cycles</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>消耗 CPU 周期</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="YieldTheCPU">
+            <Src>Yield the CPU</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>让出 CPU</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="AnimationDuration">
+            <Src>Animation duration</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>动画持续时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="millisecond">
+            <Src>millisecond</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>毫秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Rings">
+            <Src>Rings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>圆环</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Star">
+            <Src>Star</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>星星</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Star_RandomColor">
+            <Src>Star ( RandomColor )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>星星（随机颜色）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Star_Rotation">
+            <Src>Star Rotation</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>星星旋转</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Star_Rotation_RandomColor">
+            <Src>Star rotation ( RandomColor )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>星星旋转（随机颜色）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Opacity">
+            <Src>Opacity</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>不透明度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SoftEdge">
+            <Src>Soft edge</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>软边</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Sec">
+            <Src>Sec</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CursorSize">
+            <Src>Cursor Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>光标大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Webcam">
+            <Src>Webcam</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>摄像头</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WebcamVideoSize">
+            <Src>Video size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>视频大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SerialNumberAlreadyRegistered">
+            <Src>Serial number is already registered.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>序列号已注册。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Close">
+            <Src>Close</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-23-39" State="ForReview">
+              <cur>关闭</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WhenRecording">
+            <Src>When recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-23-41" State="ForReview">
+              <cur>在录制时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Always">
+            <Src>Always</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-23-46" State="ForReview">
+              <cur>总是</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmMain">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="mnuRecordScreen.Caption">
+            <Src>&amp;Full screen</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>全屏幕(&amp;F)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuPrimaryMonitor.Caption">
+            <Src>&amp;Primary monitor</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>主显示器区(&amp;P)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuSecondaryMonitor.Caption">
+            <Src>&amp;Secondary monitor</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>辅助监视区(&amp;S)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuFindTarget.Caption">
+            <Src>Select &amp;area...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制目标窗口(&amp;A)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOMPEG1standard.Caption">
+            <Src>ISO MPEG-1 standard ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>ISO MPEG-1标准（AVI）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOMPEG2standard.Caption">
+            <Src>ISO MPEG-2 standard ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>ISO MPEG-2标准（AVI）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standard.Caption">
+            <Src>ISO MPEG-4 standard ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>ISO MPEG-4标准（AVI）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuXvid.Caption">
+            <Src>ISO MPEG-4 XVID ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuOpenDivx.Caption">
+            <Src>ISO MPEG-4 OpenDivx ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuMicrosoftMPEG4part2.Caption">
+            <Src>Microsoft MPEG-4 part 2 ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>微软 MPEG-4 层 2 ( .AVI )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMicrosoftMPEG4part3.Caption">
+            <Src>Microsoft MPEG-4 part 3 ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>微软 MPEG-4 层 3 ( .AVI )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuFlashVideo.Caption">
+            <Src>Flash Video ( .FLV )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>Flash 视频( .FLV )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardMP4.Caption">
+            <Src>ISO MPEG-4 standard ( .MP4 )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>ISO MPEG-4 标准 ( .MP4 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuAppleQuickTime.Caption">
+            <Src>Apple QuickTime ( Sony Vegas editable ) ( .MOV )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>苹果 QuickTime ( Sony Vegas editable ) ( .MOV )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMPEG2TransportStream.Caption">
+            <Src>MPEG-2 transport stream ( .TS )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>MPEG-2 传输流 ( .TS )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMPEG2PSformat.Caption">
+            <Src>MPEG-2 PS ( .VOB )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuVFWCodec.Caption">
+            <Src>External Codecs... ( .AVI )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>外部编解码器( .AVI )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardWMV.Caption">
+            <Src>Microsoft MPEG-4 part 3 ( .WMV )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>微软 MPEG-4 层 3 ( .WMV )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuISOWMV2.Caption">
+            <Src>Windows Media Video 8 ( .WMV )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuMP3AudioCodec.Caption">
+            <Src>MPEG audio layer 3 ( .MP3 )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>MPEG 音频层 3（.MP3）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuWMAAudioCodec.Caption">
+            <Src>Windows Media Audio 2 ( .WMA )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>Windows 媒体音频 2（.WMA）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ActionManager.Categorys.&amp;Mode">
+            <Src>Mode</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>模式(&amp;M)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ActionManager.Categorys.&amp;Tools">
+            <Src>Tools</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>工具(&amp;T)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ActionManager.Categorys.&amp;Help">
+            <Src>Help</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>帮助(&amp;H)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="actOptions.Caption">
+            <Src>&amp;Options...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>选项(&amp;O)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="actInformation.Caption">
+            <Src>&amp;About...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>信息(&amp;A)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuRecordingTheScreenAndAudio.Caption">
+            <Src>Recording the screen and audio output</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制屏幕和声音</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuRecordingOnlyAudio.Caption">
+            <Src>Recording only audio output</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制声音</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuGIFAnimation.Caption">
+            <Src>GIF Animation ( .GIF )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>GIF 动画 ( .GIF )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMP4ContainerFormat.Caption">
+            <Src>MP4 (MPEG-4 Part 14) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>MP4 (MPEG-4 Part 14) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMKVContainerFormat.Caption">
+            <Src>MKV (Matroska) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>MKV (Matroska) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuM4VContainerFormat.Caption">
+            <Src>M4V (iPod MP4) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>M4V (iPod MP4) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuMOVContainerFormat.Caption">
+            <Src>MOV (QuickTime) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>MOV (QuickTime) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuWMVContainerFormat.Caption">
+            <Src>WMV (Windows Media Video) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>WMV (Windows Media Video) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuFLVContainerFormat.Caption">
+            <Src>FLV (Flash Video) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>FLV (Flash Video) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuAVIContainerFormat.Caption">
+            <Src>AVI (Audio Video Interleaved) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>AVI (Audio Video Interleaved) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuTSContainerFormat.Caption">
+            <Src>TS (MPEG-2 Transport Stream) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>TS (MPEG-2 Transport Stream) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuVOBContainerFormat.Caption">
+            <Src>VOB (MPEG-2 PS) Container</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>VOB (MPEG-2 PS) 容器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264AACMP4.Caption">
+            <Src>NVIDIA NVENC H.264 + AAC (.MP4)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardMP4AAC.Caption">
+            <Src>ISO MPEG-4 standard + AAC ( .MP4 )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264AACMKV.Caption">
+            <Src>NVIDIA NVENC H.264 + AAC (.MKV)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardFLACMKV.Caption">
+            <Src>ISO MPEG-4 standard + FLAC ( .MKV )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardAACMKV.Caption">
+            <Src>ISO MPEG-4 standard + AAC ( .MKV )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardMP3MKV.Caption">
+            <Src>ISO MPEG-4 standard + MP3 ( .MKV )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264AACM4V.Caption">
+            <Src>NVIDIA NVENC H.264 + AAC (.M4V)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuISOMPEG4standardAACM4V.Caption">
+            <Src>ISO MPEG-4 standard + AAC ( .M4V )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264AACMOV.Caption">
+            <Src>NVIDIA NVENC H.264 + AAC (.MOV)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuAppleQuickTimeMOVAAC.Caption">
+            <Src>Apple QuickTime + AAC ( .MOV )</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264AACAVI.Caption">
+            <Src>NVIDIA NVENC H.264 + AAC (.AVI)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuHardwareEncoderSettings.Caption">
+            <Src>Hardware Encoder settings...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>硬件编码器设置...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuAudioCodecsSettings.Caption">
+            <Src>Audio Codecs settings...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>音频编解码器设置...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuCustomSize.Caption">
+            <Src>&amp;Custom size...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>自定义大小(&amp;C)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="mnuNvidiaNvencH264FLACMKV.Caption">
+            <Src>NVIDIA NVENC H.264 + FLAC (.MKV)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="mnuOpenH264FLACMKV.Caption">
+            <Src>Open H.264 + FLAC (.MKV)</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="actRegister.Caption">
+            <Src>&amp;Register...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-03" State="ForReview">
+              <cur>注册(&amp;R)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="actBuy.Caption">
+            <Src>&amp;Buy...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-21" Translated="2016-08-11T07-24-21" State="Validated">
+              <cur>购买(&amp;B)......</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ActionManager.Categorys.&amp;Register">
+            <Src>&amp;Register</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-33" Translated="2016-08-11T07-24-33" State="Validated">
+              <cur>注册(&amp;R)</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmOption">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>关闭(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxVideoEncoding.Caption">
+            <Src>Video</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>视频</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblFPS.Caption">
+            <Src>FPS :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>帧每秒(FPS) :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblKeyframeRate.Caption">
+            <Src>Keyframe rate:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-36" State="ForReview">
+              <cur>关键帧速率︰</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblVideoBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxAudioEncoding.Caption">
+            <Src>Audio</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>音频</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblAudioBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnRestoreDefaultSettings.Caption">
+            <Src>&amp;Restore default settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>还原为默认值(&amp;R)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblSampleRate.Caption">
+            <Src>SampleRate:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblAudioDrive.Caption">
+            <Src>Device :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设备:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblChannel.Caption">
+            <Src>Channel :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>通道:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkAudio.Caption">
+            <Src>Audio device settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>音频设备设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkRecordCursor.Caption">
+            <Src>I&amp;nclude the cursor</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制时包含鼠标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkBalanceReposition.Caption">
+            <Src>When you move the recording area, the main window will be moved.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>在主窗口移动录制区域</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxHotkeySettings.Caption">
+            <Src>Hotkey Settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>热键设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkCaptureHotkey.Caption">
+            <Src>Capture:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>捕获:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkRecordHotkey.Caption">
+            <Src>Record:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkPauseHotkey.Caption">
+            <Src>Pause:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>暂停:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkFindTargetHotkey.Caption">
+            <Src>Target:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>查找目标:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxRservationRecord.Caption">
+            <Src>Recording time limit</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制时间限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMin.Caption">
+            <Src>Minute</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>分钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblSecond.Caption">
+            <Src>Second</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblAfterCompletion.Caption">
+            <Src>After Completion</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制完成后</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkRecordingTimeLimite.Caption">
+            <Src>&amp;Enable</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>时间限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxLanguage.Caption">
+            <Src>Language settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设置语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblLanguage.Caption">
+            <Src>Language:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Caption">
+            <Src>Options</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsInformation.Caption">
+            <Src>Information</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-44" State="ForReview">
+              <cur>信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsLicense.Caption">
+            <Src>License agreement</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-24-47" State="ForReview">
+              <cur>许可协议</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblCaptureFormat.Caption">
+            <Src>Capture image file format:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>捕获图像文件格式:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblUsingMultiCore.Caption">
+            <Src>Using Multi Cores:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>使用多核心:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxMouseEffect.Caption">
+            <Src>Mouse effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>鼠标效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkEnabledMouseEffect.Caption">
+            <Src>Enabled effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseEffectColor.Caption">
+            <Src>Color</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>颜色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseEffectSize.Caption">
+            <Src>Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxTimeLimitSettings.Caption">
+            <Src>Options</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="rbTimeLimitDoNothing.Caption">
+            <Src>Do nothing</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>什么都不做</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="rbTimeLimitStartNewRecording.Caption">
+            <Src>Start new recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>开始一个新的录制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="rbTimeLimitExitProgram.Caption">
+            <Src>Exit program</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>退出程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="rbTimeLimitShutdown.Caption">
+            <Src>Shutdown your computer</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>关机</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxWatermarkSettings.Caption">
+            <Src>Add watermark to video</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>水印设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkUseWatermark.Caption">
+            <Src>&amp;Using Watermarks</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>使用水印</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lbledtWatermakrImagePath.Caption">
+            <Src>Image Path:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>图像路径:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblOpacity.Caption">
+            <Src>Opacity:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>不透明度:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxWatermarkImagePosition.Caption">
+            <Src>Position</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>坐标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblVideoQuality.Caption">
+            <Src>Quality:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>质量:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblEncoderThreadCount.Caption">
+            <Src>Encoder thread count:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编码器线程数:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lbledtOutputPath.Caption">
+            <Src>Output path:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>保存路径:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkShowFPSOverlay.Caption">
+            <Src>Show FPS Overlay</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>显示 FPS</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxGameRecording.Caption">
+            <Src>Game recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>游戏录制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblColorConversionQuality.Caption">
+            <Src>Color Conversion Quality :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>颜色转换质量:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuPrefixDateTime.Caption">
+            <Src>Prefix + Date + Time</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>缩写+日期+时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuProgramNameDateTime.Caption">
+            <Src>ProgramName + Date + Time</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>程序名称+日期+时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuUserIDDateTime.Caption">
+            <Src>UserID + Date + Time</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>用户 ID+日期+时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuDisplayUserNameDateTime.Caption">
+            <Src>DisplayUserName + Date + Time</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>用户名+日期+时间</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuPrefixLocalizationDateNumber.Caption">
+            <Src>Prefix + LocalizationDate + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>本地化用户名+日期+编号(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuProgramNameLocalizationDateNumber.Caption">
+            <Src>ProgramName + LocalizationDate + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>本地化用户名 + 程序名称+日期+编号(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuUserIDLocalizationDateNumber1.Caption">
+            <Src>UserID + LocalizationDate + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>本地化用户名+日期+编号(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuDisplayUserNameLocalizationDateNumber1.Caption">
+            <Src>DisplayUserName + LocalizationDate + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>本地化用户名+日期+编号(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuPrefixNumber1.Caption">
+            <Src>Prefix + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>首字母+编号1(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuPrefixNumber2.Caption">
+            <Src>Prefix + Number(##)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>首字母+编号2(##)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuPrefixNumber3.Caption">
+            <Src>Prefix + Number(###)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>首字母+编号3(###)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuProgramNameNumber1.Caption">
+            <Src>ProgramName + Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>程序名称+编号1(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuProgramNameNumber2.Caption">
+            <Src>ProgramName + Number(##)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>程序名称+编号2(##)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuProgramNameNumber3.Caption">
+            <Src>ProgramName + Number(###)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>程序名称+编号3(###)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuNumber1.Caption">
+            <Src>Number(#)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编号1(#)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuNumber2.Caption">
+            <Src>Number(##)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编号2(##)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuNumber3.Caption">
+            <Src>Number(###)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编号3(###)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="pmnuHelp.Caption">
+            <Src>&amp;Help...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>帮助(&amp;H)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ledtFileName.Caption">
+            <Src>FileName:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>文件名:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkHideDragCursorInRecordingArea.Caption">
+            <Src>Hide drag cursor in recording area</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>在录制区域隐藏拖动光标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbResizeVideo.Caption">
+            <Src>Resize</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>调整大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkResizeVideo.Caption">
+            <Src>Resize a video</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>调整视频大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblResolution.Caption">
+            <Src>Resolution:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>分辨率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblResizeQuality.Caption">
+            <Src>Quality:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>质量:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblGIFFPS.Caption">
+            <Src>FPS:</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="lblGIFQuality.Caption">
+            <Src>Quality:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>质量:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxGIF.Caption">
+            <Src>GIF Settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>GIF 设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkGIFIncludeCursor.Caption">
+            <Src>I&amp;nclude the cursor</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>包含光标(&amp;N)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkResizeGIF.Caption">
+            <Src>&amp;Resize a gif</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>调整 Gif 大小(&amp;R)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblGIFResolution.Caption">
+            <Src>Resolution:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>分辨率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblGIFResizeQuality.Caption">
+            <Src>Quality:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>质量:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbResizeGIF.Caption">
+            <Src>Resize</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>调整大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="rbTimeLimitHibernate.Caption">
+            <Src>Hibernate your computer</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>休眠计算机</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsGeneral.Caption">
+            <Src>General</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>常规</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsGame.Caption">
+            <Src>Game</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>游戏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsResize.Caption">
+            <Src>Resize</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>调整大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxMicrophone.Caption">
+            <Src>Microphone Settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>麦克风设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMicrophoneInputSource.Caption">
+            <Src>Input source</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>输入源</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxEncodingSettings.Caption">
+            <Src>Encoding</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>编码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxGameRecordingPerformance.Caption">
+            <Src>Game recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>游戏录制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblStageOfPipeline.Caption">
+            <Src>Stage of pipeline:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>管道阶段:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblDecoderResolutionCompatibility.Caption">
+            <Src>Decoder Resolution Compatibility:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>分辨率解码器兼容性:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWatermarkLeftRightMargins.Caption">
+            <Src>Left, Right Margins</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>左右边距</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWatermarkTopBottomMargin.Caption">
+            <Src>Top, Bottom Margins</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>上下边距</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxCalcFPS.Caption">
+            <Src>Calculate FPS</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>计算 FPS</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblCalcFPSInterval.Caption">
+            <Src>Interval:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>间隔:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblCalcFPSMS.Caption">
+            <Src>millisecond</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>毫秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblCalcFPSRoundMode.Caption">
+            <Src>Round mode:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>圆形模式:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxFPSLimit.Caption">
+            <Src>FPS Limit</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>FPS 限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkFPSLimit.Caption">
+            <Src>FPS Limit</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>FPS 限制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblFPSLimit.Caption">
+            <Src>FPS:</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="chkLimitFPSWhenRecording.Caption">
+            <Src>Limit FPS when recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制时限制 FPS</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkCaptureIncludeCursor.Caption">
+            <Src>I&amp;nclude the cursor</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>包含光标(&amp;I)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkUseCaptureImageWatermark.Caption">
+            <Src>Add watermark to capture image</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>添加水印到捕获图像</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblFPSLimitMode.Caption">
+            <Src>Mode:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>模式:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsMouseLeftClickEffect.Caption">
+            <Src>Left-click effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>左键单击效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tstsMouseRightClickEffect.Caption">
+            <Src>Right-click effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>右键单击效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkMouseLeftClickEffect.Caption">
+            <Src>Add a mouse left click effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>添加鼠标左键单击效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseLeftClickEffectStyle.Caption">
+            <Src>Style:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>样式:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseLeftClickColor.Caption">
+            <Src>Color:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>颜色:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseLeftClickEffectSize.Caption">
+            <Src>Size:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大小:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseLeftClickLineWidth.Caption">
+            <Src>Line width:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>线条宽度:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkMouseRightClickEffect.Caption">
+            <Src>Add a mouse right click effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>添加鼠标右键单击效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseRightClickEffectStyle.Caption">
+            <Src>Style:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>样式:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseRightClickColor.Caption">
+            <Src>Color:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>颜色:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseRightClickEffectSize.Caption">
+            <Src>Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseRightClickLineWidth.Caption">
+            <Src>Line width:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>线条宽度:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkMouseCursorHighlightEffect.Caption">
+            <Src>Add a mouse cursor highlight effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>添加鼠标光标高亮效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseCursorHighlightEffectColor.Caption">
+            <Src>Color:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>颜色:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMouseCursorHighlightEffectSize.Caption">
+            <Src>Size:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大小:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsMouseCursorHighlightEffect.Caption">
+            <Src>Highlight effect</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>高亮效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsMouseCursorSize.Caption">
+            <Src>Cursor Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>光标大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkRecordingAreaAroundTheMouseCursor.Caption">
+            <Src>Recording area around the mouse cursor, when recording</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>录制时录制鼠标光标周围的区域</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxWebcamSettings.Caption">
+            <Src>Webcam</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>摄像头</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkWebcamOverlayToVideo.Caption">
+            <Src>&amp;Add webcam overlay to video</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>摄像头叠加添加到视频(&amp;A)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWebcamList.Caption">
+            <Src>Webcam</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>摄像头</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnWebcamPreview.Caption">
+            <Src>&amp;Preview...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>预览(&amp;P)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnWebcamSettings.Caption">
+            <Src>&amp;Settings...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设置(&amp;S)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxWebcamPosition.Caption">
+            <Src>Position</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>位置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWebcamLeftRightMargins.Caption">
+            <Src>Left, Right Margins</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>左，右边距</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWebcamTopBottomMarings.Caption">
+            <Src>Top, Bottom Margins</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>上，下边距</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblStartFilenameNumber.Caption">
+            <Src>Start number at:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-25-12" Translated="2016-08-11T07-25-12" State="Validated">
+              <cur>开始编号在︰</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkHiddenRecordingArea.Caption">
+            <Src>Hidden recording area</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-25-25" Translated="2016-08-11T07-25-25" State="Validated">
+              <cur>隐藏录制区</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsRecordingArea.Caption">
+            <Src>Recording area</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-25-43" Translated="2016-08-11T07-25-43" State="Validated">
+              <cur>录制区</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmAbout">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="lblDescription.Caption">
+            <Src>oCam is 100% free Recorder for home and office.</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>oCam 是一款免费的软件。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnSendReport.Caption">
+            <Src>Submit a bug report...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>发送错误报告...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Caption">
+            <Src>About</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>关于</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsInformation.Caption">
+            <Src>Information</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsLicense.Caption">
+            <Src>License agreement</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>用户协议</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmVFWCodecs">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>External codecs</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>外部编解码器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="chkUseVFWCodec.Caption">
+            <Src>&amp;Use external cocdec</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>使用外部编解码器(&amp;U)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnDownloadCodecs.Caption">
+            <Src>Download External codecs...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>下载外部编解码器(&amp;D)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnVideoConfiguration.Caption">
+            <Src>&amp;Setting</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>设置(&amp;S)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnInformation.Caption">
+            <Src>&amp;About</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>信息(&amp;A)...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>检查(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblVFWAudioCodecs.Caption">
+            <Src>Audio codec</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>音频编解码器</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmRegister">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>Registration</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>注册</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ledtEMail.Caption">
+            <Src>EMail:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>电子邮箱:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ledtSerialNumber.Caption">
+            <Src>SerialNumber:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>序列号:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>Ok(&amp;O)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>Cancel(&amp;C)</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmInternetAuth">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>Wait...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>请稍候...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblAuthentication.Caption">
+            <Src>Authentication...</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>验证中...</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmSaveToGIFProgress">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>Saving..</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>保存中..</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmHardwareEncoderSettings">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>Hardware Encoder settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>硬件编码器设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="tsNVIDIANVENCH264.Caption">
+            <Src>NVIDIA NVENC H.264</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="lblNVIDIANVENCH264Preset.Caption">
+            <Src>Preset:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>预设:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvidiaNvencH264Profile.Caption">
+            <Src>Profile:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>配置文件:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264Level.Caption">
+            <Src>Level:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>级别:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencGPUSelect.Caption">
+            <Src>GPU:</Src>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+          <Vl Name="gbxNvencH264RateControl.Caption">
+            <Src>Rate control</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>速率控制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264ConstQP.Caption">
+            <Src>Const Quantizer Parameter:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>恒定量化参数:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264ConstQPHigh.Caption">
+            <Src>1 ( High Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>1 ( 高质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvenctH264ConstQPLowQuality.Caption">
+            <Src>51 ( Low Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>51 ( 低质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264AverageBitRate.Caption">
+            <Src>Average Bitrate:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>平均比特率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MinimumQuantizer.Caption">
+            <Src>Minimum Quantizer:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>最小化量化:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MinimumQPHighQuality.Caption">
+            <Src>1 ( High Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>1 ( 高质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MinimumQPLowQuality.Caption">
+            <Src>51 ( Low Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>51 ( 低质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MaximumQuantizer.Caption">
+            <Src>Maximum Quantizer:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>最大化量化:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MaximumQPHighQuality.Caption">
+            <Src>1 ( High Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>1 ( 高质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MaximumQPLowQuality.Caption">
+            <Src>51 ( Low Quality )</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>51 ( 低质量 )</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblNvencH264MaxBitrate.Caption">
+            <Src>Max Bitrate:</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>最大比特率:</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnNvencH264Default.Caption">
+            <Src>&amp;Default</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>默认(&amp;D)</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmAudioCodecsSettings">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="lblAACAudioBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMP3AudioBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMP2AudioBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWMAAudioBitrate.Caption">
+            <Src>Bitrate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>比特率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnDefault.Caption">
+            <Src>&amp;Default</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>默认(&amp;D)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Caption">
+            <Src>Audio codecs settings</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>音频编解码器设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblAACAudioSampleRate.Caption">
+            <Src>SampleRate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMP3AudioSampleRate.Caption">
+            <Src>SampleRate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblMP2SampleRate.Caption">
+            <Src>SampleRate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblWMASampleRate.Caption">
+            <Src>SampleRate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="lblFlacAudioSampleRate.Caption">
+            <Src>SampleRate :</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>采样率 :</cur>
+            </Trg>
+          </Vl>
+          <Vl Index="0" ReadOnly="1">
+            <Src/>
+            <Trg Created="2016-08-11T07-22-17"/>
+          </Vl>
+        </Resource>
+        <Resource Name="frmCustomSize">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Caption">
+            <Src>Custom Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>自定义大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnOK.Caption">
+            <Src>&amp;OK</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>确定(&amp;O)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="btnCancel.Caption">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>取消(&amp;C)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="gbxCustomSize.Caption">
+            <Src>Size</Src>
+            <Trg Created="2016-08-11T07-22-17" Changed="2016-08-11T07-22-46" State="ForReview">
+              <cur>大小</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="template.ini" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
+          <LangID>9</LangID>
+        </LanguagesToExtract>
+        <TargetEncoding>
+          <Item Name="UTF-16" LangID="-1" Enabled="1"/>
+        </TargetEncoding>
+        <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" CommentPrefix=";" EscapedText="1"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2016-08-11T07-21-36"/>
+          <ChangedTo Enabled="0" Value="2016-08-11T07-21-36"/>
+          <TranslatedFrom Enabled="0" Value="2016-08-11T07-21-36"/>
+          <TranslatedTo Enabled="0" Value="2016-08-11T07-21-36"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2016-08-11T07-21-09">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2016-08-11T07-21-09">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

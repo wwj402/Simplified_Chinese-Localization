@@ -1,0 +1,3567 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{241CA039-64F5-494E-B44F-DF6F32EE86E9}"/>
+  <IDESettings ProjectItemPath="0.English.locale (chinesesimplified.locale)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="UPDATER.COLUMN_APP" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{C248EB69-4B44-41B1-BE47-1DD9AA075C45}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2015-07-22T10-26-34">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2016-10-02T09-13-28">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="12" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>0</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>0</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="D:\PortableApps\PortableApps.com\App\Locale\English.locale" Parser="TxtFile" DateTimeStamp="4676078814280641170" FileSize="36746">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2015-07-22T10-27-09"/>
+          <ChangedTo Enabled="0" Value="2015-07-22T10-27-09"/>
+          <TranslatedFrom Enabled="0" Value="2015-07-22T10-27-09"/>
+          <TranslatedTo Enabled="0" Value="2015-07-22T10-27-09"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType New="1" Name="STRINGS" Class="">
+        <Resource Name="PortableApps.comLocaleDetails">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Name">
+            <Src>English</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>Chinese (Simplified)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LocalizedName">
+            <Src>English</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>简体中文</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="Version">
+            <Src>2.0</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="ContributedBy">
+            <Src>John T. Haller</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-09-12T10-55-59" Translated="2015-09-12T10-55-59" State="Validated">
+              <cur>candylight &amp; Daoguang Li &amp; yirod &amp; cxase &amp; wwj402</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LocaleID">
+            <Src>1033</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-45-20" Translated="2015-07-22T10-45-20" State="Validated">
+              <cur>2052</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LocaleWinName">
+            <Src>LANG_ENGLISH</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>LANG_SIMPCHINESE</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LocaleCode2">
+            <Src>en</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>zh</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LocaleCode3">
+            <Src>eng</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>zho</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LanguageCode">
+            <Src>en</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>zh-cn</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Localeglibc">
+            <Src>en_US</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>zh_CN</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Codepage">
+            <Src>1252</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-54-31" Translated="2015-07-22T10-54-31" State="Validated">
+              <cur>936</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="GENERAL" New="1">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl New="1" Name="BUTTON_OK">
+            <Src>&amp;OK</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T08-53-22" Translated="2016-10-02T08-53-22" State="Validated">
+              <cur>确定</cur>
+              <prev>确定</prev>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_CANCEL">
+            <Src>&amp;Cancel</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_CLOSE">
+            <Src>&amp;Close</Src>
+            <Trg Created="2015-09-11T19-11-54" Changed="2015-09-11T19-12-31" Translated="2015-09-11T19-12-31" State="Validated">
+              <cur>关闭</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_REVERT">
+            <Src>&amp;Revert</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>复原</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_YES">
+            <Src>&amp;Yes</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>是</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_NO">
+            <Src>&amp;No</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>否</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_REMIND">
+            <Src>Re&amp;mind Me Later</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>稍后再提醒我</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_PINK">
+            <Src>Pink</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>粉红色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_RED">
+            <Src>Red</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>红色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_ORANGE">
+            <Src>Orange</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>橙色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_YELLOW">
+            <Src>Yellow</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>黄色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_GREEN">
+            <Src>Green</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>绿色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_BLUE">
+            <Src>Blue</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>蓝色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_PURPLE">
+            <Src>Purple</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>紫色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_VIOLET">
+            <Src>Violet</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>浅紫色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_BLACK">
+            <Src>Black</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>黑色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_WHITE">
+            <Src>White</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>白色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_GRAY">
+            <Src>Gray</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>灰色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_SILVER">
+            <Src>Silver</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>银色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_BRONZE">
+            <Src>Bronze</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>青铜色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_GOLD">
+            <Src>Gold</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>金色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLOR_BROWN">
+            <Src>Brown</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>棕色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="KILOBYTE">
+            <Src>KB</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="MEGABYTE">
+            <Src>MB</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="GIGABYTE">
+            <Src>GB</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_MAIN" New="1">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="APP_MENU_RUN">
+            <Src>&amp;Run</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>运行</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_RUN_AS_ADMIN">
+            <Src>Run as &amp;Administrator</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>以管理员权限运行</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_RENAME">
+            <Src>Re&amp;name</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>重命名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_HIDE">
+            <Src>&amp;Hide</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-59-55" Translated="2015-07-22T10-59-55" State="Validated">
+              <cur>隐藏程序图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_MOVE_TO_TOP">
+            <Src>Move to &amp;Top</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>向上移动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_MOVE_TO_BOTTOM">
+            <Src>Move to &amp;Bottom</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>向下移动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_SHOW_HIDDEN">
+            <Src>Show Hidden &amp;Icons</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-57-55" Translated="2015-07-22T10-57-55" State="Validated">
+              <cur>显示隐藏的图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_REFRESH">
+            <Src>Re&amp;fresh</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>刷新菜单</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_UNINSTALL">
+            <Src>Uninstall</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>卸载</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_HELP">
+            <Src>Help</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>帮助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_START_AUTOMATICALLY">
+            <Src>&amp;Start Automatically</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自动运行</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_EXPLORE_HERE">
+            <Src>&amp;Explore Here</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>浏览程序目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_ALWAYS_SHOW_ALL">
+            <Src>Always Show All Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>总是显示所有程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_SHOW_CATEGORIES">
+            <Src>Show Categories in All Apps View</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>在全部程序视图下显示分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_ALL_APPS">
+            <Src>All Portable Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>全部便携程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_BACK">
+            <Src>Back</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>后退</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY">
+            <Src>Category</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_ADD">
+            <Src>Add a New Category</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>添加新的分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_ACCESSIBILITY">
+            <Src>Accessibility</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>系统辅助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_DEVELOPMENT">
+            <Src>Development</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>编程开发</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_EDUCATION">
+            <Src>Education</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>教育教学</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_GAMES">
+            <Src>Games</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>游戏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_GRAPHICS_AND_PICTURES">
+            <Src>Graphics and Pictures</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图形图像</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_INTERNET">
+            <Src>Internet</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>互联网</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_MUSIC_AND_VIDEO">
+            <Src>Music and Video</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>媒体工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_OFFICE">
+            <Src>Office</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>办公</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_OPERATING_SYSTEMS">
+            <Src>Operating Systems</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>操作系统</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_SECURITY">
+            <Src>Security</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>安全</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_UTILITIES">
+            <Src>Utilities</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_CATEGORY_OTHER">
+            <Src>Other</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>其他</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="APP_MENU_DONATE">
+            <Src>Donate</Src>
+            <Trg Created="2016-10-02T08-51-56" Changed="2016-10-02T09-01-50" State="ForReview">
+              <cur>捐赠</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_PREFIX_APP">
+            <Src>App</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl New="1" Name="APP_MENU_WEBSITE">
+            <Src>Website</Src>
+            <Trg Created="2016-10-02T08-51-56" Changed="2016-10-02T09-01-56" State="ForReview">
+              <cur>网站</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DRIVE_SPACE">
+            <Src>$DRIVEFREE free of $DRIVETOTAL</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-03-14" Translated="2016-10-02T09-03-14" State="Validated">
+              <cur>$DRIVEFREE 可用空间共 $DRIVETOTAL</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_DOCUMENTS">
+            <Src>&amp;Documents</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文档</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MUSIC">
+            <Src>&amp;Music</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>音乐</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_PICTURES">
+            <Src>&amp;Pictures</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图片</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_VIDEOS">
+            <Src>&amp;Videos</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>视频</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_EXPLORE">
+            <Src>&amp;Explore</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>浏览</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_BACKUP">
+            <Src>&amp;Backup</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>备份</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MANAGE_APPS">
+            <Src>&amp;Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_OPTIONS">
+            <Src>&amp;Options</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_HELP">
+            <Src>&amp;Help</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>帮助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_SEARCH">
+            <Src>&amp;Search</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>搜索</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_PERSONAL_PICTURE">
+            <Src>Personal picture</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>个人照片</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_PERSONAL_PICTURE_HINT2">
+            <Src>Click to change, right-click to clear</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>点击更换，右键清除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MENU_CHANGE_PATH">
+            <Src>Change Path</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更改路径</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MENU_CHANGE_ICON">
+            <Src>Change Icon</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更换图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MENU_CHANGE_DOCUMENT_ROOT">
+            <Src>Change Documents Path</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>改变文档根目录</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ICON_MENU_RESET">
+            <Src>Reset to Defaults</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>恢复为默认值</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_CHECK_FOR_UPDATES">
+            <Src>Check For &amp;Updates</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>查找更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS">
+            <Src>&amp;Get More Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>获取更多应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS_BY_CATEGORY">
+            <Src>By Category</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>按分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS_BY_TITLE">
+            <Src>By Title</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>按标题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS_NEW_APPS">
+            <Src>New Releases</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>新应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS_RECENTLY_UPDATED">
+            <Src>Recently Updated</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>最近更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_GET_MORE_APPS_MOST_POPULAR">
+            <Src>Most Popular</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>最受欢迎</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_MANAGE_APPS_INSTALL_AN_APP">
+            <Src>Manually Install An App</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>手动安装新应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_BACKUP">
+            <Src>&amp;Backup Files</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>备份文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_RESTORE">
+            <Src>&amp;Restore From Backup</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>从备份中还原</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_SMALL_FONTS">
+            <Src>&amp;Small Fonts</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>小字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_LARGE_FONTS">
+            <Src>&amp;Large Fonts</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>大字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_ADD_APP">
+            <Src>&amp;Install a New App</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-05-08" Translated="2016-10-02T09-05-08" State="Validated">
+              <cur>安装新的应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_REMOVE_APP">
+            <Src>&amp;Remove an App</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-05-14" Translated="2016-10-02T09-05-14" State="Validated">
+              <cur>移除已安装的应用程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_REFRESH_ICONS">
+            <Src>&amp;Refresh App Icons</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>刷新菜单</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_GET_APPS">
+            <Src>&amp;Get More Apps...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-05-21" Translated="2016-10-02T09-05-21" State="Validated">
+              <cur>获取更多应用程序...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_LANGUAGE">
+            <Src>L&amp;anguage</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_SHOW_ICON">
+            <Src>Show PortableApps.com &amp;Icon</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示 PortableApps.com 图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_HIDE_DESKTOP_ICONS">
+            <Src>&amp;Hide Desktop Icons</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>隐藏桌面图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_THEME">
+            <Src>&amp;Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_THEME_INSTALL_NEW">
+            <Src>&amp;Add a New Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>添加新主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_THEME_DEFAULT">
+            <Src>PortableApps.com Default Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>默认主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_OPTIONS_TRANSPARENCY">
+            <Src>Transparency</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>透明度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_HELP_ABOUT">
+            <Src>&amp;About</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>关于</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_HELP_CHECK_FOR_UPDATES">
+            <Src>Check for &amp;Updates</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>查找更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_HELP_DONATE">
+            <Src>Donate to PortableApps.com</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-06-14" Translated="2016-10-02T09-06-14" State="Validated">
+              <cur>向 PortableApps.com 捐赠</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_HELP_SUPPORT">
+            <Src>Support</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>支持</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_SEARCH_DRIVE">
+            <Src>Search This &amp;Drive</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-10-38" Translated="2016-10-02T09-10-38" State="Validated">
+              <cur>搜索本驱动器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_SEARCH_COMPUTER">
+            <Src>Search This &amp;Computer</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-10-02" Translated="2016-10-02T09-10-02" State="Validated">
+              <cur>搜索计算机</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_SEARCH_WEB">
+            <Src>Search The &amp;Web</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-08-15" Translated="2016-10-02T09-08-15" State="Validated">
+              <cur>搜索网站</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_SEARCH_INSTALLED_APPS">
+            <Src>Search Installed &amp;Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>搜索安装的程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_TRAY_EJECT">
+            <Src>E&amp;ject</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>弹出</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_TRAY_EXIT">
+            <Src>E&amp;xit</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>退出</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_TRAY_POWER">
+            <Src>&amp;Shut down / Log Out</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>关机/注销</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MENU_TRAY_AUTOMATIC">
+            <Src>&amp;Automatic</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-58-43" Translated="2015-07-22T10-58-43" State="Validated">
+              <cur>自动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_EJECT_FAIL">
+            <Src>The following portable apps are still running:%RUNNINGAPPS%Please close all portable apps before ejecting your device.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下列便携程序正在运行：%RUNNINGAPPS%请在弹出便携设备前关闭所有便携程序。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_APPS_STILL_RUNNING">
+            <Src>The following portable apps are still running:%RUNNINGAPPS%Please close all portable apps and try again.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下列便携程序正在运行：%RUNNINGAPPS%请关闭所有便携程序再试一次。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="INVALID_INSTALLER">
+            <Src>This installer does not appear to be in PortableApps.com Format.  The portable app may be altered or not fully portable and should not be used without verifying the source of this file.  Would you like to continue with the installation?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>此安装程序不是 PortableApps.com 所支持的格式。它可能被修改过或者并非支持便携。在未验证其来源之前请不要继续。您确定要继续安装吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CHECK_DRIVE">
+            <Src>&amp;Check Drive For Errors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>检查驱动器的错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CHECKING_DRIVE_WINDOW_TITLE">
+            <Src>Checking drive %DRIVE% for errors...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>正在检查 %DRIVE% 盘是否有错误...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="AUTORUN_CHANGE_WARNING_TITLE">
+            <Src>Warning: Autorun Changed</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>警告：自动运行配置已改变</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="AUTORUN_CHANGE_WARNING">
+            <Src>The PortableApps.com Platform has detected that the autorun configuration of this device has changed.  These changes may be caused by a virus or spyware infection or by another application modifying the autorun.inf file.  If you did not make these changes yourself, you should scan this device for viruses and spyware now.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>PortableApps.com 平台检测到设备的自动运行配置文件已被更改。这可能是由于病毒、间谍软件或其他应用程序修改了 autorun.inf 文件造成的。如果您没有改动过它，请立即使用杀毒软件扫描本设备以排除威胁。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="APP_MENU_FAVORITE">
+            <Src>Favorite</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>常用软件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_SHARED_LIBRARY_DOWNLOAD">
+            <Src>This application requires %SHAREDLIBRARY% to run. Would you like to automatically download and install it to your device now?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>程序运行需要 %SHAREDLIBRARY% 。您要自动下载并安装到您的设备上吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_SHARED_LIBRARY_DOWNLOAD_OPTIONAL">
+            <Src>This application requires %SHAREDLIBRARY% to enable certain functionality. Would you like to automatically download and install it to your device now?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>程序运行这个功能需要 %SHAREDLIBRARY% 。您要自动下载并安装到您的设备上吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_SHARED_LIBRARY_ASK_NEXT_TIME">
+            <Src>Would you like to be prompted to download %SHAREDLIBRARY% the next time it is required by an application?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序下次运行需要时提醒下载 %SHAREDLIBRARY% ？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_SHARED_LIBRARY_OPTIONAL_ASK_NEXT_TIME">
+            <Src>Would you like to be prompted to download %SHAREDLIBRARY% the next time it can be used by an application?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>当一个程序运行需要时提醒下载 %SHAREDLIBRARY% ？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_NET_FRAMEWORK_DOWNLOAD">
+            <Src>This application requires the Microsoft .NET Framework %VERSION% installed on the local PC to run. Installation requires administrative rights and may require a reboot of the PC.  Would you like to download and install it now?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>程序运行需要 Microsoft .NET Framework %VERSION% 。安装需要管理员权限和重新启动系统。您要现在下载并安装吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DIALOG_NET_FRAMEWORK_REQUIRED">
+            <Src>This application requires the Microsoft .NET Framework %VERSION% installed on the local PC to run. Please run Windows Update or visit update.microsoft.com within Internet Explorer to download and install it.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序运行需要 Microsoft .NET Framework %VERSION% 。请运行 Windows Update 或者访问 update.microsoft.com 下载并安装？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TRAY_APPS">
+            <Src>&amp;Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TRAY_FAVORITES">
+            <Src>&amp;Favorites</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>常用软件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CLOSE_APPS_ON_EXIT_QUERY">
+            <Src>Would you like to automatically close your portable apps when you exit the platform?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>当您退出平台时，是否希望自动关闭您打开的便携程序？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CLOSE_APPS_ON_EXIT_QUERY_HEADER">
+            <Src>Close apps on exit?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>退出时关闭便携程序？</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="PORTABLEAPPS.COM_ICON">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="SHOW_PLATFORM">
+            <Src>&amp;Show PortableApps.com Platform</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示 PortableApps.com 平台图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ALWAYS_ON_TOP">
+            <Src>Always On &amp;Top</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>总是显示在最前面</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HIDE_ICON">
+            <Src>&amp;Hide This Icon</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>隐藏这个图标</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_RENAME_MENU_ITEM">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="CAPTION">
+            <Src>Rename</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>重命名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_ORIGINAL">
+            <Src>Original Name</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>原始名称</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_CUSTOM">
+            <Src>Custom Name</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自定义名称</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_UNINSTALL_DIALOG">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="TITLE">
+            <Src>Uninstall %APPNAME%?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>移除 %APPNAME% ？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MESSAGE">
+            <Src>WARNING: Uninstalling will remove the portable app and all of its settings (preferences, bookmarks, etc).  Documents or files saved to your Documents or other folders will not be affected, but all files within this directory will be deleted:</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>警告：此操作将会删除便携程序及其所有配置（个人偏好、书签等）。储存在“文档”或其他文件夹的资料不会受到影响，但所有储存在此程序文件夹中的文件将被删除：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="QUESTION">
+            <Src>Are you sure you wish to uninstall %APPNAME%?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>您是否确定要删除 %APPNAME%？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FAILMESSAGE">
+            <Src>Unable to uninstall %APPNAME%.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>删除 %APPNAME% 失败。</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_UNINSTALLING_DIALOG">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="TITLE">
+            <Src>Uninstalling %APPNAME%</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>移除 %APPNAME% 中...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="MESSAGE">
+            <Src>Uninstalling %APPNAME%.  Please wait...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>移除 %APPNAME%。请耐心等待...</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_UPDATE">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="LABEL_UPDATE">
+            <Src>Update</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_CHECK_INQUIRY">
+            <Src>Would you like to check for a new version of the PortableApps.com Platform?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>您希望检查 PortableApps.com 平台的新版本么？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_CHECKING">
+            <Src>Checking for updates...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>正在检查更新...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_UP_TO_DATE">
+            <Src>There are no new updates available.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>您当前使用的软件已经是最新版本。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_DOWNLOADING">
+            <Src>Downloading update...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载更新...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LABEL_UPDATED">
+            <Src>The PortableApps.com Platform has been updated.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>PortableApps.com 平台已经更新完毕。</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_OPTIONS">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="FORM_NAME">
+            <Src>Options</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_GENERAL">
+            <Src>General</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>常规</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_THEMES">
+            <Src>Themes</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_CONNECTION">
+            <Src>Connection</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>联网</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_FILE_ASSOCIATIONS">
+            <Src>File Associations</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件关联</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_FONTS">
+            <Src>Fonts</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_ADVANCED">
+            <Src>Advanced</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>高级</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_CONNECTION_TYPE">
+            <Src>Connection Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>联网类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_TYPE_AUTOMATIC">
+            <Src>Automatic (Recommended)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自动检测 (推荐)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_TYPE_DIRECT">
+            <Src>Direct Connection (No Proxy)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>直接联网 (无代理)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_TYPE_PROXY">
+            <Src>Manual Proxy Configuration</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>手动代理设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_PROXY_IP">
+            <Src>HTTP Proxy IP</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>HTTP 代理IP地址</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CONNECTION_PROXY_PORT">
+            <Src>Port</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>端口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_DISLAY_OPTIONS">
+            <Src>Display Options</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_USE_LARGE_FONTS">
+            <Src>Use Large Fonts</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>使用大字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_MENU_TRANSPARENCY">
+            <Src>Menu Transparency</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>菜单透明度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_MENU_TRANSPARENCY_OFF">
+            <Src>Off (100% Opacity)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>关闭 (100% 透明度)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_LANGUAGE">
+            <Src>Language</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_LANGUAGE_USE_FOR_ALL">
+            <Src>Use this language for all portable apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>所有程序都使用此语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_APP_LIST_ORGANIZATION">
+            <Src>App List Organization</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序列表排序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_SMART_WITH_CATEGORIES">
+            <Src>Smart with Categories - Favorites and recent apps on first screen.  All apps by category on second.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自动分组排序 - 常用的和最近使用的软件显示在前面。其他软件按分组显示在后面。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_SMART_ALPHA">
+            <Src>Smart Alphabetical - Favorites and recent apps on first screen.  All apps alphabetically on second.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自动名称排序 - 常用的和最近使用的软件显示在前面。其他软件按名称顺序显示在后面。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_SHOW_ALL_CATEGORIES">
+            <Src>Show All with Categories - Favorites listed first then all other apps grouped by category.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>按分组排序 - 常用软件显示在前，软件分组显示在后。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="GENERAL_SHOW_ALL_ALPHABETICALLY">
+            <Src>Show All Alphabetically - Favorites listed first then all other apps listed alphabetically.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>按名称排序 - 常用软件显示在前，其他软件按名称顺序显示在后</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_THEME_PREVIEW">
+            <Src>Theme Preview</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>主题预览</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_ADD_THEME">
+            <Src>Add Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>添加主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_GET_THEMES">
+            <Src>Get Themes</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>获取主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_USE_THEME">
+            <Src>Use Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>使用主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_REMOVE_THEME">
+            <Src>Remove Theme</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>移除主题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_CUSTOM_COLOR">
+            <Src>Custom Color</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>自定义颜色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_CUSTOM_COLOR_PREVIEW">
+            <Src>Custom Color Preview</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>预览自定义颜色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_CLASSIC">
+            <Src>Classic</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>经典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_MODERN">
+            <Src>Modern</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>现代</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_GLASSY">
+            <Src>Glassy</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>透明</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_RETRO">
+            <Src>Retro</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>复古</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_FLAT">
+            <Src>Flat</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>单色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_LIGHT">
+            <Src>Light</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>光亮</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_DARK">
+            <Src>Dark</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>深色</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_DEFAULT">
+            <Src>Default</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="THEMES_SMOOTH">
+            <Src>Smooth</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>平滑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_EXTENSION">
+            <Src>File Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_OPEN_WITH">
+            <Src>Open With</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>打开方式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_ICON">
+            <Src>Icon</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_ADD">
+            <Src>Add File Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>添加文件类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_EDIT">
+            <Src>Edit File Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>编辑文件类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_DELETE">
+            <Src>Delete File Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>删除文件类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FILE_ASSOCIATIONS_DISABLE">
+            <Src>Disable file associations</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>取消文件关联</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FONTS_NAME">
+            <Src>Font Name</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>字体名称</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FONTS_FILE">
+            <Src>Filename</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件名</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FONTS_ADD">
+            <Src>Add Font</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>添加字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FONTS_REMOVE">
+            <Src>Remove Font</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>移除字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FONTS_DISABLE">
+            <Src>Disable portable fonts</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>禁用便携字体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER">
+            <Src>Updater Settings</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>应用更改</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER_FREQUENCY">
+            <Src>Check for updates...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>查找更新...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER_STARTUP">
+            <Src>On platform startup</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>平台启动时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER_DAILY">
+            <Src>Once every day</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>每天</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER_HOURLY">
+            <Src>Once every hour</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>每小时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_UPDATER_MANUAL">
+            <Src>Only when I click Check for Updates</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>仅当我点击更新按钮时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_BOLD_FOLDER_NAMES">
+            <Src>Bold categories</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件夹名称黑体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_BETA_PLATFORM_RELEASES">
+            <Src>Update to beta platform releases</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新到Beta版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_REMAIN_VISIBLE">
+            <Src>Do not hide the menu when it loses focus</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示在最前</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_START_MINIMIZED">
+            <Src>Start the menu minimized</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>启动后最小化窗口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_FADE_MENU">
+            <Src>Fade the menu in and out</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>菜单淡入淡出效果</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_HIDE_DESKTOP_ICONS">
+            <Src>Hide desktop icons while running</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>运行时隐藏桌面图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_SHOW_SINGLE_APP_ICON">
+            <Src>Show only one icon for apps with multiple icons</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>为具有多个图标的程序显示一个图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_DISABLE_SPLASH_SCREENS">
+            <Src>Disable app splash screens (where supported)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>禁用启动画面</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_DISABLE_SCROLLBAR">
+            <Src>Disable Scrollbar</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>禁用滚动条</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_NOT_ALL_APPS_SUPPORT">
+            <Src>Not all apps support this feature</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>不是所用程序支持这个特性</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_HIDE_PORTABLE_IN_APP_NAMES">
+            <Src>Hide "Portable" in app names</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序名称中隐藏 "Portable"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_EXPAND_CATEGORIES">
+            <Src>Expand categories by default</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-09-12T10-21-37" Translated="2015-09-12T10-21-37" State="Validated">
+              <cur>默认情况下展开分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_APP_DIRECTORY_SETTINGS">
+            <Src>App Directory Settings</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序目录设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_APP_DIRECTORY_SHOW_OPEN_SOURCE_ONLY">
+            <Src>Show only open source apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>仅显示开源程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_APP_DIRECTORY_SHOW_ADVANCED_APPS">
+            <Src>Show advanced apps (Beta, Test, etc)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示程序 (Beta，Test，等)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_BOLD_FAVORITES">
+            <Src>Bold favorites</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>常用程序黑体显示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_SHOW_INSTALLED_APPS">
+            <Src>Show installed apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>显示已安装的程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_COLLAPSE_OTHER_CATEGORIES_ON_EXPAND">
+            <Src>Collapse other categories when one is expanded</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>展开一类程序时收起其他分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_COLLAPSE_CATEGORIES_ON_MINIMIZE">
+            <Src>Collapse categories on minimize</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>最小化时收起所有分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_KEYBOARD_FRIENDLY">
+            <Src>Screen reader-friendly selections in updater and app directory</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>在更新程序和应用程序目录选择友好键盘</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_CLOSE_APPS_ON_PLATFORM_EXIT">
+            <Src>Close Apps On Platform Exit</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>平台退出时关闭便携程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ADVANCED_SEARCH_WITHIN_APP_DESCRIPTIONS">
+            <Src>Search within app descriptions when searching</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>搜索时在便携程序描述中搜索</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="FORM_ABOUT">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="TAB_PLATFORM">
+            <Src>Platform</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>平台</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_SPONSORS">
+            <Src>Sponsors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>赞助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_APPS">
+            <Src>Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="TAB_WHATS_NEW">
+            <Src>What's New</Src>
+            <Trg Created="2015-09-11T19-11-54" Changed="2015-09-12T10-33-52" Translated="2015-09-12T10-33-52" State="Validated">
+              <cur>新功能和改进</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HEADER_PLATINUM_SPONSORS">
+            <Src>Platinum Sponsors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>白金级赞助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HEADER_GOLD_SPONSORS">
+            <Src>Gold Sponsors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>黄金级赞助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HEADER_SILVER_SPONSORS">
+            <Src>Silver Sponsors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>白银级赞助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HEADER_BRONZE_SPONSORS">
+            <Src>Bronze Sponsors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>铜级赞助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="HEADER_SUPPORTERS">
+            <Src>Supporters</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>支持者</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="BUTTON_COPY">
+            <Src>Copy</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-12-43" Translated="2016-10-02T09-12-43" State="Validated">
+              <cur>复制</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="WHATS_NEW_HEADER">
+            <Src>What's New In The PortableApps.com Platform</Src>
+            <Trg Created="2015-09-11T19-11-54" Changed="2015-09-12T10-33-59" Translated="2015-09-12T10-33-59" State="Validated">
+              <cur>PortableApps.com 平台的新功能和改进</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DONATION_ASK">
+            <Src>PortableApps.com needs your help to keep bringing you great software for free. You can help just by making a small donation to PortableApps.com using your credit card, bank account, or PayPal. You can even use bitcoin, litecoin, and dogecoin. Won't you please help support PortableApps.com?</Src>
+            <Trg Created="2015-09-11T19-11-54" Changed="2016-10-02T09-13-28" Translated="2016-10-02T09-13-28" State="Validated">
+              <cur>PortableApps.com 需要您的帮助，来免费给您提供好的软件。您可以只是通过对 PortableApps.com 使用您的信用卡、 银行帐户或 PayPal 进行小小的捐赠。您甚至可以使用 bitcoin，litecoin 和 dogecoin。您愿意支持 PortableApps.com 吗？</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="UPDATER">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="COLUMN_APP">
+            <Src>Portable App</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>便携程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_DOWNLOAD_SIZE">
+            <Src>Download</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_INSTALL_SIZE">
+            <Src>Install</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_DESCRIPTION">
+            <Src>Description</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>描述</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_APP_TYPE">
+            <Src>App Type</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序类型</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_CATEGORY">
+            <Src>Category</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_SUBCATEGORY">
+            <Src>Sub-Category</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>子分组</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_RELEASE_DATE">
+            <Src>Released</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>发行版本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_UPDATED_DATE">
+            <Src>Updated</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新版本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="COLUMN_ABBREVIATION_MEGABYTE">
+            <Src>MB</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="INTRO_WAIT">
+            <Src>Checking PortableApps.com for apps...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>连接 PortableApps.com 获取数据...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="INTRO_UPTODATE">
+            <Src>All portable apps are up to date.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>所有的编写程序都是最新的。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="INTRO_NOOTHERAPPS">
+            <Src>All available portable apps are already installed.  You rock!</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>所有可用的便携程序都已经安装了。太有才了！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SELECTION_HEADING_NEW">
+            <Src>Download New Portable Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载新的便携程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SELECTION_SUBHEADING_NEW">
+            <Src>Select the portable apps you would like to install.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>选择您准备安装的便携程序并点击 %NEXT%</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SELECTION_HEADING_UPDATE">
+            <Src>Update Portable Apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新便携程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="SELECTION_SUBHEADING_UPDATE">
+            <Src>Updates are available for the following portable apps</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下列便携程序有新版本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOAD_HEADING">
+            <Src>Downloading and Installing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载并安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOAD_SUBHEADING">
+            <Src>Please wait while the portable apps are downloaded and installed</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>便携程序正在下载安装，请耐心等待...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_HEADING_NEW">
+            <Src>Portable Apps Added</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>便携程序已安装</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_TEXT_NEW">
+            <Src>Your new portable apps have been installed and are now available in the PortableApps.com Menu.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>您的新便携程序已经可以使用，您可以在 PortableApps.com 平台的菜单里找到它。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_HEADING_UPDATE">
+            <Src>Update Complete</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新完成</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_TEXT_UPDATE">
+            <Src>Your portable apps have been updated and are available in the PortableApps.com Menu.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>您的便携程序已经更新，您可以在 PortableApps.com 平台的菜单里找到它。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_HEADING_FAIL">
+            <Src>Error</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_TEXT_FAIL">
+            <Src>The PortableApps.com Updater did not complete successfully.  Please try again later.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>更新没有完成，请稍后重试。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_HEADING_NOSELECTION">
+            <Src>No Apps Selected</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>没有选择Apps</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_TEXT_NOSELECTIONSTORE">
+            <Src>No apps were selected to install. If you wish to install new apps, please open the %APPSTORE% again and select some.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>没有选择Apps进行安装。如果您要安装新的Apps，请再次打开 %APPSTORE% 并选择要安装的Apps。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FINISH_TEXT_NOSELECTIONUPDATER">
+            <Src>No apps were selected to update. If you wish to update your apps, please open the %UPDATER% again and select some.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>没有选择Apps进行更新。如果您要更新您的Apps，请再次打开 %UPDATER% 并选择要更新的Apps。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ERROR_NOCONNECTION">
+            <Src>Unable to connect to PortableApps.com to retrieve portable apps.  Please try again later.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>不能连接 PortableApps.com 获取便携程序数据，请稍后重试。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FIRSTRUN">
+            <Src>Would you like the PortableApps.com Platform to automatically check for updates on startup?</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>您是否允许 PortableApps.com 平台在启动时自动检查软件更新？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="REQUIRED_PLATFORM_UPDATE">
+            <Src>Required Platform Update</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>必选的平台更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADING_X_OF_Y">
+            <Src>Downloading %CURRENTAPP% of %APPSTOPROCESS%: %CURRENTAPPNAME%...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T08-59-44" Translated="2016-10-02T08-59-44" State="Validated">
+              <cur>正在下载 %CURRENTAPP% 共 %APPSTOPROCESS%: %CURRENTAPPNAME%...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADREMAINING">
+            <Src>remaining</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>剩余</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADCONNECTING">
+            <Src>Connecting...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>连接中...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADSECOND">
+            <Src>second</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>秒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADHOUR">
+            <Src>hour</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T08-59-39" Translated="2016-10-02T08-59-39" State="Validated">
+              <cur>时</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADMINUTE">
+            <Src>minute</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>分</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADPLURAL">
+            <Src>s</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="DOWNLOADKB">
+            <Src>kB</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="DOWNLOADKBS">
+            <Src>kB/s</Src>
+            <Trg Created="2015-07-22T10-27-51"/>
+          </Vl>
+          <Vl Name="DOWNLOADOF">
+            <Src>of</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T08-59-32" Translated="2016-10-02T08-59-32" State="Validated">
+              <cur>共</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADERROR">
+            <Src>Download Error: %ERROR% on file %FILE%</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载遇到错误: %ERROR% 在文件 %FILE%</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADERRORSENDREQUEST">
+            <Src>Unable to download the file.  This could be due to a proxy or network issue or the hosting server not permitting downloads from your location. File: %FILE%</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>不能下载文件。这可能是因为代理或者网络问题，或者主机服务器不允许您的地区下载。文件： %FILE%</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADINVALID">
+            <Src>The downloaded copy of %CURRENTAPPNAME% is not valid and can not be installed. This could be due to an incomplete download or other network issue. Please try running the updater again when complete.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载的 %CURRENTAPPNAME% 文件校验错误不能够被安装。这可能是由于下载未完成或者其他网络问题引起的，请稍后启动更新程序重试。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="INSTALLING_X_OF_Y">
+            <Src>Installing %CURRENTAPP% of %APPSTOPROCESS%: %CURRENTAPPNAME%...</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T08-59-26" Translated="2016-10-02T08-59-26" State="Validated">
+              <cur>正在安装 %CURRENTAPP% 共 %APPSTOPROCESS%: %CURRENTAPPNAME%...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="LARGE_DRIVE_WORKAROUND">
+            <Src>Some of the portable apps will show an error that there is not enough space on your device during installation.  This is due to a slight incompatibility with drives over 2TB and the older installer they are packaged with. Just click OK to the error and then click Next on the directory selection screen to continue installing them when they pop up. This issue will be fully resolved shortly.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2016-10-02T09-00-35" State="ForReview">
+              <cur>安装过程中您的设备空间不足时一些程序会显示一个错误。这是2TB以上设备一个轻微的不兼容性和程序用旧的打包程序打包的。点击确认并进行下一步选择安装目录。这个问题将很快彻底解决。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="ALREADY_RUNNING">
+            <Src>The PortableApps.com Updater or App Directory is already running.  This could be the PortableApps.com Platform automatically checking for updates on startup. Please wait for other instances to finish before starting another.</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>PortableApps.com 更新程序或者程序目录在运行中。PortableApps.com 平台程序在启动时自动检查更新。启动另一个更新程序要等前面的更新程序完成。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="DOWNLOADERRORSITEMAINTENANCE">
+            <Src>The PortableApps.com website is temporarily inaccessible due to maintenance and the app can not be downloaded.  Please try again later. (File: %FILE%)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>PortableApps.com 网页暂时不能访问，因为网站在维护；程序不能下载，请稍候再试。 (文件: %FILE%)</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+        <Resource Name="SUBCATEGORIES" New="1">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="Magnification">
+            <Src>Magnification</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>放大</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="On-Screen Keyboards">
+            <Src>On-Screen Keyboards</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>屏幕键盘</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Database">
+            <Src>Database</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>数据库</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Packaging">
+            <Src>Packaging</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>压缩解压</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Portablization">
+            <Src>Portablization</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>可移植</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Programming Environment">
+            <Src>Programming Environment</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>编程环境</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Servers">
+            <Src>Servers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>服务器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Text Editors and IDEs">
+            <Src>Text Editors and IDEs</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文本编辑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Web Editors">
+            <Src>Web Editors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>网页编程</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Astronomy">
+            <Src>Astronomy</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>天文</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Dictionaries">
+            <Src>Dictionaries</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Geography">
+            <Src>Geography</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>地理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Genealogy">
+            <Src>Genealogy</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>家谱</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Memorization">
+            <Src>Memorization</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>记忆</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Religion">
+            <Src>Religion</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>宗教</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Technical Computing">
+            <Src>Technical Computing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>科学计算</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Typing">
+            <Src>Typing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>打字</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Action">
+            <Src>Action</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>动作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Adventure">
+            <Src>Adventure</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>冒险</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Arcade">
+            <Src>Arcade</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>街机</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Board">
+            <Src>Board</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>棋类</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Card">
+            <Src>Card</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>牌类</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Emulators">
+            <Src>Emulators</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>模拟器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Music">
+            <Src>Music</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>音乐</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Puzzle">
+            <Src>Puzzle</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>拼图</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Racing">
+            <Src>Racing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>赛车</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Role-Playing">
+            <Src>Role-Playing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>角色扮演</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Strategy">
+            <Src>Strategy</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>策略</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Diagramming">
+            <Src>Diagramming</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图形表格</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Image Editors">
+            <Src>Image Editors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图片编辑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Image Viewers">
+            <Src>Image Viewers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图片浏览</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Rendering">
+            <Src>Rendering</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>图形渲染</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Vector Graphics">
+            <Src>Vector Graphics</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>矢量图编辑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Browsers">
+            <Src>Browser</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>浏览</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Chat">
+            <Src>Chat</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>聊天</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Download Managers">
+            <Src>Download Managers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>下载工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Email">
+            <Src>Email</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>电子邮件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Sharing">
+            <Src>File Sharing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件共享</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="FTP Clients">
+            <Src>FTP Clients</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>FTP 客户端</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Podcast Receivers">
+            <Src>Podcast Receivers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>播客接收器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="RSS Readers">
+            <Src>RSS Readers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>RSS 阅读</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Telnet and SSH">
+            <Src>Telnet and SSH</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>Telnet 和 SSH</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Audio Editors and Converters">
+            <Src>Audio Editors and Converters</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>音频处理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CD/DVD Burning and Authoring">
+            <Src>CD/DVD Burning and Authoring</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>CD/DVD 刻录制作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Media Players">
+            <Src>Media Players</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>媒体播放</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Music Creation and Notation">
+            <Src>Music Creation and Notation</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>音乐制作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Video Editors">
+            <Src>Video Editors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>视频编辑</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Document Viewers">
+            <Src>Document Viewers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文档查看</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Calculators">
+            <Src>Calculators</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>计算器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Financial">
+            <Src>Financial</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>财务管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Journaling">
+            <Src>Journaling</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>日记</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Office Suites">
+            <Src>Office Suites</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>办公套件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Organization">
+            <Src>Organization</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>组织</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Sticky Notes">
+            <Src>Sticky Notes</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>便签</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Document Tools">
+            <Src>Document Tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文档工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Presentations">
+            <Src>Presentations</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>艺术</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Spreadsheets">
+            <Src>Spreadsheets</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>电子表格</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Word Processors">
+            <Src>Word Processors</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>字处理器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Antivirus and Antispyware">
+            <Src>Antivirus and Antispyware</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>安全软件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Password Managers">
+            <Src>Password Managers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>密码管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Secure File Deletion">
+            <Src>Secure File Deletion</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>顽固文件删除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Disk Tools">
+            <Src>Disk Tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>磁盘工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Comparison">
+            <Src>File Comparison</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件比较</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Compression and Packaging">
+            <Src>File Compression and Packaging</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>压缩解压</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Managers">
+            <Src>File Managers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Networking">
+            <Src>Networking</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>网络</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Remote Connectivity">
+            <Src>Remote Connectivity</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>远程连接</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Synchronization">
+            <Src>Synchronization</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>同步</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Task Managers">
+            <Src>Task Managers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>任务管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Time Wasters">
+            <Src>Time Wasters</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>日程管理</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Timers">
+            <Src>Timers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>定时提醒</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Desktop Enhancement">
+            <Src>Desktop Enhancement</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>桌面增强</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Clipboard Enhancement">
+            <Src>Clipboard Enhancement</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>剪贴板增强</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Uninstallers">
+            <Src>Uninstallers</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>卸载清除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Screenshot Tools">
+            <Src>Screenshot Tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>截图工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Consoles">
+            <Src>Consoles</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>控制台</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Unit Conversion">
+            <Src>Unit Conversion</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>单位转换</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Miscellaneous">
+            <Src>Miscellaneous</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>大杂烩</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Typing Assistance">
+            <Src>Typing Assistance</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>输入助手</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Application Launcher">
+            <Src>Application Launcher</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>程序启动器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="CAD (Computer-Aided Design)">
+            <Src>CAD (Computer-Aided Design)</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>CAD(计算机辅助设计)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Clocks">
+            <Src>Clocks</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>时钟</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Desktop Publishing">
+            <Src>Desktop Publishing</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>桌上排版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Ebooks">
+            <Src>Ebooks</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>电子书</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Analysis">
+            <Src>File Analysis</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件分析</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="File Utilities">
+            <Src>File Utilities</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文件应用工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Font tools">
+            <Src>Font tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>字体工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Misc">
+            <Src>Misc</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>杂项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Note-Taking">
+            <Src>Note-Taking</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>笔记工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Other">
+            <Src>Other</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>其他</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Physics">
+            <Src>Physics</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>物理学</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Social Media">
+            <Src>Social Media</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>社交媒体</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="System tools">
+            <Src>System tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>系统工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Text-to-Speech">
+            <Src>Text-to-Speech</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>文字转语音</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Registry tools">
+            <Src>Registry tools</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>注册表工具</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Data recovery">
+            <Src>Data recovery</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>数据恢复</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Translation">
+            <Src>Translation</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>翻译</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Firewall">
+            <Src>Firewall</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>防火墙</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Password generator">
+            <Src>Password generator</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-28-40" State="ForReview">
+              <cur>密码生成</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="Auditory">
+            <Src>Auditory</Src>
+            <Trg Created="2015-07-22T10-27-51" Changed="2015-07-22T10-37-50" Translated="2015-07-22T10-37-50" State="Validated">
+              <cur>听觉</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="Encryption">
+            <Src>Encryption</Src>
+            <Trg Created="2016-10-02T08-51-56" Changed="2016-10-02T08-56-56" State="ForReview">
+              <cur>加密</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="English.locale" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="0" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\ChineseSimplified.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
+          <LangID>9</LangID>
+        </LanguagesToExtract>
+        <TargetEncoding>
+          <Item Index="0" LangID="-1" Enabled="1"/>
+        </TargetEncoding>
+        <Template Type="Default" ClassID="INI"/>
+        <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" IgnoreEncodingErrors="1"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2015-07-22T10-27-09"/>
+          <ChangedTo Enabled="0" Value="2015-07-22T10-27-09"/>
+          <TranslatedFrom Enabled="0" Value="2015-07-22T10-27-09"/>
+          <TranslatedTo Enabled="0" Value="2015-07-22T10-27-09"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2015-07-22T10-26-34">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2015-07-22T10-26-34">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

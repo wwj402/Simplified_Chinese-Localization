@@ -1,0 +1,4088 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<RadialixLocalizerProject>
+  <Header FileVersion="19" Guid="{4EFFD395-B6E4-4003-B4D3-B2A22876DFFE}"/>
+  <IDESettings ProjectItemPath="0.English.lng (english_chs.lng).STRINGS.Strings" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="Strings.57665" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  </IDESettings>
+  <Project>
+    <Languages>
+      <ID Guid="{F4018881-7388-4B87-8014-6C9313706E8C}">2052</ID>
+    </Languages>
+    <Info>
+      <CreatedBy Date="2014-10-17T18-51-24">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+      <ModifiedBy Date="2014-10-17T23-24-12">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <Author/>
+      <Organization/>
+      <Comment/>
+      <WebSite/>
+      <ContactEMail/>
+      <Copyright/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="27" AutoIncrementBuildNumber="1"/>
+    </Info>
+    <Publisher>
+      <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
+      <License State="0" FileName=""/>
+      <UserGuide State="0" FileName=""/>
+      <Readme State="0" FileName=""/>
+      <OutputFile>&lt;ProjectPath&gt;\&lt;ProjectName&gt;\Setup_&lt;LangCode&gt;.exe</OutputFile>
+      <Installer MultilingualSetup="0" OnlySetupScript="0">NSIS</Installer>
+      <ApplicationPath/>
+      <BasePathToTranslatedFiles/>
+      <BasePathToOriginalFiles/>
+    </Publisher>
+    <Glossaries Name="Translation memory" Default="0"/>
+    <Settings>
+      <CharsToSkipStrig IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+0123456789Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|'"` ·</CharsToSkipStrig>
+      <WordsToSkip EnableWordsToSkip="1">Dummy;True;False;Null;Nil;Int32</WordsToSkip>
+      <KeepChars IncludeSpace="0" IncludeControlChars="0" IncludeChars="0">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</KeepChars>
+      <ValidateWhenEditing>1</ValidateWhenEditing>
+      <SimulationSettings Mode="0">
+        <ReplaceCharacter>X</ReplaceCharacter>
+        <ConvertToUpperCase>0</ConvertToUpperCase>
+        <ExpandText>1</ExpandText>
+        <ExpandPercentage>20</ExpandPercentage>
+        <ExpandCharacter>_</ExpandCharacter>
+        <LastCharacter>X</LastCharacter>
+      </SimulationSettings>
+      <Autotranslation MinLength="2" IgnoreCase="1" FuzzyMatch="90" AutoSelectAbsolutelyMatched="1">
+        <SkipChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">,.;:?!&amp;</SkipChars>
+        <AutotranslationOrder>
+          <Source0 Name="TheSameFile" Enable="1"/>
+          <Source1 Name="ProjectFiles" Enable="1"/>
+          <Source2 Name="ProjectGlossaries" Enable="1"/>
+        </AutotranslationOrder>
+      </Autotranslation>
+      <ReplicatesSettings>
+        <Enable>1</Enable>
+        <Validate>1</Validate>
+        <SearchInAllFiles>1</SearchInAllFiles>
+        <NoPrompt>1</NoPrompt>
+        <IgnoreCase>0</IgnoreCase>
+        <IgnoreTranslationErrors>0</IgnoreTranslationErrors>
+        <IgnoreState>0</IgnoreState>
+      </ReplicatesSettings>
+      <KeepCase>0</KeepCase>
+      <MakeAccessKey>1</MakeAccessKey>
+      <PreserveAccelerator>1</PreserveAccelerator>
+      <PluginList/>
+      <VCLExclude>
+        <Item Key="*" Value="*DataSetName"/>
+        <Item Key="*" Value="*Font.Name"/>
+        <Item Key="*" Value="DataField"/>
+        <Item Key="*DockingControl" Value="Key"/>
+        <Item Key="*DockingManager" Value="DockingStyleClassName"/>
+        <Item Key="*DockingSite" Value="Key"/>
+        <Item Key="*VirtualStringTree" Value="ClipboardFormats*"/>
+        <Item Key="TAction" Value="Category"/>
+        <Item Key="TActionManager" Value="StyleName"/>
+        <Item Key="TADOConnection" Value="ConnectionString"/>
+        <Item Key="TADOConnection" Value="Provider"/>
+        <Item Key="TADODataSet" Value="CommandText"/>
+        <Item Key="TADODataSet" Value="ConnectionString"/>
+        <Item Key="TADODataSet" Value="Filter"/>
+        <Item Key="TADOQuery" Value="Filter"/>
+        <Item Key="TADOQuery" Value="SQL.Strings"/>
+        <Item Key="TADOStoredProc" Value="Parameters.Name"/>
+        <Item Key="TADOStoredProc" Value="ProcedureName"/>
+        <Item Key="TADOTable" Value="Filter"/>
+        <Item Key="TADOTable" Value="IndexFieldNames"/>
+        <Item Key="TADOTable" Value="MasterFields"/>
+        <Item Key="TADOTable" Value="TableName"/>
+        <Item Key="TADTField" Value="CustomConstraint"/>
+        <Item Key="TADTField" Value="FieldName"/>
+        <Item Key="TADTField" Value="KeyFields"/>
+        <Item Key="TADTField" Value="LookupKeyFields"/>
+        <Item Key="TADTField" Value="LookupResultField"/>
+        <Item Key="TADTField" Value="Origin"/>
+        <Item Key="TAggregateField" Value="Expression"/>
+        <Item Key="TAggregateField" Value="FieldName"/>
+        <Item Key="TAggregateField" Value="IndexName"/>
+        <Item Key="TAreaSeries" Value="XLabelsSource"/>
+        <Item Key="TAreaSeries" Value="XValues.Name"/>
+        <Item Key="TAreaSeries" Value="XValues.ValueSource"/>
+        <Item Key="TAreaSeries" Value="YValues.Name"/>
+        <Item Key="TAreaSeries" Value="YValues.ValueSource"/>
+        <Item Key="TArrayField" Value="CustomConstraint"/>
+        <Item Key="TArrayField" Value="FieldName"/>
+        <Item Key="TArrayField" Value="KeyFields"/>
+        <Item Key="TArrayField" Value="LookupKeyFields"/>
+        <Item Key="TArrayField" Value="LookupResultField"/>
+        <Item Key="TArrayField" Value="Origin"/>
+        <Item Key="TArrowSeries" Value="EndXValues.Name"/>
+        <Item Key="TArrowSeries" Value="EndYValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartXValues.Name"/>
+        <Item Key="TArrowSeries" Value="StartYValues.Name"/>
+        <Item Key="TArrowSeries" Value="XValues.Name"/>
+        <Item Key="TArrowSeries" Value="YValues.Name"/>
+        <Item Key="TAutoIncField" Value="CustomConstraint"/>
+        <Item Key="TAutoIncField" Value="FieldName"/>
+        <Item Key="TAutoIncField" Value="KeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupKeyFields"/>
+        <Item Key="TAutoIncField" Value="LookupResultField"/>
+        <Item Key="TAutoIncField" Value="Origin"/>
+        <Item Key="TBarSeries" Value="XLabelsSource"/>
+        <Item Key="TBarSeries" Value="XValues.Name"/>
+        <Item Key="TBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="TBarSeries" Value="YValues.Name"/>
+        <Item Key="TBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TBCDField" Value="CustomConstraint"/>
+        <Item Key="TBCDField" Value="FieldName"/>
+        <Item Key="TBCDField" Value="KeyFields"/>
+        <Item Key="TBCDField" Value="LookupKeyFields"/>
+        <Item Key="TBCDField" Value="LookupResultField"/>
+        <Item Key="TBCDField" Value="Origin"/>
+        <Item Key="TBinaryField" Value="CustomConstraint"/>
+        <Item Key="TBinaryField" Value="FieldName"/>
+        <Item Key="TBinaryField" Value="KeyFields"/>
+        <Item Key="TBinaryField" Value="LookupKeyFields"/>
+        <Item Key="TBinaryField" Value="LookupResultField"/>
+        <Item Key="TBinaryField" Value="Origin"/>
+        <Item Key="TBlobField" Value="CustomConstraint"/>
+        <Item Key="TBlobField" Value="FieldName"/>
+        <Item Key="TBlobField" Value="KeyFields"/>
+        <Item Key="TBlobField" Value="LookupKeyFields"/>
+        <Item Key="TBlobField" Value="LookupResultField"/>
+        <Item Key="TBlobField" Value="Origin"/>
+        <Item Key="TBooleanField" Value="CustomConstraint"/>
+        <Item Key="TBooleanField" Value="FieldName"/>
+        <Item Key="TBooleanField" Value="KeyFields"/>
+        <Item Key="TBooleanField" Value="LookupKeyFields"/>
+        <Item Key="TBooleanField" Value="LookupResultField"/>
+        <Item Key="TBooleanField" Value="Origin"/>
+        <Item Key="TBrowseURL" Value="Category"/>
+        <Item Key="TBubbleSeries" Value="RadiusValues.Name"/>
+        <Item Key="TBubbleSeries" Value="XValues.Name"/>
+        <Item Key="TBubbleSeries" Value="YValues.Name"/>
+        <Item Key="TBytesField" Value="CustomConstraint"/>
+        <Item Key="TBytesField" Value="FieldName"/>
+        <Item Key="TBytesField" Value="KeyFields"/>
+        <Item Key="TBytesField" Value="LookupKeyFields"/>
+        <Item Key="TBytesField" Value="LookupResultField"/>
+        <Item Key="TBytesField" Value="Origin"/>
+        <Item Key="TChartShape" Value="XValues.Name"/>
+        <Item Key="TChartShape" Value="YValues.Name"/>
+        <Item Key="TClientDataSet" Value="Aggregates.AggregateName"/>
+        <Item Key="TClientDataSet" Value="Aggregates.Expression"/>
+        <Item Key="TClientDataSet" Value="Aggregates.IndexName"/>
+        <Item Key="TClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TClientDataSet" Value="Filter"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.DescFields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TClientDataSet" Value="IndexName"/>
+        <Item Key="TClientDataSet" Value="MasterFields"/>
+        <Item Key="TClientDataSet" Value="ProviderName"/>
+        <Item Key="TColorSelect" Value="Category"/>
+        <Item Key="TCommonDialogAction" Value="Category"/>
+        <Item Key="TCurrencyField" Value="CustomConstraint"/>
+        <Item Key="TCurrencyField" Value="FieldName"/>
+        <Item Key="TCurrencyField" Value="KeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupKeyFields"/>
+        <Item Key="TCurrencyField" Value="LookupResultField"/>
+        <Item Key="TCurrencyField" Value="Origin"/>
+        <Item Key="TCustomFileRun" Value="Category"/>
+        <Item Key="TCustomizeActionBars" Value="Category"/>
+        <Item Key="TcxDBImage" Value="DataBinding.DataField"/>
+        <Item Key="TDatabase" Value="AliasName"/>
+        <Item Key="TDatabase" Value="DatabaseName"/>
+        <Item Key="TDatabase" Value="DriverName"/>
+        <Item Key="TDatabase" Value="Params.Strings"/>
+        <Item Key="TDatabase" Value="SessionName"/>
+        <Item Key="TDataSetAction" Value="Category"/>
+        <Item Key="TDataSetCancel" Value="Category"/>
+        <Item Key="TDataSetDelete" Value="Category"/>
+        <Item Key="TDataSetEdit" Value="Category"/>
+        <Item Key="TDataSetField" Value="CustomConstraint"/>
+        <Item Key="TDataSetField" Value="FieldName"/>
+        <Item Key="TDataSetField" Value="KeyFields"/>
+        <Item Key="TDataSetField" Value="LookupKeyFields"/>
+        <Item Key="TDataSetField" Value="LookupResultField"/>
+        <Item Key="TDataSetField" Value="Origin"/>
+        <Item Key="TDataSetFirst" Value="Category"/>
+        <Item Key="TDataSetInsert" Value="Category"/>
+        <Item Key="TDataSetLast" Value="Category"/>
+        <Item Key="TDataSetNext" Value="Category"/>
+        <Item Key="TDataSetPost" Value="Category"/>
+        <Item Key="TDataSetPrior" Value="Category"/>
+        <Item Key="TDataSetRefresh" Value="Category"/>
+        <Item Key="TDateField" Value="CustomConstraint"/>
+        <Item Key="TDateField" Value="FieldName"/>
+        <Item Key="TDateField" Value="KeyFields"/>
+        <Item Key="TDateField" Value="LookupKeyFields"/>
+        <Item Key="TDateField" Value="LookupResultField"/>
+        <Item Key="TDateField" Value="Origin"/>
+        <Item Key="TDateTimeField" Value="CustomConstraint"/>
+        <Item Key="TDateTimeField" Value="FieldName"/>
+        <Item Key="TDateTimeField" Value="KeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupKeyFields"/>
+        <Item Key="TDateTimeField" Value="LookupResultField"/>
+        <Item Key="TDateTimeField" Value="Origin"/>
+        <Item Key="TDBAppendTableData" Value="*SQL.Strings"/>
+        <Item Key="TDBCheckBox" Value="DataField"/>
+        <Item Key="TDBCheckBox" Value="ValueChecked"/>
+        <Item Key="TDBCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TDBComboBox" Value="DataField"/>
+        <Item Key="TDBDateEdit" Value="DataField"/>
+        <Item Key="TDBEdit" Value="DataField"/>
+        <Item Key="TDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TDBImage" Value="DataField"/>
+        <Item Key="TDBISAMDatabase" Value="DatabaseName"/>
+        <Item Key="TDBISAMDatabase" Value="Directory"/>
+        <Item Key="TDBISAMDatabase" Value="SessionName"/>
+        <Item Key="TDBISAMQuery" Value="DatabaseName"/>
+        <Item Key="TDBISAMQuery" Value="SQL.Strings"/>
+        <Item Key="TDBISAMTable" Value="DatabaseName"/>
+        <Item Key="TDBListBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="DataField"/>
+        <Item Key="TDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TDBLookupComboBox" Value="ListField"/>
+        <Item Key="TDBLookupListBox" Value="DataField"/>
+        <Item Key="TDBLookupListBox" Value="KeyField"/>
+        <Item Key="TDBLookupListBox" Value="ListField"/>
+        <Item Key="TDBMemo" Value="DataField"/>
+        <Item Key="TDBRadioGroup" Value="DataField"/>
+        <Item Key="TDBRichEdit" Value="DataField"/>
+        <Item Key="TDBText" Value="DataField"/>
+        <Item Key="TDdeClientConv" Value="ServiceApplication"/>
+        <Item Key="TDownLoadURL" Value="Category"/>
+        <Item Key="TdxBarManager" Value="RegistryPath"/>
+        <Item Key="TdxDBButtonEdit" Value="DataField"/>
+        <Item Key="TdxDBCheckEdit" Value="DataField"/>
+        <Item Key="TdxDBEdit" Value="DataField"/>
+        <Item Key="TdxDBGrid" Value="KeyField"/>
+        <Item Key="TdxDBGrid" Value="RegistryPath"/>
+        <Item Key="TdxDBGridButtonColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueGrayed"/>
+        <Item Key="TdxDBGridCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TdxDBGridColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridGraphicColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridLookupColumn" Value="ListFieldName"/>
+        <Item Key="TdxDBGridMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridPickColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBGridTimeColumn" Value="FieldName"/>
+        <Item Key="TdxDBImageEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="DataField"/>
+        <Item Key="TdxDBLookupEdit" Value="ListFieldName"/>
+        <Item Key="TdxDBSpinEdit" Value="DataField"/>
+        <Item Key="TdxDBTreeList" Value="ImageIndexFieldName"/>
+        <Item Key="TdxDBTreeList" Value="KeyField"/>
+        <Item Key="TdxDBTreeList" Value="ParentField"/>
+        <Item Key="TdxDBTreeListCheckColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListCurrencyColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListDateColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListImageColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListMaskColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListSpinColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeListWrapperColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeMemoColumn" Value="FieldName"/>
+        <Item Key="TdxDBTreeTimeColumn" Value="FieldName"/>
+        <Item Key="TdxSideBar" Value="RegistryPath"/>
+        <Item Key="TdxStatusBar" Value="Panels.PanelStyleClassName"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueChecked"/>
+        <Item Key="TdxTreeListCheckColumn" Value="ValueUnchecked"/>
+        <Item Key="TEdit" Value="PasswordChar"/>
+        <Item Key="TEditAction" Value="Category"/>
+        <Item Key="TEditCopy" Value="Category"/>
+        <Item Key="TEditCut" Value="Category"/>
+        <Item Key="TEditDelete" Value="Category"/>
+        <Item Key="TEditPaste" Value="Category"/>
+        <Item Key="TEditSelectAll" Value="Category"/>
+        <Item Key="TEditUndo" Value="Category"/>
+        <Item Key="TFastLineSeries" Value="XLabelsSource"/>
+        <Item Key="TFastLineSeries" Value="XValues.Name"/>
+        <Item Key="TFastLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TFastLineSeries" Value="YValues.Name"/>
+        <Item Key="TFastLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TfcButtonGroup" Value="ButtonClassName"/>
+        <Item Key="TfcColorCombo" Value="DataField"/>
+        <Item Key="TfcOutlookBar" Value="ButtonClassName"/>
+        <Item Key="TFileAction" Value="Category"/>
+        <Item Key="TFileExit" Value="Category"/>
+        <Item Key="TFileListBox" Value="Mask"/>
+        <Item Key="TFileOpen" Value="DefaultExt"/>
+        <Item Key="TFileOpenWith" Value="Category"/>
+        <Item Key="TFilePrintSetup" Value="Category"/>
+        <Item Key="TFileRun" Value="Category"/>
+        <Item Key="TFileSaveAs" Value="DefaultExt"/>
+        <Item Key="TFilterComboBox" Value="Filter"/>
+        <Item Key="TFloatField" Value="CustomConstraint"/>
+        <Item Key="TFloatField" Value="FieldName"/>
+        <Item Key="TFloatField" Value="KeyFields"/>
+        <Item Key="TFloatField" Value="LookupKeyFields"/>
+        <Item Key="TFloatField" Value="LookupResultField"/>
+        <Item Key="TFloatField" Value="Origin"/>
+        <Item Key="TFMTBCDField" Value="CustomConstraint"/>
+        <Item Key="TFMTBCDField" Value="FieldName"/>
+        <Item Key="TFMTBCDField" Value="KeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupKeyFields"/>
+        <Item Key="TFMTBCDField" Value="LookupResultField"/>
+        <Item Key="TFMTBCDField" Value="Origin"/>
+        <Item Key="TFrx*DataSet" Value="Fields*"/>
+        <Item Key="TFrx*DetailData" Value="On*"/>
+        <Item Key="TFrx*Export" Value="Creator"/>
+        <Item Key="TFrxChild" Value="On*"/>
+        <Item Key="TFrxDBCrossView" Value="CellFields*"/>
+        <Item Key="TFrxDBCrossView" Value="ColumnFields*"/>
+        <Item Key="TFrxDBCrossView" Value="RowFields*"/>
+        <Item Key="TFrxFontComboBox" Value="MRUKeyReg"/>
+        <Item Key="TFrxFooter" Value="On*"/>
+        <Item Key="TFrxHeader" Value="On*"/>
+        <Item Key="TFrxMasterData" Value="On*"/>
+        <Item Key="TFrxMemoView" Value="On*"/>
+        <Item Key="TFrxReport" Value="*ScriptText*"/>
+        <Item Key="TFrxReport" Value="IniFile"/>
+        <Item Key="TFrxReport" Value="PrintOptions.Printer"/>
+        <Item Key="TFrxReport" Value="ScriptLanguage"/>
+        <Item Key="TFrxReportTitle" Value="On*"/>
+        <Item Key="TGanttSeries" Value="EndValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.Name"/>
+        <Item Key="TGanttSeries" Value="StartValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="XLabelsSource"/>
+        <Item Key="TGanttSeries" Value="XValues.Name"/>
+        <Item Key="TGanttSeries" Value="XValues.ValueSource"/>
+        <Item Key="TGanttSeries" Value="YValues.Name"/>
+        <Item Key="TGanttSeries" Value="YValues.ValueSource"/>
+        <Item Key="TGraphicField" Value="CustomConstraint"/>
+        <Item Key="TGraphicField" Value="FieldName"/>
+        <Item Key="TGraphicField" Value="KeyFields"/>
+        <Item Key="TGraphicField" Value="LookupKeyFields"/>
+        <Item Key="TGraphicField" Value="LookupResultField"/>
+        <Item Key="TGraphicField" Value="Origin"/>
+        <Item Key="TGuidField" Value="CustomConstraint"/>
+        <Item Key="TGuidField" Value="FieldName"/>
+        <Item Key="TGuidField" Value="KeyFields"/>
+        <Item Key="TGuidField" Value="LookupKeyFields"/>
+        <Item Key="TGuidField" Value="LookupResultField"/>
+        <Item Key="TGuidField" Value="Origin"/>
+        <Item Key="THelpAction" Value="Category"/>
+        <Item Key="THelpButton" Value="HelpKey"/>
+        <Item Key="THelpContents" Value="Category"/>
+        <Item Key="THelpContextAction" Value="Category"/>
+        <Item Key="THelpOnHelp" Value="Category"/>
+        <Item Key="THelpTopicSearch" Value="Category"/>
+        <Item Key="THintAction" Value="Category"/>
+        <Item Key="THorizBarSeries" Value="XLabelsSource"/>
+        <Item Key="THorizBarSeries" Value="XValues.Name"/>
+        <Item Key="THorizBarSeries" Value="XValues.ValueSource"/>
+        <Item Key="THorizBarSeries" Value="YValues.Name"/>
+        <Item Key="THorizBarSeries" Value="YValues.ValueSource"/>
+        <Item Key="TIBBCDField" Value="CustomConstraint"/>
+        <Item Key="TIBBCDField" Value="FieldName"/>
+        <Item Key="TIBBCDField" Value="KeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupKeyFields"/>
+        <Item Key="TIBBCDField" Value="LookupResultField"/>
+        <Item Key="TIBBCDField" Value="Origin"/>
+        <Item Key="TIBDatabase" Value="DatabaseName"/>
+        <Item Key="TIBDatabase" Value="Params.Strings"/>
+        <Item Key="TIBQuery" Value="ParamData.Name"/>
+        <Item Key="TIBQuery" Value="SQL.Strings"/>
+        <Item Key="TIBStoredProc" Value="StoredProcName"/>
+        <Item Key="TIBStringField" Value="CustomConstraint"/>
+        <Item Key="TIBStringField" Value="FieldName"/>
+        <Item Key="TIBStringField" Value="KeyFields"/>
+        <Item Key="TIBStringField" Value="LookupKeyFields"/>
+        <Item Key="TIBStringField" Value="LookupResultField"/>
+        <Item Key="TIBStringField" Value="Origin"/>
+        <Item Key="TIBTable" Value="FieldDefs.Name"/>
+        <Item Key="TIBTable" Value="Filter"/>
+        <Item Key="TIBTable" Value="IndexDefs.Fields"/>
+        <Item Key="TIBTable" Value="IndexDefs.Name"/>
+        <Item Key="TIBTable" Value="IndexFieldNames"/>
+        <Item Key="TIBTable" Value="MasterFields"/>
+        <Item Key="TIBTable" Value="TableName"/>
+        <Item Key="TIBUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TIDispatchField" Value="CustomConstraint"/>
+        <Item Key="TIDispatchField" Value="FieldName"/>
+        <Item Key="TIDispatchField" Value="KeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupKeyFields"/>
+        <Item Key="TIDispatchField" Value="LookupResultField"/>
+        <Item Key="TIDispatchField" Value="Origin"/>
+        <Item Key="TIntegerField" Value="CustomConstraint"/>
+        <Item Key="TIntegerField" Value="FieldName"/>
+        <Item Key="TIntegerField" Value="KeyFields"/>
+        <Item Key="TIntegerField" Value="LookupKeyFields"/>
+        <Item Key="TIntegerField" Value="LookupResultField"/>
+        <Item Key="TIntegerField" Value="Origin"/>
+        <Item Key="TInterfaceField" Value="CustomConstraint"/>
+        <Item Key="TInterfaceField" Value="FieldName"/>
+        <Item Key="TInterfaceField" Value="KeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupKeyFields"/>
+        <Item Key="TInterfaceField" Value="LookupResultField"/>
+        <Item Key="TInterfaceField" Value="Origin"/>
+        <Item Key="TLargeintField" Value="CustomConstraint"/>
+        <Item Key="TLargeintField" Value="FieldName"/>
+        <Item Key="TLargeintField" Value="KeyFields"/>
+        <Item Key="TLargeintField" Value="LookupKeyFields"/>
+        <Item Key="TLargeintField" Value="LookupResultField"/>
+        <Item Key="TLargeintField" Value="Origin"/>
+        <Item Key="TLineSeries" Value="DataSources"/>
+        <Item Key="TLineSeries" Value="XLabelsSource"/>
+        <Item Key="TLineSeries" Value="XValues.Name"/>
+        <Item Key="TLineSeries" Value="XValues.ValueSource"/>
+        <Item Key="TLineSeries" Value="YValues.Name"/>
+        <Item Key="TLineSeries" Value="YValues.ValueSource"/>
+        <Item Key="TListControlAction" Value="Category"/>
+        <Item Key="TListControlClearSelection" Value="Category"/>
+        <Item Key="TListControlCopySelection" Value="Category"/>
+        <Item Key="TListControlDeleteSelection" Value="Category"/>
+        <Item Key="TListControlMoveSelection" Value="Category"/>
+        <Item Key="TListControlSelectAll" Value="Category"/>
+        <Item Key="TLMDMaskEdit" Value="Mask"/>
+        <Item Key="TMaskEdit" Value="EditMask"/>
+        <Item Key="TMemoField" Value="CustomConstraint"/>
+        <Item Key="TMemoField" Value="FieldName"/>
+        <Item Key="TMemoField" Value="KeyFields"/>
+        <Item Key="TMemoField" Value="LookupKeyFields"/>
+        <Item Key="TMemoField" Value="LookupResultField"/>
+        <Item Key="TMemoField" Value="Origin"/>
+        <Item Key="TmyCheckBox" Value="UserName"/>
+        <Item Key="TmyDBCheckBox" Value="DataField"/>
+        <Item Key="TmyDBCheckBox" Value="DataPipelineName"/>
+        <Item Key="TmyDBCheckBox" Value="UserName"/>
+        <Item Key="TMyEdit" Value="PasswordChar"/>
+        <Item Key="TmySQLDatabase" Value="DatabaseName"/>
+        <Item Key="TmySQLDatabase" Value="Host"/>
+        <Item Key="TmySQLDatabase" Value="UserName"/>
+        <Item Key="TmySQLDatabase" Value="UserPassword"/>
+        <Item Key="TmySQLQuery" Value="ParamData.Name"/>
+        <Item Key="TmySQLQuery" Value="SQL.Strings"/>
+        <Item Key="TmySQLTable" Value="FieldDefs.Name"/>
+        <Item Key="TmySQLTable" Value="TableName"/>
+        <Item Key="TmySQLUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TNextTab" Value="Category"/>
+        <Item Key="TOEDataSet" Value="SQL"/>
+        <Item Key="TOEQuery" Value="DatabaseName"/>
+        <Item Key="TOEQuery" Value="hStmt.Target.Target"/>
+        <Item Key="TOEQuery" Value="ParamData.Name"/>
+        <Item Key="TOEQuery" Value="Params.Name"/>
+        <Item Key="TOEQuery" Value="SQL.Strings"/>
+        <Item Key="TOEUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TOpenDialog" Value="DefaultExt"/>
+        <Item Key="TOpenPicture" Value="Category"/>
+        <Item Key="TPieSeries" Value="DataSources"/>
+        <Item Key="TPieSeries" Value="PieValues.Name"/>
+        <Item Key="TPieSeries" Value="PieValues.ValueSource"/>
+        <Item Key="TPieSeries" Value="ValueSource"/>
+        <Item Key="TPieSeries" Value="XLabelsSource"/>
+        <Item Key="TPointSeries" Value="XValues.Name"/>
+        <Item Key="TPointSeries" Value="YValues.Name"/>
+        <Item Key="TPopupAction" Value="Category"/>
+        <Item Key="TppArchiveReader" Value="Version"/>
+        <Item Key="TppBarCode" Value="UserName"/>
+        <Item Key="TppBDEPipeline" Value="UserName"/>
+        <Item Key="TppCheckBox" Value="UserName"/>
+        <Item Key="TppChildReport" Value="DataPipelineName"/>
+        <Item Key="TppChildReport" Value="UserName"/>
+        <Item Key="TppChildReport" Value="Version"/>
+        <Item Key="TppDataDictionary" Value="UserName"/>
+        <Item Key="TppDBBarCode" Value="DataField"/>
+        <Item Key="TppDBBarCode" Value="UserName"/>
+        <Item Key="TppDBCalc" Value="DataField"/>
+        <Item Key="TppDBCalc" Value="DataPipelineName"/>
+        <Item Key="TppDBCalc" Value="UserName"/>
+        <Item Key="TppDBEdit" Value="DataField"/>
+        <Item Key="TppDBEdit" Value="UserName"/>
+        <Item Key="TppDBImage" Value="DataField"/>
+        <Item Key="TppDBImage" Value="UserName"/>
+        <Item Key="TppDBMemo" Value="DataField"/>
+        <Item Key="TppDBMemo" Value="DataPipelineName"/>
+        <Item Key="TppDBMemo" Value="UserName"/>
+        <Item Key="TppDBPipeline" Value="UserName"/>
+        <Item Key="TppDBRichText" Value="DataField"/>
+        <Item Key="TppDBRichText" Value="DataPipelineName"/>
+        <Item Key="TppDBRichText" Value="UserName"/>
+        <Item Key="TppDBTeeChart" Value="DataField"/>
+        <Item Key="TppDBTeeChart" Value="DataPipelineName"/>
+        <Item Key="TppDBTeeChart" Value="UserName"/>
+        <Item Key="TppDBText" Value="DataField"/>
+        <Item Key="TppDBText" Value="DataPipelineName"/>
+        <Item Key="TppDBText" Value="UserName"/>
+        <Item Key="TppDesigner" Value="DataSettings.DatabaseName"/>
+        <Item Key="TppField" Value="FieldAlias"/>
+        <Item Key="TppField" Value="FieldName"/>
+        <Item Key="TppGroup" Value="BreakName"/>
+        <Item Key="TppGroup" Value="DataPipelineName"/>
+        <Item Key="TppGroup" Value="UserName"/>
+        <Item Key="TppImage" Value="UserName"/>
+        <Item Key="TppJITPipeline" Value="UserName"/>
+        <Item Key="TppLabel" Value="UserName"/>
+        <Item Key="TppLine" Value="UserName"/>
+        <Item Key="TppMemo" Value="UserName"/>
+        <Item Key="TppRegion" Value="UserName"/>
+        <Item Key="TppReport" Value="DataPipelineName"/>
+        <Item Key="TppReport" Value="DeviceType"/>
+        <Item Key="TppReport" Value="UserName"/>
+        <Item Key="TppReport" Value="Version"/>
+        <Item Key="TppRichText" Value="UserName"/>
+        <Item Key="TppShape" Value="UserName"/>
+        <Item Key="TppSubReport" Value="DataPipelineName"/>
+        <Item Key="TppSubReport" Value="UserName"/>
+        <Item Key="TppSystemVariable" Value="UserName"/>
+        <Item Key="TppTeeChart" Value="UserName"/>
+        <Item Key="TppTextPipeline" Value="UserName"/>
+        <Item Key="TppVariable" Value="UserName"/>
+        <Item Key="TPreviousTab" Value="Category"/>
+        <Item Key="TPrintDlg" Value="Category"/>
+        <Item Key="TQRCSVFilter" Value="Separator"/>
+        <Item Key="TQRDBImage" Value="DataField"/>
+        <Item Key="TQRDBRichText" Value="DataField"/>
+        <Item Key="TQRDBText" Value="DataField"/>
+        <Item Key="TQRExpr" Value="Expression"/>
+        <Item Key="TQRExprMemo" Value="Lines.Strings"/>
+        <Item Key="TQRGroup" Value="Expression"/>
+        <Item Key="TQuery" Value="DatabaseName"/>
+        <Item Key="TQuery" Value="Filter"/>
+        <Item Key="TQuery" Value="ParamData.Name"/>
+        <Item Key="TQuery" Value="Params.Name"/>
+        <Item Key="TQuery" Value="SessionName"/>
+        <Item Key="TQuery" Value="SQL.Strings"/>
+        <Item Key="TQuickRep" Value="Description.Strings"/>
+        <Item Key="TQuickRep" Value="Functions.DATA"/>
+        <Item Key="TQuickRep" Value="Functions.Strings"/>
+        <Item Key="TReferenceField" Value="CustomConstraint"/>
+        <Item Key="TReferenceField" Value="FieldName"/>
+        <Item Key="TReferenceField" Value="KeyFields"/>
+        <Item Key="TReferenceField" Value="LookupKeyFields"/>
+        <Item Key="TReferenceField" Value="LookupResultField"/>
+        <Item Key="TReferenceField" Value="Origin"/>
+        <Item Key="TRichEditAction" Value="Category"/>
+        <Item Key="TRichEditAlignCenter" Value="Category"/>
+        <Item Key="TRichEditAlignLeft" Value="Category"/>
+        <Item Key="TRichEditAlignRight" Value="Category"/>
+        <Item Key="TRichEditBold" Value="Category"/>
+        <Item Key="TRichEditBullets" Value="Category"/>
+        <Item Key="TRichEditItalic" Value="Category"/>
+        <Item Key="TRichEditStrikeOut" Value="Category"/>
+        <Item Key="TRichEditUnderline" Value="Category"/>
+        <Item Key="TRxDBComboBox" Value="DataField"/>
+        <Item Key="TRxDBComboEdit" Value="DataField"/>
+        <Item Key="TRxDBDateEdit" Value="DataField"/>
+        <Item Key="TRxDBGrid" Value="RegistryPath"/>
+        <Item Key="TRxDBLookupCombo" Value="DataField"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupDisplay"/>
+        <Item Key="TRxDBLookupCombo" Value="LookupField"/>
+        <Item Key="TRxDBLookupList" Value="DataField"/>
+        <Item Key="TRxDBRichEdit" Value="DataField"/>
+        <Item Key="TRxMemoryData" Value="FieldDefs.Name"/>
+        <Item Key="TRzDBComboBox" Value="DataField"/>
+        <Item Key="TRzDBEdit" Value="DataField"/>
+        <Item Key="TRzDBListBox" Value="DataField"/>
+        <Item Key="TRzDBLookupComboBox" Value="KeyField"/>
+        <Item Key="TSaveDialog" Value="DefaultExt"/>
+        <Item Key="TSavePicture" Value="Category"/>
+        <Item Key="TSctDBVar" Value="DataField"/>
+        <Item Key="TSearchAction" Value="Category"/>
+        <Item Key="TSearchFind" Value="Category"/>
+        <Item Key="TSearchFindFirst" Value="Category"/>
+        <Item Key="TSearchFindNext" Value="Category"/>
+        <Item Key="TSearchReplace" Value="Category"/>
+        <Item Key="TSendMail" Value="Category"/>
+        <Item Key="TSession" Value="SessionName"/>
+        <Item Key="TSmallintField" Value="CustomConstraint"/>
+        <Item Key="TSmallintField" Value="FieldName"/>
+        <Item Key="TSmallintField" Value="KeyFields"/>
+        <Item Key="TSmallintField" Value="LookupKeyFields"/>
+        <Item Key="TSmallintField" Value="LookupResultField"/>
+        <Item Key="TSmallintField" Value="Origin"/>
+        <Item Key="TSQLTimeStampField" Value="CustomConstraint"/>
+        <Item Key="TSQLTimeStampField" Value="FieldName"/>
+        <Item Key="TSQLTimeStampField" Value="KeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupKeyFields"/>
+        <Item Key="TSQLTimeStampField" Value="LookupResultField"/>
+        <Item Key="TSQLTimeStampField" Value="Origin"/>
+        <Item Key="TStoredProc" Value="DatabaseName"/>
+        <Item Key="TStoredProc" Value="Filter"/>
+        <Item Key="TStoredProc" Value="ParamData.Name"/>
+        <Item Key="TStoredProc" Value="SessionName"/>
+        <Item Key="TStoredProc" Value="StoredProcName"/>
+        <Item Key="TStringField" Value="CustomConstraint"/>
+        <Item Key="TStringField" Value="FieldName"/>
+        <Item Key="TStringField" Value="KeyFields"/>
+        <Item Key="TStringField" Value="LookupKeyFields"/>
+        <Item Key="TStringField" Value="LookupResultField"/>
+        <Item Key="TStringField" Value="Origin"/>
+        <Item Key="TSubMenuAction" Value="Category"/>
+        <Item Key="TTabAction" Value="Category"/>
+        <Item Key="TTable" Value="DatabaseName"/>
+        <Item Key="TTable" Value="FieldDefs.Name"/>
+        <Item Key="TTable" Value="Filter"/>
+        <Item Key="TTable" Value="IndexDefs.Fields"/>
+        <Item Key="TTable" Value="IndexDefs.Name"/>
+        <Item Key="TTable" Value="IndexFieldNames"/>
+        <Item Key="TTable" Value="IndexName"/>
+        <Item Key="TTable" Value="MasterFields"/>
+        <Item Key="TTable" Value="ParamData.Name"/>
+        <Item Key="TTable" Value="SessionName"/>
+        <Item Key="TTable" Value="TableName"/>
+        <Item Key="TTimeField" Value="CustomConstraint"/>
+        <Item Key="TTimeField" Value="FieldName"/>
+        <Item Key="TTimeField" Value="KeyFields"/>
+        <Item Key="TTimeField" Value="LookupKeyFields"/>
+        <Item Key="TTimeField" Value="LookupResultField"/>
+        <Item Key="TTimeField" Value="Origin"/>
+        <Item Key="TTntAction" Value="*_UTF7"/>
+        <Item Key="TTntActionList" Value="*_UTF7"/>
+        <Item Key="TTntBevel" Value="*_UTF7"/>
+        <Item Key="TTntBitBtn" Value="*_UTF7"/>
+        <Item Key="TTntButton" Value="*_UTF7"/>
+        <Item Key="TTntCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntCheckListBox" Value="*_UTF7"/>
+        <Item Key="TTntComboBox" Value="*_UTF7"/>
+        <Item Key="TTntControlBar" Value="*_UTF7"/>
+        <Item Key="TTntDateTimePicker" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="*_UTF7"/>
+        <Item Key="TTntDBCheckBox" Value="DataField"/>
+        <Item Key="TTntDBComboBox" Value="*_UTF7"/>
+        <Item Key="TTntDBComboBox" Value="DataField"/>
+        <Item Key="TTntDBEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBEdit" Value="DataField"/>
+        <Item Key="TTntDBGrid" Value="*_UTF7"/>
+        <Item Key="TTntDBGrid" Value="Columns.FieldName"/>
+        <Item Key="TTntDBRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntDBRichEdit" Value="DataField"/>
+        <Item Key="TTntDBText" Value="*_UTF7"/>
+        <Item Key="TTntDBText" Value="DataField"/>
+        <Item Key="TTntDrawGrid" Value="*_UTF7"/>
+        <Item Key="TTntEdit" Value="*_UTF7"/>
+        <Item Key="TTntGroupBox" Value="*_UTF7"/>
+        <Item Key="TTntImage" Value="*_UTF7"/>
+        <Item Key="TTntLabel" Value="*_UTF7"/>
+        <Item Key="TTntListBox" Value="*_UTF7"/>
+        <Item Key="TTntListView" Value="*_UTF7"/>
+        <Item Key="TTntMainMenu" Value="*_UTF7"/>
+        <Item Key="TTntMemo" Value="*_UTF7"/>
+        <Item Key="TTntMenuItem" Value="*_UTF7"/>
+        <Item Key="TTntMonthCalendar" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="*_UTF7"/>
+        <Item Key="TTntOpenDialog" Value="DefaultExt"/>
+        <Item Key="TTntOpenPictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntPageControl" Value="*_UTF7"/>
+        <Item Key="TTntPageScroller" Value="*_UTF7"/>
+        <Item Key="TTntPaintBox" Value="*_UTF7"/>
+        <Item Key="TTntPanel" Value="*_UTF7"/>
+        <Item Key="TTntPopupMenu" Value="*_UTF7"/>
+        <Item Key="TTntProgressBar" Value="*_UTF7"/>
+        <Item Key="TTntRadioButton" Value="*_UTF7"/>
+        <Item Key="TTntRadioGroup" Value="*_UTF7"/>
+        <Item Key="TTntRichEdit" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="*_UTF7"/>
+        <Item Key="TTntSaveDialog" Value="DefaultExt"/>
+        <Item Key="TTntSavePictureDialog" Value="*_UTF7"/>
+        <Item Key="TTntScrollBar" Value="*_UTF7"/>
+        <Item Key="TTntScrollBox" Value="*_UTF7"/>
+        <Item Key="TTntShape" Value="*_UTF7"/>
+        <Item Key="TTntSpeedButton" Value="*_UTF7"/>
+        <Item Key="TTntSplitter" Value="*_UTF7"/>
+        <Item Key="TTntStaticText" Value="*_UTF7"/>
+        <Item Key="TTntStatusBar" Value="*_UTF7"/>
+        <Item Key="TTntStringGrid" Value="*_UTF7"/>
+        <Item Key="TTntTabControl" Value="*_UTF7"/>
+        <Item Key="TTntTabSheet" Value="*_UTF7"/>
+        <Item Key="TTntTrackBar" Value="*_UTF7"/>
+        <Item Key="TTntTreeView" Value="*_UTF7"/>
+        <Item Key="TTntUpDown" Value="*_UTF7"/>
+        <Item Key="TUpdateSQL" Value="*SQL.Strings"/>
+        <Item Key="TURLAction" Value="Category"/>
+        <Item Key="TVarBytesField" Value="CustomConstraint"/>
+        <Item Key="TVarBytesField" Value="FieldName"/>
+        <Item Key="TVarBytesField" Value="KeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupKeyFields"/>
+        <Item Key="TVarBytesField" Value="LookupResultField"/>
+        <Item Key="TVarBytesField" Value="Origin"/>
+        <Item Key="TVariantField" Value="CustomConstraint"/>
+        <Item Key="TVariantField" Value="FieldName"/>
+        <Item Key="TVariantField" Value="KeyFields"/>
+        <Item Key="TVariantField" Value="LookupKeyFields"/>
+        <Item Key="TVariantField" Value="LookupResultField"/>
+        <Item Key="TVariantField" Value="Origin"/>
+        <Item Key="TWideStringField" Value="CustomConstraint"/>
+        <Item Key="TWideStringField" Value="FieldName"/>
+        <Item Key="TWideStringField" Value="KeyFields"/>
+        <Item Key="TWideStringField" Value="LookupKeyFields"/>
+        <Item Key="TWideStringField" Value="LookupResultField"/>
+        <Item Key="TWideStringField" Value="Origin"/>
+        <Item Key="TWindowAction" Value="Category"/>
+        <Item Key="TWindowArrange" Value="Category"/>
+        <Item Key="TWindowCascade" Value="Category"/>
+        <Item Key="TWindowClose" Value="Category"/>
+        <Item Key="TWindowMinimizeAll" Value="Category"/>
+        <Item Key="TWindowTileHorizontal" Value="Category"/>
+        <Item Key="TWindowTileVertical" Value="Category"/>
+        <Item Key="TWordField" Value="CustomConstraint"/>
+        <Item Key="TWordField" Value="FieldName"/>
+        <Item Key="TWordField" Value="KeyFields"/>
+        <Item Key="TWordField" Value="LookupKeyFields"/>
+        <Item Key="TWordField" Value="LookupResultField"/>
+        <Item Key="TWordField" Value="Origin"/>
+        <Item Key="TwwCheckBox" Value="DataField"/>
+        <Item Key="TwwCheckBox" Value="ValueChecked"/>
+        <Item Key="TwwCheckBox" Value="ValueUnchecked"/>
+        <Item Key="TwwClientDataSet" Value="FieldDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Fields"/>
+        <Item Key="TwwClientDataSet" Value="IndexDefs.Name"/>
+        <Item Key="TwwClientDataSet" Value="IndexFieldNames"/>
+        <Item Key="TwwClientDataSet" Value="ProviderName"/>
+        <Item Key="TwwDataInspector" Value="*Items.DataField"/>
+        <Item Key="TwwDBComboBox" Value="DataField"/>
+        <Item Key="TwwDBComboDlg" Value="DataField"/>
+        <Item Key="TwwDBDateTimePicker" Value="DataField"/>
+        <Item Key="TwwDBEdit" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="DataField"/>
+        <Item Key="TwwDBLookupCombo" Value="LookupField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="DataField"/>
+        <Item Key="TwwDBLookupComboDlg" Value="LookupField"/>
+        <Item Key="TwwDBRichEdit" Value="DataField"/>
+        <Item Key="TwwDBRichEditMSWord" Value="DataField"/>
+        <Item Key="TwwDBSpinEdit" Value="DataField"/>
+        <Item Key="TwwFilterDialog" Value="DefaultField"/>
+        <Item Key="TwwIncrementalSearch" Value="DataField"/>
+        <Item Key="TwwIncrementalSearch" Value="SearchField"/>
+        <Item Key="TwwMemoDialog" Value="DataField"/>
+        <Item Key="TwwQuery" Value="DatabaseName"/>
+        <Item Key="TwwQuery" Value="LookupFields.Strings"/>
+        <Item Key="TwwQuery" Value="ParamData.Name"/>
+        <Item Key="TwwQuery" Value="SessionName"/>
+        <Item Key="TwwQuery" Value="SQL.Strings"/>
+        <Item Key="TwwRadioGroup" Value="DataField"/>
+        <Item Key="TwwTable" Value="DatabaseName"/>
+        <Item Key="TwwTable" Value="FieldDefs.Name"/>
+        <Item Key="TwwTable" Value="IndexFieldNames"/>
+        <Item Key="TwwTable" Value="IndexName"/>
+        <Item Key="TwwTable" Value="MasterFields"/>
+        <Item Key="TwwTable" Value="SessionName"/>
+        <Item Key="TwwTable" Value="TableName"/>
+        <Item Key="TXMLDocument" Value="DOMVendorDesc"/>
+      </VCLExclude>
+      <VCLInclude/>
+      <VCLTempaltes EnableAutoMapping="0">
+        <Item Key="*ProgressBar" Value="TProgressBar"/>
+        <Item Key="*Panel" Value="TPanel"/>
+        <Item Key="*SpeedButton" Value="TSpeedButton"/>
+        <Item Key="*Button" Value="TButton"/>
+        <Item Key="*RichEdit" Value="TRichEdit"/>
+        <Item Key="*ScrollBox" Value="TScrollBox"/>
+        <Item Key="*ComboBox" Value="TComboBox"/>
+        <Item Key="*HotKey" Value="THotKey"/>
+        <Item Key="*Notebook" Value="TNotebook"/>
+        <Item Key="*PopupMenu" Value="TPopupMenu"/>
+        <Item Key="*GroupBox" Value="TGroupBox"/>
+        <Item Key="*TabSheet" Value="TTabSheet"/>
+        <Item Key="*Splitter" Value="TSplitter"/>
+        <Item Key="*ToolBar" Value="TToolBar"/>
+        <Item Key="*StatusBar" Value="TStatusBar"/>
+        <Item Key="*Label" Value="TLabel"/>
+        <Item Key="*PageControl" Value="TPageControl"/>
+        <Item Key="*TabControl" Value="TTabControl"/>
+        <Item Key="*PaintBox" Value="TPaintBox"/>
+        <Item Key="*BitBtn" Value="TBitBtn"/>
+        <Item Key="*Memo" Value="TMemo"/>
+        <Item Key="*TrackBar" Value="TTrackBar"/>
+        <Item Key="*ListBox" Value="TListBox"/>
+        <Item Key="*MaskEdit" Value="TMaskEdit"/>
+        <Item Key="*TabPage" Value="TTabPage"/>
+        <Item Key="*Page" Value="TPage"/>
+        <Item Key="*LabeledEdit" Value="TLabeledEdit"/>
+        <Item Key="*CheckBox" Value="TCheckBox"/>
+        <Item Key="*RadioGroup" Value="TRadioGroup"/>
+        <Item Key="*SpinEdit" Value="TSpinEdit"/>
+        <Item Key="*RadioButton" Value="TRadioButton"/>
+        <Item Key="*Edit" Value="TEdit"/>
+        <Item Key="*Grid" Value="TDrawGrid"/>
+        <Item Key="*Action" Value="TAction"/>
+        <Item Key="*Field" Value="THiddenComponent"/>
+        <Item Key="*ActionList" Value="TActionList"/>
+        <Item Key="*AMMB" Value="TActionMainMenuBar"/>
+        <Item Key="*ATB" Value="TActionToolBar"/>
+        <Item Key="*Animate" Value="TAnimate"/>
+        <Item Key="*Calendar" Value="TCalendar"/>
+        <Item Key="*Chart" Value="TChart"/>
+        <Item Key="*CheckListBox" Value="TCheckListBox"/>
+        <Item Key="*CoolBar" Value="TCoolBar"/>
+        <Item Key="*DataGrid" Value="TDBGrid"/>
+        <Item Key="*DataNavigator" Value="TDataNavigator"/>
+        <Item Key="*DateTimePicker" Value="TDateTimePicker"/>
+        <Item Key="*DirectoryListBox" Value="TDirectoryListBox"/>
+        <Item Key="*DriveComboBox" Value="TDriveComboBox"/>
+        <Item Key="*FileListBox" Value="TFileListBox"/>
+        <Item Key="*FilterComboBox" Value="TFilterComboBox"/>
+        <Item Key="*Header" Value="THeader"/>
+        <Item Key="*HiddenComponent" Value="THiddenComponent"/>
+        <Item Key="*Image" Value="TImage"/>
+        <Item Key="*ImageList" Value="TImageList"/>
+        <Item Key="*ListView" Value="TListView"/>
+        <Item Key="*MainMenu" Value="TMainMenu"/>
+        <Item Key="*MediaPlayer" Value="TMediaPlayer"/>
+        <Item Key="*ManuItem" Value="TMenuItem"/>
+        <Item Key="*MonthCalendar" Value="TMonthCalendar"/>
+        <Item Key="*NotebookPage" Value="TPage"/>
+        <Item Key="*OleContainer" Value="TOleContainer"/>
+        <Item Key="*OutLine" Value="TOutline"/>
+        <Item Key="*PageScroller" Value="TPageScroller"/>
+        <Item Key="*ScrollBar" Value="TScrollBar"/>
+        <Item Key="*Shape" Value="TShape"/>
+        <Item Key="*StaticText" Value="TStaticText"/>
+        <Item Key="*TabSet" Value="TTabSet"/>
+        <Item Key="*Timer" Value="TTimer"/>
+        <Item Key="*ToolButton" Value="TToolButton"/>
+        <Item Key="*TreeView" Value="TTreeView"/>
+        <Item Key="*UpDown" Value="TUpDown"/>
+        <Item Key="*ValueListEditor" Value="TValueListEditor"/>
+        <Item Key="*WebBrowser" Value="TWebBrowser"/>
+        <Item Key="TTBXItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXSubMenuItem" Value="THiddenComponent"/>
+        <Item Key="TTBXMRUListItem" Value="THiddenComponent"/>
+        <Item Key="TRzSplitter" Value="TCustomPanel"/>
+      </VCLTempaltes>
+    </Settings>
+    <CheckSettings>
+      <AutoCheck>
+        <BeforeTargetGeneration>0</BeforeTargetGeneration>
+        <WhenChanged>0</WhenChanged>
+        <AfterProjectLoading>0</AfterProjectLoading>
+      </AutoCheck>
+      <Settings>
+        <Checker Name="PrintF" Enabled="1"/>
+        <Checker Name="InvalidSymbols" Enabled="1"/>
+        <Checker Name="MissingSymbol" Enabled="1">
+          <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+        </Checker>
+        <Checker Name="EmptyTargetString" Enabled="1"/>
+        <Checker Name="EmptySourceString" Enabled="1"/>
+        <Checker Name="EmptyTMString" Enabled="0"/>
+        <Checker Name="Tabulators" Enabled="1"/>
+        <Checker Name="Spaces" Enabled="1"/>
+        <Checker Name="SpellingError" Enabled="0"/>
+        <Checker Name="TextTooLong" Enabled="1"/>
+        <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+        <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+        <Checker Name="TargetAccelKey" Enabled="1"/>
+        <Checker Name="SourceAccelKey" Enabled="1"/>
+        <Checker Name="InvalidAccelKey" Enabled="1"/>
+        <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+        <Checker Name="TextDoesntFit" Enabled="1"/>
+        <Checker Name="ControlOverlaps" Enabled="1"/>
+        <Checker Name="ControlOutOfBorder" Enabled="1"/>
+        <Checker Name="InvalidAccelerator" Enabled="1"/>
+        <Checker Name="DuplicateAccelerator" Enabled="1"/>
+        <Checker Name="InvalidImage" Enabled="1"/>
+        <Checker Name="InconsistentImageSize" Enabled="1"/>
+        <Checker Name="InconsistentBPP" Enabled="1"/>
+        <Checker Name="InvalidPlurals" Enabled="1"/>
+      </Settings>
+    </CheckSettings>
+    <GlossaryImportSettings Current="CSVFile">
+      <CSVFile SourceCodePage="Autodetect"/>
+      <TextGlossary Codepage="Autodetect"/>
+      <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+      <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+      <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+      <XLSFile FirstLine="1"/>
+    </GlossaryImportSettings>
+    <Simulation Enabled="0" Generated="0"/>
+    <ReportOptions>
+      <PageOptions>
+        <Orientation>0</Orientation>
+        <PaperWidth>2100</PaperWidth>
+        <PaperHeight>2970</PaperHeight>
+        <LeftMargin>10</LeftMargin>
+        <TopMargin>10</TopMargin>
+        <RightMargin>10</RightMargin>
+        <BottomMargin>10</BottomMargin>
+        <PaperSize>9</PaperSize>
+      </PageOptions>
+      <LangIDList/>
+      <FileList/>
+      <Header Value="1"/>
+      <Errors Value="0"/>
+      <Statistic Value="1"/>
+      <ResourceStructure Value="1"/>
+      <Accelerators Value="1"/>
+      <Images Value="1"/>
+      <Text Value="1"/>
+      <Info Value="0"/>
+      <FileSettings Value="1"/>
+      <Deleted Value="0"/>
+      <ReadOnly Value="1"/>
+      <New Value="1"/>
+      <Untranslated Value="1"/>
+      <ForReview Value="1"/>
+      <Validated Value="1"/>
+    </ReportOptions>
+    <FormSettings Color="255">
+      <ReadOnly>0</ReadOnly>
+      <EnMoveResize>1</EnMoveResize>
+      <ShowNonVisualComp>1</ShowNonVisualComp>
+      <MarkMapped>1</MarkMapped>
+      <ShowStatus>1</ShowStatus>
+      <UseSnapLines>1</UseSnapLines>
+      <Grid>
+        <Visible>1</Visible>
+        <Snap>1</Snap>
+        <SizeX>8</SizeX>
+        <SizeY>8</SizeY>
+      </Grid>
+      <ComponentTrayHeight>80</ComponentTrayHeight>
+      <OnlyLocalizableProps>1</OnlyLocalizableProps>
+      <DialogUnits>1</DialogUnits>
+    </FormSettings>
+    <TextTemplates/>
+    <File Name="Z:\PortableAppz\Translations\EWPR\English.lng" Parser="TxtFile" DateTimeStamp="4675958749977892230" FileSize="33196">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2014-10-17T18-51-28"/>
+          <ChangedTo Enabled="0" Value="2014-10-17T18-51-28"/>
+          <TranslatedFrom Enabled="0" Value="2014-10-17T18-51-28"/>
+          <TranslatedTo Enabled="0" Value="2014-10-17T18-51-28"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="STRINGS" Class="">
+        <Resource Name="Strings">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="128">
+            <Src>
+              <Data>Elcomsoft Wireless Security Auditor\n</Data>
+              <Data>EWSAProject_\n</Data>
+              <Data>EWSA Project\n</Data>
+              <Data>EWSA projects (*.wkp)\n</Data>
+              <Data>.wkp\n</Data>
+              <Data>EWSA.Document\n</Data>
+              <Data>EWSA Document</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59"/>
+          </Vl>
+          <Vl Name="129">
+            <Src>Can't execute help file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>无法打开帮助文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="130">
+            <Src>Can't save document to file. Last engine error: %s.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>无法保存文件。引擎错误：%s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="131">
+            <Src>Can't load document from the file. Last engine error: %s.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>无法载入文件。引擎错误：%s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="132">
+            <Src>Saving project data to file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>保存工程数据</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="133">
+            <Src>Loading project file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>加载工程文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="134">
+            <Src>PSPR log files (*.wph)|*.wph|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>PSPR日志文件 (*.wph)|*.wph|所有文件 (*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="135">
+            <Src>Can't parse the file specified</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>无法解析指定的文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="136">
+            <Src>Time stamp</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>时间戳</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="137">
+            <Src>Message</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>消息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="138">
+            <Src>Ssid</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-57"/>
+          </Vl>
+          <Vl Name="139">
+            <Src>Hash</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-55-40"/>
+          </Vl>
+          <Vl Name="140">
+            <Src>Password</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="141">
+            <Src>Pbkdb2 count</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>Pbkdb2计数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="142">
+            <Src>Status</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>状态</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="143">
+            <Src>Comment</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>注释</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="144">
+            <Src>Smart mutation options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-22-50" Translated="2014-10-17T19-22-50" State="Validated">
+              <cur>智能变动选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="145">
+            <Src>Case mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-25-29" Translated="2014-10-17T19-25-29" State="Validated">
+              <cur>大小写变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="146">
+            <Src>Digit mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-27-28" Translated="2014-10-17T19-27-28" State="Validated">
+              <cur>数字前后缀</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="147">
+            <Src>Border mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-28-17" Translated="2014-10-17T19-28-17" State="Validated">
+              <cur>增加界定字符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="148">
+            <Src>Freak mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-30-22" Translated="2014-10-17T19-30-22" State="Validated">
+              <cur>相似形状替换</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="149">
+            <Src>Abbreviation mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-30-31" Translated="2014-10-17T19-30-31" State="Validated">
+              <cur>缩写替换</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="150">
+            <Src>Order mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-30-45" Translated="2014-10-17T19-30-45" State="Validated">
+              <cur>顺序变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="151">
+            <Src>Vowels mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-35-42" Translated="2014-10-17T19-35-42" State="Validated">
+              <cur>增加元音</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="152">
+            <Src>Strip mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-40-12" Translated="2014-10-17T19-40-12" State="Validated">
+              <cur>去掉单个字符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="153">
+            <Src>Swap mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-38-26" Translated="2014-10-17T19-38-26" State="Validated">
+              <cur>替换字符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="154">
+            <Src>Duplicate mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-40-10" Translated="2014-10-17T19-40-10" State="Validated">
+              <cur>重复单个字符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="155">
+            <Src>Delimiter mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-41-20" Translated="2014-10-17T19-41-20" State="Validated">
+              <cur>限定符隔开</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="156">
+            <Src>Year mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-42-35" Translated="2014-10-17T19-42-35" State="Validated">
+              <cur>追加年日期</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="157">
+            <Src>Speed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>速度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="158">
+            <Src>Efficiency</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>效率</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="159">
+            <Src>Maximize speed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>最大速度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="160">
+            <Src>Maximize efficiency</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>最大效率</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="161">
+            <Src>Set all to defaults</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>全部设为默认</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="162">
+            <Src>Disable mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-12-41" Translated="2014-10-17T19-12-41" State="Validated">
+              <cur>禁用变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="163">
+            <Src>Dictionary file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="164">
+            <Src>Password mutation options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码变动选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="165">
+            <Src>Enable mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>启用变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="166">
+            <Src>Dictionary files (*.dic; *.txt)|*.dic; *.txt|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典文件 (*.dic; *.txt)|*.dic; *.txt|所有文件 (*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="167">
+            <Src>You should set a dictionary file in order to continue</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>你应该设置一个字典文件，以便继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="168">
+            <Src>Logging options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-09-05" Translated="2014-10-17T22-09-05" State="Validated">
+              <cur>日志选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="169">
+            <Src>Enable onscreen logging</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-09-58" Translated="2014-10-17T22-09-58" State="Validated">
+              <cur>启用屏幕上的日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="170">
+            <Src>Regular messages</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>常规消息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="171">
+            <Src>Warnings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>警告</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="172">
+            <Src>Error message</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>错误信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="173">
+            <Src>Add WPA-PSK hash</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-53-35" Translated="2014-10-17T22-53-35" State="Validated">
+              <cur>添加 WPA-PSK Hash</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="174">
+            <Src>WPA-PSK properties</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>WPA-PSK 属性</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="175">
+            <Src>Ssid</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-43-46"/>
+          </Vl>
+          <Vl Name="176">
+            <Src>Pbkdf2 counter</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-53-51" Translated="2014-10-17T22-53-51" State="Validated">
+              <cur>PBKDF2计数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="177">
+            <Src>Hash</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-43-55"/>
+          </Vl>
+          <Vl Name="178">
+            <Src>Comment (optional)</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>注释（可选）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="179">
+            <Src>Invalid hash string</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无效的Hash字符串</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="180">
+            <Src>Empty ssid string</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>空的SSID字符串</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="181">
+            <Src>Out of memory</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>内存不足</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="182">
+            <Src>General options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-54-15" State="ForReview">
+              <cur>常规选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="183">
+            <Src>Attack settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-44-24" State="ForReview">
+              <cur>攻击设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="184">
+            <Src>Processor utilization</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-52-51" State="ForReview">
+              <cur>CPU 可用数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="185">
+            <Src>Use GPU power</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-44-53" Translated="2014-10-17T19-44-53" State="Validated">
+              <cur>使用 GPU</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="186">
+            <Src>Invalid CPU utilization value</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-52-55" Translated="2014-10-17T22-52-55" State="Validated">
+              <cur>无效的CPU可用数值</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="187">
+            <Src>Tcpdump files (*.cap; *.pcap; *.dmp; *.dump)|*.cap; *.pcap; *.dmp; *.dump|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>Tcpdump 文件 (*.cap; *.pcap; *.dmp; *.dump)|*.cap; *.pcap; *.dmp; *.dump|所有文件 (*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="188">
+            <Src>Summary</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>摘要</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="189">
+            <Src>OS</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>操作系统</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="190">
+            <Src>CPU name</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU 名称</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="191">
+            <Src>CPU speed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU 速度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="192">
+            <Src>User</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>用户</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="193">
+            <Src>Machine</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-54-50" Translated="2014-10-17T22-54-50" State="Validated">
+              <cur>机器名称</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="194">
+            <Src>Auto detect</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-55-10" State="ForReview">
+              <cur>自动检测</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="195">
+            <Src>Total memory:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>总内存：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="196">
+            <Src>Processor count:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-55-51" Translated="2014-10-17T22-55-51" State="Validated">
+              <cur>处理器数：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="197">
+            <Src>Clock rate:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>时钟频率：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="198">
+            <Src>Compute capability:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>计算能力：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="199">
+            <Src>NOTE: When adding or removing graphic cards make sure you adjust the current selection.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-56-27" Translated="2014-10-17T22-56-27" State="Validated">
+              <cur>注意：当添加或移除显卡一定要调整当前的选择。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="200">
+            <Src>GPU utilization</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-52-55" Translated="2014-10-17T22-52-55" State="Validated">
+              <cur>GPU 可用数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="201">
+            <Src>Available devices</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>可用设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="202">
+            <Src>Device info</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>设备信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="203">
+            <Src>Auto detect</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>自动检测</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="204">
+            <Src>Display drivers info:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>显示驱动器信息：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="205">
+            <Src>click here</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>点击这里</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="206">
+            <Src>Display drivers info</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>显示驱动器信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="207">
+            <Src>Register</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>注册</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="208">
+            <Src>Enter registration code here:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>在这里输入注册码：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="209">
+            <Src>Thank you for registering the program !</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-56-48" Translated="2014-10-17T22-56-48" State="Validated">
+              <cur>感谢你注册本程序！</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="210">
+            <Src>The registration code you've entered is invalid.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-56-52" Translated="2014-10-17T22-56-52" State="Validated">
+              <cur>你输入的注册码无效。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="211">
+            <Src>Registration</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>注册</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="212">
+            <Src>Registration library initialization failure</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>注册库初始化失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="213">
+            <Src>About</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>关于</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="214">
+            <Src>Get more information about</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>获取更多信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="215">
+            <Src>Look at other password recovery software we have</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-57-17" Translated="2014-10-17T22-57-17" State="Validated">
+              <cur>查看其他密码恢复软件，我们有</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="216">
+            <Src>Open ElcomSoft Co. Ltd. Web site</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开ElcomSoft有限公司网站</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="217">
+            <Src>Can't open the Web page</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法打开网页</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="218">
+            <Src>Please, wait</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>请耐心等待</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="219">
+            <Src>Connecting to ElcomSoft website...</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>连接到ElcomSoft网站...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="220">
+            <Src>Cancel</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="221">
+            <Src>Can not get current version information</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法取得目前的版本信息</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="222">
+            <Src>Connection cancelled</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>连接取消</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="223">
+            <Src>Can not connect to update server</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法连接到更新服务器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="224">
+            <Src>Update is not available</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>更新不可用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="225">
+            <Src>
+              <Data>Update is available, newest version is %s.\r\n</Data>
+              <Data>Do you want to open the product page (%s) ?</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>新版本已推出，最新版本是%s \r</Data>
+                <Data>\0x20\n</Data>
+                <Data>你要打开（%s）的产品页面吗？</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="226">
+            <Src>Unknown error</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>未知错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="227">
+            <Src>Display devices:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>显示设备：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="228">
+            <Src>Device</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="229">
+            <Src>NVIDIA driver info:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>NVIDIA 驱动程序信息：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="230">
+            <Src>No CUDA devices found.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>没有找到 CUDA 设备。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="231">
+            <Src>No NVIDIA driver detected</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>没有检测到 NVIDIA 驱动程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="232">
+            <Src>internal error</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>内部错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="233">
+            <Src>file open error</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>文件打开错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="234">
+            <Src>unknown file format</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>未知文件格式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="235">
+            <Src>old file format no longer supported</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>不再支持旧文件格式</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="236">
+            <Src>file corrupted</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>文件损坏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="237">
+            <Src>error reading file data</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>读取文件数据错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="238">
+            <Src>&lt;version unknown&gt;</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>&lt;未知版本&gt;</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="239">
+            <Src>Time elapsed:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>已用时间：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="240">
+            <Src>Time left:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>剩余时间：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="241">
+            <Src>Current speed:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>当前速度：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="242">
+            <Src>Average speed:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>平均速度：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="243">
+            <Src>Last password:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>最后密码：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="244">
+            <Src>Processor load:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU 负载：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="245">
+            <Src>Can't initialize smart dictionary</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法初始化智能字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="246">
+            <Src>Invalid hash object</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无效的Hash对象</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="247">
+            <Src>StartRecovery failed with error %d</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-49-17" Translated="2014-10-17T19-49-17" State="Validated">
+              <cur>开始恢复失败，错误 ％d</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="248">
+            <Src>Running...</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>运行...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="249">
+            <Src>Paused...</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>暂停...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="250">
+            <Src>Found</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>找到</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="251">
+            <Src>Not found</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>没有找到</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="252">
+            <Src>Congratulations! The password has been found.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>恭喜！密码已被找到。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="253">
+            <Src>The password has not been found. Please consider trying other dictionaries or change password mutation options.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>还没找到密码。请考虑尝试其他字典或更改密码变动选项。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="254">
+            <Src>Tamos CommView log files (*.ncf)|*.ncf|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>Tamos CommView 日志文件 (*.wph)|*.wph|所有文件 (*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="255">
+            <Src>The password for the item you selected has been found already. Do you want to reset the password and start the decryption again ?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>你所选择项目的密码已被找到。你是否要重设密码再次解密？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="256">
+            <Src>&lt;not shown in trial version&gt;</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>&lt;试用版本不显示&gt;</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="257">
+            <Src>Dictionaries total:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典总数：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="258">
+            <Src>Password</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="259">
+            <Src>ATI driver info:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-50-22" Translated="2014-10-17T19-50-22" State="Validated">
+              <cur>ATI 驱动信息：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="260">
+            <Src>No CAL devices found.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-50-31" Translated="2014-10-17T19-50-31" State="Validated">
+              <cur>没找到 CAL 设备。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="261">
+            <Src>No ATI driver detected</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>没有检测到 ATI 驱动程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="262">
+            <Src>Handshake selection</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>选择握手包</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="263">
+            <Src>Multiple handshakes were found. Select what you need to recover please.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-58-56" Translated="2014-10-17T22-58-56" State="Validated">
+              <cur>发现多个握手包，请选择要恢复的握手包。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="264">
+            <Src>Select all</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>全选</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="265">
+            <Src>Select valid</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>选择有效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="266">
+            <Src>Deselect all</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-59-08" State="ForReview">
+              <cur>取消全选</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="267">
+            <Src>Valid</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>有效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="268">
+            <Src>Yes</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>是</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="269">
+            <Src>No</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>否</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="270">
+            <Src>No data</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无数据</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="271">
+            <Src>Unregistered DEMO version</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>未注册DEMO版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="272">
+            <Src>
+              <Data>Continue\n</Data>
+              <Data>attack</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-51-27" State="ForReview">
+              <cur>
+                <Data>继续\n</Data>
+                <Data>攻击</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="273">
+            <Src>
+              <Data>Restart\n</Data>
+              <Data>attack</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-51-41" State="ForReview">
+              <cur>
+                <Data>重新启动\n</Data>
+                <Data>攻击</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="274">
+            <Src>Start attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-52-20" Translated="2014-10-17T19-52-20" State="Validated">
+              <cur>开始攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="275">
+            <Src>Ignore password if it is shorter than 8 or longer than 64 characters</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>忽略小于8个或大于64个字符的密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="276">
+            <Src>No handshakes have been found in the given file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>给定的文件没有发现握手包</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="277">
+            <Src>One or more handshakes you selected is invalid. This means that the recovered password will not be valid for wireless network. Continue anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-54-22" Translated="2014-10-17T19-54-22" State="Validated">
+              <cur>你选择的一个或多个握手包是无效的。这意味着恢复的密码用于无线网络是无效的。要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="278">
+            <Src>Can't open the file. %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-00-06" Translated="2014-10-17T23-00-06" State="Validated">
+              <cur>无法打开该文件。%s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="279">
+            <Src>One of the input parameters is invalid.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>输入的参数之一是无效的。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="280">
+            <Src>Out of memory.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T19-55-20" Translated="2014-10-17T19-55-20" State="Validated">
+              <cur>内存不足。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="281">
+            <Src>Please restart the program in order the changes to take effect</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>请重新启动该程序，以便使更改生效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="282">
+            <Src>Can't read the file.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法读取该文件。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="283">
+            <Src>The file you're trying to open is invalid. It is either not a valid TCPDUMP file or contains no wireless data.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-00-43" Translated="2014-10-17T23-00-43" State="Validated">
+              <cur>你试图打开的文件是无效的。它不是一个有效的 TCPDUMP 文件也不包含任何无线数据。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="284">
+            <Src>At least one handshake you selected contains no information about password validity. This means that the recovered password may not be valid for wireless network. Continue anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-00-11" Translated="2014-10-17T20-00-11" State="Validated">
+              <cur>至少有一个你选择的握手包不包含任何有关密码的有效性的信息。这意味着恢复的密码用于无线网络是无效的。要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="285">
+            <Src>File</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="286">
+            <Src>Action</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-00-24" Translated="2014-10-17T20-00-24" State="Validated">
+              <cur>操作</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="287">
+            <Src>Options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="288">
+            <Src>Help</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-00-37" Translated="2014-10-17T20-00-37" State="Validated">
+              <cur>帮助</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="289">
+            <Src>Language</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>语言</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="290">
+            <Src>Support</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>支持</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="291">
+            <Src>Write log to file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>写入日志文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="292">
+            <Src>All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>所有文件(*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="293">
+            <Src>unhandled exception occurred</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-01-01" Translated="2014-10-17T20-01-01" State="Validated">
+              <cur>无法处理的异常</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="294">
+            <Src>Dictionary options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="295">
+            <Src>Dictionary files</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="296">
+            <Src>Additional options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-01-47" Translated="2014-10-17T23-01-47" State="Validated">
+              <cur>附加选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="297">
+            <Src>Add</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-01-58" State="ForReview">
+              <cur>添加</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="298">
+            <Src>Remove</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-02-04" Translated="2014-10-17T23-02-04" State="Validated">
+              <cur>移除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="299">
+            <Src>Password mutation options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-01-19" Translated="2014-10-17T20-01-19" State="Validated">
+              <cur>密码变动选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="300">
+            <Src>Add new dictionary to the list</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-02-16" Translated="2014-10-17T23-02-16" State="Validated">
+              <cur>添加字典到列表中</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="301">
+            <Src>Remove selected dictionary from the list</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-02-23" Translated="2014-10-17T23-02-23" State="Validated">
+              <cur>移除从列表中选择的字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="302">
+            <Src>Select all dictionaries</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>选择所有字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="303">
+            <Src>Remove selection marks</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-02-31" Translated="2014-10-17T23-02-31" State="Validated">
+              <cur>移除选择标记</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="304">
+            <Src>Setup dictionaries for the dictionary attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-03-01" Translated="2014-10-17T20-03-01" State="Validated">
+              <cur>为字典攻击设定字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="305">
+            <Src>You have newest version of %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-03-51" Translated="2014-10-17T20-03-51" State="Validated">
+              <cur>你是最新的版本 %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="306">
+            <Src>Use SSE2 instructions</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>使用SSE2指令集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="307">
+            <Src>At least one dictionary file has not been found. Continue anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>至少有一个字典文件还没有被发现。要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="308">
+            <Src>The program is going to connect to ElcomSoft web site to get information about the most recent version of %s. Nothing will be sent to ElcomSoft (even your current version number). Make sure that you're online, and press 'OK' or 'Cancel' to decline.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-03-10" Translated="2014-10-17T23-03-10" State="Validated">
+              <cur>该程序要连接到ElcomSoft网站，以获取有关最新版本的%s的信息。什么都不会被发送到ElcomSoft（即使你目前的版本号）。请确保你是在线的，然后按'确定'或'取消'不连接。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="309">
+            <Src>Smart dictionary</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>智能字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="310">
+            <Src>Can't initialize none of the specified dictionaries</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-07-44" Translated="2014-10-17T20-07-44" State="Validated">
+              <cur>不能初始化指定的字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="311">
+            <Src>CPU</Src>
+            <Trg Created="2014-10-17T18-51-59"/>
+          </Vl>
+          <Vl Name="312">
+            <Src>Select an item to activate 'Start attack' button</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-09-16" Translated="2014-10-17T20-09-16" State="Validated">
+              <cur>选择一个项目来激活'开始攻击'按钮</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="313">
+            <Src>
+              <Data>Import data\n</Data>
+              <Data>Import recovery data from file</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-09-52" Translated="2014-10-17T20-09-52" State="Validated">
+              <cur>
+                <Data>导入数据\n</Data>
+                <Data>从文件中导入恢复数据</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="314">
+            <Src>Click 'Import' button to add the data you want to recover</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>点击'导入'按钮添加要恢复数据</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="315">
+            <Src>Dictionaries left:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>剩余字典：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="316">
+            <Src>MHz</Src>
+            <Trg Created="2014-10-17T18-51-59"/>
+          </Vl>
+          <Vl Name="317">
+            <Src>Up</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-03-48" Translated="2014-10-17T23-03-48" State="Validated">
+              <cur>上移</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="318">
+            <Src>Down</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-03-52" Translated="2014-10-17T23-03-52" State="Validated">
+              <cur>下移</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="319">
+            <Src>Move selected item up in the list</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-04-07" State="ForReview">
+              <cur>在列表中向上移动所选的项目</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="320">
+            <Src>Move selected item down</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>向下移动所选项目</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="321">
+            <Src>Invalid CPU utilization value. You should set at least one CPU.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-04-39" Translated="2014-10-17T23-04-39" State="Validated">
+              <cur>无效的CPU可用数值。你应该至少设置一个CPU。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="322">
+            <Src>CPU vendor</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU供应商</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="323">
+            <Src>CPU family, model, stepping</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU系列，型号，步进</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="324">
+            <Src>CPU quantity</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-05-29" Translated="2014-10-17T23-05-29" State="Validated">
+              <cur>CPU数量</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="326">
+            <Src>Waiting...</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>等待...</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="327">
+            <Src>Skipped</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>跳过</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="328">
+            <Src>Some handshakes may be missing because the file is corrupted</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-11-16" Translated="2014-10-17T20-11-16" State="Validated">
+              <cur>某些握手包可能会丢失，因为该文件已损坏</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="329">
+            <Src>Can't send request to IPC server</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法发送请求到IPC服务器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="330">
+            <Src>Can't get response from IPC server</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-12-01" Translated="2014-10-17T20-12-01" State="Validated">
+              <cur>无法获得IPC服务器的响应</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="331">
+            <Src>Can't read response</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法读取响应</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="332">
+            <Src>Service signaled that it had been unable to process the request</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-06-40" Translated="2014-10-17T23-06-40" State="Validated">
+              <cur>服务示意，它无法处理该请求</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="333">
+            <Src>Can't create IPC chat</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-13-08" Translated="2014-10-17T20-13-08" State="Validated">
+              <cur>无法建立IPC的聊天</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="334">
+            <Src>Service file was not found. Reinstall the application.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>服务文件未找到。重新安装应用程序。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="335">
+            <Src>IPC initialization failure</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-06-53" Translated="2014-10-17T23-06-53" State="Validated">
+              <cur>IPC初始化失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="336">
+            <Src>Can't load one of the necessary libraries</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-13-43" Translated="2014-10-17T20-13-43" State="Validated">
+              <cur>无法加载必要的库之一</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="337">
+            <Src>Can't open SC manager</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>SC管理器无法打开</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="338">
+            <Src>Can't start service</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法启动服务</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="339">
+            <Src>Data has not been found</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-14-10" Translated="2014-10-17T20-14-10" State="Validated">
+              <cur>没有发现数据</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="340">
+            <Src>One or more items were not read properly</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>一个或多个项目没有正确读取</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="341">
+            <Src>
+              <Data>D&amp;ump Windows WPAPSK hashes\tCtrl+U</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-08-00" Translated="2014-10-17T23-08-00" State="Validated">
+              <cur>
+                <Data>转存 Windows WPAPSK hashes(&amp;U)\tCtrl+U</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="342">
+            <Src>Dump wireless connection hashes/nDump windows hashes</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-09-13" Translated="2014-10-17T23-09-13" State="Validated">
+              <cur>转存无线连接hashes/n转存 windows hashes</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="343">
+            <Src>At least one WPA-PSK hash can not be processed due to the following reason: WPA-PSK hash slot is empty. However you can skip password guessing and view the original plaintext passwords. Proceed the decryption?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-09-57" Translated="2014-10-17T23-09-57" State="Validated">
+              <cur>至少有一个WPA-PSK的Hash无法处理，由于以下原因：WPA-PSK的Hash插槽是空的。然而，你可以跳过密码攻击和查看原始明文口令。进行解密？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="344">
+            <Src>WPA-PSK decrypted paswords</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-17-47" Translated="2014-10-17T20-17-47" State="Validated">
+              <cur>WPA-PSK解密密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="345">
+            <Src>Original decrypted WPA-PSK passwords.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-17-57" Translated="2014-10-17T20-17-57" State="Validated">
+              <cur>原始解密的WPA-PSK的密码。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="346">
+            <Src>Copy to clipboard</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>复制到剪贴板</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="347">
+            <Src>Save to file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>保存到文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="348">
+            <Src>Can't copy data to clipboard</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法将数据复制到剪贴板</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="349">
+            <Src>Passwords have been successfully copied to clipboard</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码已被成功复制到剪贴板</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="350">
+            <Src>Text files (*.txt)|*.txt|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>文本文件（*.txt）| *.txt |所有文件(*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="351">
+            <Src>CryptUnprotectData failed.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>撤消数据失败。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="352">
+            <Src>Can not parse input data.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法解析输入数据。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="353">
+            <Src>You can not dump WPA hashes because this function does not work when running from a network drive</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-11-45" Translated="2014-10-17T23-11-45" State="Validated">
+              <cur>你不能转存 WPA hashes，因为这功能无法从网络驱动器运行</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="354">
+            <Src>Administrator privileges are required. UAC must be set to allow the program to run as Administrator. Do you want to proceed anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-11-09" Translated="2014-10-17T23-11-09" State="Validated">
+              <cur>管理员权限是必需的。UAC 必须设置为允许该程序以管理员身份运行。你想继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="355">
+            <Src>This feature (dumping WPA hashes) requires Administrator privileges. Do you want to proceed anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-11-32" Translated="2014-10-17T23-11-32" State="Validated">
+              <cur>这个功能（转存 WPA hashes）需要管理员权限。你想继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="356">
+            <Src>Remove All</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>全部删除</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="357">
+            <Src>Wireless network sniffer</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无线网络嗅探器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="358">
+            <Src>Wireless sniffer</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无线嗅探器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="359">
+            <Src>Device</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="360">
+            <Src>Description</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-21-49" Translated="2014-10-17T20-21-49" State="Validated">
+              <cur>描述</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="361">
+            <Src>Channel</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-12-10" Translated="2014-10-17T23-12-10" State="Validated">
+              <cur>频道</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="362">
+            <Src>Start sniffing</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>开始嗅探</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="363">
+            <Src>Stop sniffing</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>停止嗅探</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="364">
+            <Src>Error searching for pcap devices: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-22-53" Translated="2014-10-17T20-22-53" State="Validated">
+              <cur>搜索 pcap 设备时出现错误: %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="365">
+            <Src>No devices found! Make sure your adapter is properly plugged in.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-23-13" Translated="2014-10-17T20-23-13" State="Validated">
+              <cur>无设备找到！确保你的适配器已正确插好</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="366">
+            <Src>Can't start sniffing thread. Last system error: %lu.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-23-49" Translated="2014-10-17T20-23-49" State="Validated">
+              <cur>无法启动嗅探线程。最后一个系统错误：%lu。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="367">
+            <Src>Error opening adapter: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-24-59" Translated="2014-10-17T20-24-59" State="Validated">
+              <cur>打开适配器出错： %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="368">
+            <Src>This adapter doesn't have wireless extensions.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>该适配器没有无线扩展。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="369">
+            <Src>Error setting the channel: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-29-20" Translated="2014-10-17T20-29-20" State="Validated">
+              <cur>设置频道出错: %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="370">
+            <Src>Error setting the link layer: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-26-11" Translated="2014-10-17T20-26-11" State="Validated">
+              <cur>设置链路层出错: %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="371">
+            <Src>Read %d %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-26-15" Translated="2014-10-17T20-26-15" State="Validated">
+              <cur>读取 %d %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="372">
+            <Src>Parsed %d packet(s)</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-26-54" Translated="2014-10-17T20-26-54" State="Validated">
+              <cur>解析 %d 个数据包(s)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="373">
+            <Src>Error setting MAC Frame Check: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-27-31" Translated="2014-10-17T20-27-31" State="Validated">
+              <cur>设置 MAC 帧校验出错: %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="374">
+            <Src>Accept correct frames only</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>只接受正确的帧</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="375">
+            <Src>Error setting frame control validation: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-28-24" Translated="2014-10-17T20-28-24" State="Validated">
+              <cur>设置帧控制验证出错： %s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="376">
+            <Src>All Channels</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>所有频道</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="377">
+            <Src>Error reading the packets:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-28-50" Translated="2014-10-17T20-28-50" State="Validated">
+              <cur>读取数据包出错：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="378">
+            <Src>Sorry, the %s of the program allows using 2 CPU cores only.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-30-30" Translated="2014-10-17T20-30-30" State="Validated">
+              <cur>很抱歉，%s 的程序只允许使用 2 个 CPU 内核。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="379">
+            <Src>current edition</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>当前版本</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="380">
+            <Src>demo version</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>演示版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="381">
+            <Src>Sorry, the %s of the program does not support Tableau accelerators.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-31-33" Translated="2014-10-17T20-31-33" State="Validated">
+              <cur>很抱歉，%s 的程序不支持Tableau加速器。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="382">
+            <Src>Sorry, the %s of the program supports 1 accelerator only.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-32-08" Translated="2014-10-17T20-32-08" State="Validated">
+              <cur>很抱歉，%s 的程序只支持 1 个加速器。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="383">
+            <Src>Can not find one of the winpcap libraries. Please, reinstall the application.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>找不到WinPcap链接库。请重新安装该应用程序。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="384">
+            <Src>Failed to start the MasterThread:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法启动主线程：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="385">
+            <Src>can't create or start one of the working threads</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-32-24" Translated="2014-10-17T20-32-24" State="Validated">
+              <cur>不能创建或启动工作线程</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="386">
+            <Src>initialization error</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>初始化错误</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="387">
+            <Src>Beacons</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-32-34" State="ForReview">
+              <cur>信标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="388">
+            <Src>Data</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>数据</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="389">
+            <Src>Power</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-33-00" Translated="2014-10-17T20-33-00" State="Validated">
+              <cur>功率</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="390">
+            <Src>Detect networks</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>检测网络</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="391">
+            <Src>Access Points</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>接入点</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="392">
+            <Src>Stop detect</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>停止检测</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="393">
+            <Src>Wireless listener is in progress</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-33-30" Translated="2014-10-17T20-33-30" State="Validated">
+              <cur>无线侦听正在进行</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="394">
+            <Src>Stop detect</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>停止检测</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="395">
+            <Src>Stations</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-34-17" Translated="2014-10-17T20-34-17" State="Validated">
+              <cur>站点</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="396">
+            <Src>Encryption</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>加密</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="397">
+            <Src>Station</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-34-22" Translated="2014-10-17T20-34-22" State="Validated">
+              <cur>站点</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="398">
+            <Src>Speed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>速度</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="399">
+            <Src>Packets</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>包</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="400">
+            <Src>You should set at least one CPU core or an Accelerator to proceed the decryption</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>你应该设置至少一个CPU核心或加速器进行解密</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="401">
+            <Src>Sorry, this feature available in PRO edition only.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-34-37" Translated="2014-10-17T20-34-37" State="Validated">
+              <cur>很抱歉，此功能仅适用于专业版。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="402">
+            <Src>Single word attack options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-35-11" Translated="2014-10-17T20-35-11" State="Validated">
+              <cur>单个单词攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="403">
+            <Src>Probable password</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>可能的密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="404">
+            <Src>Password settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="405">
+            <Src>Enter your probable password here</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-36-42" Translated="2014-10-17T20-36-42" State="Validated">
+              <cur>这里输入你可能的密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="406">
+            <Src>Turn on this option if you want to check all possible case combinations only</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-40-42" Translated="2014-10-17T20-40-42" State="Validated">
+              <cur>打开此选项，如果你想要检查所有可能情况的组合</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="407">
+            <Src>The single word attack assumes that you know the original word the password was created from. Enter the word here. The program will try all possible combinations and mutations of the word.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-13-50" Translated="2014-10-17T23-13-50" State="Validated">
+              <cur>单个单词攻击假设你知道原来创建密码的那个单词。请在这里输入这个单词。该程序将尝试所有可能的组合和单词的变动。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="408">
+            <Src>Enter your registration code to update current edition to PRO</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-41-01" Translated="2014-10-17T20-41-01" State="Validated">
+              <cur>输入你的注册码升级到专业版</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="409">
+            <Src>free trial</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>免费试用</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="410">
+            <Src>standard</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>标准</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="411">
+            <Src>Please note that you're using %s version of the product, and though it allows to run the network sniffer, but you will not be able to import handshakes into the program (for further recovery); that feature is available in professional edition only.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-46-18" Translated="2014-10-17T20-46-18" State="Validated">
+              <cur>请注意你正在使用 %s 版本的产品，虽然它允许运行网络嗅探器，但你将无法将把握手包导入程序（用于进一步恢复）；该功能仅限专业版中可用。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="412">
+            <Src>AirPcap adapter was not detected in your system</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-46-34" Translated="2014-10-17T20-46-34" State="Validated">
+              <cur>在你的系统中未检测到 AirPcap 适配器</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="413">
+            <Src>Please select a device first</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>请首先选择一个设备</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="414">
+            <Src>select one to proceed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-47-24" Translated="2014-10-17T20-47-24" State="Validated">
+              <cur>选择一个继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="415">
+            <Src>Deauthenticate client when sniffing (select one from the list below)</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-58-44" Translated="2014-10-17T20-58-44" State="Validated">
+              <cur>嗅探时要解除认证的客户端 （从下面的列表中选择一个）</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="416">
+            <Src>Retry count</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>重试次数</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="417">
+            <Src>No active clients were detected, the program will try to deauthenticate all stations. Do you want to proceed?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-58-46" Translated="2014-10-17T20-58-46" State="Validated">
+              <cur>没有检测到活动的客户端，该程序将尝试所有站点的解除认证。你要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="418">
+            <Src>You select no client to deauthenticate. Do you want to deauthenticate all stations? Note that the deauthentication is a bit effective when targeting a connected client.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-58-47" Translated="2014-10-17T20-58-47" State="Validated">
+              <cur>你选择没有客户端的解除认证。你想要破解所有站点的认证吗？请注意当定位有客户端连接时解除认证比较有效率。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="419">
+            <Src>Deauthentication failed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-58-47" Translated="2014-10-17T20-58-47" State="Validated">
+              <cur>解除认证失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="420">
+            <Src>Sending deauthentication message, %ld tries left</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-00-59" Translated="2014-10-17T21-00-59" State="Validated">
+              <cur>发送解除认证消息，还有 %ld 尝试</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="421">
+            <Src>Dictionary Attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="422">
+            <Src>
+              <Data>Word Attack\tCtrl+2</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T20-48-48" Translated="2014-10-17T20-48-48" State="Validated">
+              <cur>
+                <Data>单词攻击\tCtrl+2</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="423">
+            <Src>Change all possible case combinations only</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-01-30" Translated="2014-10-17T21-01-30" State="Validated">
+              <cur>更改所有可能的情况组合</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="424">
+            <Src>Words total:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-14-21" Translated="2014-10-17T23-14-21" State="Validated">
+              <cur>单词总数：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="425">
+            <Src>Words left:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-14-34" Translated="2014-10-17T23-14-34" State="Validated">
+              <cur>单词剩余：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="426">
+            <Src>You should setup word attack options first</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-02-43" Translated="2014-10-17T21-02-43" State="Validated">
+              <cur>你应该先设置单词攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="427">
+            <Src>The password has not been found.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-03-01" Translated="2014-10-17T21-03-01" State="Validated">
+              <cur>密码没有找到。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="428">
+            <Src>Mask attack options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-03-22" Translated="2014-10-17T21-03-22" State="Validated">
+              <cur>掩码攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="429">
+            <Src>Password mask</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-03-32" Translated="2014-10-17T21-03-32" State="Validated">
+              <cur>密码掩码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="430">
+            <Src>Custom charsets</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>自定义字符集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="431">
+            <Src>Mask:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-03-44" Translated="2014-10-17T21-03-44" State="Validated">
+              <cur>掩码：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="432">
+            <Src>Passwords total:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-06-24" Translated="2014-10-17T21-06-24" State="Validated">
+              <cur>密码总数：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="433">
+            <Src>Password range:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码范围：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="434">
+            <Src>Total passwords:</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-05-35" Translated="2014-10-17T21-05-35" State="Validated">
+              <cur>总的密码数：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="435">
+            <Src>Type in your password generation mask here</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-07-12" Translated="2014-10-17T21-07-12" State="Validated">
+              <cur>在这里键入你的密码生成掩码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="436">
+            <Src>You can set your own character sets here</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-07-51" Translated="2014-10-17T21-07-51" State="Validated">
+              <cur>在这里设置你自己的字符集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="437">
+            <Src>
+              <Data>Mask Attack\tCtrl+3</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-07-57" Translated="2014-10-17T21-07-57" State="Validated">
+              <cur>
+                <Data>掩码攻击\tCtrl +3</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="438">
+            <Src>
+              <Data>??\t\t\t- single ? character\n</Data>
+              <Data>?c\t\t\t- small Latin character (a..z)\n</Data>
+              <Data>?C\t\t\t- capital Latin character (A..Z)\n</Data>
+              <Data>?$\t\t\t- a symbol from small special charset\n</Data>
+              <Data>?@\t\t\t- a symbol from full special charset\n</Data>
+              <Data>?#\t\t\t- a symbol from all printable range\n</Data>
+              <Data>?d[(min-max)]\t\t- a digit or a number from min to max\n</Data>
+              <Data>?1..9[(min-max)]\t- a brute-force range (min to max length) using user defined charset 1..9</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-17-01" Translated="2014-10-17T23-17-01" State="Validated">
+              <cur>
+                <Data>??\t\t\t- 单个 ? 字符\n</Data>
+                <Data>?c\t\t\t- 小写拉丁字符 (a..z)\n</Data>
+                <Data>?C\t\t\t- 大写拉丁字符 (A..Z)\n</Data>
+                <Data>?$\t\t\t- 小型的特殊字符集的一个符号\n</Data>
+                <Data>?@\t\t\t- 完整的特殊字符集的一个符号\n</Data>
+                <Data>?#\t\t\t- 所有可打印字符范围的一个符号\n</Data>
+                <Data>?d[(min-max)]\t\t- 一位数字或从最小到最大个数字\n</Data>
+                <Data>?1..9[(min-max)]\t- 一个强制范围（最小到最大长度）使用用户定义的字符集 1..9</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="439">
+            <Src>You are allowed 10 custom character sets only. Please, remove unnecessary one.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-17-21" Translated="2014-10-17T21-17-21" State="Validated">
+              <cur>你只被允许 10 个自定义字符设置。请删除不必要的。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="440">
+            <Src>input data is invalid</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>输入的数据无效</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="441">
+            <Src>invalid rule or syntax</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-17-49" State="ForReview">
+              <cur>无效的规则或语法</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="442">
+            <Src>data is out of range</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>数据超出范围</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="443">
+            <Src>memory allocation failure</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>内存分配失败</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="444">
+            <Src>no mask set</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-17-29" Translated="2014-10-17T23-17-29" State="Validated">
+              <cur>无掩码集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="445">
+            <Src>invalid ranges</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无效的范围</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="446">
+            <Src>invalid range size</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无效的范围大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="447">
+            <Src>Add new character set</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>添加新的字符集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="448">
+            <Src>Provide your own character set here</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-18-31" Translated="2014-10-17T21-18-31" State="Validated">
+              <cur>在这里提供你自己的字符集</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="449">
+            <Src>The program removed some duplicates characters of the charset. Check it, please.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-19-07" Translated="2014-10-17T21-19-07" State="Validated">
+              <cur>程序删除了一些重复字符的字符集。请检查。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="450">
+            <Src>You should setup mask attack options first</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-19-18" Translated="2014-10-17T21-19-18" State="Validated">
+              <cur>你应该先设置掩码攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="451">
+            <Src>Cannot init mask syntax parser: %s.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-19-39" State="ForReview">
+              <cur>不能初始化掩码语法分析器： %s。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="452">
+            <Src>Combined dictionary attack options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-20-13" Translated="2014-10-17T21-20-13" State="Validated">
+              <cur>组合字典攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="453">
+            <Src>Source wordlists</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>源词表</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="454">
+            <Src>Password generation rules</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>密码生成规则</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="455">
+            <Src>Check upper- and lower-case combination</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>检查大写和小写组合</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="456">
+            <Src>Use word delimiters</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-20-37" Translated="2014-10-17T21-20-37" State="Validated">
+              <cur>使用单词分隔符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="457">
+            <Src>Use extra mutations (time consumptive)</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-17-43" Translated="2014-10-17T23-17-43" State="Validated">
+              <cur>使用额外的变动（耗时)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="458">
+            <Src>Light</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>轻</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="459">
+            <Src>Standard</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>标准</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="460">
+            <Src>Heavy</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>重</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="461">
+            <Src>Combined dictionary attack generates all possible two-word password combinations from input dictionaries. You can also set additional options to check lower and upper case combinations, word delimiters, perform extra mutation for output passwords.</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-19-32" Translated="2014-10-17T23-19-32" State="Validated">
+              <cur>组合字典攻击从输入字典生成所有可能的两个单词密码的组合。你还可以设置附加选项来检查小写和大写形式组合，单词分隔符，为输出密码执行额外的变动。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="462">
+            <Src>Dictionary 1</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典1</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="463">
+            <Src>Dictionary 2</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典2</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="464">
+            <Src>Edit mutations</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-21-47" Translated="2014-10-17T21-21-47" State="Validated">
+              <cur>编辑变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="465">
+            <Src>At least one of the dictionaries was not set or not found</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-22-00" Translated="2014-10-17T21-22-00" State="Validated">
+              <cur>至少有一字典未设置或者未找到</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="466">
+            <Src>Setup at least one delimiter character</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-22-08" Translated="2014-10-17T21-22-08" State="Validated">
+              <cur>设置至少一个分隔符</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="467">
+            <Src>
+              <Data>Combination Attack\tCtrl+4</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>组合攻击\tCtrl+4</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="468">
+            <Src>You should setup combination attack options first</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-25-13" State="ForReview">
+              <cur>你应该先设置组合攻击选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="469">
+            <Src>Word Attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-25-26" Translated="2014-10-17T21-25-26" State="Validated">
+              <cur>单词攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="470">
+            <Src>Mask Attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-25-31" Translated="2014-10-17T21-25-31" State="Validated">
+              <cur>掩码攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="471">
+            <Src>Combination Attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>组合攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="472">
+            <Src>The program has successfully found and decrypted %d wireless password(s)</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-27-24" Translated="2014-10-17T21-27-24" State="Validated">
+              <cur>该程序已经成功地发现和解密％d个无线密码(s)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="473">
+            <Src>You should add at list one dictionary</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>你应该至少添加一个词典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="474">
+            <Src>You should set a word in order to proceed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-28-21" Translated="2014-10-17T21-28-21" State="Validated">
+              <cur>你应该设置一个单词以便继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="475">
+            <Src>You should set up a valid mask in order to proceed</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-28-19" Translated="2014-10-17T21-28-19" State="Validated">
+              <cur>你应该建立一个有效的掩码以便继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="476">
+            <Src>Autosave attack progress every (minutes):</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-28-50" Translated="2014-10-17T21-28-50" State="Validated">
+              <cur>自动保存攻击进程每隔（分钟）：</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="477">
+            <Src>Autosave</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>自动保存</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="478">
+            <Src>Logging</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T22-10-48" Translated="2014-10-17T22-10-48" State="Validated">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="479">
+            <Src>Hybrid options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-29-07" State="ForReview">
+              <cur>混合选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="480">
+            <Src>Dictionaries</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>字典</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="481">
+            <Src>Rule files</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>规则文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="482">
+            <Src>Rules hint</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-29-20" Translated="2014-10-17T21-29-20" State="Validated">
+              <cur>规则提示</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="483">
+            <Src>Hybrid Attack</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>混合攻击</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="484">
+            <Src>Add file with rules</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-20-12" Translated="2014-10-17T23-20-12" State="Validated">
+              <cur>添加规则文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="485">
+            <Src>Remove selected rules file from the list</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>从列表中删除选定的规则文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="486">
+            <Src>You should setup at least one rule file in order to continue</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-29-47" Translated="2014-10-17T21-29-47" State="Validated">
+              <cur>你应该设置至少一个规则文件以便继续</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="487">
+            <Src>There were errors parsing %s, do you want to proceed anyway?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-30-04" Translated="2014-10-17T21-30-04" State="Validated">
+              <cur>解析%s出错，你要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="488">
+            <Src>Can't parse rules: %s</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法解析规则：%s</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="489">
+            <Src>no more items available</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-20-31" Translated="2014-10-17T23-20-31" State="Validated">
+              <cur>没有更多可用的项目</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="490">
+            <Src>can't read rules file</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>无法读取规则文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="491">
+            <Src>Rule files (*.rul)|*.rul|All files (*.*)|*.*||</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>规则文件 (*.rul)|*.rul|所有文件 (*.*)|*.*||</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="492">
+            <Src>
+              <Data>Hybrid Attack\tCtrl+5</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>混合攻击\tCtrl+5</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="493">
+            <Src>Initial word mutation</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-20-53" Translated="2014-10-17T23-20-53" State="Validated">
+              <cur>初始化密码变动</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="494">
+            <Src>Mutating long passwords may take some time. Do you want to continue?</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-32-56" Translated="2014-10-17T21-32-56" State="Validated">
+              <cur>变动长密码，可能需要一些时间。你要继续吗？</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32771">
+            <Src>
+              <Data>Help topics\n</Data>
+              <Data>Run the program's help</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-33-17" Translated="2014-10-17T21-33-17" State="Validated">
+              <cur>
+                <Data>帮助主题\n</Data>
+                <Data>运行该程序的帮助</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32773">
+            <Src>Logging</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-34-11" Translated="2014-10-17T21-34-11" State="Validated">
+              <cur>日志</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32775">
+            <Src>
+              <Data>Import PSPR log file\n</Data>
+              <Data>Import</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-21-25" Translated="2014-10-17T23-21-25" State="Validated">
+              <cur>
+                <Data>导入 PSPR 日志文件\n</Data>
+                <Data>导入</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32780">
+            <Src>
+              <Data>Import Tcpdump log file into the program\n</Data>
+              <Data>Import tcpdump binary log file</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-21-52" Translated="2014-10-17T23-21-52" State="Validated">
+              <cur>
+                <Data>导入 Tcpdump 日志文件到本程序\n</Data>
+                <Data>导入 tcpdump 二进制日志文件</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32782">
+            <Src>
+              <Data>Import PSPR text log file into the program\n</Data>
+              <Data>Import PSPR log file</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-00" Translated="2014-10-17T23-22-00" State="Validated">
+              <cur>
+                <Data>导入 PSPR 文本日志文件到本程序\n</Data>
+                <Data>导入 PSPR 日志文件</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32784">
+            <Src>Mutation options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-36-41" Translated="2014-10-17T21-36-41" State="Validated">
+              <cur>变动选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32787">
+            <Src>
+              <Data>Start attack\n</Data>
+              <Data>Start recovery</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-36-51" State="ForReview">
+              <cur>
+                <Data>开始攻击\n</Data>
+                <Data>开始恢复</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32788">
+            <Src>
+              <Data>Pause attack\n</Data>
+              <Data>Stop current attack</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-37-54" Translated="2014-10-17T21-37-54" State="Validated">
+              <cur>
+                <Data>暂停攻击\n</Data>
+                <Data>停止当前攻击</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32789">
+            <Src>
+              <Data>Add new WPA-PSK hash manually\n</Data>
+              <Data>Add new WPA-PSK hash manually</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-11" Translated="2014-10-17T23-22-11" State="Validated">
+              <cur>
+                <Data>手动添加新的 WPA-PSK Hash\n</Data>
+                <Data>手动添加新的 WPA-PSK Hash</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32790">
+            <Src>CPU options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>CPU 选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32791">
+            <Src>GPU options</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>GPU 选项</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32794">
+            <Src>Enter the registration code</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>输入注册码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32796">
+            <Src>Buy the program online</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-40-54" Translated="2014-10-17T21-40-54" State="Validated">
+              <cur>在线购买程序</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32798">
+            <Src>Open EWSA web page</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开EWSA网页</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32799">
+            <Src>FAQ</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>常见问题</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32800">
+            <Src>Send bug report</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>发送错误报告</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32801">
+            <Src>Suggest new feature</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-40-34" Translated="2014-10-17T21-40-34" State="Validated">
+              <cur>建议新的功能</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32802">
+            <Src>
+              <Data>Check for updates\n</Data>
+              <Data>Check Elcomsoft Web site for new version of the program</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>检查更新\n</Data>
+                <Data>请检查Elcomsoft Web站点程序的新版本</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32803">
+            <Src>Purchase online</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>在线购买</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32804">
+            <Src>Enter registration code</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>输入注册码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32805">
+            <Src>
+              <Data>Remove selected item\n</Data>
+              <Data>Remove selected item from the recovery list</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-42-33" Translated="2014-10-17T21-42-33" State="Validated">
+              <cur>
+                <Data>删除选定的项目\n</Data>
+                <Data>从恢复列表中删除选定的项目</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32806">
+            <Src>
+              <Data>Import Tamos CommView log file\n</Data>
+              <Data>Import CommView log</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-35" Translated="2014-10-17T23-22-35" State="Validated">
+              <cur>
+                <Data>导入 Tamos CommView 日志文件\n</Data>
+                <Data>导入 CommView日志</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32903">
+            <Src>
+              <Data>&amp;New Project\tCtrl+N</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-43-03" Translated="2014-10-17T21-43-03" State="Validated">
+              <cur>
+                <Data>新建项目(&amp;N)\tCtrl+N</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32904">
+            <Src>
+              <Data>&amp;Open Project\tCtrl+O</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-43-09" Translated="2014-10-17T21-43-09" State="Validated">
+              <cur>
+                <Data>打开项目(&amp;O)\tCtrl+O</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32905">
+            <Src>
+              <Data>&amp;Save\tCtrl+S</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-43-15" Translated="2014-10-17T21-43-15" State="Validated">
+              <cur>
+                <Data>保存(&amp;S)\tCtrl+S</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32906">
+            <Src>
+              <Data>Save &amp;As\tCtrl+A</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-43-22" Translated="2014-10-17T21-43-22" State="Validated">
+              <cur>
+                <Data>另存为(&amp;A)\tCtrl+A</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32907">
+            <Src>
+              <Data>Import &amp;TCPDUMP File\tCtrl+T</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-52" Translated="2014-10-17T23-22-52" State="Validated">
+              <cur>
+                <Data>导入 &amp;Tcpdump 文件\tCtrl+T</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32908">
+            <Src>
+              <Data>Import &amp;PSPR Log\tCtrl+P</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-54" Translated="2014-10-17T23-22-54" State="Validated">
+              <cur>
+                <Data>导入 &amp;PSPR 日志\tCtrl+P</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32909">
+            <Src>
+              <Data>Import Comm&amp;View Log\tCtrl+V</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-22-57" Translated="2014-10-17T23-22-57" State="Validated">
+              <cur>
+                <Data>导入 Comm&amp;View 日志\tCtrl+V</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32910">
+            <Src>
+              <Data>Add WPAPSK Hash &amp;Manually\tCtrl+W</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T23-23-07" Translated="2014-10-17T23-23-07" State="Validated">
+              <cur>
+                <Data>手动添加 WPAPSK Hash(&amp;m)\tCtrl+W</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32912">
+            <Src>
+              <Data>E&amp;xit\tCtrl+X</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-45-27" Translated="2014-10-17T21-45-27" State="Validated">
+              <cur>
+                <Data>退出(&amp;x)\tCtrl+X</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32913">
+            <Src>
+              <Data>Start &amp;Recovery\tCtrl+R</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-48-11" Translated="2014-10-17T21-48-11" State="Validated">
+              <cur>
+                <Data>启动恢复(&amp;R)\tCtrl+R</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32914">
+            <Src>
+              <Data>Pause Recovery\tCtrl+Z</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-48-16" Translated="2014-10-17T21-48-16" State="Validated">
+              <cur>
+                <Data>暂停恢复\tCtrl+Z</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32915">
+            <Src>
+              <Data>&amp;Delete Selected Item\tCtrl+D</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-46-51" Translated="2014-10-17T21-46-51" State="Validated">
+              <cur>
+                <Data>删除选中的项目(&amp;D)\tCtrl+D</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32916">
+            <Src>
+              <Data>&amp;CPU Options\tCtrl+C</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-47-01" Translated="2014-10-17T21-47-01" State="Validated">
+              <cur>
+                <Data>CPU 选项(&amp;C)\tCtrl+C</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32917">
+            <Src>
+              <Data>&amp;GPU Options\tCtrl+G</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-47-30" Translated="2014-10-17T21-47-30" State="Validated">
+              <cur>
+                <Data>GPU 选项(&amp;G)\tCtrl+G</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32918">
+            <Src>
+              <Data>D&amp;ictionary Options\tCtrl+I</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-48-52" Translated="2014-10-17T21-48-52" State="Validated">
+              <cur>
+                <Data>字典选项(&amp;i)\tCtrl+I</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32919">
+            <Src>
+              <Data>Wireless Network Sni&amp;ffer\tCtrl+F</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-49-11" Translated="2014-10-17T21-49-11" State="Validated">
+              <cur>
+                <Data>无线网络嗅探(&amp;f)\tCtrl+F</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32920">
+            <Src>
+              <Data>Password &amp;Mutation Options\tCtrl+M</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-49-45" Translated="2014-10-17T21-49-45" State="Validated">
+              <cur>
+                <Data>密码变动选项(&amp;M)\tCtrl+M</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32922">
+            <Src>
+              <Data>&amp;Logging Options\tCtrl+L</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-50-19" Translated="2014-10-17T21-50-19" State="Validated">
+              <cur>
+                <Data>日志选项(&amp;L)\tCtrl+L</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32923">
+            <Src>
+              <Data>Attack &amp;Options\tF9</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-50-37" Translated="2014-10-17T21-50-37" State="Validated">
+              <cur>
+                <Data>攻击选项(&amp;O)\tF9</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32924">
+            <Src>
+              <Data>Help Contents\tF1</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>帮助内容\tF1</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32928">
+            <Src>Word Attack Settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-50-49" Translated="2014-10-17T21-50-49" State="Validated">
+              <cur>单词攻击设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32935">
+            <Src>Mask Attack Settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-51-05" State="ForReview">
+              <cur>掩码攻击设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32939">
+            <Src>Combination Attack Settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>组合攻击设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32944">
+            <Src>Attack Settings</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-52-35" State="ForReview">
+              <cur>攻击设置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="32948">
+            <Src>
+              <Data>Genera&amp;l Options\t Ctrl+L</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-51-47" Translated="2014-10-17T21-51-47" State="Validated">
+              <cur>
+                <Data>常规选项(&amp;l)\t Ctrl+L</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57344">
+            <Src>Elcomsoft Wireless Security Auditor</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-58-13"/>
+          </Vl>
+          <Vl Name="57345">
+            <Src>Ready</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>就绪</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57600">
+            <Src>
+              <Data>New project\n</Data>
+              <Data>Create new project</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>新项目\n</Data>
+                <Data>新建项目</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57601">
+            <Src>
+              <Data>Open project\n</Data>
+              <Data>Open an existing project</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>打开项目\n</Data>
+                <Data>打开一个现有的项目</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57602">
+            <Src>
+              <Data>Close the active document\n</Data>
+              <Data>Close</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>关闭活动文档\n</Data>
+                <Data>关闭</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57603">
+            <Src>
+              <Data>Save project\n</Data>
+              <Data>Save current project</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-52-41" Translated="2014-10-17T21-52-41" State="Validated">
+              <cur>
+                <Data>保存项目\n</Data>
+                <Data>保存当前项目</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57604">
+            <Src>
+              <Data>Save the active document with a new name\n</Data>
+              <Data>Save As</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-54-47" State="ForReview">
+              <cur>
+                <Data>用新名称保存活动文档\n</Data>
+                <Data>另存为</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57616">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57617">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57618">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57619">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57620">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57621">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57622">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57623">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57624">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57625">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57626">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57627">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57628">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57629">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57630">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57631">
+            <Src>Open this document</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>打开此文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57664">
+            <Src>
+              <Data>Display program information, version number and copyright\n</Data>
+              <Data>About</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>显示程序信息，版本号和版权\n</Data>
+                <Data>关于</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="57665">
+            <Src>
+              <Data>Quit the application; prompts to save documents\n</Data>
+              <Data>Exit</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-55-24" Translated="2014-10-17T21-55-24" State="Validated">
+              <cur>
+                <Data>退出应用程序；提示用户保存文档\n</Data>
+                <Data>退出</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="59392">
+            <Src>
+              <Data>Show or hide the toolbar\n</Data>
+              <Data>Toggle ToolBar</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>
+                <Data>显示或隐藏工具栏\n</Data>
+                <Data>切换工具栏</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="59393">
+            <Src>
+              <Data>Show or hide the status bar\n</Data>
+              <Data>Toggle StatusBar</Data>
+            </Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-55-53" Translated="2014-10-17T21-55-53" State="Validated">
+              <cur>
+                <Data>显示或隐藏状态栏\n</Data>
+                <Data>切换状态栏</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61184">
+            <Src>Change the window size</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>更改窗口大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61185">
+            <Src>Change the window position</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>更改窗口位置</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61186">
+            <Src>Reduce the window to an icon</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-56-11" State="ForReview">
+              <cur>将窗口缩小为一个图标</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61187">
+            <Src>Enlarge the window to full size</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-57-27" State="ForReview">
+              <cur>将窗口放大到全尺寸</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61188">
+            <Src>Switch to the next document window</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>切换到下一个文档窗口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61189">
+            <Src>Switch to the previous document window</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>切换到前一个文档窗口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61190">
+            <Src>Close the active window and prompts to save the documents</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T21-57-37" State="ForReview">
+              <cur>关闭活动窗口并提示保存文档</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61202">
+            <Src>Restore the window to normal size</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>恢复到正常大小的窗口</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="61203">
+            <Src>Activate Task List</Src>
+            <Trg Created="2014-10-17T18-51-59" Changed="2014-10-17T18-54-37" State="ForReview">
+              <cur>激活任务列表</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="English.lng" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
+          <LangID>9</LangID>
+        </LanguagesToExtract>
+        <TargetEncoding>
+          <Item Index="0" LangID="-1" Enabled="1"/>
+        </TargetEncoding>
+        <Template Type="Default" ClassID="DKLANG"/>
+        <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" IgnoreEncodingErrors="1"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile Parser=""/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2014-10-17T18-51-28"/>
+          <ChangedTo Enabled="0" Value="2014-10-17T18-51-28"/>
+          <TranslatedFrom Enabled="0" Value="2014-10-17T18-51-28"/>
+          <TranslatedTo Enabled="0" Value="2014-10-17T18-51-28"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <DeletedStrings>
+      <Header>
+        <Languages/>
+        <Info>
+          <CreatedBy Date="2014-10-17T18-51-24">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
+          <ModifiedBy Date="2014-10-17T18-51-24">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+          <Author/>
+          <Organization/>
+          <Comment/>
+          <WebSite/>
+          <ContactEMail/>
+          <Copyright/>
+          <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="0" AutoIncrementBuildNumber="1"/>
+        </Info>
+      </Header>
+      <CheckSettings>
+        <AutoCheck>
+          <BeforeTargetGeneration>0</BeforeTargetGeneration>
+          <WhenChanged>0</WhenChanged>
+          <AfterProjectLoading>0</AfterProjectLoading>
+        </AutoCheck>
+        <Settings>
+          <Checker Name="PrintF" Enabled="1"/>
+          <Checker Name="InvalidSymbols" Enabled="1"/>
+          <Checker Name="MissingSymbol" Enabled="1">
+            <CharsToCheckMissing IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">©®-+=_;:&lt;&gt;()[]{}/\?!*#@%&amp;¤~^|</CharsToCheckMissing>
+          </Checker>
+          <Checker Name="EmptyTargetString" Enabled="1"/>
+          <Checker Name="EmptySourceString" Enabled="1"/>
+          <Checker Name="EmptyTMString" Enabled="0"/>
+          <Checker Name="Tabulators" Enabled="1"/>
+          <Checker Name="Spaces" Enabled="1"/>
+          <Checker Name="SpellingError" Enabled="0"/>
+          <Checker Name="TextTooLong" Enabled="1"/>
+          <Checker Name="IgnoreErrorReplication" Enabled="1"/>
+          <Checker Name="DoNotCheckDeleted" Enabled="1"/>
+          <Checker Name="TargetAccelKey" Enabled="1"/>
+          <Checker Name="SourceAccelKey" Enabled="1"/>
+          <Checker Name="InvalidAccelKey" Enabled="1"/>
+          <Checker Name="MenuAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="DialogAccelKeyDuplicat" Enabled="1"/>
+          <Checker Name="TextDoesntFit" Enabled="1"/>
+          <Checker Name="ControlOverlaps" Enabled="1"/>
+          <Checker Name="ControlOutOfBorder" Enabled="1"/>
+          <Checker Name="InvalidAccelerator" Enabled="1"/>
+          <Checker Name="DuplicateAccelerator" Enabled="1"/>
+          <Checker Name="InvalidImage" Enabled="1"/>
+          <Checker Name="InconsistentImageSize" Enabled="1"/>
+          <Checker Name="InconsistentBPP" Enabled="1"/>
+          <Checker Name="InvalidPlurals" Enabled="1"/>
+        </Settings>
+      </CheckSettings>
+      <ImportSettings Current="CSVFile">
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+      </ImportSettings>
+      <ExportSettings Current="CSVFile">
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+      </ExportSettings>
+      <ReportOptions>
+        <PageOptions>
+          <Orientation>0</Orientation>
+          <PaperWidth>2100</PaperWidth>
+          <PaperHeight>2970</PaperHeight>
+          <LeftMargin>10</LeftMargin>
+          <TopMargin>10</TopMargin>
+          <RightMargin>10</RightMargin>
+          <BottomMargin>10</BottomMargin>
+          <PaperSize>9</PaperSize>
+        </PageOptions>
+        <LangIDList/>
+        <Header Value="1"/>
+        <Errors Value="1"/>
+      </ReportOptions>
+      <IDESettings FocusedValueID="" SortDirection="0" SortedColumnIndex="0">
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+        <Column Width="-1" Position="-1" Visible="1"/>
+      </IDESettings>
+      <TMDuplicates IgnoreCase="1" DeleteRowsWithIdenticalCells="1">
+        <CharsToIgnore IncludeSpace="0" IncludeControlChars="0" IncludeChars="1">&amp;_</CharsToIgnore>
+        <CharsToIgnoreInBeginningAndEnd IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_,.;:&lt;&gt;()[]{}/\?!*#@%¤~^|</CharsToIgnoreInBeginningAndEnd>
+      </TMDuplicates>
+      <Items/>
+    </DeletedStrings>
+  </Project>
+</RadialixLocalizerProject>

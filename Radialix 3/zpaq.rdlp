@@ -2,7 +2,7 @@
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{C4113F28-D28E-4111-A7BF-8D4C13CF63E7}"/>
   <IDESettings ProjectItemPath="0.zpaq.lng (zpaq_chs.lng)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="(default).1114" SortDirection="0" SortedColumnIndex="-1"/>
+    <StringTableSettings FocusedValueID="(default).5010" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2015-09-26T02-42-34">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
-      <ModifiedBy Date="2016-03-23T14-57-30">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <ModifiedBy Date="2017-06-13T16-05-57">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="7" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="30" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <File Name="D:\PortableApps\TotalCommanderPortable\App\Plugins\wcx\zpaq\zpaq.lng" Parser="TxtFile" DateTimeStamp="4676066722786471032" FileSize="10562">
+    <File Name="D:\PortableApps\TotalCommanderPortable\App\Plugins\wcx\zpaq\zpaq.lng" Parser="TxtFile" DateTimeStamp="4676103110239347161" FileSize="37065">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -973,7 +973,7 @@
       </ExportSettings>
       <EmbeddedFiles/>
       <ResourceType New="1" Name="STRINGS" Class="">
-        <Resource Name="(default)" Comment="zpaq language file - should always be UTF-8!&#13;FontSize can be set to between 8 and 11&#13; you may edit the default language" New="1">
+        <Resource Name="(default)" Comment="zpaq language file - should always be UTF-8!&#13;FontSize can be set to between 8 and 11&#13; you may edit the default language&#13; you may use any characters in the section names">
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
@@ -1110,6 +1110,24 @@
               <cur>不要标记最后更新中找到的文件为删除</cur>
             </Trg>
           </Vl>
+          <Vl Name="206">
+            <Src CodePage="65001">Block size</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T13-59-25" State="ForReview">
+              <cur>块大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="207">
+            <Src CodePage="65001">Use default size</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T13-59-31" State="ForReview">
+              <cur>使用默认大小</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="208">
+            <Src CodePage="65001">Always store full paths</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-00-01" Translated="2016-12-25T14-00-01" State="Validated">
+              <cur>总是存储完整路径</cur>
+            </Trg>
+          </Vl>
           <Vl Name="210">
             <Src CodePage="65001">List / decompress</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-09-26T02-51-32" State="ForReview">
@@ -1153,16 +1171,22 @@
               <cur>隐藏空档案版本</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="217">
+          <Vl Name="217">
             <Src CodePage="65001">Show the default archive view in extra dir</Src>
             <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-53-51" Translated="2016-03-23T14-53-51" State="Validated">
               <cur>在附加目录显示默认存档视图</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="218">
+          <Vl Name="218">
             <Src CodePage="65001">Include deleted files</Src>
             <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-54-16" Translated="2016-03-23T14-54-16" State="Validated">
               <cur>包括删除的文件</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="219">
+            <Src CodePage="65001">Show dir for customizable "-until" archive view</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T02-28-01" Translated="2017-03-18T02-28-01" State="Validated">
+              <cur>为可自定义的 "-until" 存档视图显示目录</cur>
             </Trg>
           </Vl>
           <Vl Name="220">
@@ -1195,10 +1219,22 @@
               <cur>打包时支持存档回滚</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="234">
+          <Vl Name="234">
             <Src CodePage="65001">Warn about pending parallel / background operations</Src>
             <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-56-26" Translated="2016-03-23T14-56-26" State="Validated">
               <cur>对挂起 并行/后台操作 进行警告</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="235">
+            <Src CodePage="65001">Canceling a pack process discards current archive update</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-04-48" Translated="2016-12-25T14-04-48" State="Validated">
+              <cur>取消打包操作放弃当前存档更新</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="236">
+            <Src CodePage="65001">Show block stats when packing</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-05-09" Translated="2016-12-25T14-05-09" State="Validated">
+              <cur>打包时显示块统计</cur>
             </Trg>
           </Vl>
           <Vl Name="250">
@@ -1211,6 +1247,30 @@
             <Src CodePage="65001">files" to set password</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-11-16T15-24-03" Translated="2015-11-16T15-24-03" State="Validated">
               <cur>勾选 "加密" 设置密码</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="260">
+            <Src CodePage="65001">Archive view</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-05-22" Translated="2016-12-25T14-05-22" State="Validated">
+              <cur>存档视图</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="261">
+            <Src CodePage="65001">Unpacking</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-05-34" Translated="2016-12-25T14-05-34" State="Validated">
+              <cur>解包</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="270">
+            <Src CodePage="65001">Support full archive state extraction</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-06-33" Translated="2016-12-25T14-06-33" State="Validated">
+              <cur>支持完整存档状态提取</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="271">
+            <Src CodePage="65001">Support content search in archives</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-06-49" Translated="2016-12-25T14-06-49" State="Validated">
+              <cur>在存档中支持内容搜索</cur>
             </Trg>
           </Vl>
           <Vl Name="300">
@@ -1241,6 +1301,12 @@
             <Src CodePage="65001">(32-bit: limited to 2)</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-09-26T03-19-36" Translated="2015-09-26T03-19-36" State="Validated">
               <cur>(32 位：限于 2 个)</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="312">
+            <Src CodePage="65001">Physical:</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-06-54" State="ForReview">
+              <cur>物理︰</cur>
             </Trg>
           </Vl>
           <Vl Name="320">
@@ -1393,6 +1459,12 @@
               <cur>(关闭多部分检测存档看作为单个文件)</cur>
             </Trg>
           </Vl>
+          <Vl Name="1040">
+            <Src CodePage="65001">Extract the complete archive state in the selected version, instead of just the selected unique files belonging to it:</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T14-09-14" Translated="2016-12-25T14-09-14" State="Validated">
+              <cur>在选定的版本中提取完整存档状态，而不是只是属于它的所选的单一文件︰</cur>
+            </Trg>
+          </Vl>
           <Vl Name="1050">
             <Src CodePage="65001">(no password?)</Src>
             <Trg Created="2015-09-26T02-50-44" Changed="2015-09-26T02-54-12" Translated="2015-09-26T02-54-12" State="Validated">
@@ -1423,19 +1495,19 @@
               <cur>是否继续？</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="1112">
+          <Vl Name="1112">
             <Src CodePage="65001">Background ZPAQ operation(s) still active.</Src>
             <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-57-29" Translated="2016-03-23T14-57-29" State="Validated">
               <cur>后台 ZPAQ 操作仍处于活动状态。</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="1113">
+          <Vl Name="1113">
             <Src CodePage="65001">threads</Src>
             <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-56-55" Translated="2016-03-23T14-56-55" State="Validated">
               <cur>线程</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="1114">
+          <Vl Name="1114">
             <Src CodePage="65001">MB</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
@@ -1505,8 +1577,234 @@
               <cur>Windows 错误</cur>
             </Trg>
           </Vl>
+          <Vl Name="5000">
+            <Src CodePage="65001">
+              <Data>Deduplication additionally requires:\n</Data>
+              <Data>1 MB per GB of deduplicated but uncompressed archive data for archive updates,\n</Data>
+              <Data>0.5 MB per GB to extract</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T19-14-58" Translated="2017-03-18T19-14-58" State="Validated">
+              <cur>
+                <Data>重复数据删除附加需求:\n</Data>
+                <Data>1 MB 每 GB 重复数据删除，但存档更新不压缩存档数据，\n</Data>
+                <Data>0.5 MB 每 GB 用于解压</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5001">
+            <Src CodePage="65001">
+              <Data>Method 0: No compression\n</Data>
+              <Data>Method 1: LZ77 - very fast decompression\n</Data>
+              <Data>Method 2: LZ77 (more complex search) - very fast decompression\n</Data>
+              <Data>Method 3: LZ77+context model or BWT - only slightly asymmetric compression\n</Data>
+              <Data>Method 4: LZ77+context model, BWT or context model - symmetric compression\n</Data>
+              <Data>Method 5: Pure context model and tries to compress supposed uncompressible data - symmetric compression</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T16-12-10" Translated="2016-12-25T16-12-10" State="Validated">
+              <cur>
+                <Data>方法 0: 无压缩\n</Data>
+                <Data>方法 1: LZ77 - 非常快解包\n</Data>
+                <Data>方法 2: LZ77 (更复杂的搜索) - 非常快解包\n</Data>
+                <Data>方法 3: LZ77+内容模型或 BWT - 稍微不对称压缩\n</Data>
+                <Data>方法 4: LZ77+内容模型, BWT 或内容模型 - 对称压缩\n</Data>
+                <Data>方法 5: 纯内容模型并试图压缩支持的不可压缩的数据 - 对称压缩</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5002">
+            <Src CodePage="65001">
+              <Data>Larger block sizes trade compression efficiency for memory usage and speed (and worse parallelization when using multiple threads),\n</Data>
+              <Data>smaller sizes may greatly improve response time for the progress dialog and may allow reasonably fast text search in archives.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T19-28-39" Translated="2017-03-18T19-28-39" State="Validated">
+              <cur>
+                <Data>较大的块大小牺牲压缩效率考虑内存使用和速度 （和更糟糕的使用多个线程的并行），\n</Data>
+                <Data>较小的大小可能会大大提高进度对话框的响应时间，并允许在文件中合理快速的文本搜索。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5003">
+            <Src CodePage="65001">
+              <Data>When enabled, force a file content check if an existing file in the archive\n</Data>
+              <Data>has identical attributes; when disabled, always skip the file in such case.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T19-34-09" Translated="2017-03-18T19-34-09" State="Validated">
+              <cur>
+                <Data>启用时，如果存档中的现有文件具有相同的属性强制文件内容检查；\n</Data>
+                <Data>当禁用时，在这种情况下总是跳过文件。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5004">
+            <Src CodePage="65001">
+              <Data>Prevents marking files in the archive as deleted, when files existing in the archive's\n</Data>
+              <Data>last update are not amongst the files intended for the current archive update.\n</Data>
+              <Data>\n</Data>
+              <Data>Best either enable or disable it for ALL updates you make to an archive.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5005">
+            <Src CodePage="65001">
+              <Data>Enables the journaling feature, to view all of the archive's updates and old file versions.\n</Data>
+              <Data>\n</Data>
+              <Data>TC caches the content of the last used archive in RAM; open ANY different archive to\n</Data>
+              <Data>clear that cache before expecting to see a change through this or any other listing option.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T19-46-42" Translated="2017-03-18T19-46-42" State="Validated">
+              <cur>
+                <Data>启用日记功能，可以查看所有存档的更新和旧文件版本。\n</Data>
+                <Data>\n</Data>
+                <Data>TC 缓存最后使用存档的内容在 RAM；打开任何不同的存档将\n</Data>
+                <Data>在希望通过此或任何其他列表选项看到更改之前清除缓存。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5006">
+            <Src CodePage="65001">
+              <Data>Mandatory:\n</Data>
+              <Data>$Y - year\n</Data>
+              <Data>$M - month\n</Data>
+              <Data>$D - day\n</Data>
+              <Data>$h - hour\n</Data>
+              <Data>$m - minute\n</Data>
+              <Data>$s - seconds\n</Data>
+              <Data>\n</Data>
+              <Data>Special fields (%[letter][minimum field width]):\n</Data>
+              <Data>%v - ascending version number\n</Data>
+              <Data>%a - number of added files\n</Data>
+              <Data>%d - number of deleted files\n</Data>
+              <Data>%b - compressed size in Bytes\n</Data>
+              <Data>%k - compressed size in Kilobyte\n</Data>
+              <Data>%m - compressed size in Megabyte\n</Data>
+              <Data>%g - compressed size in Gigabyte\n</Data>
+              <Data>%s - number of added NTFS ADS\n</Data>
+              <Data>%n - archive name w/o extension</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T20-40-25" Translated="2017-03-18T20-40-25" State="Validated">
+              <cur>
+                <Data>强制:\n</Data>
+                <Data>$Y - 年\n</Data>
+                <Data>$M - 月\n</Data>
+                <Data>$D - 日\n</Data>
+                <Data>$h - 时\n</Data>
+                <Data>$m - 分\n</Data>
+                <Data>$s - 秒\n</Data>
+                <Data>\n</Data>
+                <Data>特殊字段 (%[字母][最小字段宽度]):\n</Data>
+                <Data>%v - 升序的版本号\n</Data>
+                <Data>%a - 已添加的文件数量\n</Data>
+                <Data>%d - 已删除的文件数量\n</Data>
+                <Data>%b - 压缩后的大小，B\n</Data>
+                <Data>%k - 压缩后的大小，KB\n</Data>
+                <Data>%m - 压缩后的大小，MB\n</Data>
+                <Data>%g - 压缩后的大小，GB\n</Data>
+                <Data>%s - 已添加的 NTFS ADS 数量\n</Data>
+                <Data>%n - 不带扩展名的存档名称</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5007">
+            <Src CodePage="65001">
+              <Data>All relevant files will move out of the version sub-dirs into this extra dir\n</Data>
+              <Data>(you won't see any individual file listed twice in the archive).</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T20-27-21" Translated="2017-03-18T20-27-21" State="Validated">
+              <cur>
+                <Data>所有相关文件将迁出版本子目录到这额外的目录\n</Data>
+                <Data>（你不会看到任何单个文件在存档中列出两次）。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5008">
+            <Src CodePage="65001">
+              <Data>Either putting files in one of the version sub-dirs when listing an archive with the \n</Data>
+              <Data>"Show all archive versions" option, or directly altering TC's "Pack files" dialog target\n</Data>
+              <Data>string to sth. like\n</Data>
+              <Data>zpaq:c:myfile.zpaq/00000005</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5009">
+            <Src CodePage="65001">
+              <Data>When enabled, will cancel the pack process as soon as possible, leaving no visible archive update,\n</Data>
+              <Data>but unfinished data, which will be ignored on archive listing and overwritten on an archive update;\n</Data>
+              <Data>when disabled, any files being currently processed will be finished first, so that a valid archive update\n</Data>
+              <Data>will be created.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5010">
+            <Src CodePage="65001">
+              <Data>Ignores TC's requested path structure.\n</Data>
+              <Data>\n</Data>
+              <Data>When enabled, there is no need to use the same input base dir for each archive update.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T21-58-38" Translated="2017-03-18T21-58-38" State="Validated">
+              <cur>
+                <Data>忽略 TC 需要的路径结构。\n</Data>
+                <Data>\n</Data>
+                <Data>启用时，不需要使用相同的输入的基目录为每个存档更新。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5011">
+            <Src CodePage="65001">
+              <Data>Shows "dummy" files with all version sub-dir names.\n</Data>
+              <Data>Extracting such file will not create or write anything in the output dir, but will remember\n</Data>
+              <Data>and apply the underlying version choice for the next time TC opens the archive.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5012">
+            <Src CodePage="65001">
+              <Data>When nothing but a complete single version sub-dir is selected for and about to start the extraction,\n</Data>
+              <Data>will ask if it should extract the complete archive state in the selected version instead of only the selected\n</Data>
+              <Data>file versions belonging to the archive update in question and missing files and dir structures taken along\n</Data>
+              <Data>from previous updates.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T22-03-47" Translated="2017-03-18T22-03-47" State="Validated">
+              <cur>
+                <Data>当只有一个完整的单版本子目录选择和即将开始提取时，\n</Data>
+                <Data>将询问是否应在选定的版本中提取完整的存档状态\n</Data>
+                <Data>不仅是所属更新存档所选的版本和缺失的文件和来自以前更新的目录结构。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5013">
+            <Src CodePage="65001">Uses AES-256 encryption.</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T02-30-09" State="ForReview">
+              <cur>使用 AES 256 加密。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5014">
+            <Src CodePage="65001">The dir will show a combination of all files and paths that have ever been stored in the archive.</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T20-15-08" Translated="2017-03-18T20-15-08" State="Validated">
+              <cur>目录将显示存档中存储的所有文件和路径的组合。</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5015">
+            <Src CodePage="65001">
+              <Data>Allows text search in TC's "Find files" function and to compare archive's file content in the "Synchronize dirs" function.\n</Data>
+              <Data>\n</Data>
+              <Data>Can be VERY slow for archives with a lot of files and created with larger block sizes and/or higher compression modes.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-03-18T20-14-01" Translated="2017-03-18T20-14-01" State="Validated">
+              <cur>
+                <Data>在 TC 的"查找文件"功能中允许文本搜索，"同步目录"功能中比较存档的文件内容。\n</Data>
+                <Data>\n</Data>
+                <Data>可能是非常慢的，当文件很多或创建较大的块大小的文档或更高的压缩模式。</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="5100">
+            <Src CodePage="65001">It is recommended to use only ONE thread for 32-bit TC.</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2016-12-25T16-12-58" Translated="2016-12-25T16-12-58" State="Validated">
+              <cur>建议用于 32 位 TC 只使用一个线程。</cur>
+            </Trg>
+          </Vl>
         </Resource>
-        <Resource Name="Deutsch" New="1">
+        <Resource Name="Deutsch">
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
@@ -1599,8 +1897,20 @@
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
           <Vl Name="205">
-            <Src CodePage="65001">Dateien die nur im letzten Update exist. nicht als gelöscht markieren</Src>
-            <Trg Created="2015-11-16T15-03-11"/>
+            <Src CodePage="65001">Dateien die nur in der letzten Aktual. exist. nicht als gelöscht markieren</Src>
+            <Trg Created="2015-11-16T15-03-11" Changed="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="206">
+            <Src CodePage="65001">Block-Größe</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="207">
+            <Src CodePage="65001">Benutze Standardgröße</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="208">
+            <Src CodePage="65001">Immer absolute Pfade speichern</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="210">
             <Src CodePage="65001">Listen / Dekomprimieren</Src>
@@ -1630,13 +1940,17 @@
             <Src CodePage="65001">Maskiere leere Archiv-Versionen</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="217">
-            <Src CodePage="65001">Standard-Archiv-Ansicht in extra Verzeichnis zeigen</Src>
-            <Trg Created="2016-03-23T14-50-30"/>
+          <Vl Name="217">
+            <Src CodePage="65001">Standard-Archiv-Ansicht in zusätzlichem Verzeichnis zeigen</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2016-12-25T13-57-48"/>
           </Vl>
-          <Vl New="1" Name="218">
+          <Vl Name="218">
             <Src CodePage="65001">Zeige auch gelöschte Dateien</Src>
             <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl Name="219">
+            <Src CodePage="65001">Zeige Verzeichnis für anpassbare "-until"-Archiv-Ansicht</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="220">
             <Src CodePage="65001">Threads</Src>
@@ -1658,9 +1972,17 @@
             <Src CodePage="65001">Unterstütze Archiv-Rollback beim Packen</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
-          <Vl New="1" Name="234">
+          <Vl Name="234">
             <Src CodePage="65001">Warne bei ausstehenden parallel / im Hintergrund laufenden Aktionen</Src>
             <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl Name="235">
+            <Src CodePage="65001">Abbrechen eines Pack-Vorgangs verwirft aktuelle Archiv-Aktualisierung</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="236">
+            <Src CodePage="65001">Zeige Block-Statistiken beim Packen</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="250">
             <Src CodePage="65001">"Verschlüsseln" in "Dateien packen"</Src>
@@ -1669,6 +1991,22 @@
           <Vl Name="251">
             <Src CodePage="65001">aktivieren um ein Passwort festzulegen</Src>
             <Trg Created="2015-09-26T02-50-44"/>
+          </Vl>
+          <Vl Name="260">
+            <Src CodePage="65001">Archiv-Ansicht</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="261">
+            <Src CodePage="65001">Entpacken</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="270">
+            <Src CodePage="65001">Unterstütze komplette Archiv-Zustands-Extrahierung</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="271">
+            <Src CodePage="65001">Unterstütze Inhaltssuche in Archiven</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="300">
             <Src CodePage="65001">MB für aktuelles Kompressionslevel</Src>
@@ -1689,6 +2027,10 @@
           <Vl Name="311">
             <Src CodePage="65001">(32-bit: auf 2 begrenzt)</Src>
             <Trg Created="2015-09-26T02-50-44"/>
+          </Vl>
+          <Vl Name="312">
+            <Src CodePage="65001">Physisch:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="320">
             <Src CodePage="65001">Sprache</Src>
@@ -1810,15 +2152,15 @@
             <Src CodePage="65001">Trotzdem fortfahren?</Src>
             <Trg Created="2015-09-26T02-50-44"/>
           </Vl>
-          <Vl New="1" Name="1112">
+          <Vl Name="1112">
             <Src CodePage="65001">Hintergrund-ZPAQ-Aktion(en) noch aktiv.</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1113">
+          <Vl Name="1113">
             <Src CodePage="65001">Threads</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1114">
+          <Vl Name="1114">
             <Src CodePage="65001">MB</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
@@ -1866,8 +2208,153 @@
             <Src CodePage="65001">Windows-Fehler</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
+          <Vl Name="5000">
+            <Src CodePage="65001">
+              <Data>Deduplizierung benötigt zusätzlich:\n</Data>
+              <Data>1 MB pro GB deduplizierter aber unkomprimierter Daten für Archiv-Aktualisierungen,\n</Data>
+              <Data>0,5 MB pro GB zum Extrahieren</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5001">
+            <Src CodePage="65001">
+              <Data>Methode 0: Keine Kompression\n</Data>
+              <Data>Methode 1: LZ77 - sehr schnelle Dekomprimierung\n</Data>
+              <Data>Methode 2: LZ77 (komplexere Suche) - sehr schnelle Dekomprimierung\n</Data>
+              <Data>Methode 3: LZ77+Context Model oder BWT - nur leicht asymmetrische Kompression\n</Data>
+              <Data>Methode 4: LZ77+Context Model, BWT oder Context Model - symmetrische Kompression\n</Data>
+              <Data>Methode 5: Reines Context Model und versucht vermeintlich unkomprimierbare Daten zu komprimieren - symmetrische Kompression</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5002">
+            <Src CodePage="65001">
+              <Data>Größere Blöcke erhöhen die Kompressionseffizienz mit dem Nachteil eines erhöhten Speicher-Verbrauchs und geringerer\n</Data>
+              <Data>Geschwindigkeit (und schlechterer Parallelisierung wenn mehrere Threads benutzt werden), geringere Größen können\n</Data>
+              <Data>die Reaktionszeit des Fortschrittsdialog stark verbessern und erlaubben eine eingermaßen schnelle Text-Suche in Archiven.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5003">
+            <Src CodePage="65001">
+              <Data>Erzwingt bei eingeschalteter Option einen Datei-Inhaltsvergleich, wenn eine im Archiv exisitierende Datei\n</Data>
+              <Data>die selben Attribute aufweist; bei ausgeschalteter Option wird die Datei in so einem Fall immer übersprungen.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5004">
+            <Src CodePage="65001">
+              <Data>Verhindert, dass Dateien, die in der letzten Archiv-Aktualisierung existieren, nicht als gelöscht markiert\n</Data>
+              <Data>werden, wenn sich diese nicht mehr unter den Dateien für die aktuelle Archiv-Aktualisierung befinden.\n</Data>
+              <Data>Idealerweise für ALLE Aktualisierungen eines Archivs durchgängig entweder ein- oder ausgeschaltet lassen.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5005">
+            <Src CodePage="65001">
+              <Data>Schaltet Journaling ein, um alle Archiv-Aktualisierungen und alten Datei-Versionen zu sehen.\n</Data>
+              <Data>\n</Data>
+              <Data>TC speichert den Inhalt des zuletzt benutzten Archivs im RAM; es muss ein BELIEBIGES anderes\n</Data>
+              <Data>Archiv zwischenzeitlich geöffnet werden um diesen Speicher zu leeren, bevor man eine Änderung\n</Data>
+              <Data>der Ansicht eines individuellen Archivs durch diese oder andere Ansichts-Optionen erwarten kann.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5006">
+            <Src CodePage="65001">
+              <Data>Zwingend erforderlich:\n</Data>
+              <Data>$Y - Jahr\n</Data>
+              <Data>$M - Monat\n</Data>
+              <Data>$D - Tag\n</Data>
+              <Data>$h - Stunde\n</Data>
+              <Data>$m - Minute\n</Data>
+              <Data>$s - Sekunden\n</Data>
+              <Data>\n</Data>
+              <Data>Spezial-Felder (%[Buchstabe][minimale Feldbreite]):\n</Data>
+              <Data>%v - aufsteigende Versionsnummer\n</Data>
+              <Data>%a - Anzahl der hinzugefügten Dateien\n</Data>
+              <Data>%d - Anzahl der gelöschten Dateien\n</Data>
+              <Data>%b - komprimierte Größe in Bytes\n</Data>
+              <Data>%k - komprimierte Größe in Kilobyte\n</Data>
+              <Data>%m - komprimierte Größe in Megabyte\n</Data>
+              <Data>%g - komprimierte Größe in Gigabyte\n</Data>
+              <Data>%s - Anzahl der hinzugefügten NTFS-ADS\n</Data>
+              <Data>%n - Archiv-Name ohne Erweiterung</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5007">
+            <Src CodePage="65001">
+              <Data>Alle relevanten Dateien verschieben sich von den Versions-Unterverzeichnissen in dieses\n</Data>
+              <Data>zusätzliche Verzeichnis (man kann keine individuelle Datei mehrmals im Archiv auflisten).</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5008">
+            <Src CodePage="65001">
+              <Data>Entweder Dateien in einem der Versions-Unterverzeichnisse ablegen, wenn ein Archiv mit der\n</Data>
+              <Data>"Zeige alle Archiv-Versionen"-Option geöffnet ist, oder direkt den Zielpfad in TCs "Dateien packen"-Dialog manipulieren, z.B.\n</Data>
+              <Data>zpaq:c:myfile.zpaq/00000005</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5009">
+            <Src CodePage="65001">
+              <Data>Bricht den Pack-Vorgang bei eingeschalteter Option so schnell wie möglich ab und lässt keine sichtbare Archiv-Aktualisierung zurück, aber\n</Data>
+              <Data>wahrscheinlich unfertige Daten, welche beim Öffnen eines Archivs ignoriert und bei einer Archiv-Aktualisierung überschrieben werden; bei\n</Data>
+              <Data>ausgeschalteter Option wird jede im Moment bearbeitete Datei noch vollständig abgeschlossen, so dass eine gültige Archiv-Aktualisierung\n</Data>
+              <Data>erzeugt wird.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5010">
+            <Src CodePage="65001">
+              <Data>Ignoriert TCs angeforderte Pfad-Struktur.\n</Data>
+              <Data>\n</Data>
+              <Data>Bei eingeschalteter Option muss man nicht dafür sorgen, dass immer das\n</Data>
+              <Data>selbe Basisverzeichnis für jede Aktualisierung eines Archivs benutzt wird.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5011">
+            <Src CodePage="65001">
+              <Data>Zeigt "Dummy"-Dateien mit den Namen der Versions-Unterverzeichnisse.\n</Data>
+              <Data>Beim Entpacken solcher Dateien wird nichts im Ausgabeverzeichnis angelegt oder geschrieben, aber die\n</Data>
+              <Data>dahinterliegende Versions-Auswahl wird sich gemerkt und angewandt, wenn TC das nächste Mal dieses Archiv öffnet.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5012">
+            <Src CodePage="65001">
+              <Data>Wenn nichts weiter als ein einziges komplettes Versions-Unterverzeichnis zum Entpacken ausgewählt und\n</Data>
+              <Data>damit begonnen wird, wird gefragt, ob das Archiv im Zustand der ausgewählten Version komplett extrahiert\n</Data>
+              <Data>werden soll, anstelle nur der ausgewählten Datei-Versionen die zur betroffenen Archiv-Aktualisierung gehören,\n</Data>
+              <Data>und dabei Dateien und Verzeichnisstrukturen, die aus vorherigen Aktualisierungen übernommen worden, auszulassen.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5013">
+            <Src CodePage="65001">Benutzt AES-256-Verschlüsselung.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5014">
+            <Src CodePage="65001">Das Verzeichnis zeigt eine Kombination aller Dateien und Verzeichnisse die jemals im Archiv abgelegt worden sind.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5015">
+            <Src CodePage="65001">
+              <Data>Erlaubt eine Textsuche in TCs "Dateien suchen"-Funktion und das Vergleichen von Dateiinhalt in der "Verzeichnisse synchronisieren"-Funktion.\n</Data>
+              <Data>\n</Data>
+              <Data>Kann für Archive mit vielen Dateien und solchen, die mit größeren Blöcken und/oder höheren Kompressionsmodi erzeugt wurden, SEHR langsam sein.</Data>
+            </Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="5100">
+            <Src CodePage="65001">Es wird empfohlen, nur EINEN Thread für den 32-bit-TC zu benutzen.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
         </Resource>
-        <Resource Name="SimpChinese" New="1">
+        <Resource Name="SimpChinese">
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
@@ -1959,6 +2446,18 @@
             <Src CodePage="65001">存储 NTFS 备用数据流</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
+          <Vl Name="205">
+            <Src CodePage="65001">不要标记最后更新中找到的文件为删除</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="206">
+            <Src CodePage="65001">块大小</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="207">
+            <Src CodePage="65001">使用默认大小</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
           <Vl Name="210">
             <Src CodePage="65001">列表/解压缩</Src>
             <Trg Created="2015-10-12T09-18-33"/>
@@ -1967,7 +2466,7 @@
             <Src CodePage="65001">显示所有的存档版本</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="212">
+          <Vl Name="212">
             <Src CodePage="65001">存档的版本名称以详细的时间戳显示</Src>
             <Trg Created="2015-10-12T09-18-33" Changed="2016-03-23T14-50-30"/>
           </Vl>
@@ -1987,6 +2486,14 @@
             <Src CodePage="65001">隐藏空档案版本</Src>
             <Trg Created="2015-11-16T15-03-11"/>
           </Vl>
+          <Vl Name="217">
+            <Src CodePage="65001">在附加目录显示默认存档视图</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="218">
+            <Src CodePage="65001">包括删除的文件</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
           <Vl Name="220">
             <Src CodePage="65001">线程</Src>
             <Trg Created="2015-10-12T09-18-33"/>
@@ -2003,17 +2510,29 @@
             <Src CodePage="65001">在内存中保留最后一次使用的存档密码</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="233">
+          <Vl Name="233">
             <Src CodePage="65001">打包时支持存档回滚</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
+          <Vl Name="234">
+            <Src CodePage="65001">对挂起 并行/后台操作 进行警告</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="235">
+            <Src CodePage="65001">取消打包操作丢弃当前存档更新</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="236">
+            <Src CodePage="65001">打包时显示块统计</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
           <Vl Name="250">
-            <Src CodePage="65001">要设置密码的 “包文件”</Src>
-            <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
+            <Src CodePage="65001">在 “压缩文件" 选项中</Src>
+            <Trg Created="2015-10-12T09-18-33" Changed="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="251">
-            <Src CodePage="65001">勾选 "加密"</Src>
-            <Trg Created="2015-10-12T09-18-33" Changed="2015-11-16T15-03-11"/>
+            <Src CodePage="65001">勾选 "加密" 设置密码</Src>
+            <Trg Created="2015-10-12T09-18-33" Changed="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="300">
             <Src CodePage="65001">MB 用于当前的压缩级别</Src>
@@ -2115,11 +2634,11 @@
             <Src CodePage="65001">重复的文件名</Src>
             <Trg Created="2015-10-12T09-18-33"/>
           </Vl>
-          <Vl New="1" Name="1024">
+          <Vl Name="1024">
             <Src CodePage="65001">放弃此版本后的所有存档的更新</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1025">
+          <Vl Name="1025">
             <Src CodePage="65001">存档回滚</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
@@ -2154,6 +2673,18 @@
           <Vl Name="1111">
             <Src CodePage="65001">是否继续？</Src>
             <Trg Created="2015-10-12T09-18-33"/>
+          </Vl>
+          <Vl Name="1112">
+            <Src CodePage="65001">后台 ZPAQ 操作仍处于活动状态。</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1113">
+            <Src CodePage="65001">线程</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1114">
+            <Src CodePage="65001">MB</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
           </Vl>
           <Vl Name="1200">
             <Src CodePage="65001">写入时出错！</Src>
@@ -2204,363 +2735,1108 @@
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
-          <Vl New="1" ReadOnly="1" Name="FontSize">
+          <Vl ReadOnly="1" Name="FontSize">
             <Src CodePage="65001">8</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="10">
+          <Vl Name="10">
             <Src CodePage="65001">OK</Src>
-            <Trg Created="2016-03-23T14-50-30" Changed="2016-03-23T14-50-30" State="ForReview">
+            <Trg Created="2016-03-23T14-50-30" State="ForReview">
               <cur>确定</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="20">
+          <Vl Name="20">
             <Src CodePage="65001">Annuller</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="50">
+          <Vl Name="50">
             <Src CodePage="65001">ZPAQ Adgangskode</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="60">
+          <Vl Name="60">
             <Src CodePage="65001">ZPAQ Indstillinger</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="110">
+          <Vl Name="110">
             <Src CodePage="65001">Angiv adgangskode for</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="111">
+          <Vl Name="111">
             <Src CodePage="65001">NY</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="112">
+          <Vl Name="112">
             <Src CodePage="65001">EKSISTERENDE</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="113">
+          <Vl Name="113">
             <Src CodePage="65001">arkiv:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="115">
+          <Vl Name="115">
             <Src CodePage="65001">Adgangskode:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="116">
+          <Vl Name="116">
             <Src CodePage="65001">Gentag:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="120">
+          <Vl Name="120">
             <Src CodePage="65001">Kodning af adgangskode</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="121">
+          <Vl Name="121">
             <Src CodePage="65001">standard UTF-8</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="122">
+          <Vl Name="122">
             <Src CodePage="65001">ANSI</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="123">
+          <Vl Name="123">
             <Src CodePage="65001">OEM</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="130">
+          <Vl Name="130">
             <Src CodePage="65001">Angiv en adgangskode (eller annuller)!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="131">
+          <Vl Name="131">
             <Src CodePage="65001">Adgangskoder stemmer ikke overens!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="200">
+          <Vl Name="200">
             <Src CodePage="65001">Pakning</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
           <Vl New="1" Name="201">
-            <Src CodePage="65001">Kompressions-metode / styrke:</Src>
-            <Trg Created="2016-03-23T14-50-30"/>
+            <Src CodePage="65001">Komprimerings-metode / styrke:</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2017-06-13T16-05-57"/>
           </Vl>
-          <Vl New="1" Name="202">
+          <Vl Name="202">
             <Src CodePage="65001">Gennemtving sammenligning af indhold for identiske filer</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="203">
+          <Vl Name="203">
             <Src CodePage="65001">Gem drevbogstav / UNC-navn i sti, hvis muligt.</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="204">
+          <Vl Name="204">
             <Src CodePage="65001">Gem NTFS Alternate Data Streams</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="205">
+          <Vl Name="205">
             <Src CodePage="65001">Marker ikke filer, som kun findes i den sidste opdatering, som slettede</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="210">
+          <Vl Name="206">
+            <Src CodePage="65001">Blokstørrelse</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="207">
+            <Src CodePage="65001">Anvend standard størrelse</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="208">
+            <Src CodePage="65001">Gem altid fuld sti</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="210">
             <Src CodePage="65001">Listing / dekomprimering</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="211">
+          <Vl Name="211">
             <Src CodePage="65001">Vis alle arkiv-versioner</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="212">
+          <Vl Name="212">
             <Src CodePage="65001">Vis navne på arkiv-versioner som detaljeret tidsmarkering:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="213">
+          <Vl Name="213">
             <Src CodePage="65001">Masker gemte drevbogstaver / UNC-navne</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="214">
+          <Vl Name="214">
             <Src CodePage="65001">Udpak og sæt tidsmarkering for mapper, hvis gemt</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="215">
+          <Vl Name="215">
             <Src CodePage="65001">Udpak NTFS Alternate Data Streams, hvis muligt</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="216">
+          <Vl Name="216">
             <Src CodePage="65001">Masker tomme arkiv-versioner</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="217">
+          <Vl Name="217">
             <Src CodePage="65001">Vis standard-arkivet i ekstra mappe:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="218">
+          <Vl Name="218">
             <Src CodePage="65001">Inkluder slettede filer</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="220">
+          <Vl New="1" Name="219">
+            <Src CodePage="65001">Vis mappe for individualiseret "-until" arkivvisning</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="220">
             <Src CodePage="65001">Tråde</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="230">
+          <Vl Name="230">
             <Src CodePage="65001">Blandet</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="231">
+          <Vl Name="231">
             <Src CodePage="65001">Advar om memory-behov</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="232">
+          <Vl Name="232">
             <Src CodePage="65001">Bevar sidst brugte arkiv-adgangskode i memory</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="233">
+          <Vl Name="233">
             <Src CodePage="65001">Understøt tilbagerulning af arkiver under pakning</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="234">
+          <Vl Name="234">
             <Src CodePage="65001">Advar om løbende parallelle / baggrunds-operationer</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="250">
+          <Vl Name="235">
+            <Src CodePage="65001">Annullering af en pakkeproces vil kassere nuværende arkivopdatering</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="236">
+            <Src CodePage="65001">Vis blokstatistik under pakning</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="250">
             <Src CodePage="65001">Afkryds "Krypter" i "Pak filer"</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="251">
+          <Vl Name="251">
             <Src CodePage="65001">for at sætte adgangskoden</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="300">
-            <Src CodePage="65001">MB for nuværende kompressionsniveau</Src>
-            <Trg Created="2016-03-23T14-50-30"/>
+          <Vl New="1" Name="260">
+            <Src CodePage="65001">Arkivvisning</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
           </Vl>
-          <Vl New="1" Name="301">
+          <Vl New="1" Name="261">
+            <Src CodePage="65001">Udpakker</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="270">
+            <Src CodePage="65001">Understøt udpakning af fuld arkivtilstand</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="271">
+            <Src CodePage="65001">Understøt søgning efter indhold i arkiver</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="300">
+            <Src CodePage="65001">MB for nuværende komprimerings-niveau</Src>
+            <Trg Created="2016-03-23T14-50-30" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="301">
             <Src CodePage="65001">op til</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="302">
+          <Vl Name="302">
             <Src CodePage="65001">MB for dekomprimering af ethvert arkiv</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="310">
+          <Vl Name="310">
             <Src CodePage="65001">System CPU'ere:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="311">
+          <Vl Name="311">
             <Src CodePage="65001">(32-bit: begrænset til 2)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="320">
+          <Vl New="1" Name="312">
+            <Src CodePage="65001">Fysisk:</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="320">
             <Src CodePage="65001">Sprog</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="330">
+          <Vl Name="330">
             <Src CodePage="65001">(gem / dedupliker kun)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="331">
+          <Vl Name="331">
             <Src CodePage="65001">(langsom)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="332">
+          <Vl Name="332">
             <Src CodePage="65001">(meget langsom)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="340">
+          <Vl Name="340">
             <Src CodePage="65001">Multi-part detektion</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="341">
+          <Vl Name="341">
             <Src CodePage="65001">Minimum antal cifre:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="342">
+          <Vl Name="342">
             <Src CodePage="65001">ingen detektion</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1000">
+          <Vl Name="1000">
             <Src CodePage="65001">(indsamler filposter...)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1001">
+          <Vl Name="1001">
             <Src CodePage="65001">(dekoder...)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1002">
+          <Vl Name="1002">
             <Src CodePage="65001">(afbryder...)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1003">
+          <Vl Name="1003">
             <Src CodePage="65001">afbryder ...</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1010">
+          <Vl Name="1010">
             <Src CodePage="65001">Afbrudt</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1011">
+          <Vl Name="1011">
             <Src CodePage="65001">Udpakning afbrudt!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1012">
+          <Vl Name="1012">
             <Src CodePage="65001">Arkiv-test aafbrudt!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1013">
+          <Vl Name="1013">
             <Src CodePage="65001">Arkiv-fejl</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1014">
+          <Vl Name="1014">
             <Src CodePage="65001">Udpakningsfejl</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1020">
+          <Vl Name="1020">
             <Src CodePage="65001">Selvudpakkende arkiver er ikke understøttet!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1021">
+          <Vl Name="1021">
             <Src CodePage="65001">Opret normalt arkiv?</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1022">
+          <Vl Name="1022">
             <Src CodePage="65001">"Gem også sti" er ikke afkrydset, men fandt mindst et duplikeret filnavn:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1023">
+          <Vl Name="1023">
             <Src CodePage="65001">Duplikerede filnavne</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1024">
+          <Vl Name="1024">
             <Src CodePage="65001">Kassér alle arkiv-opdateringer efter version</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1025">
+          <Vl Name="1025">
             <Src CodePage="65001">Tilbagerulning af arkiv</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1030">
+          <Vl Name="1030">
             <Src CodePage="65001">Multi-part arkiv opdaget, men ikke fundet nogen indeksfil.</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1031">
+          <Vl Name="1031">
             <Src CodePage="65001">Fortsæt pakke-operation?</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1032">
+          <Vl Name="1032">
             <Src CodePage="65001">(slå multi-part detektion fra for at behandle arkivet som en enkelststående fil)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1050">
+          <Vl New="1" Name="1040">
+            <Src CodePage="65001">Udpak den komplette arkivtilstand i den valgte version, i stedet for blot de valgte unikke filer, som hører til det:</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="1050">
             <Src CodePage="65001">(ingen adgangskode?)</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1051">
+          <Vl Name="1051">
             <Src CodePage="65001">Forkert adgangskode</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1060">
+          <Vl Name="1060">
             <Src CodePage="65001">Pakke-fejl</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1110">
+          <Vl Name="1110">
             <Src CodePage="65001">Memory-krav kan blive høje.</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1111">
+          <Vl Name="1111">
             <Src CodePage="65001">Fortsæt alligevel?</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1112">
+          <Vl Name="1112">
             <Src CodePage="65001">Stadig aktiv(e) ZPAQ-operation(er) i baggrunden.</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1113">
+          <Vl Name="1113">
             <Src CodePage="65001">tråde</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1114">
+          <Vl Name="1114">
             <Src CodePage="65001">MB</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1200">
+          <Vl Name="1200">
             <Src CodePage="65001">Skrive-fejl!</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1201">
+          <Vl Name="1201">
             <Src CodePage="65001">Fejl under udpakning:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1202">
+          <Vl Name="1202">
             <Src CodePage="65001">Fejl under pakning:</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1300">
+          <Vl Name="1300">
             <Src CodePage="65001">fil ikke fundet</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1301">
+          <Vl Name="1301">
             <Src CodePage="65001">sti ikke fundet</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1302">
+          <Vl Name="1302">
             <Src CodePage="65001">adgang nægtet</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1303">
+          <Vl Name="1303">
             <Src CodePage="65001">delingsfejl</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1304">
+          <Vl Name="1304">
             <Src CodePage="65001">ukorrekt stinavn</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1305">
+          <Vl Name="1305">
             <Src CodePage="65001">ukorrekt navn</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1306">
+          <Vl Name="1306">
             <Src CodePage="65001">netværksnavn ikke længere tilgængeligt</Src>
             <Trg Created="2016-03-23T14-50-30"/>
           </Vl>
-          <Vl New="1" Name="1307">
+          <Vl Name="1307">
             <Src CodePage="65001">Windows-fejl</Src>
             <Trg Created="2016-03-23T14-50-30"/>
+          </Vl>
+          <Vl New="1" Name="5000">
+            <Src CodePage="65001">
+              <Data>Deduplikering kræver yderligere:\n</Data>
+              <Data>1 MB per GB af deduplikeret, men ukomprimerede arkivdata for arkivopdatering,\n</Data>
+              <Data>0.5 MB per GB for at udpatkke</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5001">
+            <Src CodePage="65001">
+              <Data>Metode 0: Ingen Komprimering\n</Data>
+              <Data>Method 1: LZ77 - meget hurtig dekomprimering\n</Data>
+              <Data>Method 2: LZ77 (mere kompleks søgning) - meget hurtigt dekomprimering\n</Data>
+              <Data>Method 3: LZ77+sammenhængsmodel eller BWT - kun let asymmetrisk komprimering\n</Data>
+              <Data>Method 4: LZ77+sammenhængsmodel, BWT eller sammenhængsmodel - symmetrisk komprimering\n</Data>
+              <Data>Method 5: Ren sammenhængsmodel og forsøger at komprimere formodede ukomprimerbare data - symmetrisk kompression</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5002">
+            <Src CodePage="65001">
+              <Data>Større blokstørrelser giver størrre komprimerings-effektivitet på bekostning af hukkommelsesforbrug og hastighed (og dårligere\n</Data>
+              <Data>parallelisering ved brug af multiple tråde),\n</Data>
+              <Data>Mindre blokstørrelser kan stærkt forbedre responstiden for statusbarren og kan også give rimelig hurtig tekstsøgning i arkiverne.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5003">
+            <Src CodePage="65001">
+              <Data>Når aktiveret, gennemtving et check af filindholdet, hvis en eksisterende fil i arkivet\n</Data>
+              <Data>har identiske attributter; når dektiveret, spring altid over filen i sådan et tilfælde.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5004">
+            <Src CodePage="65001">
+              <Data>Forhindrer at filer i arkivet markeres som slettede, når filer som eksisterer i arkivets\n</Data>
+              <Data>sidste opdatering ikke er imellem de filer der er tiltænkt for den nuværende opdatering.\n</Data>
+              <Data>\n</Data>
+              <Data>Det er bedst enten at aktivere eler deaktivere dette for ALLE opdateringer, du foretager af et givent arkiv.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5005">
+            <Src CodePage="65001">
+              <Data>Aktiverer journaliserings-funktionen, for visning af alle arkivets opdateringer og gamle filversioner.\n</Data>
+              <Data>\n</Data>
+              <Data>TC gemmer indholdet af det sidst åbnede arkiv i hukommelsen; åben et hvilket som helst ANDET arkiv for\n</Data>
+              <Data>at slette det gemte, før der kan ses en ændring her eller ved alle andre listnings-muligheder.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5006">
+            <Src CodePage="65001">
+              <Data>Krævet:\n</Data>
+              <Data>$Y - år\n</Data>
+              <Data>$M - måned\n</Data>
+              <Data>$D - dag\n</Data>
+              <Data>$h - time\n</Data>
+              <Data>$m - minut\n</Data>
+              <Data>$s - sekunder\n</Data>
+              <Data>\n</Data>
+              <Data>Specielle felter (%[bogstav][minimum feltbredde]):\n</Data>
+              <Data>%v - stigende versionsnummer\n</Data>
+              <Data>%a - antal tilføjede filer\n</Data>
+              <Data>%d - antal slettede filer\n</Data>
+              <Data>%b - komprimeret størrelse i i Bytes\n</Data>
+              <Data>%k - komprimeret størrelse i Kilobytes\n</Data>
+              <Data>%m - komprimeret størrelse i Megabytes\n</Data>
+              <Data>%g - komprimeret størrelse i Gigabytes\n</Data>
+              <Data>%s - antal tilføjede NTFS ADS\n</Data>
+              <Data>%n - arkivnavn uden filtype</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5007">
+            <Src CodePage="65001">
+              <Data>Alle relevante filer vil blive flyttet ud af versions-undermapperne ind i denne ekstra mappe\n</Data>
+              <Data>(du vil ikke se nogen individulle filer listet to gange i arkivet).</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5008">
+            <Src CodePage="65001">
+              <Data>Put enten filerne i en af versions-undermapperne når et arkiv vises med valget \n</Data>
+              <Data>"Vis alle arkiv-versioner", eller rediger manuelt feltet "Pak n file(er) i arkivet" i TC's "Pak filer" dialog\n</Data>
+              <Data>til f.eks.: zpaq:c:myfile.zpaq/00000005</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5009">
+            <Src CodePage="65001">
+              <Data>Når valgt, vil pakke-processen annulleres så hurtigt som muligt, og der vil ikke være nogen synlig opdatering af arkivet,\n</Data>
+              <Data>men ufærdige data, som vil blive ignoreret ved arkiv-listning og overskrevet ved arkiv-opdatering;\n</Data>
+              <Data>Når ikke valgt, vil enhver øjeblikelig fil-behandling blive afsluttet først, således at en gyldig arkiv-opdatering\n</Data>
+              <Data>vil blive oprettet.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5010">
+            <Src CodePage="65001">
+              <Data>Ignorerer TC's ønskede sti-struktur.\n</Data>
+              <Data>\n</Data>
+              <Data>Når valgt, er der ingen grund til at anvende den samme input-basismappe for hver arkiv-updatering.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5011">
+            <Src CodePage="65001">
+              <Data>Viser "dummy"-filer med alle versions-undermappenavne.\n</Data>
+              <Data>Udpakning af en sådan fil vil ikke oprette eller skrive noget i output-mappen, men vil huske\n</Data>
+              <Data>og anvende det underliggende versionsvalg næste gang TC åbner arkivet.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5012">
+            <Src CodePage="65001">
+              <Data>Når kun en komplet enkelt versions-undermappe er valgt og udpakning skal til at starte,\n</Data>
+              <Data>vil der blive spurgt om det komplette arkiv skal udpakkes i stedet for kun den valgte version\n</Data>
+              <Data>som hører til arkiv-opdateringen sammen med manglende filer og mappe-srukturer\n</Data>
+              <Data>fra tidligere opdateringer.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5013">
+            <Src CodePage="65001">Anvender AES-256 kryptering.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5014">
+            <Src CodePage="65001">Mappen viser en kombination af alle filer og stier som er gemt i arkivet gennem tiden.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5015">
+            <Src CodePage="65001">
+              <Data>Tillader tekst-søgning i TC's "Find filer"-funktion og at sammenligne arkivets fil-indhold i "Synkroniser mapper"-funktionen.\n</Data>
+              <Data>\n</Data>
+              <Data>Kan være MEGET langsom for arkiver med mange filer og dannet med større blokstørrelser og/eller højere komprimering.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5100">
+            <Src CodePage="65001">Det anbefales kun at anvende EN tråd i 32-bit TC.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+        </Resource>
+        <Resource Name="Russian" New="1">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl ReadOnly="1" Name="FontSize">
+            <Src CodePage="65001">8</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="10">
+            <Src CodePage="65001">ОК</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="20">
+            <Src CodePage="65001">Отмена</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="50">
+            <Src CodePage="65001">Пароль ZPAQ</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="60">
+            <Src CodePage="65001">Настройки ZPAQ</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="110">
+            <Src CodePage="65001">Введите пароль для</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="111">
+            <Src CodePage="65001">НОВОГО</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="112">
+            <Src CodePage="65001">СУЩЕСТВУЮЩЕГО</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="113">
+            <Src CodePage="65001">архива:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="115">
+            <Src CodePage="65001">Пароль:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="116">
+            <Src CodePage="65001">Повторите:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="120">
+            <Src CodePage="65001">Кодировка пароля</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="121">
+            <Src CodePage="65001">UTF-8 (по умолчанию)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="122">
+            <Src CodePage="65001">ANSI</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="123">
+            <Src CodePage="65001">OEM</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="130">
+            <Src CodePage="65001">Введите пароль (или отмена)!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="131">
+            <Src CodePage="65001">Пароли не совпадают!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="200">
+            <Src CodePage="65001">Упаковка</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="201">
+            <Src CodePage="65001">Метод/уровень сжатия</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="202">
+            <Src CodePage="65001">Форсировать добавление идентичных файлов</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="203">
+            <Src CodePage="65001">Сохранить букву диска / UNC-имя в пути, если возможно</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="204">
+            <Src CodePage="65001">Сохранять NTFS-потоки</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="205">
+            <Src CodePage="65001">Не отмечать файлы, определ. только в посл. обновлении как удалённые</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="206">
+            <Src CodePage="65001">Размер блока</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="207">
+            <Src CodePage="65001">Использовать размер по умолчанию</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="208">
+            <Src CodePage="65001">Всегда сохранять полные пути</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="210">
+            <Src CodePage="65001">Просмотр / распаковка</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="211">
+            <Src CodePage="65001">Показать все версии архива</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="212">
+            <Src CodePage="65001">Показать версию с детальной меткой времени</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="213">
+            <Src CodePage="65001">Скрыть сохранённую букву диска / UNC-имя</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="214">
+            <Src CodePage="65001">Извлечь и установить временные метки каталога, если сохранены</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="215">
+            <Src CodePage="65001">Извлечь NTFS-потоки, если возможно</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="216">
+            <Src CodePage="65001">Скрыть пустые версии архива</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="217">
+            <Src CodePage="65001">Показать стандартный архив по умолчанию в доп. каталоге</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="218">
+            <Src CodePage="65001">Включая удалённые файлы</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="219">
+            <Src CodePage="65001">Показать в архиве произвольный каталог "-until"</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="220">
+            <Src CodePage="65001">Потоки</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="230">
+            <Src CodePage="65001">Разное</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="231">
+            <Src CodePage="65001">Предупреждать о требованиях к памяти</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="232">
+            <Src CodePage="65001">Держать последний пароль в памяти</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="233">
+            <Src CodePage="65001">Поддерживать откат архива при упаковке</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="234">
+            <Src CodePage="65001">Предупреждать о параллельных / фоновых операциях</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="235">
+            <Src CodePage="65001">Отмена процесса сбрасывает текущее обновление архива</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="236">
+            <Src CodePage="65001">Показывать статистику блоков при упаковке</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="250">
+            <Src CodePage="65001">Для установки пароля отметьте</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="251">
+            <Src CodePage="65001">"Шифровать" в "Упаковка файлов"</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="260">
+            <Src CodePage="65001">Вид архива</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="261">
+            <Src CodePage="65001">Распаковка</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="270">
+            <Src CodePage="65001">Извлекать полное состояние архива</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="271">
+            <Src CodePage="65001">Поиск по содержимому в архивах</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="300">
+            <Src CodePage="65001">Мб для текущего уровня сжатия</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="301">
+            <Src CodePage="65001">вплоть до</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="302">
+            <Src CodePage="65001">Мб для распаковки любого архива</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="310">
+            <Src CodePage="65001">Процессоры:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="311">
+            <Src CodePage="65001">(32-bit: ограничено до 2)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="312">
+            <Src CodePage="65001">Физических:</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="320">
+            <Src CodePage="65001">Язык</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="330">
+            <Src CodePage="65001">(сохранить / только дедупликация)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="331">
+            <Src CodePage="65001">(медленно)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="332">
+            <Src CodePage="65001">(очень медленно)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="340">
+            <Src CodePage="65001">Определение многотомного архива</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="341">
+            <Src CodePage="65001">Минимальное число</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="342">
+            <Src CodePage="65001">не определять</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="1000">
+            <Src CodePage="65001">(сбор файлов...)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1001">
+            <Src CodePage="65001">(декодирование...)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1002">
+            <Src CodePage="65001">(отменяется...)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1003">
+            <Src CodePage="65001">отменяется ...</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1010">
+            <Src CodePage="65001">Отменено</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1011">
+            <Src CodePage="65001">Распаковка прервана!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1012">
+            <Src CodePage="65001">Проверка архива прервана!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1013">
+            <Src CodePage="65001">Ошибка архива</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1014">
+            <Src CodePage="65001">Ошибка распаковки</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1020">
+            <Src CodePage="65001">SFX-архивы не поддерживаются!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1021">
+            <Src CodePage="65001">Создать нормальный архив?</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="1022">
+            <Src CodePage="65001">"Сохранять пути" не выбрано, но обнаружено по крайней мере одно повторяющееся имя файла:</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="1023">
+            <Src CodePage="65001">Повторяющиеся имена файлов</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1024">
+            <Src CodePage="65001">Отбросить все обновления архива после версии</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1025">
+            <Src CodePage="65001">Откат архива</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1030">
+            <Src CodePage="65001">Обнаружен многотомный архив, но не найден индексный файл.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1031">
+            <Src CodePage="65001">Продолжить упаковку?</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="1032">
+            <Src CodePage="65001">(отключить определение многотомного архива, чтобы рассматривать архив как один файл)</Src>
+            <Trg Created="2016-12-25T13-57-48" Changed="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="1040">
+            <Src CodePage="65001">Извлечь полный архив выбранной версии, а не только некоторые, принадлежащие ей, уникальные файлы:</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl Name="1050">
+            <Src CodePage="65001">(нет пароля?)</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1051">
+            <Src CodePage="65001">Неправильный пароль</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1060">
+            <Src CodePage="65001">Ошибка упаковки</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1110">
+            <Src CodePage="65001">Требования к памяти могут быть высокими.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1111">
+            <Src CodePage="65001">Всё равно продолжить?</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1112">
+            <Src CodePage="65001">Фоновая операция(ии) всё ещё активна.</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1113">
+            <Src CodePage="65001">потоки</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1114">
+            <Src CodePage="65001">Мб</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1200">
+            <Src CodePage="65001">Ошибка записи!</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1201">
+            <Src CodePage="65001">Ошибка при распаковке:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1202">
+            <Src CodePage="65001">Ошибка при упаковке:</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1300">
+            <Src CodePage="65001">файл не найден</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1301">
+            <Src CodePage="65001">путь не найден</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1302">
+            <Src CodePage="65001">доступ закрыт</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1303">
+            <Src CodePage="65001">ошибка совместного доступа</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1304">
+            <Src CodePage="65001">неправильный путь</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1305">
+            <Src CodePage="65001">недопустимое имя</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1306">
+            <Src CodePage="65001">сетевое имя больше не доступно</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl Name="1307">
+            <Src CodePage="65001">Ошибка Windows</Src>
+            <Trg Created="2016-12-25T13-57-48"/>
+          </Vl>
+          <Vl New="1" Name="5000">
+            <Src CodePage="65001">
+              <Data>Для дедупликации дополнительно требуется:\n</Data>
+              <Data>1 Мб на Гб дедуплицированных, но несжатых данных для обновлений архива\n</Data>
+              <Data>0,5 Мб на Гб для извлечения</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5001">
+            <Src CodePage="65001">
+              <Data>Метод 0: Без сжатия\n</Data>
+              <Data>Метод 1: LZ77 - очень быстрая распаковка\n</Data>
+              <Data>Метод 2: LZ77 (более сложный поиск) - очень быстрая распаковка\n</Data>
+              <Data>Метод 3: LZ77+context model или BWT - только слегка асимметричное сжатие\n</Data>
+              <Data>Метод 4: LZ77+context model, BWT или context model - симметричное сжатие\n</Data>
+              <Data>Метод 5: Чистый context model и попытки сжать предположительно несжимаемые данные - симметричное сжатие</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5002">
+            <Src CodePage="65001">
+              <Data>Большие размеры блока - это сделка между эффективностью использования памяти и скоростью\n</Data>
+              <Data>(и хуже распараллеливание при использовании нескольких потоков),\n</Data>
+              <Data>меньшие размеры могут значительно улучшить время отклика диалогового окна хода выполнения\n</Data>
+              <Data>и могут позволит достаточно быстрый поиск текста в архивах.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5003">
+            <Src CodePage="65001">
+              <Data>Включает принудительную проверку существования в архиве файла с идентичными атрибутами;\n</Data>
+              <Data>если выключено, то файл будет пропущен.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5004">
+            <Src CodePage="65001">
+              <Data>Предотвращает пометку файлов архива как удалённых, когда файлов, существующих в последнем обновлении архива,\n</Data>
+              <Data>нет в числе файлов, предназначенных для текущего обновления.\n</Data>
+              <Data>\n</Data>
+              <Data>Лучше включить или отключить для ВСЕХ обновлений архива.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5005">
+            <Src CodePage="65001">
+              <Data>Включает функцию ведения журнала, что позволит просмотреть все обновления архива и старые версии файлов.\n</Data>
+              <Data>\n</Data>
+              <Data>ТС кэширует содержимое последнего открытого архива в оперативной памяти;\n</Data>
+              <Data>чтобы увидеть действие этой или других опций просмотра откройте любой ДРУГОЙ архив для очистки кэша.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5006">
+            <Src CodePage="65001">
+              <Data>Обязательные:\n</Data>
+              <Data>$Y - год\n</Data>
+              <Data>$M - месяц\n</Data>
+              <Data>$D - день\n</Data>
+              <Data>$h - час\n</Data>
+              <Data>$m - минута\n</Data>
+              <Data>$s - секунды\n</Data>
+              <Data>\n</Data>
+              <Data>Специальные поля (%[буква][минимальная ширина поля]):\n</Data>
+              <Data>%v - номер версии по возрастанию\n</Data>
+              <Data>%a - количество добавленных файлов\n</Data>
+              <Data>%d - количество удалённых файлов\n</Data>
+              <Data>%b - размер сжатого в байтах\n</Data>
+              <Data>%k - размер сжатого в килобайтах\n</Data>
+              <Data>%m - размер сжатого в мегабайтах\n</Data>
+              <Data>%g - размер сжатого в гигабайтах\n</Data>
+              <Data>%s - количество добавленных NTFS-потоков\n</Data>
+              <Data>%n - имя архива без расширения</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5007">
+            <Src CodePage="65001">
+              <Data>Все соответствующие файлы будут перемещены из подкаталога версии в этой дополнительный каталог\n</Data>
+              <Data>(вы не увидите в списке файлов архива добавленный повторно).</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5008">
+            <Src CodePage="65001">
+              <Data>Либо помещать файлы в один из подкаталогов версии, если включена опция "Показать все версии архива",\n</Data>
+              <Data>либо непосредственно изменять строку в поле назначения диалога ТС "Упаковка файлов" на что-то вроде\n</Data>
+              <Data>zpaq:c:myfile.zpaq/00000005</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5009">
+            <Src CodePage="65001">
+              <Data>Если включено, то отмена процесса упаковки как можно быстрее не оставит никакого видимого обновления архива,\n</Data>
+              <Data>а незавершенные данные будут проигнорированы при просмотре архива и затёрты при обновлении;\n</Data>
+              <Data>если выключено, то любые действия над обрабатываемыми в настоящий момент файлами сначала будет завершены,\n</Data>
+              <Data>так что будет создано действительное обновление архива.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5010">
+            <Src CodePage="65001">
+              <Data>Игнорируется запрошенная ТС структура пути.\n</Data>
+              <Data>\n</Data>
+              <Data>Если эта функция включена, нет необходимости использовать при каждом обновленим архива один и тот же базовый каталог в активной панели.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5011">
+            <Src CodePage="65001">
+              <Data>Показать файлы-пустышки во всех поддиректориях версий.\n</Data>
+              <Data>Распаковка такого файла не будет создавать или писать что-нибудь в каталоге назначения, но файл будет\n</Data>
+              <Data>запомнен и выбран при открытии архива в ТС в следующий раз.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5012">
+            <Src CodePage="65001">
+              <Data>Когда выбран только один подкаталог версии, то перед извлечением будет запрос, извлечь ли полное\n</Data>
+              <Data>состояние архива выбранной версии, включая недостающие файлы и структуру каталогов предыдущих\n</Data>
+              <Data>обновлений, или только версии файлов выбранного обновления.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5013">
+            <Src CodePage="65001">Используется шифрование AES-256.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5014">
+            <Src CodePage="65001">В папке будут показаны все файлы и пути, которые когда-либо были сохранены в архиве.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5015">
+            <Src CodePage="65001">
+              <Data>Позволит искать текст в функции "Поиск файлов" и сравнивать содержимое файлов архива в функции "Синхронизировать каталоги".\n</Data>
+              <Data>\n</Data>
+              <Data>Может быть ОЧЕНЬ медленным для архивов с большим количеством файлов и большими размерами блоков и/или с более высокими уровнями сжатия.</Data>
+            </Src>
+            <Trg Created="2017-06-13T16-05-57"/>
+          </Vl>
+          <Vl New="1" Name="5100">
+            <Src CodePage="65001">Для 32-разрядной версии ТС рекомендуется использовать ТОЛЬКО ОДИН поток.</Src>
+            <Trg Created="2017-06-13T16-05-57"/>
           </Vl>
         </Resource>
       </ResourceType>
