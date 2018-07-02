@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{B7916657-4154-48B6-85F3-0C4E7FE26134}"/>
-  <IDESettings ProjectItemPath="0.OpenHardwareMonitor.exe (openhardwaremonitor_zh-cn.exe)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#US.0x70002A0B" SortDirection="0" SortedColumnIndex="-1"/>
-    <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.OpenHardwareMonitor.exe (openhardwaremonitor_zh-cn.exe).METADATA.#US" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#US.0x70000F43" SortDirection="0" SortedColumnIndex="-1"/>
+    <TextTableSettings FocusedValueID="OpenHardwareMonitor.Resources.Web.index.html.#0" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <InfoTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
-    <PropertyTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
+    <PropertyTableSettings FocusedValueID="OpenHardwareMonitor.GUI.ParameterForm.resources.dataGridView.Anchor.value__" SortDirection="0" SortedColumnIndex="-1"/>
   </IDESettings>
   <Project>
     <Languages>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2015-06-25T07-37-18">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
-      <ModifiedBy Date="2017-10-22T11-23-10">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <ModifiedBy Date="2018-02-16T10-11-50">Radialix 版本 3.00.00 构建 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="13" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="19" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <Module Type=".NET" Name="..\..\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitor.exe" ModuleName="OpenHardwareMonitor" GUID="{1C3EEFFA-058A-4279-B3FE-830AF8E21D3C}" Version="0.8.0.0" CreationTime="2015-12-09T02-59-42" ChangedTime="2015-12-09T02-59-42" Size="494592" Compiler=".NET 2.0" MetaDataVersion="2.0.50727.0" MajorRuntimeVersion="2" MinorRuntimeVersion="5">
+    <Module Type=".NET" Name="..\..\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitor.exe" ModuleName="OpenHardwareMonitor" GUID="{E8804D7D-FCE1-4648-8F8C-F3C3D44DA65C}" Version="0.8.0.0" CreationTime="2015-12-09T02-59-42" ChangedTime="2015-12-09T02-59-42" Size="494592" Compiler=".NET 2.0" MetaDataVersion="2.0.50727.0" MajorRuntimeVersion="2" MinorRuntimeVersion="5">
       <ModuleRef>
         <Item Name="System.Windows.Forms" Version="2.0.0.0" PublicKeyToken="B77A5C561934E089"/>
         <Item Name="mscorlib" Version="2.0.0.0" PublicKeyToken="B77A5C561934E089"/>
@@ -1562,7 +1562,7 @@
     <Module Type=".NET" Name="System.Xml_2.0.0.0_B77A5C561934E089.rdcl"/>
     <Module Type=".NET" Name="System.Data.SqlXml_2.0.0.0_B77A5C561934E089.rdcl"/>
     <Module Type=".NET" Name="System.Drawing_2.0.0.0_B03F5F7F11D50A3A.rdcl"/>
-    <Module Type=".NET" Name="..\..\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitorLib.dll" ModuleName="OpenHardwareMonitorLib" GUID="{29DAAAD0-C501-45AC-B4E6-52F1F49E472D}" Version="0.8.0.0" CreationTime="2015-12-09T02-59-42" ChangedTime="2015-12-09T02-59-42" Size="266752" MetaDataVersion="2.0.50727.0" MajorRuntimeVersion="2" MinorRuntimeVersion="5">
+    <Module Type=".NET" Name="..\..\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitorLib.dll" ModuleName="OpenHardwareMonitorLib" GUID="{041D7754-175F-41AA-AAEA-348B83A36E21}" Version="0.8.0.0" CreationTime="2015-12-09T02-59-42" ChangedTime="2015-12-09T02-59-42" Size="266752" MetaDataVersion="2.0.50727.0" MajorRuntimeVersion="2" MinorRuntimeVersion="5">
       <ModuleRef>
         <Item Name="mscorlib" Version="2.0.0.0" PublicKeyToken="B77A5C561934E089"/>
       </ModuleRef>
@@ -3055,7 +3055,7 @@
     </Module>
     <Module Type=".NET" Name="System.Management_2.0.0.0_B03F5F7F11D50A3A.rdcl"/>
     <Module Type=".NET" Name="System.Configuration.Install_2.0.0.0_B03F5F7F11D50A3A.rdcl"/>
-    <File Name="D:\APPs\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitor.exe" Module="{1C3EEFFA-058A-4279-B3FE-830AF8E21D3C}" Parser="NetExecutable" DateTimeStamp="4676098847000823004" FileSize="494592">
+    <File Name="D:\APPs\Tools\openhardwaremonitor-v0.8.0-beta\OpenHardwareMonitor.exe" Module="{E8804D7D-FCE1-4648-8F8C-F3C3D44DA65C}" Parser="NetExecutable" DateTimeStamp="4676098847000823004" FileSize="494592">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -5646,9 +5646,7 @@ AAD///////8AAP///////wAA////////AAA=</Src>
           </Vl>
           <Vl HwAdded="1" Name="treeView.Text" Class="System.String" Type="System.String">
             <Src>treeView</Src>
-            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T07-52-40" Translated="2015-06-25T07-52-40" State="Validated">
-              <cur>树状视图</cur>
-            </Trg>
+            <Trg Created="2015-06-25T07-38-01" Changed="2018-02-16T09-51-22" Translated="2018-02-16T09-51-22" State="Validated"/>
           </Vl>
           <Vl ReadOnly="1" HwAdded="1" Name="&gt;&gt;fanControllerMenuItem.Type" Class="System.String" Type="System.String">
             <Src>System.Windows.Forms.MenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=B77A5C561934E089</Src>
@@ -5998,7 +5996,7 @@ AAD///////8AAP///////wAA////////AAA=</Src>
           </Vl>
           <Vl HwAdded="1" Name="log2sMenuItem.Text" Class="System.String" Type="System.String">
             <Src>2s</Src>
-            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T07-44-10" Translated="2015-06-25T07-44-10" State="Validated">
+            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T07-44-10" Translated="2018-02-16T09-34-05" State="Validated">
               <cur>2 秒钟</cur>
             </Trg>
           </Vl>
@@ -6016,7 +6014,7 @@ AAD///////8AAP///////wAA////////AAA=</Src>
           </Vl>
           <Vl HwAdded="1" Name="log1sMenuItem.Text" Class="System.String" Type="System.String">
             <Src>1s</Src>
-            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T08-00-53" Translated="2015-06-25T08-00-53" State="Validated">
+            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T08-00-53" Translated="2018-02-16T09-34-06" State="Validated">
               <cur>1 秒钟</cur>
             </Trg>
           </Vl>
@@ -6030,7 +6028,7 @@ AAD///////8AAP///////wAA////////AAA=</Src>
           </Vl>
           <Vl HwAdded="1" Name="value.Header" Class="System.String" Type="System.String">
             <Src>Value</Src>
-            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T07-54-14" Translated="2015-06-25T07-54-14" State="Validated">
+            <Trg Created="2015-06-25T07-38-01" Changed="2018-02-16T10-11-28" Translated="2018-02-16T10-11-28" State="Validated">
               <cur>数值</cur>
             </Trg>
           </Vl>
@@ -6430,7 +6428,7 @@ AAD///////8AAP///////wAA////////AAA=</Src>
           </Vl>
           <Vl HwAdded="1" Name="valueMenuItem.Text" Class="System.String" Type="System.String">
             <Src>Value</Src>
-            <Trg Created="2015-06-25T07-38-01" Changed="2015-06-25T07-54-13" Translated="2015-06-25T07-54-13" State="Validated">
+            <Trg Created="2015-06-25T07-38-01" Changed="2018-02-16T10-11-47" Translated="2018-02-16T10-11-47" State="Validated">
               <cur>数值</cur>
             </Trg>
           </Vl>
@@ -11682,15 +11680,13 @@ ZmFI5WJg4CM5Q0gzM6gNaI4EAOW5n2BpE6HQAAAAAElFTkSuQmCC</Src>
           </Vl>
           <Vl Index="3891" Class="HCU_STRING">
             <Src>Default</Src>
-            <Trg Created="2015-06-25T08-18-14" Changed="2015-06-25T08-46-28" State="ForReview">
+            <Trg Created="2015-06-25T08-18-14" Changed="2018-02-16T10-04-27" State="ForReview">
               <cur>默认</cur>
             </Trg>
           </Vl>
           <Vl Index="3907" Class="HCU_STRING">
             <Src>Value</Src>
-            <Trg Created="2015-06-25T08-18-14" Changed="2015-06-25T08-46-36" Translated="2015-06-25T08-46-36" State="Validated">
-              <cur>数值</cur>
-            </Trg>
+            <Trg Created="2015-06-25T08-18-14" Changed="2018-02-16T10-09-32"/>
           </Vl>
           <Vl Index="3919" ReadOnly="1" Class="HCU_STRING">
             <Src>ValueColumn</Src>
