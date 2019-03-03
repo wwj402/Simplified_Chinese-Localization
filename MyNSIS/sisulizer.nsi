@@ -149,8 +149,13 @@ Section "Main"
 				${EndIf}
 			${EndIf}
 		${NextFile} */
-		ExecWait "$homedir\pro_zh_cn.exe"
-		ExecWait "$homedir\doc_zh_cn.exe"
+		; ExecWait "$homedir\pro_zh_cn.exe"
+		; ExecWait "$homedir\doc_zh_cn.exe"
+		SetOverwrite on
+		SetOutPath $EXEDIR
+		File /r /x doc "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\zh_cn\*.*"
+		SetOutPath "$DOCUMENTS\Sisulizer 4"
+		File /r "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\zh_cn\doc\*.*"
 	${ElseIf} $uilanguage == "CH"
 /* 		${ForEachFile} $1 $2 "${APPDIR}\zh_cn\*.*"
 			; MessageBox MB_OK "$1, $2, $0"
@@ -189,8 +194,13 @@ Section "Main"
 				${EndIf}
 			${EndIf}
 		${NextFile} */
-		ExecWait "$homedir\pro_zh_cn.exe"
-		ExecWait "$homedir\doc_zh_cn.exe"
+		; ExecWait "$homedir\pro_zh_cn.exe"
+		; ExecWait "$homedir\doc_zh_cn.exe"
+		SetOverwrite on
+		SetOutPath $EXEDIR
+		File /r /x doc "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\zh_cn\*.*"
+		SetOutPath "$DOCUMENTS\Sisulizer 4"
+		File /r "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\zh_cn\doc\*.*"
 	${Else}
 /* 		${ForEachFile} $1 $2 "${APPDIR}\en\*.*"
 			; MessageBox MB_OK "$1, $2, $0"
@@ -228,8 +238,13 @@ Section "Main"
 				${EndIf}
 			${EndIf}
 		${NextFile} */
-		ExecWait "$homedir\pro_en.exe"
-		ExecWait "$homedir\doc_en.exe"
+		; ExecWait "$homedir\pro_en.exe"
+		; ExecWait "$homedir\doc_en.exe"
+		SetOverwrite on
+		SetOutPath $EXEDIR
+		File /r /x doc "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\en\*.*"
+		SetOutPath "$DOCUMENTS\Sisulizer 4"
+		File /r "d:\SnapShot\sus\Files\ProgramFilesX86\Sisulizer 4\en\doc\*.*"
 	${EndIf}
 
 	${GetParameters} $0

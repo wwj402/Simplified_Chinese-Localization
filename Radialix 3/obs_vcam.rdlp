@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{A6E70930-1DCD-4340-9A82-4B583DD4252A}"/>
-  <IDESettings ProjectItemPath="0.en-US.ini (en-us_chs.ini)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#0.Crop" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.en-US.ini (zh-cn.ini)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#0.StartFailed" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,7 +15,7 @@
     </Languages>
     <Info>
       <CreatedBy Date="2018-04-14T13-40-19">Radialix 版本 3.00.00 构建 486</CreatedBy>
-      <ModifiedBy Date="2018-04-14T13-43-38">Radialix 版本 3.00.00 构建 486</ModifiedBy>
+      <ModifiedBy Date="2018-09-20T14-29-19">Radialix 版本 3.00.00 构建 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <File Name="D:\APPs\Tools\GitPortable\Data\Home\Gitwin\Git_Repository\obs-virtual-cam\locale\en-US.ini" Parser="IniFile" DateTimeStamp="4676170803870775237" FileSize="336">
+    <File Name="D:\APPs\Tools\GitPortable\Data\Home\Gitwin\Git_Repository\obs-virtual-cam\locale\en-US.ini" Parser="IniFile" DateTimeStamp="4676192661336293181" FileSize="286">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -972,8 +972,8 @@
         </Filters>
       </ExportSettings>
       <EmbeddedFiles/>
-      <ResourceType Name="ITEMS" Class="">
-        <Resource Name="" Index="0">
+      <ResourceType New="1" Name="ITEMS" Class="">
+        <Resource Name="" New="1" Index="0">
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
@@ -1007,40 +1007,16 @@
               <cur>"自动启动"</cur>
             </Trg>
           </Vl>
-          <Vl Name="Crop">
-            <Src CodePage="65001">"Crop"</Src>
-            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
-              <cur>"修剪"</cur>
-            </Trg>
-          </Vl>
-          <Vl Name="CropLeft">
-            <Src CodePage="65001">"Left"</Src>
-            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
-              <cur>"左"</cur>
-            </Trg>
-          </Vl>
-          <Vl Name="CropRight">
-            <Src CodePage="65001">"Right"</Src>
-            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
-              <cur>"右"</cur>
-            </Trg>
-          </Vl>
-          <Vl Name="CropTop">
-            <Src CodePage="65001">"Top"</Src>
-            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
-              <cur>"上"</cur>
-            </Trg>
-          </Vl>
-          <Vl Name="CropBottom">
-            <Src CodePage="65001">"Bottom"</Src>
-            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
-              <cur>"下"</cur>
-            </Trg>
-          </Vl>
           <Vl Name="Reset">
             <Src CodePage="65001">"Reset"</Src>
             <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
               <cur>"重置"</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="Option">
+            <Src CodePage="65001">"Option"</Src>
+            <Trg Created="2018-09-20T14-27-32" Changed="2018-09-20T14-28-11" Translated="2018-09-20T14-28-11" State="Validated">
+              <cur>"选项"</cur>
             </Trg>
           </Vl>
           <Vl Name="HorizontalFlip">
@@ -1055,13 +1031,55 @@
               <cur>"保持长宽比例"</cur>
             </Trg>
           </Vl>
-          <Vl Name="EnableCrop">
+          <Vl New="1" Name="Target">
+            <Src CodePage="65001">"Target Camera"</Src>
+            <Trg Created="2018-09-20T14-27-32" Changed="2018-09-20T14-29-03" Translated="2018-09-20T14-29-03" State="Validated">
+              <cur>"目标摄像头"</cur>
+            </Trg>
+          </Vl>
+          <Vl New="1" Name="StartFailed">
+            <Src CodePage="65001">"Failed to start output"</Src>
+            <Trg Created="2018-09-20T14-27-32" Changed="2018-09-20T14-29-18" Translated="2018-09-20T14-29-18" State="Validated">
+              <cur>"无法启动输出"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="Crop">
+            <Src CodePage="65001">"Crop"</Src>
+            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
+              <cur>"修剪"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="CropLeft">
+            <Src CodePage="65001">"Left"</Src>
+            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
+              <cur>"左"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="CropRight">
+            <Src CodePage="65001">"Right"</Src>
+            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
+              <cur>"右"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="CropTop">
+            <Src CodePage="65001">"Top"</Src>
+            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
+              <cur>"上"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="CropBottom">
+            <Src CodePage="65001">"Bottom"</Src>
+            <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
+              <cur>"下"</cur>
+            </Trg>
+          </Vl>
+          <Vl Deleted="1" Name="EnableCrop">
             <Src CodePage="65001">"Enable"</Src>
             <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
               <cur>"启用"</cur>
             </Trg>
           </Vl>
-          <Vl Name="DisableCrop">
+          <Vl Deleted="1" Name="DisableCrop">
             <Src CodePage="65001">"Disable"</Src>
             <Trg Created="2018-04-14T13-41-30" Changed="2018-04-14T13-43-29" State="ForReview">
               <cur>"禁用"</cur>
@@ -1078,7 +1096,7 @@
         <HostAppParameters/>
         <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
         <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
-          <LangID Enabled="1">0</LangID>
+          <LangID>9</LangID>
         </LanguagesToExtract>
         <TargetEncoding>
           <Item Name="UTF-8" LangID="-1" Enabled="1"/>
@@ -1086,7 +1104,7 @@
         <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" CommentPrefix=";" EscapedText="1"/>
       </Parser>
       <ImportSettings Current="TranslatedFile" ImportProperties="1">
-        <TranslatedFile FileName="D:\PortableApps\OBSStudioPortable\App\obs-studio\data\obs-plugins\obs-virtualoutput\locale\zh-CN.ini" Parser="IniFile"/>
+        <TranslatedFile Parser=""/>
         <CSVFile SourceCodePage="Autodetect"/>
         <TextGlossary Codepage="Autodetect"/>
         <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>

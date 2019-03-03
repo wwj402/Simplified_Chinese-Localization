@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{089B4230-F19A-4622-B7E3-C76667083855}"/>
-  <IDESettings ProjectItemPath="0.SDI_R1770.exe (sdi_r1770.chs)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#301.#0.Caption" SortDirection="0" SortedColumnIndex="-1"/>
+  <IDESettings ProjectItemPath="0.SDI_R1809.txt (english_chs.txt)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
+    <StringTableSettings FocusedValueID="#0.STR_USBWIZ_PAGE2_CLEAR" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,14 +15,14 @@
     </Languages>
     <Info>
       <CreatedBy Date="2017-07-08T15-33-41">Radialix 版本 3.00.00 内部版本 486</CreatedBy>
-      <ModifiedBy Date="2017-07-08T17-29-09">Radialix 版本 3.00.00 内部版本 486</ModifiedBy>
+      <ModifiedBy Date="2018-11-20T20-06-03">Radialix 版本 3.00.00 构建 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
       <WebSite/>
       <ContactEMail/>
       <Copyright/>
-      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="10" AutoIncrementBuildNumber="1"/>
+      <Version MajorNumber="1" MinorNumber="0" Revision="0" Build="11" AutoIncrementBuildNumber="1"/>
     </Info>
     <Publisher>
       <ApplicationName>&lt;Title&gt; &lt;WinCode&gt;</ApplicationName>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <File Name="D:\APPs\Tools\SDI_R1770\SDI_R1770.exe" Module="{CAE808EC-C8E9-4195-8371-212B8F38631E}" Parser="Win32Executable" DateTimeStamp="4676131956066885984" FileSize="1434328">
+    <File Name="D:\APPs\Tools\SDI_R1770\SDI_R1770.exe" Parser="Win32Executable" DateTimeStamp="4676131956066885984" FileSize="1434328">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -2408,7 +2408,7 @@ AAA=</CreatiponData>
             </Vl>
             <Vl Name="cx">
               <Src>80</Src>
-              <Trg Created="2017-07-08T15-39-02" Changed="2017-07-08T15-39-02"/>
+              <Trg Created="2017-07-08T15-39-02"/>
             </Vl>
             <Vl Name="cy">
               <Src>14</Src>
@@ -11733,7 +11733,7 @@ c3u01JblpP9AAA==</Src>
         <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" IgnoreEncodingErrors="1"/>
       </Parser>
       <ImportSettings Current="TranslatedFile" ImportProperties="1">
-        <TranslatedFile FileName="D:\APPs\Tools\SDI_R1770\Tools\SDI\langs\Chinese_zh.txt" Parser="TxtFile"/>
+        <TranslatedFile Parser=""/>
         <CSVFile SourceCodePage="Autodetect"/>
         <TextGlossary Codepage="Autodetect"/>
         <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
@@ -11767,6 +11767,2756 @@ c3u01JblpP9AAA==</Src>
           <ChangedTo Enabled="0" Value="2017-07-08T15-40-29"/>
           <TranslatedFrom Enabled="0" Value="2017-07-08T15-40-29"/>
           <TranslatedTo Enabled="0" Value="2017-07-08T15-40-29"/>
+        </Filters>
+      </ExportSettings>
+    </File>
+    <File Name="D:\APPs\Tools\SDI_R1809\tools\SDI\langs\english.txt" Parser="TxtFile" DateTimeStamp="4676191309323915076" FileSize="26589">
+      <LangSettings/>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2018-11-20T19-51-22"/>
+          <ChangedTo Enabled="0" Value="2018-11-20T19-51-22"/>
+          <TranslatedFrom Enabled="0" Value="2018-11-20T19-51-22"/>
+          <TranslatedTo Enabled="0" Value="2018-11-20T19-51-22"/>
+        </Filters>
+      </ExportSettings>
+      <EmbeddedFiles/>
+      <ResourceType Name="STRINGS" Class="">
+        <Resource Name="" Index="0">
+          <SourceLanguages>
+            <LangID>9</LangID>
+          </SourceLanguages>
+          <Vl Name="STR_TRANSLATORS">
+            <Src CodePage="1252">"BadPointer"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"bfgxp"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_LANG_NAME">
+            <Src CodePage="1252">"English"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"简体中文"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_LANG_ID">
+            <Src CodePage="1252">"English"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"zh_CN"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_LANG_GROUP">
+            <Src CodePage="1252">0x01 // LGRPID_WESTERN_EUROPE</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="STR_LANG_CODE">
+            <Src CodePage="1252">0x09</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl ReadOnly="1" Name="STR_RTL">
+            <Src CodePage="1252">0</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_SHOW_SYSINFO">
+            <Src CodePage="1252">"System information"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"系统信息"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_SYSINFO_H">
+            <Src CodePage="1252">"System information"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"系统信息"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INSTALL">
+            <Src CodePage="1252">"Install"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INSTALL_H">
+            <Src CodePage="1252">
+              <Data>"Install selected drivers(Ctrl+I).\n</Data>
+              <Data>\n</Data>
+              <Data>HINT: Hold the Shift key while clicking on a driver to start installing immediately."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"安装选定驱动(Ctrl+I).\n</Data>
+                <Data>\n</Data>
+                <Data>提示：按住Shift键同时单击驱动程序可立即开始安装。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SELECT_ALL">
+            <Src CodePage="1252">"Select all"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"全选"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SELECT_ALL_H">
+            <Src CodePage="1252">"Ctrl+A"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_SELECT_NONE">
+            <Src CodePage="1252">"Select none"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"清空"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SELECT_NONE_H">
+            <Src CodePage="1252">"Ctrl+N"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_LANG">
+            <Src CodePage="1252">"Language"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_LANG_H">
+            <Src CodePage="1252">"Select your language"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择您的语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_THEME">
+            <Src CodePage="1252">"Theme"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_THEME_H">
+            <Src CodePage="1252">"Select a theme"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择一个主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXPERT">
+            <Src CodePage="1252">"Expert mode"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"专家模式"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXPERT_H">
+            <Src CodePage="1252">
+              <Data>"Enable Expert Mode.\n</Data>
+              <Data>\n</Data>
+              <Data>HINT: Hold the Ctrl or Spacebar key over a driver to get extra information about the driver."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"启用专家模式。\n</Data>
+                <Data>\n</Data>
+                <Data>提示：按住Ctrl键或空格键，可以找到驱动程序的更多信息。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REFRESH">
+            <Src CodePage="1252">"Refresh"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"刷新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REFRESH_H">
+            <Src CodePage="1252">"Refresh driver list"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"刷新驱动程序列表"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES">
+            <Src CodePage="1252">"Updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES_H">
+            <Src CodePage="1252">"Select updates source"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择更新源"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES_SDI">
+            <Src CodePage="1252">"Select SDI Updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择 SDI 更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES_SDI_H">
+            <Src CodePage="1252">"Select the standard SDI updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择标准的 SDI 更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES_DRIVERS">
+            <Src CodePage="1252">"Select DriverPacks Updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择驱动包更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPDATES_DRIVERS_H">
+            <Src CodePage="1252">"Select the latest DriverPacks updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择最新的驱动包更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TOOLS">
+            <Src CodePage="1252">"Tools"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"工具"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TOOLS_H">
+            <Src CodePage="1252">"Shortcuts to Windows tools"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"Windows 工具的快捷方式"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPENLOGS">
+            <Src CodePage="1252">"Open logs"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"打开日志"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPENLOGS_H">
+            <Src CodePage="1252">
+              <Data>"Open the folder containing logs and snapshots.\n</Data>
+              <Data>\n</Data>
+              <Data>Snapshots can be used to remotely help users pick correct drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"打开包含日志和快照的文件夹。\n</Data>
+                <Data>\n</Data>
+                <Data>您可以通过打开www.sdi-tool.org并访问支持页面将开发日志文件提交给开发人员。\n</Data>
+                <Data>\n</Data>
+                <Data>快照可以用来远程帮助用户挑选正确的驱动程序。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SNAPSHOT">
+            <Src CodePage="1252">"Load snapshot..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"载入快照..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SNAPSHOT_H">
+            <Src CodePage="1252">
+              <Data>"Load snapshot of another system.\n</Data>
+              <Data>\n</Data>
+              <Data>Snapshots are created automatically in the log folder. They contain information about devices, drivers, Windows version, battery and monitors.\n</Data>
+              <Data>\n</Data>
+              <Data>Snapshots do not contain information about DriverPacks on the remote system.\n</Data>
+              <Data>\n</Data>
+              <Data>Therefore, loading snapshot allows emulation of the remote system but drivers are being searched in local DriverPacks."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"载入其他系统的快照。\n</Data>
+                <Data>\n</Data>
+                <Data>在日志文件夹中自动创建快照。 它们包含有关设备、驱动程序、Windows版本、电池和显示器的信息。\n</Data>
+                <Data>\n</Data>
+                <Data>快照不包含有关远程系统上的驱动程序包的信息。\n</Data>
+                <Data>\n</Data>
+                <Data>因此，加载快照可以仿真远程系统，但驱动程序是在本地驱动程序包中进行搜索。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTRACT">
+            <Src CodePage="1252">"Extract to..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"备份到..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTRACT_H">
+            <Src CodePage="1252">
+              <Data>"Extract selected drivers\n</Data>
+              <Data>\n</Data>
+              <Data>You can use it to create backup drivers. Make sure that recently installed drivers are working properly, enable the 'Show current drivers' checkbox and click 'Extract to...'"</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"备份选定驱动\n</Data>
+                <Data>\n</Data>
+                <Data>您可以使用它来备份驱动程序。 确保最近安装的驱动程序正常工作，启用“显示当前驱动程序”复选框，然后单击“备份到...”"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DRVDIR">
+            <Src CodePage="1252">"Select driver dir..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择驱动目录..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DRVDIR_H">
+            <Src CodePage="1252">
+              <Data>"Choose another folder with DriverPacks or unpacked drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>You can use it to search drivers on a driver CD/DVD."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"选择另一个包含驱动程序包或解压缩驱动程序的文件夹。\n</Data>
+                <Data>\n</Data>
+                <Data>你可以使用它来搜索CD/DVD光驱设备上的驱动。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTIONS_BTN">
+            <Src CodePage="1252">"Options..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选项..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTIONS_BTN_H">
+            <Src CodePage="1252">"Open dialog box with settings."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"打开设置对话框。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_FOUND">
+            <Src CodePage="1252">"Found in DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"发现可用驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_FOUND_H">
+            <Src CodePage="1252">
+              <Data>"Drivers are found in DriverPacks and can be installed.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you to install drivers from the following categories: not installed, newer, better match."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"在驱动包中找到可安装的驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您安装以下类别的驱动程序：未装、更新、更好。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_MISSING">
+            <Src CodePage="1252">"Not installed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_MISSING_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks for devices which require drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you to install these drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示未安装设备的驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您安装这些驱动程序。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NEWER">
+            <Src CodePage="1252">"Newer"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NEWER_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks which are newer than currently installed drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you to install these drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示已安装设备的更新驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您安装这些驱动程序。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_CURRENT">
+            <Src CodePage="1252">"Current"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"当前"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_CURRENT_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks which match the currently installed drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you NOT to install these drivers unless they are corrupted."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示与当前设备已安装的驱动相同的驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您不要安装这些驱动程序，除非它们已损坏。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_OLD">
+            <Src CodePage="1252">"Older"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更旧"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_OLD_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks which are older than currently installed drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you NOT to install these drivers unless you're having problems with newer drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示已安装设备的旧驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您不要安装这些驱动程序，除非较新的驱动程序有问题。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_BETTER">
+            <Src CodePage="1252">"Better match"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更好"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_BETTER_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks which match better than currently installed drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you to install these drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示比当前设备已安装的驱动更合适的驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您安装这些驱动程序。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_WORSE_RANK">
+            <Src CodePage="1252">"Worse match"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更坏"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_WORSE_RANK_H">
+            <Src CodePage="1252">
+              <Data>"Display drivers from DriverPacks which match worse than currently installed drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you NOT to install these drivers unless you have a good reason for doing so."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示比当前设备已安装的驱动更糟糕的驱动。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您不要安装这些驱动程序，除非你有特殊需求。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NOTFOUND">
+            <Src CodePage="1252">"Absent in DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"没有可用驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NOTFOUND_H">
+            <Src CodePage="1252">"Drivers are not found in DriverPacks and cannot be installed."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"在驱动包中没有找到可用于安装的驱动。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_MISSING">
+            <Src CodePage="1252">"Not installed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_MISSING_H">
+            <Src CodePage="1252">
+              <Data>"Display devices which require drivers but no driver is found in DriverPacks.\n</Data>
+              <Data>\n</Data>
+              <Data>You can try looking for these drivers on the Internet or on DVDs. In order to copy HardwareID, you can right click on the device.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise to notify us about missing drivers, so that they could be added to DriverPacks."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示在驱动包中找不到驱动的未驱动设备。\n</Data>
+                <Data>\n</Data>
+                <Data>您可以尝试在互联网或DVD上寻找这些驱动程序。若要复制硬件ID，您可以右键单击设备。\n</Data>
+                <Data>\n</Data>
+                <Data>建议你向我们提交有关缺失的驱动程序，以便将它们添加到驱动程序包中。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_UNKNOWN">
+            <Src CodePage="1252">"Unknown"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未知"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_UNKNOWN_H">
+            <Src CodePage="1252">
+              <Data>"Display unknown drivers which are installed in the system but are not found in DriverPacks.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you to notify us that you have some drivers that could be added to DriverPacks."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示系统中已安装但在驱动包中没有的驱动程序。\n</Data>
+                <Data>\n</Data>
+                <Data>建议你将这些驱动提交给我们，以便添加到驱动包中。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_STANDARD">
+            <Src CodePage="1252">"Standard"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"标准"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_NF_STANDARD_H">
+            <Src CodePage="1252">
+              <Data>"Display standard drivers which are installed in the system but are not found in DriverPacks.\n</Data>
+              <Data>\n</Data>
+              <Data>These drivers usually come with Windows and don't require updates."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示系统中已安装但在驱动包中没有的标准驱动程序。\n</Data>
+                <Data>\n</Data>
+                <Data>这些驱动程序通常随Windows一起提供，不需要更新。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_DISPLAY">
+            <Src CodePage="1252">"Display"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_DISPLAY_H">
+            <Src CodePage="1252">"Display filters"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示筛选器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_ONE">
+            <Src CodePage="1252">"Show only best"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"只显示最好的"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_ONE_H">
+            <Src CodePage="1252">
+              <Data>"Show only best drivers per device.\n</Data>
+              <Data>\n</Data>
+              <Data>When enabled, only the best matched driver per device is displayed as opposed to displaying all available drivers for each device."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"仅显示每台设备的最佳驱动程序。\n</Data>
+                <Data>\n</Data>
+                <Data>启用时，仅显示每台设备最匹配的驱动程序，而不是显示每个设备的所有可用驱动程序。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_DUP">
+            <Src CodePage="1252">"Show duplicates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示重复项"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_DUP_H">
+            <Src CodePage="1252">
+              <Data>"Show duplicate drivers.\n</Data>
+              <Data>\n</Data>
+              <Data>Some drivers are duplicated multiple times inside DriverPacks for technical reasons."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示重复的驱动程序。\n</Data>
+                <Data>\n</Data>
+                <Data>出于技术原因，一些驱动程序在驱动包中多次重复。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_INVALID">
+            <Src CodePage="1252">"Show invalid"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示无效"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SHOW_INVALID_H">
+            <Src CodePage="1252">
+              <Data>"Show drivers which are incompatible with the current system.\n</Data>
+              <Data>\n</Data>
+              <Data>We advise you NOT to install these drivers because they are incompatible with your version of Windows."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"显示与当前系统不兼容的驱动程序。\n</Data>
+                <Data>\n</Data>
+                <Data>我们建议您不要安装这些驱动程序，因为它们与您的Windows版本不兼容。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTIONS">
+            <Src CodePage="1252">"Options"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选项"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTIONS_H">
+            <Src CodePage="1252">"Options"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选项"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REBOOT">
+            <Src CodePage="1252">"Reboot PC after installation"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装后重新启动计算机"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REBOOT_H">
+            <Src CodePage="1252">
+              <Data>"Reboot PC(if required) after installation(Ctrl+R).\n</Data>
+              <Data>\n</Data>
+              <Data>HINT: You can cancel rebooting PC any time by clearing the checkbox."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"安装后重新启动计算机，如果需要的话(Ctrl+R)。\n</Data>
+                <Data>\n</Data>
+                <Data>提示：您可以通过清除复选框来取消重新启动计算机。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_WINDOWS">
+            <Src CodePage="1252">"Windows"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_SYSINF_VERSION">
+            <Src CodePage="1252">"Version"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"版本"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_PLATFORM">
+            <Src CodePage="1252">"PlatformId"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"平台"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_UPDATE">
+            <Src CodePage="1252">"Update"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_SERVICEPACK">
+            <Src CodePage="1252">"ServicePack"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"服务包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_SUITEMASK">
+            <Src CodePage="1252">"SuiteMask"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"套件掩码"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_PRODUCTTYPE">
+            <Src CodePage="1252">"ProductType"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"产品类型"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_ENVIRONMENT">
+            <Src CodePage="1252">"Environment"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"环境"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_WINDIR">
+            <Src CodePage="1252">
+              <Data>"%windir%\\inf"</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_SYSINF_TEMP">
+            <Src CodePage="1252">"%temp%"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_SYSINF_MOTHERBOARD">
+            <Src CodePage="1252">"Motherboard"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"主板"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_PRODUCT">
+            <Src CodePage="1252">"Product"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"产品"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_MODEL">
+            <Src CodePage="1252">"Model"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"型号"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_MANUF">
+            <Src CodePage="1252">"Manufacturer"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"制造商"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_BATTERY">
+            <Src CodePage="1252">"Power"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"电源"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_AC_STATUS">
+            <Src CodePage="1252">"A/C"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"交流电"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_OFFLINE">
+            <Src CodePage="1252">"disconnected"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"断开连接"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_ONLINE">
+            <Src CodePage="1252">"connected"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已连接"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_UNKNOWN">
+            <Src CodePage="1252">"unknown"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未知"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_FLAGS">
+            <Src CodePage="1252">"Battery"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"电池"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_HIGH">
+            <Src CodePage="1252">"[high]"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"[高]"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_LOW">
+            <Src CodePage="1252">"[low]"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"[低]"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_CRITICAL">
+            <Src CodePage="1252">"[critical]"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"[紧张]"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_CHARGING">
+            <Src CodePage="1252">"[charging]"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"[充电]"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_NOBATTERY">
+            <Src CodePage="1252">"[no battery]"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"[没有电池]"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_CHARGED">
+            <Src CodePage="1252">"Charged"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"充满电"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_LIFETIME">
+            <Src CodePage="1252">"LifeTime"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"寿命"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_FULLLIFETIME">
+            <Src CodePage="1252">"FullLifeTime"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"完整寿命"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_MINS">
+            <Src CodePage="1252">"Minutes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"分钟"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_MONITORS">
+            <Src CodePage="1252">"Monitor(s)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"监视器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_CM">
+            <Src CodePage="1252">"cm"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"厘米"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_INCH">
+            <Src CodePage="1252">"in"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"英吋"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_WIDE">
+            <Src CodePage="1252">"widescreen"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"宽屏"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_MISC">
+            <Src CodePage="1252">"HINT: Click on the panel in order to open Device Manager"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"提示：单击面板以打开设备管理器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_TYPE">
+            <Src CodePage="1252">"Type"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"类型"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_LAPTOP">
+            <Src CodePage="1252">"laptop"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"笔记本电脑"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_DESKTOP">
+            <Src CodePage="1252">"desktop"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"台式机"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_LOCALE">
+            <Src CodePage="1252">"Locale"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_CPU_ARCH">
+            <Src CodePage="1252">"CPU Architecture"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"CPU架构"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_32BIT">
+            <Src CodePage="1252">"32-bit"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"32位"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSINF_64BIT">
+            <Src CodePage="1252">"64-bit"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"64位"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_ABOUT_VER">
+            <Src CodePage="1252">"v1.17"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-58-14"/>
+          </Vl>
+          <Vl Name="STR_ABOUT_DEV_TITLE">
+            <Src CodePage="1252">"Developers: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"开发商: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_ABOUT_DEV_LIST">
+            <Src CodePage="1252">"BadPointer, Glenn Delahoy"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_ABOUT_TESTERS_TITLE">
+            <Src CodePage="1252">"Contributors: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"捐赠者: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_ABOUT_TESTERS_LIST">
+            <Src CodePage="1252">"e39, QuarQ, SamLab, Sorc, volodya61, WindR"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_ABOUT_TRANS_TITLE">
+            <Src CodePage="1252">"Translators: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"翻译者: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_ABOUT_LICENSE">
+            <Src CodePage="1252">
+              <Data>"Snappy Driver Installer is licensed under the terms of the GNU General Public License version 3\n</Data>
+              <Data>\n</Data>
+              <Data>\n</Data>
+              <Data>\n</Data>
+              <Data>\n</Data>
+              <Data>Snappy Driver Installer uses the following technologies:\n</Data>
+              <Data>* WebP is licensed under the terms of the BSD license\n</Data>
+              <Data>* libtorrent is licensed under the terms of the BSD license\n</Data>
+              <Data>* Backtrace is licensed under the terms of the BSD license\n</Data>
+              <Data>* 7-Zip is licensed under the terms of the GNU Library or Lesser General Public License version 2\n</Data>
+              <Data>\n</Data>
+              <Data>Snappy Driver Installer is powered by DriverPacks that were developed by the DriverPacks Team.\n</Data>
+              <Data>\n</Data>
+              <Data>(Click now in order to visit a website)"</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"Snappy Driver Installer 使用 GNU General Public License version 3 条款授权\n</Data>
+                <Data>\n</Data>
+                <Data>\n</Data>
+                <Data>\n</Data>
+                <Data>\n</Data>
+                <Data>\n</Data>
+                <Data>Snappy Driver Installer 使用下列技术:\n</Data>
+                <Data>* WebP 使用 BSD license 条款授权\n</Data>
+                <Data>* libtorrent 使用 BSD license 条款授权\n</Data>
+                <Data>* Backtrace 使用 BSD license 条款授权\n</Data>
+                <Data>* 7-Zip 使用 GNU Library or Lesser General Public License version 2 条款授权\n</Data>
+                <Data>\n</Data>
+                <Data>Snappy Driver Installer 使用的驱动包由 DriverPacks 团队开发。\n</Data>
+                <Data>\n</Data>
+                <Data>(点击即可打开网站)"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_UNKNOWN">
+            <Src CodePage="1252">"unknown"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未知"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_ANALYSIS">
+            <Src CodePage="1252">"TrackingID"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"跟踪ID"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_SIGNATURE">
+            <Src CodePage="1252">"Signature: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"签名: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_DRP">
+            <Src CodePage="1252">"Driverpack"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_DEVICE">
+            <Src CodePage="1252">"Device"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_HARDWAREID">
+            <Src CodePage="1252">"HardwareID"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"硬件ID"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_COMPID">
+            <Src CodePage="1252">"CompatibleID"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"兼容ID"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_INSTDRV">
+            <Src CodePage="1252">"Installed driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已安装驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_AVAILDRV">
+            <Src CodePage="1252">"Available driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"可用驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_AVAILDRVS">
+            <Src CodePage="1252">"Available drivers"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"可用驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_MANUF">
+            <Src CodePage="1252">"Manufacturer: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"制造商: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_PROVIDER">
+            <Src CodePage="1252">"Provider: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"提供者: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_DATE">
+            <Src CodePage="1252">"Date: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"日期: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_VERSION">
+            <Src CodePage="1252">"Version: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"版本: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_ID">
+            <Src CodePage="1252">"ID: "</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_HINT_INF">
+            <Src CodePage="1252">"Inf file: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"Inf文件: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_SECTION">
+            <Src CodePage="1252">"Section: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"片段: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_SCORE">
+            <Src CodePage="1252">"Score: "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"评分: "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_SCROLL">
+            <Src CodePage="1252">"HINT: Scroll page horizontally with mouse wheel"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"提示：用鼠标滚轮水平滚动页面"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_LICENSE">
+            <Src CodePage="1252">"License information"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"许可证信息"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_ABOUT">
+            <Src CodePage="1252">"About"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"关于"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_START_SEED">
+            <Src CodePage="1252">"Start seeding DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"开始做种 驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_STOP_SEED">
+            <Src CodePage="1252">"Stop seeding"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"停止做种"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_COMPMNG">
+            <Src CodePage="1252">"Computer Management"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"计算机管理"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_SYSPROT">
+            <Src CodePage="1252">"System Protection"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"系统保护"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_DEVICEPRNT">
+            <Src CodePage="1252">"Devices and Printers"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备和打印机"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_SYSCONTROL">
+            <Src CodePage="1252">"Control Panel"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"控制面板"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_REST">
+            <Src CodePage="1252">"System Restore"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"系统还原"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_USBWIZARD">
+            <Src CodePage="1252">"Create A USB Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建一个 USB 驱动盘"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYST_TRANSLATE">
+            <Src CodePage="1252">"Translation Tool"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"翻译工具"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_INSTALL">
+            <Src CodePage="1252">"Schedule installation"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"计划安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_SHOWALT">
+            <Src CodePage="1252">"Show alternative drivers"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示替代驱动程序"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_OPENINF">
+            <Src CodePage="1252">"Open the inf file of the installed driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"打开已安装驱动程序的inf文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_LOCATEINF">
+            <Src CodePage="1252">"Locate the inf file of the installed driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"找到已安装驱动程序的inf文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_HWID_SEARCH">
+            <Src CodePage="1252">"Search Microsoft Update Catalog for HardwareID"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"在互联网上搜索该硬件ID"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CONT_HWID_CLIP">
+            <Src CodePage="1252">"Copy a HardwareID to clipboard"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"复制硬件ID到剪贴板"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPENSNAPSHOT">
+            <Src CodePage="1252">"Snapshot files (*.snp)/0*.snp/0All files/0*.*/0/0"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"快照文件 (*.snp)/0*.snp/0所有文件/0*.*/0/0"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTRACTFOLDER">
+            <Src CodePage="1252">"Please select the destination folder."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"请选择目标文件夹。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_NOTPRESENT">
+            <Src CodePage="1252">"Device is not present"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备不存在"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_DISABLED">
+            <Src CodePage="1252">"Device is disabled"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备已禁用"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_DEVPROBLEM">
+            <Src CodePage="1252">"The device has the following problem: %d"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"该设备有以下问题: %d"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_DRVPROBLEM">
+            <Src CodePage="1252">"The driver reported a problem with the device"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动程序报告设备有问题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_RUNNING">
+            <Src CodePage="1252">"Driver is running"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动程序正在运行"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_STOPPED">
+            <Src CodePage="1252">"Device is currently stopped"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备当前已停止"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_INVALID">
+            <Src CodePage="1252">"Incompatible driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动程序不兼容"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_MISSING">
+            <Src CodePage="1252">"Driver available (driver not installed yet)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"可用驱动程序（驱动程序尚未安装）"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_NOTSIGNED">
+            <Src CodePage="1252">" (not signed)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>" （未签名）"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_BETTER_NEW">
+            <Src CodePage="1252">"Updated driver available which is also more optimal"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新的驱动程序可用, 也有更多的优化"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_SAME_NEW">
+            <Src CodePage="1252">"Updated driver available"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新的驱动程序可用"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_WORSE_NEW">
+            <Src CodePage="1252">"Less than optimal driver available, however it's more recent"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新的驱动程序可用, 但不是最优化"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_BETTER_CUR">
+            <Src CodePage="1252">"More optimal driver available"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更优化的驱动程序"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_SAME_CUR">
+            <Src CodePage="1252">"Already installed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_WORSE_CUR">
+            <Src CodePage="1252">"Less than optimal driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"非最优化驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_BETTER_OLD">
+            <Src CodePage="1252">"More optimal driver available, though it's older"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更好的驱动程序可用，但不是最新的"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_SAME_OLD">
+            <Src CodePage="1252">"Old driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"旧驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_WORSE_OLD">
+            <Src CodePage="1252">"Old driver and also less than optimal"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"旧驱动程序，也非最优化驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_DUP">
+            <Src CodePage="1252">" (duplicate)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>" (重复)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_NF_MISSING">
+            <Src CodePage="1252">"Device requires a driver but it wasn't found in DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备需要驱动程序，但没有在驱动包中找到相应驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_NF_UNKNOWN">
+            <Src CodePage="1252">"Device is working properly but no driver is found in DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备正常工作，但驱动程序包中没有包含该驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_STATUS_NF_STANDARD">
+            <Src CodePage="1252">"Standard driver"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"标准驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS">
+            <Src CodePage="1252">"The media with the application may be compromised by a virus"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"具有应用程序的媒体可能会被病毒侵害"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_AUTORUN">
+            <Src CodePage="1252">"There is an AUTORUN.INF file in the root folder"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"根目录那里有一个 AUTORUN.INF 文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_AUTORUN_H">
+            <Src CodePage="1252">
+              <Data>"There is an AUTORUN.INF file which can be used by malicious software to infect your PC. It's advised to check it for viruses or inspect the file to make sure it can be trusted.\n</Data>
+              <Data>\n</Data>
+              <Data>If you're sure it's clean, add [NOT_A_VIRUS] inside to hide this warning."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"有一个AUTORUN.INF文件可以被恶意软件用来感染你的电脑。建议检查病毒或检查文件，以确保它是可信任的。\n</Data>
+                <Data>\n</Data>
+                <Data>如果您确定它很干净，请在其中添加[NOT_A_VIRUS]以隐藏此警告。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_RECYCLER">
+            <Src CodePage="1252">"There is a RECYCLER folder in the root folder"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"根目录那里有一个 RECYCLER 文件夹"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_RECYCLER_H">
+            <Src CodePage="1252">
+              <Data>"It's unusual for this media to have a RECYCLER folder. It's advised to check the folder for viruses.\n</Data>
+              <Data>\n</Data>
+              <Data>If you're sure it's clean, create a file named not_a_virus.txt inside the folder."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"这种媒体有一个RECYCLER文件夹是不寻常的。建议检查文件夹是否有病毒。\n</Data>
+                <Data>\n</Data>
+                <Data>如果您确定它是干净的，请在文件夹内创建一个名为not_a_virus.txt的文件。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_HIDDEN">
+            <Src CodePage="1252">"There are hidden folders in the root folder"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"根文件夹中有隐藏的文件夹"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_VIRUS_HIDDEN_H">
+            <Src CodePage="1252">
+              <Data>"The root folder contains hidden folders. Viruses can make hidden folders to hide their presence. It's advised to check the folders(see log for details) for viruses.\n</Data>
+              <Data>\n</Data>
+              <Data>If you're sure it's clean, create a file named not_a_virus.txt inside each folder."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"根文件夹包含隐藏的文件夹。病毒可以使用隐藏的文件夹隐藏他们的存在。建议检查文件夹是否有病毒（详见日志）。\n</Data>
+                <Data>\n</Data>
+                <Data>如果您确定它是干净的，请在每个文件夹内创建一个名为not_a_virus.txt的文件。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CLOSE_SNAPSHOT">
+            <Src CodePage="1252">"(Click here to stop emulation)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击此处停止仿真)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EMPTYDRP">
+            <Src CodePage="1252">"Connect to the Internet to download DriverPacks or put unpacked drivers in the following folder"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"连接到互联网以下载驱动包或将解包的驱动程序放在以下文件夹中"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_CLOSE_DRPEXT">
+            <Src CodePage="1252">"(Click here to return to the default folder)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击此处返回到默认文件夹)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_NOUPDATES">
+            <Src CodePage="1252">"Drivers are up to date"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动是最新的"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INITIALIZING">
+            <Src CodePage="1252">"Initializing..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"初始化..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_EXTRACT">
+            <Src CodePage="1252">"Extracting... %d%% (stage 1 of 2)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"解压中... %d%% (第1阶段/2)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_INSTALL">
+            <Src CodePage="1252">"Installing... (stage 2 of 2)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装中... (第2阶段/2)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_OK">
+            <Src CodePage="1252">"Successfully installed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"成功安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_REBOOT">
+            <Src CodePage="1252">"Successfully installed (system restart required)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"成功安装(系统需要重启)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_FAILED">
+            <Src CodePage="1252">"Failed to install, error "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装失败，错误 "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_INSTALLING">
+            <Src CodePage="1252">"Installing... "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装中... "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_COMPLITED">
+            <Src CodePage="1252">"Installation completed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装完成"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_COMPLITED_RB">
+            <Src CodePage="1252">"Installation completed (system restart required)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装完成(系统需要重启)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_CLOSE">
+            <Src CodePage="1252">"(Click here to hide installed drivers)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击这里隐藏已安装的驱动程序)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTR_EXTRACTING">
+            <Src CodePage="1252">"Extracting... "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"解压中... "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTR_OK">
+            <Src CodePage="1252">"Successfully extracted"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"解压成功"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_EXTR_FAILED">
+            <Src CodePage="1252">"Failed to extract, error "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"解压失败，错误 "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_STOPPING">
+            <Src CodePage="1252">"Installation stopped"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装停止"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INDEXING">
+            <Src CodePage="1252">"Indexing..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"索引..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INDEXLZMA">
+            <Src CodePage="1252">"Compressing indexes..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"压缩索引..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OF">
+            <Src CodePage="1252">" of "</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>" 共 "</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_RESTOREPOINT">
+            <Src CodePage="1252">"Create a restore point"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建还原点"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_RESTOREPOINT_H">
+            <Src CodePage="1252">
+              <Data>"Create a restore point in order to be able to roll back the system to an earlier state in case something goes wrong (Ctrl+P).\n</Data>
+              <Data>\n</Data>
+              <Data>HINT: Right click on this button to open context menu."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"创建还原点，以便能够将系统回滚到更早的状态，以防出现问题(Ctrl+P)。\n</Data>
+                <Data>\n</Data>
+                <Data>提示：右键单击此按钮打开上下文菜单。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_SCHEDULE">
+            <Src CodePage="1252">"Schedule creating a restore point"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"计划创建一个还原点"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_ROLLBACK">
+            <Src CodePage="1252">"Roll back to an existing restore point..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"回滚到现有还原点..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_SYSPROPS">
+            <Src CodePage="1252">"System Properties"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"打开系统属性..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYSPROPS_ADV">
+            <Src CodePage="1252">"Advanced System Properties"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T20-03-19" Translated="2018-11-20T20-03-19" State="Validated">
+              <cur>"高级系统属性"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_CREATING">
+            <Src CodePage="1252">"Creating a restore point..."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建还原点..."</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_CREATED">
+            <Src CodePage="1252">"Restore point created"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已创建还原点"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_REST_FAILED">
+            <Src CodePage="1252">"Failed to create a restore point"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建还原点失败"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_RESTOREPOINTS_DISABLED">
+            <Src CodePage="1252">"System restore points are disabled"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"系统还原已禁用"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_QUIT_TITLE">
+            <Src CodePage="1252">"Canceling"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"取消"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_INST_QUIT_MSG">
+            <Src CodePage="1252">"Are you sure you want to interrupt installation?"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"你确定要中断安装吗？"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_STOPINST">
+            <Src CodePage="1252">"Click here to cancel installation."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"点击此处取消安装。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_STOPEXTR">
+            <Src CodePage="1252">"Click here to stop extracting."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"点击此处停止解压。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_HINT_DRIVER">
+            <Src CodePage="1252">
+              <Data>"Hold the Ctrl key to compare the installed driver to the available one.\n</Data>
+              <Data>Hold the Spacebar key to display info about alternative drivers."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"按住Ctrl键将已安装的驱动程序与可用的驱动程序进行比较。\n</Data>
+                <Data>按空格键键以显示有关备用驱动程序的信息。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_WINVER">
+            <Src CodePage="1252">"Windows version"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"Windows 版本"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_32">
+            <Src CodePage="1252">"32-bit"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"32位"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_64">
+            <Src CodePage="1252">"64-bit"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"64位"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_DEVICEMNG">
+            <Src CodePage="1252">"Device manager"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"设备管理器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_DISINSTALL">
+            <Src CodePage="1252">"Disable installation"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"禁用安装"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_SYS_DISRESTPNT">
+            <Src CodePage="1252">"Disable restore points"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"禁用还原点"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_DIALOG_TITLE">
+            <Src CodePage="1252">"Update checking"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"检查更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_DIALOG_MSG">
+            <Src CodePage="1252">"Would you like to enable automatic checking online for new versions of DriverPacks and the application?"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"您是否希望在线启用新版本的驱动程序包和应用程序？"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_DIALOG_INDEX">
+            <Src CodePage="1252">"Would you like to download latest indexes in order to make it possible to determine which DriverPacks you need to download?"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"你想下载最新的索引，以便确定你需要下载哪个驱动包？"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_TITLE">
+            <Src CodePage="1252">"Update"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_SELECTION">
+            <Src CodePage="1252">"Selection"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_ALL">
+            <Src CodePage="1252">"Check All"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"全选"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_NONE">
+            <Src CodePage="1252">"Uncheck All"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"清空"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_NETWORK">
+            <Src CodePage="1252">"Network Only"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"仅网络"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_THISPC">
+            <Src CodePage="1252">"This PC Only"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"仅检查本机需要的"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_THISPC_H">
+            <Src CodePage="1252">"In order to be able to determine which DriverPacks you need, you have to download indexes first."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"为了能够确定你需要哪些驱动包，你必须首先下载索引。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_OPTIONS">
+            <Src CodePage="1252">"Options"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选项"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_ONLYUPDATES">
+            <Src CodePage="1252">"Show only updates, hide missing DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"仅显示更新，隐藏缺少的驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_KEEPSEEDING">
+            <Src CodePage="1252">"Continue seeding after download is finished"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"在下载完成后继续做种"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_TOTALSIZE">
+            <Src CodePage="1252">"Total download size: %d MB"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"总计下载大小: %d MB"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_TOTALAVAIL">
+            <Src CodePage="1252">"Total available space: %d MB"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"总计可用空间: %d MB"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_OK">
+            <Src CodePage="1252">"OK"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"确定"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_CANCEL">
+            <Src CodePage="1252">"Cancel"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"取消"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BTN_ACCEPT">
+            <Src CodePage="1252">"Accept"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"接受"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_COL_NAME">
+            <Src CodePage="1252">"Driverpack"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_COL_SIZE">
+            <Src CodePage="1252">"Size"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"大小"</cur>
+            </Trg>
+          </Vl>
+          <Vl ReadOnly="1" Name="STR_UPD_COL_PER">
+            <Src CodePage="1252">"%"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_UPD_COL_NEW">
+            <Src CodePage="1252">"New"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_COL_CUR">
+            <Src CodePage="1252">"Current"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"当前"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_COL_THISPC">
+            <Src CodePage="1252">"For this PC?"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"用于本机?"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_WEBSTATUS">
+            <Src CodePage="1252">" (Internet)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>" (互联网)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_YES">
+            <Src CodePage="1252">"Yes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"是"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_NO">
+            <Src CodePage="1252">"No"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"否"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_UNKNOWN">
+            <Src CodePage="1252">"Unknown"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"未知"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_MISSING">
+            <Src CodePage="1252">"Missing"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"丢失"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BYTES">
+            <Src CodePage="1252">"bytes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"字节"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_KB">
+            <Src CodePage="1252">"KB"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_UPD_MB">
+            <Src CodePage="1252">"MB"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_UPD_GB">
+            <Src CodePage="1252">"GB"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_UPD_SEC">
+            <Src CodePage="1252">"/s"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_UPD_TSEC">
+            <Src CodePage="1252">"secs"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"秒钟"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_TMIN">
+            <Src CodePage="1252">"mins"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"分钟"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_THOUR">
+            <Src CodePage="1252">"hours"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"小时"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_TDAY">
+            <Src CodePage="1252">"days"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"天"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_BASEFILES">
+            <Src CodePage="1252">"Application+indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"应用程序和索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_APP">
+            <Src CodePage="1252">"Application"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"应用程序"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_INDEXES">
+            <Src CodePage="1252">"Indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_UPDATEHINT1">
+            <Src CodePage="1252">"Hint"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"提示"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_UPDATEHINT2">
+            <Src CodePage="1252">"You must update base first in order to use this feature."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"您必须先更新基础才能使用此功能。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_CHECKING">
+            <Src CodePage="1252">"Checking for updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"检查更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_AVAIL1">
+            <Src CodePage="1252">"Updates are available: SDI R%d"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"有可用更新: SDI R%d"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_AVAIL2">
+            <Src CodePage="1252">"Updates are available: %d DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"有可用更新: %d 驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_AVAIL3">
+            <Src CodePage="1252">"Updates are available: SDI R%d and %d DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"有可用更新: SDI R%d 和 %d 驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_START">
+            <Src CodePage="1252">"(Click here to start the download)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击此处开始下载)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_PROGRES">
+            <Src CodePage="1252">"Downloaded %s out of %s (%d%%)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已下载 %s /总计 %s (%d%%)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_MODIFY">
+            <Src CodePage="1252">"(Click here to select updates)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击此处选择更新)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_UPD_CHECKINGFILES">
+            <Src CodePage="1252">"Checking files %s of %s (%d%%)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"正在检查文件 %s 共 %s (%d%%)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_DOWNLOADED">
+            <Src CodePage="1252">"Downloaded"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已下载"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_DOWNLOADED_F">
+            <Src CodePage="1252">"%s out of %s (%d%%)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"%s /总计 %s (%d%%)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_UPLOADED">
+            <Src CodePage="1252">"Uploaded"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已上传"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_ELAPSED">
+            <Src CodePage="1252">"Time elapsed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已用时间"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_REMAINING">
+            <Src CodePage="1252">"Time remaining"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"剩余时间"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_SEEDING">
+            <Src CodePage="1252">"Seeding %s (%s)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"做种 %s (%s)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_MODIFY">
+            <Src CodePage="1252">"(Click here to stop)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击此处停止)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_CLOSING">
+            <Src CodePage="1252">"Closing session"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"关闭会话"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_STATUS">
+            <Src CodePage="1252">"Status"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"状态"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_ERROR">
+            <Src CodePage="1252">"Error"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"错误"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_DOWNLOADSPEED">
+            <Src CodePage="1252">"Download speed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"下载速度"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_UPLOADSPEED">
+            <Src CodePage="1252">"Upload speed"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"上传速度"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_SEEDS_F">
+            <Src CodePage="1252">"%d out of %d connected"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已连接 %d /总计 %d"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_SEEDS">
+            <Src CodePage="1252">"Seeds"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"种子"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_PEERS">
+            <Src CodePage="1252">"Peers"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"用户"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_WASTED">
+            <Src CodePage="1252">"Wasted"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已丢弃"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_WASTED_F">
+            <Src CodePage="1252">"%s (%s in hashfails)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"%s (%s 校验失败)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_ERRSES">
+            <Src CodePage="1252">"Failed to start update session"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"无法启动更新会话"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_DWN_ERRTOR">
+            <Src CodePage="1252">"Failed to start torrent"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"无法启动种子文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST0">
+            <Src CodePage="1252">"queued for checking"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"排队检查"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST1">
+            <Src CodePage="1252">"checking files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"检查文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST2">
+            <Src CodePage="1252">"downloading metadata"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"下载元数据"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST3">
+            <Src CodePage="1252">"downloading files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"下载文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST4">
+            <Src CodePage="1252">"finished"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"已完成"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST5">
+            <Src CodePage="1252">"seeding"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"做种中"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST6">
+            <Src CodePage="1252">"allocating space"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"分配空间"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST7">
+            <Src CodePage="1252">"checking resume data"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"检查数据"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_TR_ST8">
+            <Src CodePage="1252">"moving files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"移动文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_TITLE">
+            <Src CodePage="1252">"Options"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选项"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_VIEW_TAB">
+            <Src CodePage="1252">"View"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"视图"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_UPDATES_TAB">
+            <Src CodePage="1252">"Updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_PATH_TAB">
+            <Src CodePage="1252">"Paths"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"路径"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_ADVANCED_TAB">
+            <Src CodePage="1252">"Advanced"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"高级"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_OK_BUTTON">
+            <Src CodePage="1252">STR_UPD_BTN_OK</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_OPTION_CANCEL_BUTTON">
+            <Src CodePage="1252">STR_UPD_BTN_CANCEL</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_OPTION_DRPNAMES">
+            <Src CodePage="1252">"DriverPack names"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动包名称"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_HIDE_NAMES">
+            <Src CodePage="1252">"Don't show DriverPack names"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"不显示驱动包名称"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SHOW_RIGHT">
+            <Src CodePage="1252">"Show DriverPack names on the right"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"在右侧显示驱动包名称"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SHOW_ABOVE">
+            <Src CodePage="1252">"Show DriverPack names above"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"在上面显示驱动包名称"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SCALLING">
+            <Src CodePage="1252">"Interface scale"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"界面比例"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SCALLING_H">
+            <Src CodePage="1252">"Make interface elements bigger or smaller"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"让界面元素变大或变小"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SCALLING_SML">
+            <Src CodePage="1252">"Small"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"小"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SCALLING_BIG">
+            <Src CodePage="1252">"Big"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"大"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_SCALLING_RST">
+            <Src CodePage="1252">"Reset"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"复位"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_HINT">
+            <Src CodePage="1252">"Hint"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"提示"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_HINT_LABEL">
+            <Src CodePage="1252">"Delay in milliseconds"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"以毫秒为单位延迟"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CHECKUPDATES">
+            <Src CodePage="1252">"Do not check for new version of app/DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"不检查新版本的应用程序和驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_ONLYUPDATES">
+            <Src CodePage="1252">STR_UPD_ONLYUPDATES</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_OPTION_TORRENT">
+            <Src CodePage="1252">"Torrent"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"种子"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_PORT">
+            <Src CodePage="1252">"Port"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"端口"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_MAX_CON">
+            <Src CodePage="1252">"Max connections (0 - unlimited)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"最大连接数(0 表示无限制)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_MAX_DOWNLOAD">
+            <Src CodePage="1252">"Max download speed in KB/s (0 - unlimited)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"最大下载速度 KB/s (0 表示无限制)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_MAX_UPLOAD">
+            <Src CodePage="1252">"Max upload speed in KB/s (0 - unlimited)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"最大上传速度 KB/s (0 表示无限制)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_TORRENT_URL">
+            <Src CodePage="1252">"Torrent URL (requires app restart)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"种子 URL （需要重启程序）"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_DIR_DRIVERS">
+            <Src CodePage="1252">"Drivers"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_DIR_INDEXES">
+            <Src CodePage="1252">"Indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_DIR_INDEXESH">
+            <Src CodePage="1252">"Indexes (human-readable)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"索引(人类可读)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_DIR_DATA">
+            <Src CodePage="1252">"Themes and translations"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"主题和翻译"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_DIR_LOGS">
+            <Src CodePage="1252">"Log files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"日志文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CMD">
+            <Src CodePage="1252">"Commands"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"命令行"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CMD_LABEL">
+            <Src CodePage="1252">"You can define commands that will be executed via CMD after specified operations are completed."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"您可以定义在指定操作完成后通过CMD执行的命令。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CMD_FINISH">
+            <Src CodePage="1252">"After installation"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装后"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CMD_FINISHRB">
+            <Src CodePage="1252">"After installation (need reboot)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"安装后(需要重启)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CMD_FINISHDN">
+            <Src CodePage="1252">"After downloading"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"下载后"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_OPTION_CONSOLE">
+            <Src CodePage="1252">"Show console window"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"显示控制台窗口"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_PATREON1">
+            <Src CodePage="1252">"SDI is developed by volunteers in their spare time. If you like this software, please support us on Patreon."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"SDI由志愿者利用业余时间开发。如果您喜欢这个软件，请在Patreon支持我们。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_PATREON2">
+            <Src CodePage="1252">"(Click here to open the Patreon page)"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"(点击这里打开Patreon页面)"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_PATREON_H">
+            <Src CodePage="1252">"Click here to open the Patreon page"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"点击这里打开Patreon页面"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_TITLE">
+            <Src CodePage="1252">"Snappy Driver Installer"</Src>
+            <Trg Created="2018-11-20T19-52-55"/>
+          </Vl>
+          <Vl Name="STR_WELCOME_SUBTITLE">
+            <Src CodePage="1252">"Welcome To Snappy Driver Installer"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"欢迎使用 Snappy Driver Installer"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_INTRO">
+            <Src CodePage="1252">"Before you can begin, you'll need to download DriverPacks or indexes. Select one of the following options to start downloading. The Updates bar will keep you apprised of the download status."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"你在开始之前，需要下载驱动包或索引。选择以下选项之一以开始下载。更新栏会让你了解下载的状态。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_INTRO2">
+            <Src CodePage="1252">"Note: Look for additional tools on the System Menu at the top left of the main application window."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"注意：可以在主程序窗口顶部左侧的系统菜单上找到外部工具。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON1">
+            <Src CodePage="1252">"Download All DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"下载所有驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON1_DESC">
+            <Src CodePage="1252">"Get the entire driver pack collection. This is a big download and will take anywhere from an hour to a day depending on availability and internet speed. When complete, you'll have everything required to work offline. If you're a technician, this is the option you want."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"获取整个驱动包集合。这是一个大的下载，根据可用性和互联网的速度会花一小时到一天的时间。完成后，你将拥有一切需要不在需要网络。如果你是一名技术人员，这是你想要的选项。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON2">
+            <Src CodePage="1252">"Download Network Drivers Only"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"仅下载网络驱动"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON2_DESC">
+            <Src CodePage="1252">"Get the latest LAN, WLAN, and Wifi drivers. This allows you to get any PC online quickly and is a relatively small download."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"获取最新的局域网、无线局域网和无线网络驱动。这允许你快速把任何 PC 连到网络，需要相对较小的下载。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON3">
+            <Src CodePage="1252">"Download Indexes Only"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"仅下载索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_BUTTON3_DESC">
+            <Src CodePage="1252">"This allows you to scan your PC to see which drivers need to be installed or updated. The download will only take a few minutes but you'll need an internet connection when the required DriverPacks need to be downloaded. If you're a casual user, this is the option you want."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"这允许你扫描你的 PC 以查看哪些驱动需要重新安装或更新。下载只需要几分钟，但所需的驱动包需要下载时，你需要互联网连接。如果你是普通用户，这是你想要的选项。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_WELCOME_CLOSE">
+            <Src CodePage="1252">"Close"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"关闭"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_TITLE">
+            <Src CodePage="1252">"Create a USB Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建一个 USB 驱动盘"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_SPACEREQ">
+            <Src CodePage="1252">"Space Required:"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"所需空间:"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_SPACEAVAIL">
+            <Src CodePage="1252">"Space Available:"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"可用空间:"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE1_DESC">
+            <Src CodePage="1252">
+              <Data>"This wizard will help you create a portable USB drive containing Snappy Driver Installer and selected files.\n</Data>
+              <Data>\n</Data>
+              <Data>The files will be copied to the root directory of the selected device. You should ensure the device has sufficient capacity to store the required files. You will be given the option to clear the device first."</Data>
+            </Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>
+                <Data>"此向导将帮助您创建包含 Snappy Driver Installer 和所选的文件的便携式 USB 驱动盘。\n</Data>
+                <Data>\n</Data>
+                <Data>文件将复制到所选设备的根目录下。您应该确保该设备具有足够的容量来存储所需的文件。首先会给出您选项可清除设备。"</Data>
+              </cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_TITLE">
+            <Src CodePage="1252">"Target Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"目标驱动器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_SUBTITLE">
+            <Src CodePage="1252">"Select a removable drive."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择一个可移动驱动器。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DESC">
+            <Src CodePage="1252">"Snappy Driver Installer will be installed into the root directory of the selected removable drive. Insert your USB drive now."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"Snappy Driver Installer 将安装到所选的可移动驱动器的根目录。现在插入您的 USB 驱动器。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DRIVE">
+            <Src CodePage="1252">"Target removable drive:"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"目标可移动驱动器:"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_MORE">
+            <Src CodePage="1252">"Show more drives"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T20-06-03" Translated="2018-11-20T20-06-03" State="Validated">
+              <cur>"显示更多驱动器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_CLEAR">
+            <Src CodePage="1252">"Clear Selected Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"清除选定驱动器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DELETE">
+            <Src CodePage="1252">"Delete Files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"删除文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DELETEDESC">
+            <Src CodePage="1252">"Delete all files and folders on the drive."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"删除驱动器上的所有文件和文件夹。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_FORMAT">
+            <Src CodePage="1252">"Quick Format"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"快速格式化"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_FORMATDESC">
+            <Src CodePage="1252">"Perform a quick format of the drive."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"执行驱动器的快速格式化。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DELCONF">
+            <Src CodePage="1252">"Clear Removable Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"清除可移动驱动器"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DELCONF1">
+            <Src CodePage="1252">"You are about to remove all data from removable drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"您将要从可移动驱动器删除所有数据"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE2_DELCONF2">
+            <Src CodePage="1252">"Are you sure you want to do this?"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"您确定想要这样做吗？"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_TITLE">
+            <Src CodePage="1252">"DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_SUBTITLE">
+            <Src CodePage="1252">"Select which DriverPacks and indexes to include."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择要包括哪些驱动包和索引。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_SELECT">
+            <Src CodePage="1252">"Select DriverPacks to include:"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择驱动包，包括:"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_ALLPACKS">
+            <Src CodePage="1252">"All DriverPacks and indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"所有驱动包和索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_NETWORK">
+            <Src CodePage="1252">"Network DriverPacks and indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"网络驱动包和索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_SELECTED">
+            <Src CodePage="1252">"Selected DriverPacks and indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"所选驱动包和索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_NOPACKS">
+            <Src CodePage="1252">"No DriverPacks"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"没有驱动包"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_ADDPATH">
+            <Src CodePage="1252">"Specify additional driver directory"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"指定额外的驱动程序目录"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE3_INDEXES">
+            <Src CodePage="1252">"Include online indexes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"包括联机索引"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_TITLE">
+            <Src CodePage="1252">"Environment"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"环境"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_SUBTITLE">
+            <Src CodePage="1252">"Select other items to include."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"选择要包括的其他项目。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_LANGS">
+            <Src CodePage="1252">"Languages"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_ALLLANG">
+            <Src CodePage="1252">"Include all languages"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"包括所有的语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_CURLANG">
+            <Src CodePage="1252">"Current language"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"当前语言"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_THEMES">
+            <Src CodePage="1252">"Themes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_ALLTHEME">
+            <Src CodePage="1252">"Include all themes"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"包括所有的主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_CURTHEME">
+            <Src CodePage="1252">"Current theme"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"当前主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_DEFTHEME">
+            <Src CodePage="1252">"Default theme"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"默认主题"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_CONFIG">
+            <Src CodePage="1252">"Configuration"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"配置"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_EXPERT">
+            <Src CodePage="1252">"Enable expert mode"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"启用专家模式"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_NOUPD">
+            <Src CodePage="1252">"Don't check for updates"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"不检查更新"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_NOSNAP">
+            <Src CodePage="1252">"Don't create snapshots"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"不创建快照"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_NOLOG">
+            <Src CodePage="1252">"Don't create log files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"不创建日志文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_INCAUTO">
+            <Src CodePage="1252">"Include autorun.inf and SDI_auto.bat"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"包括 autorun.inf 和 SDI_auto.bat"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE4_EXESIZE">
+            <Src CodePage="1252">"Executable Size:"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"可执行文件的大小:"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE5_TITLE">
+            <Src CodePage="1252">"Ready To Begin"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"准备开始"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PAGE5_DESC">
+            <Src CodePage="1252">"We have all the information we need. When you click the Finish button the process will begin."</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"我们有我们需要的所有信息。当您单击完成按钮时将开始这一进程。"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PROGR_TITLE">
+            <Src CodePage="1252">"Creating USB Drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"创建一个 USB 驱动盘"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PROGR_COPYING">
+            <Src CodePage="1252">"Copying files"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"复制文件"</cur>
+            </Trg>
+          </Vl>
+          <Vl Name="STR_USBWIZ_PROGR_DELETING">
+            <Src CodePage="1252">"Deleting files from removable drive"</Src>
+            <Trg Created="2018-11-20T19-52-55" Changed="2018-11-20T19-57-07" State="ForReview">
+              <cur>"从可移动驱动器中删除文件"</cur>
+            </Trg>
+          </Vl>
+        </Resource>
+      </ResourceType>
+      <Parser Title="SDI_R1809.txt" TargetType="LocalizedFile">
+        <TargetFilePath UseDefaultTargetFilePath="1" DeleteTargetsBeforeRunNative="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;.&lt;SrcFileExt&gt;</TargetFilePath>
+        <NativeHostAppName Default="1">&lt;SrcPath&gt;\&lt;SrcFileName&gt;.&lt;SrcFileExt&gt;</NativeHostAppName>
+        <NativeHostAppParameters/>
+        <NativeWorkingDirectoryName>&lt;SrcPath&gt;</NativeWorkingDirectoryName>
+        <TargetHostAppName>&lt;SrcPath&gt;\&lt;SrcFileName&gt;_&lt;WinCode&gt;&lt;SimSuffix&gt;.&lt;SrcFileExt&gt;</TargetHostAppName>
+        <HostAppParameters/>
+        <WorkingDirectoryName>&lt;SrcPath&gt;</WorkingDirectoryName>
+        <LanguagesToExtract ForceLangID="9" ForceAll="1" SourceCodePage="Default">
+          <LangID>9</LangID>
+        </LanguagesToExtract>
+        <TargetEncoding>
+          <Item Index="0" LangID="-1" Enabled="1"/>
+        </TargetEncoding>
+        <Template Type="Default" ClassID="INI"/>
+        <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" IgnoreEncodingErrors="1"/>
+      </Parser>
+      <ImportSettings Current="TranslatedFile" ImportProperties="1">
+        <TranslatedFile FileName="D:\APPs\Tools\SDI_R1809\tools\SDI\langs\chinese_zh.txt" Parser="TxtFile"/>
+        <CSVFile SourceCodePage="Autodetect"/>
+        <TextGlossary Codepage="Autodetect"/>
+        <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
+        <Glossary/>
+        <TXTFile Escape="C/C++" SourceCodePage="Autodetect"/>
+        <Lg3 Russian="1" English="1" SkipDuplicates="1"/>
+        <XLSFile FirstLine="1"/>
+        <TranslatedFile/>
+      </ImportSettings>
+      <ExportSettings Current="Glossary">
+        <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </Glossary>
+        <CSVFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="1" HeaderLangID="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </CSVFile>
+        <TextGlossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TextGlossary>
+        <TMXFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" EmptyTranslations="0" AddContext="1" AddStatus="1" Comment="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </TMXFile>
+        <TXTFile FileName="" SortData="0" SkipDuplicates="0" RemoveAccelerators="0" RemoveAccelKeys="0" CaseSensitive="0" Separator="3" Quote="3" Escape="C/C++" Header="1" SourceCodePage="Autodetect">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1"/>
+        </TXTFile>
+        <XLSFile FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0" Header="1">
+          <RemoveChars IncludeSpace="1" IncludeControlChars="1" IncludeChars="1">-+Ђ$=_.,;:/\*#@¤~^|</RemoveChars>
+        </XLSFile>
+        <Filters State="UntranslatedForReview" Deleted="NoCheck" Ignored="NoCheck" ReadOnly="NoCheck" New="NoCheck" DontCheck="NoCheck" Errors="NoCheck" ShortStrings="0" MinLength="20">
+          <ChangedFrom Enabled="0" Value="2018-11-20T19-51-22"/>
+          <ChangedTo Enabled="0" Value="2018-11-20T19-51-22"/>
+          <TranslatedFrom Enabled="0" Value="2018-11-20T19-51-22"/>
+          <TranslatedTo Enabled="0" Value="2018-11-20T19-51-22"/>
         </Filters>
       </ExportSettings>
     </File>

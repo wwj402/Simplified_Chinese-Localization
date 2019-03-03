@@ -2,7 +2,7 @@
 <RadialixLocalizerProject>
   <Header FileVersion="19" Guid="{0C6CE4D0-B2CE-413B-96D3-C8AB9A63A2ED}"/>
   <IDESettings ProjectItemPath="0.en-US.ini (zh-cn.ini)" SelectedTable="StringsTabSheet" SelectedVisualDesigner="">
-    <StringTableSettings FocusedValueID="#0.NDIPlugin.SourceProps.AlphaBlendingFix" SortDirection="0" SortedColumnIndex="-1"/>
+    <StringTableSettings FocusedValueID="#0.NDIPlugin.LibError.Message.Linux" SortDirection="0" SortedColumnIndex="-1"/>
     <TextTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <AccelTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
     <ImageTableSettings FocusedValueID="" SortDirection="0" SortedColumnIndex="-1"/>
@@ -15,7 +15,7 @@
     </Languages>
     <Info>
       <CreatedBy Date="2018-04-14T12-21-12">Radialix 版本 3.00.00 构建 486</CreatedBy>
-      <ModifiedBy Date="2018-06-29T13-08-52">Radialix 版本 3.00.00 构建 486</ModifiedBy>
+      <ModifiedBy Date="2018-07-02T19-41-11">Radialix 版本 3.00.00 构建 486</ModifiedBy>
       <Author/>
       <Organization/>
       <Comment/>
@@ -943,7 +943,7 @@
       <DialogUnits>1</DialogUnits>
     </FormSettings>
     <TextTemplates/>
-    <File Name="D:\APPs\Tools\GitPortable\Data\Home\Gitwin\Git_Repository\obs-ndi\data\locale\en-US.ini" Parser="IniFile" DateTimeStamp="4676181243055204986" FileSize="2117">
+    <File Name="D:\APPs\Tools\GitPortable\Data\Home\Gitwin\Git_Repository\obs-ndi\data\locale\en-US.ini" Parser="IniFile" DateTimeStamp="4676181695044516061" FileSize="2117">
       <LangSettings/>
       <ExportSettings Current="Glossary">
         <Glossary FileName="" SortData="1" SkipDuplicates="1" RemoveAccelerators="1" RemoveAccelKeys="1" CaseSensitive="0">
@@ -972,8 +972,8 @@
         </Filters>
       </ExportSettings>
       <EmbeddedFiles/>
-      <ResourceType New="1" Name="ITEMS" Class="">
-        <Resource Name="" New="1" Index="0">
+      <ResourceType Name="ITEMS" Class="">
+        <Resource Name="" Index="0">
           <SourceLanguages>
             <LangID>9</LangID>
           </SourceLanguages>
@@ -1121,25 +1121,25 @@
               <cur>"NDI™ 输出设置"</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="NDIPlugin.OutputSettings.GroupBox.Main">
+          <Vl Name="NDIPlugin.OutputSettings.GroupBox.Main">
             <Src CodePage="65001">"Main Output"</Src>
             <Trg Created="2018-06-29T12-49-49" Changed="2018-06-29T12-55-24" State="ForReview">
               <cur>"主输出"</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="NDIPlugin.OutputSettings.GroupBox.Preview">
+          <Vl Name="NDIPlugin.OutputSettings.GroupBox.Preview">
             <Src CodePage="65001">"Preview Output"</Src>
             <Trg Created="2018-06-29T12-49-49" Changed="2018-06-29T12-56-04" Translated="2018-06-29T12-56-04" State="Validated">
               <cur>"预览输出"</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="NDIPlugin.OutputSettings.Main.Name">
+          <Vl Name="NDIPlugin.OutputSettings.Main.Name">
             <Src CodePage="65001">"Main Output name"</Src>
             <Trg Created="2018-06-29T12-49-49" Changed="2018-06-29T12-57-51" Translated="2018-06-29T12-57-51" State="Validated">
               <cur>"主输出名称"</cur>
             </Trg>
           </Vl>
-          <Vl New="1" Name="NDIPlugin.OutputSettings.Preview.Name">
+          <Vl Name="NDIPlugin.OutputSettings.Preview.Name">
             <Src CodePage="65001">"Preview Output name"</Src>
             <Trg Created="2018-06-29T12-49-49" Changed="2018-06-29T12-57-00" Translated="2018-06-29T12-57-00" State="Validated">
               <cur>"预览输出名称"</cur>
@@ -1224,7 +1224,7 @@
         <LanguagesToExtract ForceLangID="9" SourceCodePage="Autodetect" CommentPrefix=";" EscapedText="1"/>
       </Parser>
       <ImportSettings Current="TranslatedFile" OverwriteTranslation="1" ImportProperties="1">
-        <TranslatedFile FileName="D:\APPs\Tools\GitPortable\Data\Home\Gitwin\Git_Repository\obs-ndi\data\locale\zh-CN.ini" Parser="IniFile"/>
+        <TranslatedFile Parser=""/>
         <CSVFile SourceCodePage="Autodetect"/>
         <TextGlossary Codepage="Autodetect"/>
         <TMXFile ByStatus="0" ForReview="1" Validated="1" Comment="1"/>
