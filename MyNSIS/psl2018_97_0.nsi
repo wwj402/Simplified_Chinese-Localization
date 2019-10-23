@@ -1,12 +1,45 @@
 ﻿; **************************************************************************
 ; === Define constants ===
 ; **************************************************************************
-!define VER 		"18.0.97.0"					; version of launcher
-!define APPNAME 	"Passolo"					; complete name of program
-!define APP 		"Passolo"					; short name of program without space and accent  this one is used for the final executable an in the directory structure
-!define APPEXE 		"psl.exe"				; main exe name
-!define APPEXE64 	"psl.exe"				; main exe 64 bit name
-!define APPDIR 		"$EXEDIR"					; main exe relative path
+!define EXEFULLDIR "d:\SnapShot\SDL Passolo 2018"
+!define EXENAME "psl.exe"
+!define USERDIR "$APPDATA\SDL\Passolo 2018"
+
+!ifdef NSIS_UNICODE
+	!define /file_version MAJOR "${EXEFULLDIR}\${EXENAME}" 0
+	!define /file_version MINOR "${EXEFULLDIR}\${EXENAME}" 1
+	!define /file_version OPTION "${EXEFULLDIR}\${EXENAME}" 2
+	!define /file_version BUILD "${EXEFULLDIR}\${EXENAME}" 3
+	!if ${MAJOR} == 0
+		!define VER "18.0.97.0"		; version of launcher
+	!else
+		!define VER ${MAJOR}.${MINOR}.${OPTION}.${BUILD}
+	!endif
+	!undef MAJOR
+	!undef MINOR
+	!undef OPTION
+	!undef BUILD
+!else
+	!echo "${NSIS_VERSION}"
+	!getdllversion "${EXEFULLDIR}\${EXENAME}" Expv_
+	!define VER "${Expv_1}.${Expv_2}.${Expv_3}.${Expv_4}"
+!endif
+
+!execute '"ProductInfo.exe" "${EXEFULLDIR}\${EXENAME}"'
+!searchparse /file "ProductInfo.ini" "Comments={" COMMENTS "}, CompanyName={" COMPANYNAME \
+				"}, FileDescription={" FILEDESCRIPTION "}, FileVersion={" FILEVERSION "}, "
+!searchparse /file "ProductInfo.ini" "LegalCopyright={" LEGALCOPYRIGHT "}, LegalTrademarks={" \
+				LEGALTRADEMARKS "}, OriginalFileName={" ORIGINALFILENAME "}, PrivateBuild={" PRIVATEBUILD "}, "
+!searchparse /file "ProductInfo.ini" "ProductName={" PRODUCTNAME "}, ProductVersion={" PRODUCTVERSION \
+				"}, SpecialBuild={" SPECIALBUILD "},"
+
+!undef EXENAME
+
+!define APPNAME "Passolo"				; complete name of program
+!define APP "Passolo"					; short name of program without space and accent  this one is used for the final executable an in the directory structure
+!define APPEXE "psl.exe"				; main exe name
+!define APPEXE64 "psl.exe"				; main exe 64 bit name
+!define APPDIR "$EXEDIR"				; main exe relative path
 !define APPSWITCH 	``
 ; !define JAVAHOME	"jre"
 ; !define JAVAHOME64	"jre64"
@@ -26,7 +59,9 @@
 ; **************************************************************************
 ; === Best Compression ===
 ; **************************************************************************
-; Unicode true
+!ifndef NSIS_UNICODE
+	Unicode true
+!endif
 SetCompressor /SOLID lzma
 SetCompressorDictSize 32
 
@@ -47,25 +82,25 @@ SetCompressorDictSize 32
 ; === Set basic information ===
 ; **************************************************************************
 Name "${APP} Launcher"
-OutFile ".\${APP}Launcher2018.exe"
+OutFile ".\${APP}Launcher${VER}.exe"
 Icon ".\${APP}2018.ico"
 SilentInstall silent
 
 ; **************************************************************************
 ; === Set version information ===
 ; **************************************************************************
-Caption "${APPNAME} Launcher"
+Caption "${PRODUCTNAME}"
 VIProductVersion "${VER}"
-VIAddVersionKey ProductName "${APPNAME}"
-VIAddVersionKey Comments "${APPNAME} Localize your software."
-VIAddVersionKey CompanyName "SDL Passolo GmbH"
-VIAddVersionKey LegalCopyright ""
-VIAddVersionKey FileDescription "${APPNAME}"
-VIAddVersionKey FileVersion "${VER}"
-VIAddVersionKey ProductVersion "${VER}"
-VIAddVersionKey InternalName "${APPNAME}"
-VIAddVersionKey LegalTrademarks ""
-VIAddVersionKey OriginalFilename "${APP}Launcher.exe"
+VIAddVersionKey ProductName "${PRODUCTNAME}"
+VIAddVersionKey Comments "${COMMENTS}"
+VIAddVersionKey CompanyName "${COMPANYNAME}"
+VIAddVersionKey LegalCopyright "${LEGALCOPYRIGHT}"
+VIAddVersionKey FileDescription "${FILEDESCRIPTION}"
+VIAddVersionKey FileVersion "${FILEVERSION}"
+VIAddVersionKey ProductVersion "${PRODUCTVERSION}"
+VIAddVersionKey InternalName "${ORIGINALFILENAME}"
+VIAddVersionKey LegalTrademarks "${LEGALTRADEMARKS}"
+VIAddVersionKey OriginalFilename "${ORIGINALFILENAME}"
 
 ; **************************************************************************
 ; === Other Actions ===
@@ -77,8 +112,7 @@ Var homedir
 Var PslFindOutput
 Var PslFindPath
 Var PslFindPid
-; Var PslSpoonFileName
-; Var PslSpoonPid
+
 LangString Message1 1033 "${APPEXE} is running. Path $PslFindPath. $\r$\n\
 							Please close the program, then run again. "
 LangString Message1 2052 "${APPEXE} 正在运行。路径 $PslFindPath。$\r$\n\
@@ -104,7 +138,8 @@ Section "Main"
 	IntFmt $0 "0x%04x" "$uilanguage"
 	System::Call "kernel32::LCIDToLocaleName(i r0, t .r1, i 0, l 0) i .r2"
 	System::Call "kernel32::LCIDToLocaleName(i r0, t .r1, i r2, l 0) i .r2"
-	; MessageBox MB_OK "$uilanguage, $0, $1, $2"
+	; ReadEnvStr $3 PSLHOME
+	; MessageBox MB_OK "$uilanguage, $0, $1, $2, $3|"
 	${If} $2 == 0
 		IntFmt $0 "%04x" "$uilanguage"
 		ReadRegStr $1 ${LANGUAGEROOT} "${LANGUAGESUB}" "$0"
@@ -112,32 +147,52 @@ Section "Main"
 		; MessageBox MB_OK "$uilanguage, $0, $1"
 	${EndIf}
 
-	${Select} $1
+	${Select} $uilanguage
+	${Case} 2052
+		SetOverwrite on
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\zh-CN\*.dat"	
 	${Case} "zh-CN"
 		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\zh-CN\*.dat"
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\zh-CN\*.dat"
 	${Case} "de-DE"
 		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\de-DE\*.dat"
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\de-DE\*.dat"
 	${Case} "de"
 		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\de-DE\*.dat"
-	${Case} "ru-RU"
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\de-DE\*.dat"
+	${Case} 1031
 		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\ru-RU\*.dat"
-	${Case} "ru"
-		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\ru-RU\*.dat"
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\de-DE\*.dat"
+	
+	; ${Case} "ru-RU"
+	; 	SetOverwrite on
+	; 	SetOutPath "${USERDIR}"
+	; 	File /r "${EXEFULLDIR}\ru-RU\*.dat"
+	; ${Case} "ru"
+	; 	SetOverwrite on
+	; 	SetOutPath "${USERDIR}"
+	; 	File /r "${EXEFULLDIR}\ru-RU\*.dat"
 	${CaseElse}
 		SetOverwrite on
-		SetOutPath "$APPDATA\SDL\Passolo 2018"
-		File /r "d:\SnapShot\sdlnew\Files\@PROGRAMFILESX86@\SDL Passolo 2018\en-US\*.dat"		
+		SetOutPath "${USERDIR}"
+		File /r "${EXEFULLDIR}\en-US\*.dat"
 	${EndSelect}
+
+	${If} ${FileExists} "${APPDIR}\Patch\${APPEXE}"
+		md5dll::GetMD5File "${APPDIR}\${APPEXE}"
+		Pop $3
+		md5dll::GetMD5File "${APPDIR}\Patch\${APPEXE}"
+		Pop $4
+		; MessageBox MB_OK "$3||$4"
+		${If} $3 != $4
+			CopyFiles "${APPDIR}\Patch\${APPEXE}" "${APPDIR}"
+		${EndIf}
+	${EndIf}
 
 	${If} $uilanguage == 2052
 
